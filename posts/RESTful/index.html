@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--Author: Menelaos Kotsollaris
+    Email: menelaos@mkotsollaris.com
+    All rights reserved ©-->
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="../../initializeComponents.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Building RESTful Applications">
+    <meta name="twitter:description" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Building RESTful Applications">
+    <meta property="og:description" content="">
+    <meta property="og:title" content="Building RESTful Applications"/>
+    <meta name="twitter:title" content="Building RESTful Applications"/>
+
+    <link rel="shortcut icon" href="http://http:www.mkotsollaris.com/pictures/ic_MK.jpeg">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags-->
+    <meta name="description" content="">
+    <meta name="author" content="Menelaos Kotsollaris">
+    <link rel="icon" href="../../pictures/ic_MK.jpeg">
+    <title>Building RESTful Applications</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../../css/blog.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="../../js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    <![endif]-->
+</head>
+<body>
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav" id="blogNavID">
+        </nav>
+    </div>
+</div>
+
+<div class="container">
+    <br>
+
+    <div class="row">
+        <div class="col-sm-8 blog-main">
+            <h1 class="blog-post-title">Building RESTful Applications</h1>
+
+            <div class="blog-post">
+                <br>
+                <br>
+                I have been recently implementing a RESTful application for Hazus Canada and I have been fascinated by the RESTful
+                design & compatibility elements.The following article presents the several aspects of REST and why it’s the prevailing
+                way of implementing <a href="http://stackoverflow.com/questions/1527393/what-is-orthogonality">orthogonal</a> API’s.
+                <br><br>
+
+                <h3>REST Definition</h3><br>
+                REST stands for Representational State Transfer. REST is an architecture style for designing networked applications.
+                The idea is that, rather than using complex mechanisms such as CORBA, RPC or SOAP to connect between machines, simple
+                TTP is used to make calls between machines. For instance, the World Wide Web itself, based on HTTP, can be viewed as a
+                REST-based architecture.
+                <br><br>
+
+                <h3>REST Advantages</h3><br>
+                <ul>
+                    <li>Platform-independent (you don't care if the server is Unix, the client is a Mac, or anything else),</li>
+                    <li>Language-independent (C# can talk to Java, etc.),</li>
+                    <li>Standards-based (runs on top of HTTP), and</li>
+                    <li>Can easily be used in the presence of firewalls.</li>
+                </ul>
+                <br>
+
+                <h3>Rest Simplicity</h3><br>
+                Let’s take a look at a request on the HAZUS API:
+                <pre><code><h4>Request=GetDamage&format=xmL&id=1&BC=1&dc=105&bo=RES1&yb=1987&st=1&ft=2&ba=0&ga=0&wd=3.5&wp=79</h4></code></pre>
+                It can be observer that we are making the request in a key-value pair. Consequently, the value of the Request
+                key is GetDamage, the wanted format is XML, the ID equals to 1 and so on. A note here would be that our URL
+                manages the URL as case insensitive; which makes it more “hackable” and easy to manipulate, although a
+                case-sensitive URL would make sense in some other applications. A more complex request:
+<pre><code><h4>
+    Request=GetDamage&format=xmL&id=1&BC=1&dc=105&bo=RES1&yb=1987&st=1&ft=2&ba=0&ga=0&wd=3.5&wp=79&id=2&BC=1&bq=Average&bo=RES1&yb=2000&st=1&ft=2&ba=0&ga=0&wd=3.1&wp=100
+</h4></code></pre>
+                As we can see here, we can declare multiple buildings as long as we give different ID of the type of building.
+                If a REST application feels logic & normal even for the end user, then it can be said that it successfully
+                applies the RESTful principles. Usually, RESTful URI’s can be described by a Regular Expression, as the
+                following (pseudo) REGEX:
+                <br>
+                <pre><code><h4>
+                    Request=[XML|JSON]&[ID=[0-9]&BC=[0-9]&DC=[0-9]&BO=BO_TABLE_VARS&YB=[0-9]&ST=[0-9]&FT=[0-9]&BA=[0|1|2]&GA=[0|1]&WD=[0-9]&WP=[0-100]&[BQ=BQ_TABLE_VARS]0-1&BV=[0-9]0-1]+</h4>
+                </code></pre>
+                <br>
+                We can also view our REST request as a tree:
+                <br>
+                <br>
+                <img src="../../pictures/ic_restful.png">
+                <br>
+                As we can see, our request is split to several parts that altogether express our initial request.
+                Note that this isn't the request body -- it's just a URL. This URL is sent to the server using a
+                simpler GET request, and the HTTP reply is the raw result data -- not embedded inside anything,
+                just the data you need in a way you can directly use.
+                <br><br>
+                <h4>REST Drawbacks & Misconceptions</h4>
+                <ul>
+                    <li>Programming languages are not resource oriented so the handling code that maps URIs to tends to get messy.
+                        On the other hand it is relatively hard to make the REST API hyper-text driven (Which is a constraint of REST)
+                    </li>
+                    <li>Building an implementation that is GETsful (i.e. does everything with http GET) or doing plain RPC where the
+                        URI is the command, doing CRUD with HTTP verbs etc.; REST seems simple but it isn’t - it requires a shift in
+                        thinking (e.g. identifying resources, externalizing the state transitions etc.). As with any
+                        architecture/technology - a bad implementation can negate all the benefits.
+                    </li>
+                </ul>
+                <br>
+                There are also many discussions about REST vs <a href="https://en.wikipedia.org/wiki/SOAP">SOAP</a> vs
+                <a href="https://en.wikipedia.org/wiki/Remote_procedure_call">RPC</a> but since I haven’t used these
+                concepts extensively I won’t get into detail. Some interesting articles can be found
+                <a href="http://spf13.com/post/soap-vs-rest">here</a> and <a href="http://spf13.com/post/soap-vs-rest">here</a>.<br>
+                What really matters when building a RESTful API is having a strong and paradigm-driven documentation that will make your programmers
+                adopt fast and consequently love your API. Ideally, you would like to showcase your API among different environments
+                (MacOS, Linux, Windows etc.) and languages (C++, Java, Python etc.). This will vitally help them see what your API
+                does and shows that you care about your product. While implementing the Hazus API, I tried to follow these ideas in
+                order to make it as much user-friendly as it could get. Again, you can explain things to people in order to make them
+                simpler but you can’t understand it for them.
+                <br>
+                <br>
+                <div id="disqus_thread"></div>
+                <script>
+                    /**
+                     * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                     * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                     */
+                    /*
+                     var disqus_config = function () {
+                     this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+                     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                     };
+                     */
+                    (function ()
+                    { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+
+                        s.src = '//wwwmkotsollariscom.disqus.com/embed.js';
+
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by
+                    Disqus.</a></noscript>
+            </div>
+        </div>
+        <div id="sideBarMenuID" class="col-sm-3 col-sm-offset-1 blog-sidebar" align="center"></div><!-- /.blog-sidebar -->
+    </div><!-- /.row -->
+</div><!-- /.container -->
+<footer class="blog-footer" id="footerID"></footer>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="../../dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

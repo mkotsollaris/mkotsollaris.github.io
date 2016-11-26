@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="initializeComponents.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="pictures/ic_MK.jpeg">
+    <title>Menelaos Kotsollaris</title>
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/blog.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    <![endif]-->
+</head>
+<body>
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav" id="blogNavID">
+        </nav>
+    </div>
+</div>
+<script>
+    $(document).ready(
+            function ()
+            {
+                $('#homeMenuID').removeClass("active");
+                $('#aboutMenuID').removeClass("active");
+                $('#contactMenuID').addClass("active");
+            });
+</script>
+
+<div class="container">
+    <br>
+
+    <div class="row">
+        <div class="col-sm-8 blog-main">
+            <div class="blog-post">
+                <h1 class="blog-post-title">Contact</h1>
+                <br>
+                <br>
+
+                <div id="successedEmailSent" class="text-success" style="display: none;"><h2>Your message has been sent, thank you.
+                    <br><br></h2>
+
+                    <h3><a href="http://mkotsollaris.com/">Return</a></h3>
+                </div>
+
+                <form class="form-horizontal" id="mainForm">
+                    <div class="form-group">
+                        <label for="nameID" class="col-sm-2 control-label">Name</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="nameID" name="name" placeholder="Your Name" value="" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailID" class="col-sm-2 control-label">Email</label>
+
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="emailID" name="email" placeholder="example@domain.com" value="" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subjectID" class="col-sm-2 control-label">Subject</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="subjectID" name="subject" placeholder="Your Subject" value="" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Message</label>
+
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="messageID" rows="4" name="message" required></textarea>
+
+                            <p id="failureID" style="display: none;" class="text-danger">This text represents danger.</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                            <input id="submit" name="submit" type="button" value="Send" class="btn btn-primary" onclick="sendEmail()">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                            <! Will be used to display an alert to the user>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="sideBarMenuID" class="col-sm-3 col-sm-offset-1 blog-sidebar" align="center">
+        </div><!-- /.blog-sidebar -->
+    </div><!-- /.row -->
+</div><!-- /.container -->
+<footer class="blog-footer" id="footerID"></footer>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script type="text/javascript">
+    function sendEmail()
+    {
+        var name = document.getElementById("nameID").value;
+        var email = document.getElementById("emailID").value;
+        var message = document.getElementById("messageID").value;
+        var subject = document.getElementById("subjectID").value;
+
+        document.getElementById('successedEmailSent').style.display = 'inline';
+        document.getElementById('failureID').style.display = 'none';
+        document.getElementById('mainForm').style.display = 'none';
+        $.post(
+                '_contact.php',
+                {
+                    name: name, email: email, message: message, subject: subject
+                });
+    }
+</script>
+</body>
+</html>
