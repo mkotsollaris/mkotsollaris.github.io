@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--Author: Menelaos Kotsollaris
+    Email: menelaos@mkotsollaris.com
+    All rights reserved ©-->
+<html lang="en" xmlns:left="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="../../initializeComponents.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="http://http:www.mkotsollaris.com/pictures/ic_MK.jpeg">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Menelaos Kotsollaris">
+    <link rel="icon" href="../../pictures/ic_MK.jpeg">
+    <title>Menelaos Kotsollaris</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../../css/blog.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="../../js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    <![endif]-->
+</head>
+<body>
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav" id="blogNavID">
+        </nav>
+    </div>
+</div>
+
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col-sm-8 blog-main">
+            <div class="blog-post">
+                <h1>The Fast Fourier Transformation's applications in Image Processing</h1><br>
+                Although there are many ways of blurring an image, such as computing a <a
+                href="https://en.wikipedia.org/wiki/Kernel_(image_processing)"> median or mean filter</a> by using a
+                kernel image, most of them cannot undo the action and get the initial state of the image. We can
+                achieve the image unblurring by using the 2D Fast Fourier Transformation(2D FFT). Although the FFT has
+                much of a Mathematics background, we won't focus on its theory but instead we will focus on its
+                application.
+                <br>
+                You can view the formulas of FFT and IFFT <a href="pictures/fft_ifft.png">here</a>.
+                <br>
+                <br>
+                You now might be wondering: Why do we need the FFT and the IFFT, what's their difference and how can we
+                apply them to our applications. In order to answer these questions, let's examine the facts and the
+                methodologies:
+                <br>
+                <br>
+                <h3>Algorithm for Blurring an Image:</h3><br>
+                <ol>
+                    <li>Compute the 2D FFT of an image, call this F</li>
+                    <li>Compute the 2D FFT of the PSF image of the initial Image, call this H</li>
+                    <li>G(i,j)=F(i,j)*H(i,j), where G the convolution of F with H</li>
+                    <li>Compute the Inverse FFT of G</li>
+                </ol>
+                We should note the each camera has its own PSF image. We take it for granted that an images comes along
+                with its PSF in this particular case, but if you are interested on how to extract an PSF image, you can
+                read more in this <a href="http://www.mathworks.com/matlabcentral/newsreader/view_thread/307631">Matlab
+                thread</a> and on <a href="https://en.wikipedia.org/wiki/Point_spread_function">Wikipedia</a>.
+                <br>
+                <br>
+                Furthermore, by computing the 2D FFT of an image, we get into the Frequency domain. The core
+                methodologies are that
+                by
+                manipulating and running several algorithms on frequency domain, we can then use the inverse FFT to get
+                back to the spatial domain and see the results. For instance, we can take advantage of the common
+                knowledge
+                expressed in the following picture, that the low frequencies (gathered in the middle of the Frequency
+                Domain) are the pixels that contain the most significant information of the image and that the middle -
+                high frequencies are noise, edges and corners of an image.
+                <br>
+                <br>
+                But how about Unblurring (Restoring) an image? The technique it's pretty similar of blurring, but
+                instead
+                of convolving the images together, we divide them this time. The Algorithm is the following:
+                <br>
+                <br>
+                <h3>Unblurring (Image Restoration) Algorithm:</h3><br>
+                <ol>
+                    <li>Compute the 2D FFT of an image, call this F</li>
+                    <li>Compute the 2D FFT of the PSF image of the initial Image, call this H</li>
+                    <li>G(i,j)=F(i,j)/H(i,j), if (H(i,j)==0) then G(i,j)=0, where G the convolution of F with H.</li>
+                    <li>Compute the Inverse FFT of G</li>
+                </ol>
+                <br>
+                <h3>The Notch Filter:</h3><br>
+                Last but not least, if we take in consideration the fact that the FFT expresses an image as a sum of
+                sine
+                and cosine values, we can see that by simply removing the high frequency values (setting them to zero),
+                we can remove the noise of an image. This is called the Notch filter. The Notch filter usually is
+                applied
+                for the structured noise removal, which come and think about it, it makes total sense since the
+                structured
+                noise will be periodical and it will be shown in the middle-high frequency on the frequency domain.
+                <br>
+                <br>
+                Finally, You can find the analytical explanation of the techniques described above as well as multiple examples
+                <a
+                    href="http://mkotsollaris.com/posts/fft/FFT_mkotsollaris.pdf"> in this presentation</a>.
+                You can also view the C++ code, which uses many of the OpenCV functions, in my GitHub repository that
+                can
+                be found <a href="https://github.com/mkotsollaris/Progress">here</a>.
+                <br>
+                <br>
+                <h3>References</h3>
+                <ul>
+                    <li>
+                        <a href="http://www.amazon.com/Algorithms-Image-Processing-Computer-Vision/dp/0470643854?ie=UTF8&*Version*=1&*entries*=0">Algorithms
+                            for Image Processing and Computer Vision, 2nd Edition, J.R Parker</a>
+                    </li>
+                    <li>Advanced Topics in Image Processing, University of New Brunswick</li>
+                </ul>
+            </div>
+            <br>
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
+                /*
+                 var disqus_config = function () {
+                 this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+                 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                 };
+                 */
+                (function ()
+                { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+
+                    s.src = '//wwwmkotsollariscom.disqus.com/embed.js';
+
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+        </div>
+        <div id="sideBarMenuID" class="col-sm-3 col-sm-offset-1 blog-sidebar" align="center"></div>
+        <!-- /.blog-sidebar -->
+    </div><!-- /.row -->
+</div><!-- /.container -->
+<footer class="blog-footer" id="footerID"></footer>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="../../dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
