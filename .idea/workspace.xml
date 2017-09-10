@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="064202fe-d488-42c3-8804-eabe8f274ccc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/_ic_MK.jpeg" afterPath="$PROJECT_DIR$/pictures/_ic_MK.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_MK.jpeg" afterPath="$PROJECT_DIR$/pictures/ic_MK.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_Vancouver.png" afterPath="$PROJECT_DIR$/pictures/ic_Vancouver.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_github.png" afterPath="$PROJECT_DIR$/pictures/ic_github.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_gplus.png" afterPath="$PROJECT_DIR$/pictures/ic_gplus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_ides.jpg" afterPath="$PROJECT_DIR$/pictures/ic_ides.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_linkedIn.png" afterPath="$PROJECT_DIR$/pictures/ic_linkedIn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_me.jpg" afterPath="$PROJECT_DIR$/pictures/ic_me.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_me1.jpg" afterPath="$PROJECT_DIR$/pictures/ic_me1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_meqc.JPG" afterPath="$PROJECT_DIR$/pictures/ic_meqc.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_oses.jpg" afterPath="$PROJECT_DIR$/pictures/ic_oses.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_restful.png" afterPath="$PROJECT_DIR$/pictures/ic_restful.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_twitter.png" afterPath="$PROJECT_DIR$/pictures/ic_twitter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_webdev.jpg" afterPath="$PROJECT_DIR$/pictures/ic_webdev.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_work_style.jpg" afterPath="$PROJECT_DIR$/pictures/ic_work_style.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/ic_youtube.png" afterPath="$PROJECT_DIR$/pictures/ic_youtube.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/ic_devpost_gray3.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/devpost_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/ic_devpost_gray.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/ic_devpost_gray2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/ic_devpost_hover2.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.css" afterPath="$PROJECT_DIR$/css/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pictures/index.php" afterPath="$PROJECT_DIR$/pictures/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,14 +20,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
-              <caret line="111" column="47" lean-forward="false" selection-start-line="111" selection-start-column="47" selection-end-line="111" selection-end-column="47" />
+            <state relative-caret-position="147">
+              <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,6 +51,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -92,6 +93,11 @@
             <path>
               <item name="mkotsollaris.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="mkotsollaris.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mkotsollaris.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mkotsollaris.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="mkotsollaris.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -139,12 +145,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505074206025</updated>
-      <workItem from="1505074207211" duration="151000" />
+      <workItem from="1505074207211" duration="823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151000" />
+    <option name="totallyTimeSpent" value="823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="22" width="1391" height="878" extended-state="6" />
@@ -190,11 +196,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="111" column="47" lean-forward="false" selection-start-line="111" selection-start-column="47" selection-end-line="111" selection-end-column="47" />
+        <state relative-caret-position="147">
+          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#span#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
