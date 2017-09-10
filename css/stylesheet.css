@@ -109,6 +109,8 @@ td {
     content: url('../pictures/ic_google_play_hover.png');
 }
 
+/*aa*/
+
 @media (max-width: 520px) {
     h1 {
         font-size: 2.5em;
