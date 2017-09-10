@@ -24,14 +24,14 @@ td {
 }
 
 .main {
-    margin: 50px auto 40px;
+    margin: 17px auto 17px;
     width: 70%;
 }
 
 .avatar {
     height: 12em;
     width: 12em;
-    background: url('../pictures/ic_me.jpg') no-repeat center;
+    background: url('../pictures/ic_me_good2.jpg') no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -44,7 +44,7 @@ td {
 
 .subtitle {
     font-weight: 200;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .profession {
