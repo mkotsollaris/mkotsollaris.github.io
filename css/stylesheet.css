@@ -101,9 +101,15 @@ td {
     height: 56px;
 }
 
-.social img:hover {
-    content: url('../pictures/devpost_hover.png');
+.social1 img:hover {
+    content: url('../pictures/ic_devpost_hover3.png');
 }
+
+.social2 img:hover {
+    content: url('../pictures/ic_google_play_hover.png');
+}
+
+/*aa*/
 
 @media (max-width: 520px) {
     h1 {
