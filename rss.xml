@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 11 Nov 2019 02:13:11 GMT</lastBuildDate><item><title><![CDATA[DevWeekATX - Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬, Forks ⑂ + Community Love ❤]]></title><description><![CDATA[A few days ago I presented this topic in DevWeek and there were several individuals who requested me to write a blog, and so I did 🚀. This…]]></description><link>https://menelaos.dev/devweek-atx/</link><guid isPermaLink="false">https://menelaos.dev/devweek-atx/</guid><pubDate>Mon, 11 Nov 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;A few days ago I presented this topic in DevWeek and there were several individuals who requested me to write a blog, and so I did 🚀. This blog post is based on the presentation I did in DevWeek in Austin, Texas 🌆.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Any application that can be written in JavaScript, will eventually be written in JavaScript.
+Jeff Atwood&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Javascript’s high growth has reshaped the open-source community. NPM has made it easier than ever to create and reuse open source libraries through the JavaScript ecosystem. As the open source community gets bigger and bigger, I will try to address the key points that construe a successful open source project.  This post is based on the implementation of &lt;a href=&quot;https://github.com/Trulioo/trulioo-react&quot;&gt;trulioo-react&lt;/a&gt; aka EmbedID 🆔👇&lt;/p&gt;
+&lt;h2&gt;Signs of a healthy open source library&lt;/h2&gt;
+&lt;h4&gt;What problem are you solving?&lt;/h4&gt;
+&lt;p&gt;Regardless of the underlying engineering principles, any application has to be needed by the community to render successful. If we were to implement an application perfectly (engineering wise) but with no real use, it would be impossible for the application to be succesfull. This point is harder than it sounds and guaranteeing that what we build is necessary for project success, so investing some time on this prior to jumping into implementation &lt;/p&gt;
+&lt;h4&gt;Is it well implemented?&lt;/h4&gt;
+&lt;p&gt;The community is your customer. How many open issues to you have? Have you established open communication in regards to who can contribute to the project and how you should version your SDK/API? Is your API well tested? 100% test coverage would be a good start for starters 🏁&lt;/p&gt;
+&lt;h2&gt;Deciding on Versioning Methodology&lt;/h2&gt;
+&lt;p&gt;This is an opinionated section as there are multiple methodologies for applying different types of versioning. Let’s compare the 2 most standard ones, Semantic Versioning versus Calendar Versioning:&lt;/p&gt;
+&lt;h4&gt;Semantic Versioning&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://jontejada.com/blog/assets/semver03.png&quot; alt=&quot;semver&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This is what I use for EmbedID and what most of the libraries in NPM. The way &lt;a href=&quot;https://semver.org/&quot;&gt;Semantic Versioning&lt;/a&gt; works is very simple; did the change you just commit introduce:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;a bug fix? -&gt; upgrade minor number&lt;/li&gt;
+&lt;li&gt;a feature (still maintaining backwards compatibility)? -&gt; upgrade middle number&lt;/li&gt;
+&lt;li&gt;a major upgrade (backwards incompatible)? -&gt; upgrade major number. You can think of Angular (1.0 -&gt; 2.0), Python 2.7 -&gt; 3.0 and so on.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Calendar Versioning&lt;/h4&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 449px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 150.33407572383072%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;caltree&quot;
+        title=&quot;caltree&quot;
+        src=&quot;/mkotsollaris.github.io/static/1b9e0cf13b6ee6ebace732a310f83c54/a5369/caltree_med.png&quot;
+        srcset=&quot;/mkotsollaris.github.io/static/1b9e0cf13b6ee6ebace732a310f83c54/cf440/caltree_med.png 148w,
+/mkotsollaris.github.io/static/1b9e0cf13b6ee6ebace732a310f83c54/d2d38/caltree_med.png 295w,
+/mkotsollaris.github.io/static/1b9e0cf13b6ee6ebace732a310f83c54/a5369/caltree_med.png 449w&quot;
+        sizes=&quot;(max-width: 449px) 100vw, 449px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+Very straightforward way of &lt;a href=&quot;https://calver.org/&quot;&gt;doing versioning&lt;/a&gt;. An example of a release could be &lt;code class=&quot;language-text&quot;&gt;release_2019_11_15&lt;/code&gt;, if you were to release in 2019 on November the 15th. An important drawback of this methodology when compared with &lt;code class=&quot;language-text&quot;&gt;semver&lt;/code&gt; is that there is no inclusive way to convey what changes occurred to your API, other than a &lt;em&gt;good-ol&lt;/em&gt; changelog. Regardless of this drawback, this is a very popular convention and it is used amongst several companies, including [Plaid].&lt;/p&gt;
+&lt;h3&gt;Provide Visibility in your code and your dependencies&lt;/h3&gt;
+&lt;p&gt;What’s your test coverage? How many dependencies do you have? Are you sure you are using all of your dependencies? Are there any potential vulnerabilities into your codebase and what’s your code quality?&lt;/p&gt;
+&lt;p&gt;Yes, code quality can be significantly increased over code reviews, but code reviews alone cannot keep track of all the aforementioned. Allow me to introduce you the following, which once integrated, run on every single commit you introduce:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://snyk.io/&quot;&gt;Snyk.io&lt;/a&gt;: detects codebase vulnerabilities.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lgtm.com/&quot;&gt;Lgmt&lt;/a&gt;: performs static analysis within your codebase and grades your code; throws alerts when your code degrades. Legitimate!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://fossa.com/&quot;&gt;Fossa&lt;/a&gt;: checks whether your dependencies are compliant with your license.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bundlephobia.com/&quot;&gt;BundlePhobia&lt;/a&gt;: reports how much JavaScript (KB/MB and _hopefully &lt;strong&gt;not&lt;/strong&gt; GB_) are you delivering to the end user.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://david-dm.org/&quot;&gt;David-dm&lt;/a&gt;: are your (direct, dev, peer) dependencies up to date?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://coveralls.io/&quot;&gt;Coveralls.io&lt;/a&gt;: Visualize and badgify your test coverage! Here’s an example of how coveralls would visualize &lt;a href=&quot;https://coveralls.io/github/Trulioo/trulioo-react&quot;&gt;trulioo-react’s tests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://probot.github.io/&quot;&gt;Probot&lt;/a&gt;: Automatically opens PRs (and if given permission, merges) based on potential known security vulnerabilities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Best part? All of these integrations are 🆓 for open source projects 🎉&lt;/p&gt;
+&lt;p&gt;This how the architectural flow looks from EmbedID, end to end:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/8e724/architecture.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC3klEQVQ4y4WTy09TURDGb1+3D/qkD5He23tLSx+WUhEtgvKqRCQqoRI1KgrqAqMmRjEhVgPqjo0rXevOjRHBjSbqwn8BE5fu3Oj/8POcA+pOF5M5Z+6c734z842WyWTYZWZIG2nk2c7ayluW9cey2SzpdBpN0/5vkViCE3PzHDxUJxqN0dbWRjKZJBQKiXuUSCSCrusUCgX1rVKpKKtWq8oXi0VqtZp6owCPTozw+PYlHraW6BFJMliv1xkfH6fRaCh2MmbbNl6vV/2gPRYjkUgoi8fjJASYz+fbBkwGNeZmJ5k4WMEhAw4HHo9HmUxwuVzK5/N5IuKx5nTiEY+dIi5z5E9cIqZLr3I9UabnFonZPWiewJ9e9PX1sbCwoMqU96xg2F8uYQh2vbkcMcFUlmkYBoadpadSwh/wo/U/eEW99ZKRtQ/Y0zdZvHqZ/v0HuN9q8ezpU5ozMzRnZ7k2f4mtpTt8W13h671lzg4NYee6sLtL9C+ucn5sELckM/Bok8baO0affMaeuUWtUqA9HmPy+AlWVldV00vlPUyMDPOwMcbjY5OsDA5QSqXwBgK4fX6G9vby7OQwu0OCoa9wiNTANLmpReLFQdHHIOGwQUMATR4extyRi2ma+PSdlgTCuF06ftHDoNetzOnVRf9VuzTCoTDzN5bprgxyurnE1JErrNWqvLl4jlxwG6Q7nyPV2UViV6c4m0TCITUUOV19Z4A7ptEW6qC7PEuqYx9Tx+YYGz7F3cYozy+eIR38PRSLRMrEyJXIV8vk8jYd7WEB6MfrceN2Ov4CJgK93LvwkubIMhubb3m9vs77j5/4/uMnxXJ5G1Do0SsEHrW7SJV62Z3pwjRMTMvGMC2igrECdHlEf+IDXJ9+QXOsJQA3WV9/w+bGBl+2tpR8ZKLciojYHN0fFLpzKT1qwjtcolyn+2/JcgOsjEUybpHutCgLrck1k3HJSu6yPMv9/i3yf9kvuQh6zadYIkgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;architecture&quot;
+        title=&quot;architecture&quot;
+        src=&quot;/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/b9e4f/architecture.png&quot;
+        srcset=&quot;/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/cf440/architecture.png 148w,
+/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/d2d38/architecture.png 295w,
+/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/b9e4f/architecture.png 590w,
+/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/f9b6a/architecture.png 885w,
+/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/2d849/architecture.png 1180w,
+/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/8e724/architecture.png 2880w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;That’s great. But there is one thing that I haven’t really mentioned. How do we do continuous integration and continuous delivery? And everytime we merge on master, how do we let npm know about our new version? &lt;/p&gt;
+&lt;p&gt;It’s time for action… Time for GitHub Actions! 🎬🏃‍&lt;/p&gt;
+&lt;h2&gt;Github Actions&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/8e724/github_actions.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA1ElEQVQ4y62TOw6DMBBE/SFSiigmxOb/U5pINLkGtByHE9BwAO5AyRG410REIkKJBMSkmGblfR7PegkhBEuilIIxhrVzMy3DfgAtAyeY7/soimIfcA5r2xZN06Cqqq2uv4tTZnmeo+s6ZFmGYRi2ZvnhbuaCc466rtH3PcqyfF9GdYcyaQRrZWhwhsfNgbxaiOIYaZLAdV2YpokgCBCGIS6WxD2UCOR5HXgwOFJXQAjxah7leR6UUrBtG1EUQdkOYkfAPB31n7zrH9INTbuH8pdN0dUT34gaMe75QZUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;architecture&quot;
+        title=&quot;architecture&quot;
+        src=&quot;/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/b9e4f/github_actions.png&quot;
+        srcset=&quot;/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/cf440/github_actions.png 148w,
+/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/d2d38/github_actions.png 295w,
+/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/b9e4f/github_actions.png 590w,
+/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/f9b6a/github_actions.png 885w,
+/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/2d849/github_actions.png 1180w,
+/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/8e724/github_actions.png 2880w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;What are github actions?&lt;/h4&gt;
+&lt;p&gt;GitHub actions are a way to automate certain parts of our pipelines, including CI/CD, autonomous workflows, automated testing and so on. &lt;/p&gt;
+&lt;p&gt;So why should we get excited 🤔? After all, there are tons of tools that would allow continuous integration (travis CI, circleCI an so on) which work perfectly fine. Here are a few reasons to get HYPED 😲&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;YAML syntax &lt;/li&gt;
+&lt;li&gt;Github Actions are very handy because they are integrated in our version control out of the box.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/marketplace&quot;&gt;GitHub Marketplace&lt;/a&gt;🚀 adds the ability to reuse various integrations out of the box!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;While #1 and #2 are nothing new to the CI/CD world, #3 offers a tremendous capability to reuse various integrations from different vendors in a very different fashion than what we’ve seen before. So let’s try to integrate with coveralls.io and let’s assume that we are about to automate the ‘Build’ workflow:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;a href=&quot;https://github.com/marketplace/actions/coveralls-github-action&quot;&gt;Coveralls’ github action&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Install coveralls in your repo&lt;/li&gt;
+&lt;li&gt;Add the following into your workflow file (&lt;code class=&quot;language-text&quot;&gt;.github/workflows/build.yml&lt;/code&gt;):&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;name: Build
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # OS docker image 
+
+    strategy:
+      matrix:
+        node-version: [12.x] # array of the nodejs versions we support
+
+    steps:
+      - name: Coveralls Parallel
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.github_token }}
+          parallel: true
+          path-to-lcov: ./coverage/lcov.info
+
+      - name: Coveralls Finished
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.github_token }}
+          parallel-finished: true
+        env:
+          CI: true&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In this particular case, Coveralls requires 2 steps. The tests execute on the first step and the second step is triggered when the tests are finished. Note that this can be also done in one single step, but it comes with a drawback of the process being hung until tests complete. This is how the standard version looks:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- name: Coveralls
+  uses: coverallsapp/github-action@master
+  with:
+    github-token: ${{ secrets.github_token }}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can view the &lt;a href=&quot;https://github.com/Trulioo/trulioo-react/actions&quot;&gt;Build workflow&lt;/a&gt; in &lt;code class=&quot;language-text&quot;&gt;trulioo-react&lt;/code&gt; repo 👾.&lt;/p&gt;
+&lt;h2&gt;A github action for publishing?&lt;/h2&gt;
+&lt;p&gt;Since we are applying semver into out application, we know exactly when to publish. Sure we can do this process manually, and most certainly mess up the version numbering, incorrectly publish outdated products and whatever else could possibly go wrong when it comes to human errors 🙈. Or, we could use a publish action to automate the whole thing!&lt;/p&gt;
+&lt;h3&gt;semantic-release and commitizen to the rescue:&lt;/h3&gt;
+&lt;p&gt;If you haven’t used them before, you are about to step up your whole automation game 📈&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/commitizen/cz-cli&quot;&gt;commitizen&lt;/a&gt;: user-friendly CLI which is used instead of &lt;code class=&quot;language-text&quot;&gt;git commit&lt;/code&gt; and prompts certain questions which are used to determine the next version alongside with your changelog.md (yes, you are reading this right. It &lt;strong&gt;generates the changelog&lt;/strong&gt; for you)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/semantic-release/semantic-release&quot;&gt;semantic-release&lt;/a&gt;: a tool meant for your CI. Following formalized conventions for commit messages, semantic-release automatically determines the next semantic version number, generates a changelog and publishes the release. This process is done on every single commit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, the next step is to create a workflow that triggers everytime we push on master and checks for the last commit. Then calls &lt;code class=&quot;language-text&quot;&gt;semantic-release&lt;/code&gt; and if it finds a new version, tags and releases the package in both github and npm.&lt;/p&gt;
+&lt;p&gt;Before seeing the solution, you can try figure it out on your own on how you can write the worfklow for this automation ❗️&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;publish.yml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;name: Publish
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    name: release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: &amp;quot;12.x&amp;quot;
+          registry-url: &amp;quot;https://registry.npmjs.org&amp;quot;
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm config set &amp;#39;//registry.npmjs.org/:_authToken&amp;#39; &amp;quot;${{ secrets.NPM_TOKEN }}&amp;quot;
+      - run: npm whoami
+      - run: npm ci
+      - run: npm run test -- --coverage src/tests/snapshot src/tests/unit
+      - run: npm run semantic-release&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We have just achieved full automation for safely publishing our SDK in both github and npm, not bad!
+Note: Don’t forget to generate a token from NPM and store it in your secrets in github. This is how you authenticate yourself to &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Things that I learned the hard way 😢&lt;/h2&gt;
+&lt;p&gt;Here’s a list of a couple of gotchas that I learned the hard way and I think they could help you in your JavaScript journey; have a look at the following npm commands that could sit in your &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;transpile&amp;quot;: &amp;quot;babel src -d ./dist --ignore **/tests/&amp;quot;&lt;/code&gt;: Whenever you are creating JavaScript SDKs, you are responsible for delivering executable JavaScript in a cross-browser minimized format to the client. It is highly unlikely that your clients don’t need your tests or other files into their &lt;code class=&quot;language-text&quot;&gt;node_modules&lt;/code&gt;. If they need to execute your tests, they would most likely &lt;code class=&quot;language-text&quot;&gt;git clone&lt;/code&gt; your project and run the tests, thus make sure that your tests are not included in the deliverable javascript.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;preversion&amp;quot;: &amp;quot;npm test&lt;/code&gt;: This phenomenal npm command runs right before &lt;code class=&quot;language-text&quot;&gt;npm publish&lt;/code&gt; (which is automatically triggered through semantic-release). If the tests fail, then the process will exit without executing &lt;code class=&quot;language-text&quot;&gt;npm publish&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;”files&amp;quot;: [”dist”]&lt;/code&gt;:  If there is one command that &lt;strong&gt;you should know, &lt;code class=&quot;language-text&quot;&gt;files&lt;/code&gt; should be it&lt;/strong&gt;. &lt;code class=&quot;language-text&quot;&gt;files&lt;/code&gt; whitelists the folders/files that will be delivered to your end-users. npm has a blacklisting capability through &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt; but I advice against. Why? &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt; needs to be continuously updated as the project grows, so whichever files you are adding, you will have to be constantly updating your &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt;. There’s also another gotcha. &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt; will ignore your &lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt;, which means that &lt;em&gt;unless&lt;/em&gt; you declare the files in &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt;, files will be committed in &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt;. So can you imagine what happens when you have declared your &lt;code class=&quot;language-text&quot;&gt;.env&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt; but not in &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt; 🙀? Exactly… you just leaked your &lt;code class=&quot;language-text&quot;&gt;.env&lt;/code&gt; files which contains all your credentials to npm. Whitelisting is much easier than blacklisting, and I would highly suggest you take that approach early on on your project.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;We were able to deploy our application utilizing GitHub actions.&lt;/li&gt;
+&lt;li&gt;We integrated with multiple third parties (snyk.io, lgmt, fossa, coveralls.io) to increase codebase quality&lt;/li&gt;
+&lt;li&gt;Integrated &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt; and github to allow seamless publishing through &lt;code class=&quot;language-text&quot;&gt;semantic-release&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;commitizen&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Deliver 📦 a well maintained product to the client.&lt;/li&gt;
+&lt;li&gt;👋 Encourage other developers to participate into development utilizing the latest 🆕 technologies!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; I ♥ JavaScript and GitHub&lt;/p&gt;</content:encoded></item></channel></rss>
