@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Menelaos Kotsollaris`,
-    author: `Menelaos`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    author: `Menelaos Kotsollaris`,
+    description: `Menelaos Kotsollaris' personal website and blog`,
     siteUrl: `https://menelaos.dev`,
     social: {
       twitter: `mkotsollaris`,
@@ -57,7 +57,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Menelaos Kotsollaris Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,

@@ -25,7 +25,7 @@ This is an opinionated section as there are multiple methodologies for applying 
 
 #### Semantic Versioning
 
-![semver](http://jontejada.com/blog/assets/semver03.png)
+![semver](semver.png)
 
 This is what I use for EmbedID and what most of the libraries in NPM. The way [Semantic Versioning](https://semver.org/) works is very simple; did the change you just commit introduce:
 
