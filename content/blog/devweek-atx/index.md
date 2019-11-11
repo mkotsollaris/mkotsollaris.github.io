@@ -11,6 +11,7 @@ A few days ago I presented this topic in DevWeek and there were several individu
 
 Javascript's high growth has reshaped the open-source community. NPM has made it easier than ever to create and reuse open source libraries through the JavaScript ecosystem. As the open source community gets bigger and bigger, I will try to address the key points that construe a successful open source project.  This post is based on the implementation of [trulioo-react](https://github.com/Trulioo/trulioo-react) aka EmbedID 🆔👇
 
+
 ## Signs of a healthy open source library
 
 #### What problem are you solving?
