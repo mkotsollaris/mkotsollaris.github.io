@@ -1,10 +1,10 @@
 ---
-title: DevWeekATX - Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬, Forks ⑂ + Community Love ❤
+title: Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬ + Forks ⑂ + Community Love ❤
 date: "2019-11-11T22:40:32.169Z"
-description: Javascript's high growth has reshaped the 📖 open-source community. NPM has made it easier than ever to create and reuse open source libraries through the JavaScript ecosystem. This talk will showcase the main points of building scalable libraries aimed to be adopted by other developers. Newly introduced GitHub actions will be utilized as a means of continuous integration, alongside the rest of libraries that come through the GitHub’s open source marketplace. This post is based on the implementation of EmbedID!
+description: JavaScript + GitHub actions for powerful open source libraries
 ---
 
-A few days ago I presented this topic in DevWeek and there were several individuals who requested me to write a blog, and so I did 🚀. This blog post is based on the presentation I did in DevWeek in Austin, Texas 🌆.
+A few days ago I presented this topic in [DevWeekATX](https://twitter.com/devweekatx) and there were several individuals who requested me to write a blog; this is it! 🚀.
 
 >Any application that can be written in JavaScript, will eventually be written in JavaScript.
 >Jeff Atwood
