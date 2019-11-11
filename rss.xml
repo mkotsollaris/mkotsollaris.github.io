@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 11 Nov 2019 03:07:44 GMT</lastBuildDate><item><title><![CDATA[DevWeekATX - Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬, Forks ⑂ + Community Love ❤]]></title><description><![CDATA[A few days ago I presented this topic in DevWeek and there were several individuals who requested me to write a blog, and so I did 🚀. This…]]></description><link>https://menelaos.dev/devweek-atx/</link><guid isPermaLink="false">https://menelaos.dev/devweek-atx/</guid><pubDate>Mon, 11 Nov 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;A few days ago I presented this topic in DevWeek and there were several individuals who requested me to write a blog, and so I did 🚀. This blog post is based on the presentation I did in DevWeek in Austin, Texas 🌆.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[Menelaos Kotsollaris' personal website and blog]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 11 Nov 2019 19:08:58 GMT</lastBuildDate><item><title><![CDATA[DevWeekATX - Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬, Forks ⑂ + Community Love ❤]]></title><description><![CDATA[A few days ago I presented this topic in DevWeek and there were several individuals who requested me to write a blog, and so I did 🚀. This…]]></description><link>https://menelaos.dev/devweek-atx/</link><guid isPermaLink="false">https://menelaos.dev/devweek-atx/</guid><pubDate>Mon, 11 Nov 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;A few days ago I presented this topic in DevWeek and there were several individuals who requested me to write a blog, and so I did 🚀. This blog post is based on the presentation I did in DevWeek in Austin, Texas 🌆.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Any application that can be written in JavaScript, will eventually be written in JavaScript.
 Jeff Atwood&lt;/p&gt;
@@ -12,7 +12,37 @@ Jeff Atwood&lt;/p&gt;
 &lt;h2&gt;Deciding on Versioning Methodology&lt;/h2&gt;
 &lt;p&gt;This is an opinionated section as there are multiple methodologies for applying different types of versioning. Let’s compare the 2 most standard ones, Semantic Versioning versus Calendar Versioning:&lt;/p&gt;
 &lt;h4&gt;Semantic Versioning&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://jontejada.com/blog/assets/semver03.png&quot; alt=&quot;semver&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/665313b51693b7e88401f369aff29aba/94448/semver.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.55835667600373%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAADD0lEQVQ4y22TXUxTdxjGG7PEe7eLJXq1ZRWpfNbSc9rT09MWrI4tY5ipIxpj5sUSjYBfYU7FzHlhNIoDUpQWaOWjuIjGmWlMpluMQREYG8OPCLWIRmIb0cjVbn6+bYFA4sWT9/0/5/k///8553lNrpYn6K1xNKmOUKZPcbN8qirBhevZqr6HN82a+cJxyqJP58zc8/gtF5/jaYvP8bO1vHtigVnGMBRDaR6jvGucX3oTOIJj6KExVOGc0hstMdqHXvHdpQlWnRlNcy55rgsf7E/ibYuhpblY2tjk6XyJW1D6a5La29P4uhK42l+y7dobSqIJ1p5P0Pnwf1m/JqXd+vsUXtFoovm5dxp/dwJDeE/HpBjKDVfs6eSzyjaydp1jhcBcFWZ59Tlyd4ex7OkgvyaKfX8X5uoIK/d2UlgjfVVENBHyf+jGsreLLOlzfuyRV5Yb+nw+tm6uoPyrL/EZOqX+Ery6xoZv1pGTvZyPP1rCuq/LMDQVTbWj2m2sLy9j08b1LP5gEZpDwW84sdjd2BqGMeWqBg7vGqyuYoqM1RRoXnLsOlrx51hWOfhw2adkW1XsHj/mPBsWq0KRuwRF1kuWfsIycw55NhWzVooSuI+p8NQg9rp76PUDaPX9eBsHMQS5J/pwNvyNP/gfesOgYABX4xBW0aun+3EIPE3DGIF/ZP8ARfX/Zv6yo/Up319NcrT3LT/dfsvxvmlqbk7hCk/wRfQ5+28kOXbnDccFFT0v0IWvvp6g9tZrDvw1xb4/kmy/lhA+EzmTJn/G23wfT2CI4sAgpc1DrA49QJsJ+caeSb6NjrH5wgRrO55JbGKSzXE8Z0ZwB4bxtIxSHBmXGGXya3LLibYTvWRXtpC14yxZO0PkHfoNvU1ODI6Sf/QG5spWVh66gtr0IBNg2VN45DqWXWGczY/R5k+Kaybh6ukBlJN3KDr2J9rZRxlDCXDBwUsU1l7GevgKSl1/2iyldzaNoJy6K7rxdFwyEzMzeml3+Qap27rDC8fJaJ8UvEgjZTY353KgO/Js3izH08bvAC9RmM6QFKXCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;semver&quot;
+        title=&quot;semver&quot;
+        src=&quot;/static/665313b51693b7e88401f369aff29aba/b9e4f/semver.png&quot;
+        srcset=&quot;/static/665313b51693b7e88401f369aff29aba/cf440/semver.png 148w,
+/static/665313b51693b7e88401f369aff29aba/d2d38/semver.png 295w,
+/static/665313b51693b7e88401f369aff29aba/b9e4f/semver.png 590w,
+/static/665313b51693b7e88401f369aff29aba/f9b6a/semver.png 885w,
+/static/665313b51693b7e88401f369aff29aba/2d849/semver.png 1180w,
+/static/665313b51693b7e88401f369aff29aba/94448/semver.png 2142w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;This is what I use for EmbedID and what most of the libraries in NPM. The way &lt;a href=&quot;https://semver.org/&quot;&gt;Semantic Versioning&lt;/a&gt; works is very simple; did the change you just commit introduce:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;a bug fix? -&gt; upgrade minor number&lt;/li&gt;
