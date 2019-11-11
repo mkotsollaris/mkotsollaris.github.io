@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 11 Nov 2019 02:13:11 GMT</lastBuildDate><item><title><![CDATA[DevWeekATX - Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬, Forks ⑂ + Community Love ❤]]></title><description><![CDATA[A few days ago I presented this topic in DevWeek and there were several individuals who requested me to write a blog, and so I did 🚀. This…]]></description><link>https://menelaos.dev/devweek-atx/</link><guid isPermaLink="false">https://menelaos.dev/devweek-atx/</guid><pubDate>Mon, 11 Nov 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;A few days ago I presented this topic in DevWeek and there were several individuals who requested me to write a blog, and so I did 🚀. This blog post is based on the presentation I did in DevWeek in Austin, Texas 🌆.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 11 Nov 2019 02:43:11 GMT</lastBuildDate><item><title><![CDATA[DevWeekATX - Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬, Forks ⑂ + Community Love ❤]]></title><description><![CDATA[A few days ago I presented this topic in DevWeek and there were several individuals who requested me to write a blog, and so I did 🚀. This…]]></description><link>https://menelaos.dev/devweek-atx/</link><guid isPermaLink="false">https://menelaos.dev/devweek-atx/</guid><pubDate>Mon, 11 Nov 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;A few days ago I presented this topic in DevWeek and there were several individuals who requested me to write a blog, and so I did 🚀. This blog post is based on the presentation I did in DevWeek in Austin, Texas 🌆.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Any application that can be written in JavaScript, will eventually be written in JavaScript.
 Jeff Atwood&lt;/p&gt;
@@ -32,10 +32,10 @@ Jeff Atwood&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;caltree&quot;
         title=&quot;caltree&quot;
-        src=&quot;/mkotsollaris.github.io/static/1b9e0cf13b6ee6ebace732a310f83c54/a5369/caltree_med.png&quot;
-        srcset=&quot;/mkotsollaris.github.io/static/1b9e0cf13b6ee6ebace732a310f83c54/cf440/caltree_med.png 148w,
-/mkotsollaris.github.io/static/1b9e0cf13b6ee6ebace732a310f83c54/d2d38/caltree_med.png 295w,
-/mkotsollaris.github.io/static/1b9e0cf13b6ee6ebace732a310f83c54/a5369/caltree_med.png 449w&quot;
+        src=&quot;/static/1b9e0cf13b6ee6ebace732a310f83c54/a5369/caltree_med.png&quot;
+        srcset=&quot;/static/1b9e0cf13b6ee6ebace732a310f83c54/cf440/caltree_med.png 148w,
+/static/1b9e0cf13b6ee6ebace732a310f83c54/d2d38/caltree_med.png 295w,
+/static/1b9e0cf13b6ee6ebace732a310f83c54/a5369/caltree_med.png 449w&quot;
         sizes=&quot;(max-width: 449px) 100vw, 449px&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -61,7 +61,7 @@ Very straightforward way of &lt;a href=&quot;https://calver.org/&quot;&gt;doing 
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/8e724/architecture.png&quot;
+    href=&quot;/static/5ce1bf5a63b14750e19fd635a6a1993c/8e724/architecture.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -74,13 +74,13 @@ Very straightforward way of &lt;a href=&quot;https://calver.org/&quot;&gt;doing 
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;architecture&quot;
         title=&quot;architecture&quot;
-        src=&quot;/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/b9e4f/architecture.png&quot;
-        srcset=&quot;/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/cf440/architecture.png 148w,
-/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/d2d38/architecture.png 295w,
-/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/b9e4f/architecture.png 590w,
-/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/f9b6a/architecture.png 885w,
-/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/2d849/architecture.png 1180w,
-/mkotsollaris.github.io/static/5ce1bf5a63b14750e19fd635a6a1993c/8e724/architecture.png 2880w&quot;
+        src=&quot;/static/5ce1bf5a63b14750e19fd635a6a1993c/b9e4f/architecture.png&quot;
+        srcset=&quot;/static/5ce1bf5a63b14750e19fd635a6a1993c/cf440/architecture.png 148w,
+/static/5ce1bf5a63b14750e19fd635a6a1993c/d2d38/architecture.png 295w,
+/static/5ce1bf5a63b14750e19fd635a6a1993c/b9e4f/architecture.png 590w,
+/static/5ce1bf5a63b14750e19fd635a6a1993c/f9b6a/architecture.png 885w,
+/static/5ce1bf5a63b14750e19fd635a6a1993c/2d849/architecture.png 1180w,
+/static/5ce1bf5a63b14750e19fd635a6a1993c/8e724/architecture.png 2880w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -95,7 +95,7 @@ Very straightforward way of &lt;a href=&quot;https://calver.org/&quot;&gt;doing 
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/8e724/github_actions.png&quot;
+    href=&quot;/static/376a3ae5e4eb70100f908b21af8edd12/8e724/github_actions.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -108,13 +108,13 @@ Very straightforward way of &lt;a href=&quot;https://calver.org/&quot;&gt;doing 
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;architecture&quot;
         title=&quot;architecture&quot;
-        src=&quot;/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/b9e4f/github_actions.png&quot;
-        srcset=&quot;/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/cf440/github_actions.png 148w,
-/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/d2d38/github_actions.png 295w,
-/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/b9e4f/github_actions.png 590w,
-/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/f9b6a/github_actions.png 885w,
-/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/2d849/github_actions.png 1180w,
-/mkotsollaris.github.io/static/376a3ae5e4eb70100f908b21af8edd12/8e724/github_actions.png 2880w&quot;
+        src=&quot;/static/376a3ae5e4eb70100f908b21af8edd12/b9e4f/github_actions.png&quot;
+        srcset=&quot;/static/376a3ae5e4eb70100f908b21af8edd12/cf440/github_actions.png 148w,
+/static/376a3ae5e4eb70100f908b21af8edd12/d2d38/github_actions.png 295w,
+/static/376a3ae5e4eb70100f908b21af8edd12/b9e4f/github_actions.png 590w,
+/static/376a3ae5e4eb70100f908b21af8edd12/f9b6a/github_actions.png 885w,
+/static/376a3ae5e4eb70100f908b21af8edd12/2d849/github_actions.png 1180w,
+/static/376a3ae5e4eb70100f908b21af8edd12/8e724/github_actions.png 2880w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
       /&gt;
