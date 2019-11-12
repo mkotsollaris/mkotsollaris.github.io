@@ -2,6 +2,7 @@
 title: Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬ + Forks ⑂ + Community Love ❤
 date: "2019-11-11T22:40:32.169Z"
 description: JavaScript + GitHub actions for powerful open source libraries
+banner: './architecture.png'
 ---
 
 A few days ago I presented this topic in [DevWeekATX](https://twitter.com/devweekatx) and there were several individuals who requested me to write a blog; this is it! 🚀
@@ -182,3 +183,5 @@ Here's a list of a couple of gotchas that I learned the hard way and I think the
 5. 👋 Encourage other developers to participate into development utilizing the latest 🆕 technologies!
 
  I ♥ JavaScript and GitHub!
+
+ Related: [Find my aftermath podcast right here 🎧.](https://www.briefs.fm/menelaos-kotsollariss-podcast/9)
