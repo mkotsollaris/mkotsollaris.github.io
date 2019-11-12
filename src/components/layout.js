@@ -80,6 +80,7 @@ export const globalStyles = css`
   }
   a {
     color: #000000;
+    text-decoration: none;
   }
   a {
     code {

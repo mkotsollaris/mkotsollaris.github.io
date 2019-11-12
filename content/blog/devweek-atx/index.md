@@ -4,7 +4,7 @@ date: "2019-11-11T22:40:32.169Z"
 description: JavaScript + GitHub actions for powerful open source libraries
 ---
 
-A few days ago I presented this topic in [DevWeekATX](https://twitter.com/devweekatx) and there were several individuals who requested me to write a blog; this is it! 🚀.
+A few days ago I presented this topic in [DevWeekATX](https://twitter.com/devweekatx) and there were several individuals who requested me to write a blog; this is it! 🚀
 
 >Any application that can be written in JavaScript, will eventually be written in JavaScript.
 >Jeff Atwood
