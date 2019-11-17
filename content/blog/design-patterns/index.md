@@ -2,7 +2,7 @@
 slug: 'applied-design-patterns-and-software-architecture'
 title: Applied Design Patterns & Software Architecture
 date: "2019-09-01"
-description: How can you utilize the design patterns for your own projects?
+description: How can you utilize the design patterns to your own projects?
 author: 'Menelaos Kotsollaris'
 categories:
   - 'design-patterns'
