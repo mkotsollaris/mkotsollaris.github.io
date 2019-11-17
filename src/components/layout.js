@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
 import Footer from './footer'
 import { Global, css } from '@emotion/core'
-import { bpMaxMD, bpMaxSM } from './breakpoints'
+import { bpMaxSM } from './breakpoints'
 import theme from './theme'
 import { fonts } from '../utils/typography'
 
@@ -79,13 +79,24 @@ export const globalStyles = css`
     border-radius: 3px;
   }
   a {
+    code {
+      color: ${theme.brand.primary};
+    }
+  }
+  a {
     color: #000000;
-    text-decoration: none;
   }
   a {
     code {
       color: ${theme.brand.primary};
     }
+  }
+  nav > ul > li > a {
+    text-decoration: none;
+  }
+
+  h3  > a {
+      text-decoration: none;
   }
   pre {
     background-color: #061526 !important;

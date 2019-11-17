@@ -1,8 +1,18 @@
 ---
 title: Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬ + Forks ⑂ + Community Love ❤
-date: "2019-11-11T22:40:32.169Z"
-description: JavaScript + GitHub actions for powerful open source libraries
+date: "2019-11-11"
+description: JavaScript + GitHub actions for powerful open source libraries 🚀
+author: 'Menelaos Kotsollaris'
+categories:
+  - 'javascript'
+keywords:
+  - 'javascript'
+  - 'react'
+  - 'open source'
+  - 'conference'
 banner: './architecture.png'
+bannerCredit:
+  'Photo by Menelaos Kotsollaris'
 ---
 
 A few days ago I presented this topic in [DevWeekATX](https://twitter.com/devweekatx) and there were several individuals who requested me to write a blog; this is it! 🚀
@@ -15,7 +25,7 @@ Javascript's high growth has reshaped the open-source community. NPM has made it
 ## Signs of a healthy open source library
 
 #### What problem are you solving?
-Regardless of the underlying engineering principles, any application has to be needed by the community to render successful. If we were to implement an application perfectly (engineering wise) but with no real use, it would be impossible for the application to be succesfull. This point is harder than it sounds and guaranteeing that what we build is necessary for project success, so investing some time on this prior to jumping into implementation 
+Regardless of the underlying engineering principles, any application has to be needed by the community to render successful. If we were to implement an application perfectly (engineering wise) but with no real use, it would be impossible for the application to be successful. Investing some time on this prior to jumping into implementation would be a good decision and your future self will thank you in spending more time spec'ing your product prior jumping to implementation 🙊.
 
 #### Is it well implemented?
 The community is your customer. How many open issues to you have? Have you established open communication in regards to who can contribute to the project and how you should version your SDK/API? Is your API well tested? 100% test coverage would be a good start for starters 🏁
@@ -166,7 +176,7 @@ jobs:
 We have just achieved full automation for safely publishing our SDK in both github and npm, not bad!
 Note: Don't forget to generate a token from NPM and store it in your secrets in github. This is how you authenticate yourself to `npm`.
 
-## Things that I learned the hard way 😢
+## Things I learned the hard way 😢
 
 Here's a list of a couple of gotchas that I learned the hard way and I think they could help you in your JavaScript journey; have a look at the following npm commands that could sit in your `package.json`:
 
