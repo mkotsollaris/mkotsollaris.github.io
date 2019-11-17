@@ -14,10 +14,6 @@ import Link from './link'
 import config from './website'
 import { FaGithub, FaTwitter, FaStackOverflow, FaCalendar, FaEnvelopeOpen, FaYoutubeSquare, FaLinkedin, FaGooglePlay, FaAward, FaPodcast } from 'react-icons/fa';
 
-var extraPadding = {
-  padding: '1rem'
-};
-
 export const Twitter = ({
   color = `rgba(255,255,255,0.7)`,
   url = `${config.twitter}`,

@@ -79,11 +79,6 @@ export const globalStyles = css`
     border-radius: 3px;
   }
   a {
-    code {
-      color: ${theme.brand.primary};
-    }
-  }
-  a {
     color: #000000;
   }
   a {

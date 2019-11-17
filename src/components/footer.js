@@ -1,13 +1,8 @@
 import React from 'react'
 import { css } from '@emotion/core'
-import styled from 'styled-components'
 import { bpMaxSM } from './breakpoints'
 
 import Container from './container'
-
-const MarginRightA = styled.a`
-  margin-right:"2rem"
-`
 
 const Footer = (maxWidth) => (
   <footer
