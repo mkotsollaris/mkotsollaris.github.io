@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[Menelaos Kotsollaris' personal website and blog]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 17 Nov 2019 20:20:29 GMT</lastBuildDate><item><title><![CDATA[Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬ + Forks ⑂ + Community Love ❤]]></title><description><![CDATA[A few days ago I presented this topic in DevWeekATX and there were several individuals who requested me to write a blog; this is it! 🚀 Any…]]></description><link>https://menelaos.dev/devweek-atx/</link><guid isPermaLink="false">https://menelaos.dev/devweek-atx/</guid><pubDate>Mon, 11 Nov 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;A few days ago I presented this topic in &lt;a href=&quot;https://twitter.com/devweekatx&quot;&gt;DevWeekATX&lt;/a&gt; and there were several individuals who requested me to write a blog; this is it! 🚀&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[Menelaos Kotsollaris' personal website and blog]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 17 Nov 2019 22:25:14 GMT</lastBuildDate><item><title><![CDATA[Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬ + Forks ⑂ + Community Love ❤]]></title><description><![CDATA[A few days ago I presented this topic in DevWeekATX and there were several individuals who requested me to write a blog; this is it! 🚀 Any…]]></description><link>https://menelaos.dev/devweek-atx/</link><guid isPermaLink="false">https://menelaos.dev/devweek-atx/</guid><pubDate>Mon, 11 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;A few days ago I presented this topic in &lt;a href=&quot;https://twitter.com/devweekatx&quot;&gt;DevWeekATX&lt;/a&gt; and there were several individuals who requested me to write a blog; this is it! 🚀&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Any application that can be written in JavaScript, will eventually be written in JavaScript.
 Jeff Atwood&lt;/p&gt;
@@ -6,7 +6,7 @@ Jeff Atwood&lt;/p&gt;
 &lt;p&gt;Javascript’s high growth has reshaped the open-source community. NPM has made it easier than ever to create and reuse open source libraries through the JavaScript ecosystem. As the open source community gets bigger and bigger, I will try to address the key points that construe a successful open source project.  This post is based on the implementation of &lt;a href=&quot;https://github.com/Trulioo/trulioo-react&quot;&gt;trulioo-react&lt;/a&gt; aka EmbedID 🆔👇&lt;/p&gt;
 &lt;h2&gt;Signs of a healthy open source library&lt;/h2&gt;
 &lt;h4&gt;What problem are you solving?&lt;/h4&gt;
-&lt;p&gt;Regardless of the underlying engineering principles, any application has to be needed by the community to render successful. If we were to implement an application perfectly (engineering wise) but with no real use, it would be impossible for the application to be succesfull. This point is harder than it sounds and guaranteeing that what we build is necessary for project success, so investing some time on this prior to jumping into implementation &lt;/p&gt;
+&lt;p&gt;Regardless of the underlying engineering principles, any application has to be needed by the community to render successful. If we were to implement an application perfectly (engineering wise) but with no real use, it would be impossible for the application to be successful. Investing some time on this prior to jumping into implementation would be a good decision and your future self will thank you in spending more time spec’ing your product prior jumping to implementation 🙊.&lt;/p&gt;
 &lt;h4&gt;Is it well implemented?&lt;/h4&gt;
 &lt;p&gt;The community is your customer. How many open issues to you have? Have you established open communication in regards to who can contribute to the project and how you should version your SDK/API? Is your API well tested? 100% test coverage would be a good start for starters 🏁&lt;/p&gt;
 &lt;h2&gt;Deciding on Versioning Methodology&lt;/h2&gt;
@@ -234,7 +234,7 @@ jobs:
       - run: npm run semantic-release&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;We have just achieved full automation for safely publishing our SDK in both github and npm, not bad!
 Note: Don’t forget to generate a token from NPM and store it in your secrets in github. This is how you authenticate yourself to &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt;.&lt;/p&gt;
-&lt;h2&gt;Things that I learned the hard way 😢&lt;/h2&gt;
+&lt;h2&gt;Things I learned the hard way 😢&lt;/h2&gt;
 &lt;p&gt;Here’s a list of a couple of gotchas that I learned the hard way and I think they could help you in your JavaScript journey; have a look at the following npm commands that could sit in your &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt;:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;transpile&amp;quot;: &amp;quot;babel src -d ./dist --ignore **/tests/&amp;quot;&lt;/code&gt;: Whenever you are creating JavaScript SDKs, you are responsible for delivering executable JavaScript in a cross-browser minimized format to the client. It is highly unlikely that your clients don’t need your tests or other files into their &lt;code class=&quot;language-text&quot;&gt;node_modules&lt;/code&gt;. If they need to execute your tests, they would most likely &lt;code class=&quot;language-text&quot;&gt;git clone&lt;/code&gt; your project and run the tests, thus make sure that your tests are not included in the deliverable javascript.&lt;/li&gt;
@@ -250,4 +250,676 @@ Note: Don’t forget to generate a token from NPM and store it in your secrets i
 &lt;li&gt;👋 Encourage other developers to participate into development utilizing the latest 🆕 technologies!&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt; I ♥ JavaScript and GitHub!&lt;/p&gt;
-&lt;p&gt; Related: &lt;a href=&quot;https://www.briefs.fm/menelaos-kotsollariss-podcast/9&quot;&gt;Find my aftermath podcast right here 🎧.&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt; Related: &lt;a href=&quot;https://www.briefs.fm/menelaos-kotsollariss-podcast/9&quot;&gt;Find my aftermath podcast right here 🎧.&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Applied Design Patterns & Software Architecture]]></title><description><![CDATA[Foreword This article aims to help developers answer 2 questions: how and why would someone implement the design patterns. The main…]]></description><link>https://menelaos.dev/design-patterns/</link><guid isPermaLink="false">https://menelaos.dev/design-patterns/</guid><pubDate>Sun, 01 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Foreword&lt;/h2&gt;
+&lt;p&gt;This article aims to help developers answer 2 questions: how and why would someone implement the design patterns. The main reference will be the legendary Gang of Four (GOF) book. The project showcased in this article is “Lexi”, an open-source application for Android devices (&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.mkotsollaris.lexi&quot;&gt;Google Play&lt;/a&gt;, &lt;a href=&quot;https://github.com/mkotsollaris/Lexi&quot;&gt;Github&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=FC_HQ-qM-mo&quot;&gt;Youtube&lt;/a&gt;).
+Let’s start!&lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;h3&gt;What is a design pattern?&lt;/h3&gt;
+&lt;p&gt;Design pattern is a description of standard/best practice solution for common/recurring Object Oriented Design problems. The design patterns are not invented. They are summaries of common solutions by experienced programmers using their best practices over time.
+The design pattern are split into 3 categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Creational Patterns&lt;/strong&gt;: They abstract the instantiation process.
+Structural Patterns: Concerned with how classes are related to each other (objects relationships).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Behavioural patterns&lt;/strong&gt;: Concerned with algorithms and the assignment of responsibilities between objects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this article, 18 out of the 24 design patterns mentioned in the GOF are described and showcased.&lt;/p&gt;
+&lt;h2&gt;1. &lt;strong&gt;Model-View-Controller (MVC)&lt;/strong&gt; with the Observer pattern&lt;/h2&gt;
+&lt;p&gt;This pattern is widely adopted by the most used frameworks (e.g., Java Spring, Ruby on Rails etc.). The core idea of MVC is to logically divide the main components of the program into three parts: Dataset (Model), UI (View) and Application logic (Controller). By following the MVC pattern the code becomes more readable and reusable. The main part of MVC is the Observer pattern, which is an interface with 1 method:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;interface Observer
+{
+    void update();
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then, we can trigger update simultaneously for all of the MVC components. For more specifications on how to implement MVC, &lt;a href=&quot;https://www.techyourchance.com/mvp-mvc-android-1/&quot;&gt;read more here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;2. Singleton&lt;/h2&gt;
+&lt;p&gt;This pattern allows an object to be instantiated only 1 time at the runtime of the program. This is rather useful useful when an object is expected to be shared across different classes. Another benefit would be the initialization cost (speed or memory) of the object. An implementation of the Singleton would be the following:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public class CustomCharacterFlyweightFactory
+{
+    //the instance which holds the flyweight
+    private static CustomCharacterFlyweightFactory instance;
+
+    public static CustomCharacterFlyweightFactory getInstance()
+    {
+        if(instance == null) instance = new CustomCharacterFlyweightFactory();
+        return instance;
+    }
+
+    private CustomCharacterFlyweightFactory()
+    {
+        for(int i = 0; i &amp;lt; characters.length; i++)
+        {
+            customCharacterPool[i] = new CustomCharacter(characters[i]);
+        }
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Simply making the constructor private and defining a private static object of the same class would be the tasks for someone to follow in order to implement the Singleton pattern.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e9104c5858e055fa36d00063e8de7e9c/69e43/2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 29.754804506295564%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAAsSAAALEgHS3X78AAABBElEQVQY02WQW0+EMBSE+f//yEcTl/USDbtAEOReLuVaKLSlQIs1+rDqJPNwvmRyJqMdSlIqH7/1fUsphZS35FbayETaUQ80lp9lPaPrrujEtle/0s3wdA1O1/BsxboVB3Dc5QExTyACDe5nrgU5Ol+CRzPwCxS3bCCrCuOZ2xfXcT9g3Q+YdANGmEx0wWx/ePPu7p91w0uaSXNAbr/baRSNCK2c8+3rczeSF8NK4zhNAYT1MI6ULeu299PyZFqu45QFJIxrRgQs1w39IApjunD2U5u7CQAgq+p2pkxxQpeJsF3ImS2zqqAoX7W8RVGWF2VVVo1qyNftz2xCyF0IFZP/FvsEqWxQ6gryeXMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;FileUtilities, CustomCharacterFlyweightFactory and EditTextStatus follow the singleton pattern&quot;
+        title=&quot;FileUtilities, CustomCharacterFlyweightFactory and EditTextStatus follow the singleton pattern&quot;
+        src=&quot;/static/e9104c5858e055fa36d00063e8de7e9c/b9e4f/2.png&quot;
+        srcset=&quot;/static/e9104c5858e055fa36d00063e8de7e9c/cf440/2.png 148w,
+/static/e9104c5858e055fa36d00063e8de7e9c/d2d38/2.png 295w,
+/static/e9104c5858e055fa36d00063e8de7e9c/b9e4f/2.png 590w,
+/static/e9104c5858e055fa36d00063e8de7e9c/f9b6a/2.png 885w,
+/static/e9104c5858e055fa36d00063e8de7e9c/2d849/2.png 1180w,
+/static/e9104c5858e055fa36d00063e8de7e9c/69e43/2.png 1509w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;3. Builder&lt;/h2&gt;
+&lt;p&gt;Instead of initializing the object at once, we can create an object part-by-part. That’s what the builder pattern states. There are many ways of implementing this pattern. In this example, I am following Bloch’s implementation of the Builder pattern (&lt;a href=&quot;https://books.google.ca/books/about/Effective_Java.html?id=ka2VUBqHiWkC&quot;&gt;Bloch, 2008; Effective Java&lt;/a&gt;).&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;class CompositeBuilder
+{
+    //stores the composites (RowComposites and CustomCharacters)
+    private Stack&amp;lt;RowComposite&amp;gt; compositeRowStack = new Stack&amp;lt;&amp;gt;();
+
+    CompositeBuilder()
+    {
+        compositeRowStack = new Stack&amp;lt;&amp;gt;();
+    }
+
+    /**
+     * Adds the new character to the RowComposite. If the RowComposite does not exist, then it&amp;#39;s
+     * created. In case of the same charPosition, the value replaces the old one.
+     *
+     * @param customCharacter the CustomCharacter
+     * @param fontFace        the FontFace
+     * @param fontSize        the FontSize
+     * @param rowNumber       the row number
+     * @param charPosition    the position where the character will be inserted
+     */
+    void buildCharacter(CustomCharacter customCharacter,
+            FontFace fontFace,
+            FontSize fontSize,
+            int rowNumber,
+            int charPosition)
+    {
+        if(compositeRowStack.size() == 0)
+        {
+            buildRowComposite(0);
+        }
+        if(customCharacter.getChar() == &amp;#39;\n&amp;#39;)
+        {
+            buildRowComposite(rowNumber);
+        }
+        else
+        {
+            compositeRowStack.get(rowNumber)
+                    .addChild(customCharacter, fontFace, fontSize, charPosition);
+            setFonts(rowNumber, fontFace, fontSize, charPosition);
+        }
+    }
+
+    /**
+     * Sets new fonts to the CustomCharacter.
+     *
+     * @param rowNumber    the row number
+     * @param fontFace     the FontFace
+     * @param fontSize     the FontSize
+     * @param charPosition the position where the character will be inserted
+     */
+    void setFonts(int rowNumber, FontFace fontFace, FontSize fontSize, int charPosition)
+    {
+        RowComposite rowComposite = compositeRowStack.get(rowNumber);
+        rowComposite
+                .setFontFace(fontFace.getFontFaceType(), fontSize.getFontSizeType(), charPosition);
+    }
+
+    /**
+     * Creates a new row and adds it last in the stack.
+     */
+    void buildRowComposite(int rowNumber)
+    {
+        RowComposite rowComposite = new RowComposite(rowNumber);
+        compositeRowStack.push(rowComposite);
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6c4933c3550b3d558ead11163432c3ac/a3616/3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 86.49746192893402%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsSAAALEgHS3X78AAABzUlEQVQ4y4WT23abMBBF+f/f6Se0D23ahMSpUQKYq20wd2EkdCUdoyxC2lV7HrRA0h5pzhlZcd48ot3T1kW7+NQSpfXbrdAadin4sHZZ4freIU2LPMe4V3q6CY9MlHV3HqjlHnLHfSXDIDhnXCh17WSTOCrOdyh+SWsryAs32JVFKaWEY+V1eLrgYXZyg6DFZ8s/nLYIvSCUZRmQ1+ElBaWjEPICPyPkeV4cJ3Tk65rZOGKMKaX/wowxuKkFRdKRSaVgJJSqVQDM59DqUwgB+vALDJng3xRjxiXAEAhxkeJjHpQRUurZUQPLNWa+mkH8RPuv9863RzepyLI+abVstvKOb4Psd5jhURrSrJVN/+OX/bR5LuuGS20sVNNbVvfHChtprAcvgd4qWtJTsfYjb/CdbUdhUFUln68Ok5iK70608Q+EybnDjlmSJlVVMcbXcNZi23GSKKrrGlDTtoSJ1zCEzWqpWX6WxMCnGt/bG9+H5HnXD8sGkOqjZjAJdP9LZwih9EBHQsBBBv0wP4ZpHFlRwCPICSHvJ9/sJzNCSLBX8Gm28ALD0jT9F1vfCPQ+Vr0X7Y9lZ2atL3bxEOHF3itBuHL2nZM2TtqaJ/AHpjLYyguDByAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Builder&quot;
+        title=&quot;Builder&quot;
+        src=&quot;/static/6c4933c3550b3d558ead11163432c3ac/b9e4f/3.png&quot;
+        srcset=&quot;/static/6c4933c3550b3d558ead11163432c3ac/cf440/3.png 148w,
+/static/6c4933c3550b3d558ead11163432c3ac/d2d38/3.png 295w,
+/static/6c4933c3550b3d558ead11163432c3ac/b9e4f/3.png 590w,
+/static/6c4933c3550b3d558ead11163432c3ac/f9b6a/3.png 885w,
+/static/6c4933c3550b3d558ead11163432c3ac/a3616/3.png 985w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;4. Abstract Factory&lt;/h2&gt;
+&lt;p&gt;Have class hierarchies to instantiate the logical hierarchies. Abstract factory uses the factory-classes to instantiate objects, without the clients having to modify code. In the following example, the FontFaceFactory and FontSizeFactory classes extend from the FontAbstractFactory class which implements the Abstract Factory pattern:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public abstract class FontAbstractFactory
+{
+    abstract FontFace createFontFace();
+    abstract FontSize createFontSize();
+}
+public class FontFaceFactory extends FontAbstractFactory
+{
+    @Override FontFace createFontFace()
+    {
+        return new FontFace(FontFace.FontFaceType.SERIF);
+    }
+
+    @Override FontSize createFontSize()
+    {
+        return null;
+    }
+}
+public class FontSizeFactory extends FontAbstractFactory
+{
+    @Override FontFace createFontFace()
+    {
+        return null;
+    }
+
+    @Override FontSize createFontSize()
+    {
+        return new FontSize(FontSize.FontSizeType.NORMAL);
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;5. Factory Method&lt;/h2&gt;
+&lt;p&gt;The factory pattern is a &lt;em&gt;creational pattern&lt;/em&gt;. It can be implemented by having abstract methods within the class that are meant to create objects. This is an object-based pattern whereas, the abstract factory, was a class-based pattern since it required new classes to be defined. The Component class contains the createComponentObject method which implements the Factory method pattern.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;abstract class Component implements VisitorAccepter
+{
+    abstract Component createComponentObject();
+
+    public void addChild(Component rowComponent)
+    {
+    }
+
+    public void removeChild(int index)
+    {
+    }
+
+    public Component getChild(int index)
+    {
+        return null;
+    }
+
+    public int childrenNumber()
+    {
+        return 0;
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;6. Prototype&lt;/h2&gt;
+&lt;p&gt;This pattern is a creational pattern and it allows shallow or deep copy of an object. The implementation of this pattern is very straightforward and it can be achieved by either overriding object’s clone method or by creating a new function (e.g., cloneMe).&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import java.util.ArrayList;
+
+/**
+ * Represents a Row. Saves the extrinsic state of the CustomCharacter (FontFace and FontSize).
+ */
+class RowComposite extends Composite
+{
+    /**
+     * Implements the Prototype Pattern; uses Deep cloning.
+     */
+    RowComposite cloneMe()
+    {
+
+        ArrayList&amp;lt;FontFace.FontFaceType&amp;gt; fontFaceListCopy = new ArrayList&amp;lt;&amp;gt;();
+        ArrayList&amp;lt;FontSize.FontSizeType&amp;gt; fontSizeListCopy = new ArrayList&amp;lt;&amp;gt;();
+        for(int i = 0; i &amp;lt; fontFaceList.size(); i++)
+        {
+            fontFaceListCopy.add(fontFaceList.get(i));
+            fontSizeListCopy.add(fontSizeList.get(i));
+        }
+        ArrayList&amp;lt;Component&amp;gt; childrenArrayListCopied = new ArrayList&amp;lt;&amp;gt;();
+        for(int i = 0; i &amp;lt; childrenArrayList.size(); i++)
+        {
+            childrenArrayListCopied.add(i, childrenArrayList.get(i));
+        }
+        return new RowComposite(rowNumber, childrenArrayListCopied, fontFaceListCopy,
+                                fontSizeListCopy);
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;7. Composite&lt;/h2&gt;
+&lt;p&gt;The composite pattern allows the implementation of logical-tree hierarchies. In this case, each row has a set of CustomCharacters, as it can be seen below:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/da1ca01eab0bc6688d62d97bd793d88d/42085/7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.012772751463544%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABh0lEQVQozz1Qa3ObMBDk//+kTj8k02nTcRs/4jTENsaCDoiHAQkJJHQSymGn3Tk9dm7vtLqgI9k1SlXVeO/d7AEsxuwXzJ8UFipl+utt/bh6/fass2IRuzl4etruNodyGyKlTG2jfHPK+DBhumBqF+XbKOsU+I7t94fd+UxoBTm13sdFH7RRDLSAqkb1OEEvNZPKAGa9moBLxeU4zX7u2NvqOTm+9xm1fzP0IgYd4HE3+Q/zf3xav1/AikvKo7O8JE7KuzQA56xzuIN1cIPW0z2MMUinyWBoY9ytYNC6KMtxVEuxE8IKAZyDkA6HgMtafE2rsWmubdsao601FiatFGfMaO3AoGopPm2Ou5/7cHOg69BbC87HlL2TIkzKQQOab8f5TLszZXzQzbUumI4Ldil4O0LwEl3SuuZuFmmGxVyb9ZGEUZJWDAeG7feEvoQnktXYC+mfBGlEsqoROjh++Zo+PObff4jVb3/7PO/7QQj88HzzFmc5IaQsKxwCji7OKSFJUVZiUB9K3vuUBhnIlAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Composite&quot;
+        title=&quot;Composite&quot;
+        src=&quot;/static/da1ca01eab0bc6688d62d97bd793d88d/b9e4f/7.png&quot;
+        srcset=&quot;/static/da1ca01eab0bc6688d62d97bd793d88d/cf440/7.png 148w,
+/static/da1ca01eab0bc6688d62d97bd793d88d/d2d38/7.png 295w,
+/static/da1ca01eab0bc6688d62d97bd793d88d/b9e4f/7.png 590w,
+/static/da1ca01eab0bc6688d62d97bd793d88d/f9b6a/7.png 885w,
+/static/da1ca01eab0bc6688d62d97bd793d88d/2d849/7.png 1180w,
+/static/da1ca01eab0bc6688d62d97bd793d88d/42085/7.png 1879w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;8. Decorator&lt;/h2&gt;
+&lt;p&gt;This pattern allows decoration of the objects’ properties. For instance, creating an activity with and without a border.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b43cade9ba297118122da9f3b81f6239/e1419/8.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 89.19577579203899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAAsSAAALEgHS3X78AAAByElEQVQ4y2NwDV0TkLDJOWypd/Q6O//Vlt4rAhM3JORuy63a4xa+2iFwtVfMSseQpW5ha41dl5h7LPWNWRObvSWzbKdzyEoG+6B1Fr4rNe2X6zgu07Bf7hK2wj92aXLhVreI1bpOi1wjt7lHbzPz2WTht8nUZ7N33OaE/E05NYcCU7Zb+K5hmDRjy8r1ZxatPL5k1YnFK4Ho+KKVx4DsZWtOzZy/d+mak/uPPty+7/aO/Xd37L+zY98dIHsniA3iMty7d/v//////v37jwQg3Ldv39y7e+Pvn+/fv3388f0TBP388RnOZrh+/QZQ3e/ff/78+QtHQC5Q8NWr19euX//0+dObt2/fvnuHiRhu3bqF2+a3169f//Lly7t3795jA6OaR4jma9euAdX9+vXrNyoACr58+fLKlSsfPnx4DQNv3ryBk0DAcP/+fVw2Ay18/PgxkPHz509g6oUYCmRAbAIyGGJjY/Pz84uKinJycgoLC4GMrKys0tJSIDs1NbW8oLizrrm3ub21ur6zHsRoqaqb0NbV1dDSWlPPIAsG+vr60tLSmmAgLi5uaGiopqYGFIHIArlSUlKqqqp6enoSEhImJiZANlAEAD+1afZtP+KiAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Decorator&quot;
+        title=&quot;Decorator&quot;
+        src=&quot;/static/b43cade9ba297118122da9f3b81f6239/b9e4f/8.png&quot;
+        srcset=&quot;/static/b43cade9ba297118122da9f3b81f6239/cf440/8.png 148w,
+/static/b43cade9ba297118122da9f3b81f6239/d2d38/8.png 295w,
+/static/b43cade9ba297118122da9f3b81f6239/b9e4f/8.png 590w,
+/static/b43cade9ba297118122da9f3b81f6239/f9b6a/8.png 885w,
+/static/b43cade9ba297118122da9f3b81f6239/2d849/8.png 1180w,
+/static/b43cade9ba297118122da9f3b81f6239/e1419/8.png 1231w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;9. Flyweight&lt;/h2&gt;
+&lt;p&gt;This is one of my favorite design patterns. &lt;a href=&quot;https://softwareengineering.stackexchange.com/questions/108630/does-anyone-have-a-specific-example-of-using-the-flyweight-pattern/347054#347054&quot;&gt;As I mention in this answer in Software Engineering&lt;/a&gt;, the purpose on using the flyweight pattern is to avoid unnecessary object initialization and thus save space. As defined by GOF, an object can have two states, the intrinsic and the extrinsic state:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Intrinsic state&lt;/strong&gt;: Is stored in the flyweight; it consists of information that’s independent on the flyweights context, thereby making it shareable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extrinsic state&lt;/strong&gt;: depends on and varies with the flyweight’s context and therefore cant be share. Client objects are responsible for passing extrinsic state to the flyweight when it needs it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The CustomCharacter object gets instantiated using the Flyweight pattern. The CustomCharacter intrinsic state (char) is stored in the CustomCharacter and the existrinstic state (FontFace and Fontsize) is stored on the RowComposite. The FlyweightFactory contains the pool of the available characters that the user can insert.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ba31e67baa522418749a3a3bb0c2e488/e9603/9.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.44412607449857%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABLklEQVQoz3VRi26FIAz1//9wmpgYp6AIeLcpCAV3gMUYs1sb6Ou02FOdWWKWy4CEEBnjI+MhZ3LyKdVlee/X9YtCSC3O0x5umoUnH+IJ3XYzCxFytsz4Axtj5mkahqFpmnmeOefbtqFOKUVEpdo5B7eAgSzxBHbWLAKfkkorpfkkvred0sB4f+3dKV0q3JF8eWrRXJfDFCmknz/fSOVewi6fZH7goNRTgMJIsNwCJ73BV05ryxmZPQ9PczylFs5DI84yHIu8GLltO3WmfxuXeZQXfP3Rk6qX1qvW2DBsrbEzKZYFy5NS4cb+xCIXKXEhdxyHtRYEgdoEZoy1bQuGYIOqcRxBW13XXdchCBdBloN8mgDe9x2TQF4Ci2P92Pojpp2HrBRDU9d93z8YesgvwqKBjphNNQMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Decorator&quot;
+        title=&quot;Decorator&quot;
+        src=&quot;/static/ba31e67baa522418749a3a3bb0c2e488/b9e4f/9.png&quot;
+        srcset=&quot;/static/ba31e67baa522418749a3a3bb0c2e488/cf440/9.png 148w,
+/static/ba31e67baa522418749a3a3bb0c2e488/d2d38/9.png 295w,
+/static/ba31e67baa522418749a3a3bb0c2e488/b9e4f/9.png 590w,
+/static/ba31e67baa522418749a3a3bb0c2e488/f9b6a/9.png 885w,
+/static/ba31e67baa522418749a3a3bb0c2e488/2d849/9.png 1180w,
+/static/ba31e67baa522418749a3a3bb0c2e488/e9603/9.png 1396w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;10. Adapter&lt;/h2&gt;
+&lt;p&gt;The CommandAdapter class implements the GOFList interface and it composes the Java ArrayList class.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 530px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3ba09a459d552f76c53bb7ba546f2eb4/3e6fd/10.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 128.67924528301887%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAIAAAA44esqAAAACXBIWXMAAAsSAAALEgHS3X78AAACYklEQVQ4y5VUi26bMBTl/39omrRq07T1saRNU5ZAEiCQhlcznsHvR2ZwmrCObu0Rsizs43vvucc2Dh2kbMe8YVM3Gc/dBzeChB/+B6NPDgs0dp4e3GQW5DWk7f+3kdttbpzdmNO16xZlRdibI2sATJ7yIi+qrKjoe8kKtAOjVOfyDrIUglCKMSaEvJuswBjTwd9Epj2omJQQPSfPk7YKxobJ8hmaoPZxzrX+GlqIwUTOab9Wp1BCvLJk9KodPl7JhxA8ZTFAxkzu8jKv9oSJv/mvnWtoby5i8NXcXNy51rY4rXF5WMXN3WJ7OV3emM5kFQEi+p419JGmH5r2YhtGdYNOMRiXi7BcPGbLbWZvdvPgVw3J6SKcyU6Y2I4XbLZ1A8+e6VqAEFJda31DCOdi+FYpVVWfXgij5orTlsD5v9SWUgyaQfdpmNwZiKZp4vuBs3L8tQ8h6kfGSKkgtXlOOEfGCAMA1CKEUC300x70VkeWR7Lg7W1Qgyr75Q1lDEHUNI2yfd9z+jyDcBlk0PJjO0hmXlQh9qdaGIKmqsoGgLZ+fhi5uw/fJl+m6wpzo8Z8ZEWff/xU3495EBfHgpmQiIoaIMwFfzYGZmLsZpemd22HBaDGHrGrien7a9dbl2WFlD+7pJ5qer1IL0bWp5F176VH5Zm8dbyiKFS/1SNnNIh9n9mus/Q8ryyKltwppF7PON+n+T7J6iTfa9kU+WIytS0LE9qS1aar+9latWizbQAE+EjWvdUQgp8ij5fearVM011LplyEj3EURukuy1XamAw+GrpfiPCPt5OH+WzpbQAivwH+duesz83uoQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Adapter&quot;
+        title=&quot;Adapter&quot;
+        src=&quot;/static/3ba09a459d552f76c53bb7ba546f2eb4/3e6fd/10.png&quot;
+        srcset=&quot;/static/3ba09a459d552f76c53bb7ba546f2eb4/cf440/10.png 148w,
+/static/3ba09a459d552f76c53bb7ba546f2eb4/d2d38/10.png 295w,
+/static/3ba09a459d552f76c53bb7ba546f2eb4/3e6fd/10.png 530w&quot;
+        sizes=&quot;(max-width: 530px) 100vw, 530px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;11. Facade&lt;/h2&gt;
+&lt;p&gt;Very straightforward and useful pattern. Simply encapsulate the behavior and have a service work as a gateway between the client and the system.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 520px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1b13a61d01c3567380ebc01133c20011/249e6/11.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 126.53846153846153%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAIAAAC+dZmEAAAACXBIWXMAAAsSAAALEgHS3X78AAACPklEQVQ4y42Ta5OaMBSG+f9/p186/dJpuzu7nW5bhVEgCUhUvCNqICQQQg8ijvX+TmAYTp5zS45RVZXWVczVRlTjFQtXO1ij5XYNf3hR3ZUBj9KVSeMPFL6Y3ucffz59/fnSJd5K+Iu0BMd3YV1W1ZiMpkM6GtEoipQqQGATeVGWD+AKYOJQ27T8gO5Y0hQCEJdPwKAOoQ7C48lclVVRalhK61Q8B7852Hbt6WSaS1mWpVJKl2X2TGSw/+0gy+wg17X7fYSx47gYoXjD9KNu1w21TTwO6Gw2C0GTyW7HoGdcyMfdBnv3o9/rdG3bQQiWGwyCIs9loZ5Ku4cCgpyBP/A9j2Cc7HsunqzZ/G33rZ5LfOL543C2ZZylHN4P064lhWQJYwkoFUJkIktS+JCqFbSgeZ/K0K3yvZq/spaA1SjLMs65vJCRt5L7vTWvCvCRXwhcwBXQJzKyVo1v2AQ7rlYIrrX+z2Scempy1jeaBCWfmYzjFxjqW3lBJlINY4lnyZtF3i1sepMgEkzUY2eo9iQb+BRrDFteOOHGHUf9YI7DiC4SGmWbVNYwy/L78IbLb90u9QnBhNJAZBxKg1GvYRidI3zWqgOcylfL9gmaTKfz+Xy5XMSbrcjrMIY4gc8iV4e05bttb+P1sRlwXofI/DZ8TPvLrw+M3HUcNw1XqjzAcCdupd1Gzl/Nvu9hmHDfH9SnvZ+ZK0d1rWbx3bQoHfoDOgqnMDCMZ1zkD+CjC5amy1UkZM7rqwixZTOq/wDriKlYWY5ZRQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Facade&quot;
+        title=&quot;Facade&quot;
+        src=&quot;/static/1b13a61d01c3567380ebc01133c20011/249e6/11.png&quot;
+        srcset=&quot;/static/1b13a61d01c3567380ebc01133c20011/cf440/11.png 148w,
+/static/1b13a61d01c3567380ebc01133c20011/d2d38/11.png 295w,
+/static/1b13a61d01c3567380ebc01133c20011/249e6/11.png 520w&quot;
+        sizes=&quot;(max-width: 520px) 100vw, 520px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;12. Proxy&lt;/h2&gt;
+&lt;p&gt;The ColumnCOWProxy implements the Copy-on-write proxy for the Column class. Whenever a client changes the number of column, then a new Column object is created and returned, while the original object remains the same.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 184px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/96e34a6fbb5cd707e25b26ba3a788d4c/d213f/12.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 214.1304347826087%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAArCAIAAAD3xz8iAAAACXBIWXMAAAsSAAALEgHS3X78AAADJUlEQVRIx+2W+2/TOhTH99/zwxXi/nQRCAmYmJAADUZ5jdHBWvZsQ5eq6VrSx9Ikbt4vJ3ESxw5uy2i328GAH66uxFcnzvFJPzrHju10pbgoWhRk2l5mc62wCxPqozxAOUxIjGlCi7QoUlowJ86L7MxnLXsaJDmldA57MT48DWt952Nbe33QKe1wT983Xu23nu98Wt+u33/2brVUebnbLFX5Sks5lmGUZLMKJ7ATZe/a1sah9OSj+GCzfvPhi+t3n99+Wr71aGv15e6N1dLt9Q+rpepfdx6vveX2+16E0glMp7AfY0GBp1bc06ORi1VIAKSKR2SfyC4GsFD8XPZzxSeSkwojN17MHKW5EaQexGleQJQ5fuRHKQuGCQ5RFkTpxEkwRBhhMnaiCC3A7FZtKtc3Xp+Iwtabt8d8u9NucVyD42qiOLAdO57+mpDJPNkBOgdjWnRG7lq1OlQHigLGQLNshtiGYYRhGASQTKd3NskOPA/ntNiqDa6tP+Pb3IfK3tH+wWG9znP1nZ1Kv9eTZDViiuMwipMEAdMLF+EU5+LIrJ4IXVkBpj/SbFlz+rJ+qprMGSqGBKxFwzifv+eLS2xaHoonKr6rlTOgIJTMMEoIxhghtBSm9F/wOeWZ7TpsJaArZl5S9iWZ/8B/4N+Fi/+ybJzh+BdhQqZ7+WdgViydtdMdO+OLCx8berUx+55rGtq37g9OEtFI+lbK2s446upxS3KaQ2voYBZkNrDTjo7cMF08TL7C7EiuSQGvhns9t8yrb+rDu49f/X1v4+bak2v/rG23FEFPDgaeYsElMOvvfnYOBn6172829bJgVU70LR6Um2q5CXZ7Xk0Kt9vWyAgWBzIfs2THR4IMxEG32xU/CzwviF3hU4PvdEWutndUbyhA88JkSWYWGLjZcbUBNrdV22efjREwDduRgS4Bg3VVzdTd0PLj5WMejl3ThZoXGU5gOJCZZgWGC5npDrQ8OAT22PKXl215ITDcsTkxzfJkzZLHJnPOghMnQkmx8Ndi5bJ3mOOJrr7C5mLdLMuSNL0Q//EKm4mlTafwT+7n/znM5uz78BfRvLIxmKwWagAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Proxy&quot;
+        title=&quot;Proxy&quot;
+        src=&quot;/static/96e34a6fbb5cd707e25b26ba3a788d4c/d213f/12.png&quot;
+        srcset=&quot;/static/96e34a6fbb5cd707e25b26ba3a788d4c/cf440/12.png 148w,
+/static/96e34a6fbb5cd707e25b26ba3a788d4c/d213f/12.png 184w&quot;
+        sizes=&quot;(max-width: 184px) 100vw, 184px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;13. Iterator&lt;/h2&gt;
+&lt;p&gt;Super useful pattern, as it is implemented in all the common data structures used (e.g., java.util.List); the iterators allows traversing a logical hierarchy of a class. The CharacterIterator implements the Iterator pattern and iterates through the leafs (CustomCharacters) of the composite pattern.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 508px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f27a7bc43c2d7ece9589ea4cfb269471/6b519/13.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 112.5984251968504%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAAsSAAALEgHS3X78AAACq0lEQVQ4y42UC2+bMBCA+f+/ZlKrTXuoj7XS2iVtKEkTEhLCy0DC24BtDCa7QB+Z1q45WSfr7j7fcfYh7f6RttMZrY2IrQMy1v3b8fJONZSVa8UMFq2aPlJ6Dw7yar6hU7e4mTpXD8trRf850lS/AEtWVn3YW3BHh5jeaWvf37j+JogSQveAaHeMN7Sq38/c0Zu0PFMePBfp+spY65ZlJUnS1CANOwa+GE885CDXjeM4iuMgCDHGFa8Z/xgm52PF89y8KA69dSOOyUwux+Ot77/AfS+OgrcZ+T6SHduyHQTVCiF6+1FwgOm5MrZty7RswzRsx+acP8EffrMbF58Hv03TWGhLwzSDMGSMNU1DWUUY/w+815gwzUGW7dnIR94mSnEYp93KWMX7HH/B9YEIsX+DTbOvEAqGUPhs2EBy8PJOpMNqq6oCn3iW7oh9n2ADLtAMknL+grzCAo48cLwpENLX8gSzumW8JVyUrI7SHDTlAoxV076e2+7ASKoGlyzOim4vGrGTpj6RUXn2YH66GJ5eyydX8o/hXEF07hfPvYPxbH6t4m+DOXhPrkan16PLCYoKLqnr7WyynCxNdWmpuu1sk5TwpKxDzKBHfWbStNOZtdJNebrQTBSkOcxcQStpqFn3s0fTMMM4JoSWMHsVhzpJte9WD1OxmykaMk0Yz20QBWEEXlpx6WZhyEs12Gwdx4ZlQoSLSFnSQ5i3X++VtbnGWQ4JoP+8EZRx6W7lyAvVc/00y4qyyPM8yzA8JsJeYXhRl4+qvl4hhDKM920XLdyadKtZo8UsjqL+VbwI5a8wYeLLUJ6oU38TFiWBlWRFQZg0WBiD6QQhL0mzNMsznKcZTnEO7vap2XC9bYxzYMquKSVhRUnhlyLBrYMdGBg02MC7B911rd59JH8A+mUkVqY4AvgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Iterator&quot;
+        title=&quot;Iterator&quot;
+        src=&quot;/static/f27a7bc43c2d7ece9589ea4cfb269471/6b519/13.png&quot;
+        srcset=&quot;/static/f27a7bc43c2d7ece9589ea4cfb269471/cf440/13.png 148w,
+/static/f27a7bc43c2d7ece9589ea4cfb269471/d2d38/13.png 295w,
+/static/f27a7bc43c2d7ece9589ea4cfb269471/6b519/13.png 508w&quot;
+        sizes=&quot;(max-width: 508px) 100vw, 508px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;14. Visitor&lt;/h2&gt;
+&lt;p&gt;The visitor’s purpose is to implement a specific functionality (e.g., compute the total sum of a tree). The Component impements the VisitorAccepter interface and the whenever a CustomCharacter is visited, then a counter is increases in the CharacterVisitor object which implements the Visitor pattern. This allows the count of the characters within the view.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3675b314fe77d2e2191c6f83e7a81b51/77df2/14.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.3551912568306%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABMklEQVQoz1VRCW6DMBDM/79WqWrT0OaAcOTAUIKD8X3RNaRWMrKs9a5nPeNd+RnTNFnvi3ZMjteqo8aFjLaOCymUhpKbMb1iFcnS2E2aobomlEHiNoiPn3xfon3VdIQD3VoL90ZhesKFti9kYUySZYIxY0Ohbvv1+gu1v2Sk4XFIekeEXqfnQ9XcqApkBz0XsjbJISvLinIQ4ZQxI2VSKoid8zPZD1wcjjlCiAn5eDnIh92HG7M5G+VAYbFnZyzxf2laQeOqJdu8vvYMzoSp7+Pl1N4hVtb3hMnZXiQXzfC+qwjXgcyV/tymRXnuMIHzCXX7rMAkNEqyy9smxVQ+k0+/+NzcuTIP8i4vOKOc8/BPN4yaVmkzq2DDQDC+L3OKsl9GJbUG8bCimRgAlvE+e474A2RlCDTCNM0lAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Visitor&quot;
+        title=&quot;Visitor&quot;
+        src=&quot;/static/3675b314fe77d2e2191c6f83e7a81b51/b9e4f/14.png&quot;
+        srcset=&quot;/static/3675b314fe77d2e2191c6f83e7a81b51/cf440/14.png 148w,
+/static/3675b314fe77d2e2191c6f83e7a81b51/d2d38/14.png 295w,
+/static/3675b314fe77d2e2191c6f83e7a81b51/b9e4f/14.png 590w,
+/static/3675b314fe77d2e2191c6f83e7a81b51/f9b6a/14.png 885w,
+/static/3675b314fe77d2e2191c6f83e7a81b51/77df2/14.png 1098w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;15. &amp;#x26; 16. Command &amp;#x26; Memento&lt;/h2&gt;
+&lt;p&gt;The command pattern translates the user’s actions into programmable actions. The InsertCharacterCommand, DeleteCharacterCommand and UpdateCharacterCommand implement the Command interface. undo/redo is supported through these commands by storing increasing/decreasing the pointer in the command stack.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/61def30b3574219eeaf927a51f912087/58aad/15.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 88.7218045112782%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAAsSAAALEgHS3X78AAABi0lEQVQ4y5VT226rMBD0///X6cORIrVNSEPgpNAQIOYSwtW3NWexU1opUkvmaT147NlZQ0aDlkPe8LweaNUVNdN6IhVooRTjYmBMSIVML2AfFRv/6Bxi75iRnktkg7j8s3Je94F/yt6TUgKAHp3389Ozu/mXOME5pFfc1nT8Ze15QZQWdVEPZDDiKIy3m3XXtuOopVTKit/83d6PzxktyvLaTjf33Nu6SRIbX0BwN1ZpfokSmmZFQvO8vE7ScRyEQLtdP3Tom4upu555hzA8nuKU0vxClAEYaA02Am1wq+FGzsBPYEhi17jgnMtP2BPnGu5gjybzYVwIaSJdCJR8iaUU9w5/EdvOGqa2Ad19UKEmQi8VG/dp1f7duMGJcgkPiG2FkyirqmlaO6SHe8ZUMbMHezbA9IUQOC39iSV6YufJGJvHaxlYkDz5/mJmCI5/kVokxqdVtx18swqgFt2MEjcqV+4xr5ml4suwPqTP+4/wfP1FjKNZ7XzH9ZruJi7r/pRVcXbJq/bn4P4D1igdMvRBHlkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Command&quot;
+        title=&quot;Command&quot;
+        src=&quot;/static/61def30b3574219eeaf927a51f912087/b9e4f/15.png&quot;
+        srcset=&quot;/static/61def30b3574219eeaf927a51f912087/cf440/15.png 148w,
+/static/61def30b3574219eeaf927a51f912087/d2d38/15.png 295w,
+/static/61def30b3574219eeaf927a51f912087/b9e4f/15.png 590w,
+/static/61def30b3574219eeaf927a51f912087/58aad/15.png 798w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The Memento pattern simply stores the state of the object in order to allow undo/redo operations. The Memento class gets and sets the state of the Composite and thus implements the Memento pattern.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 550px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5cba6924a315ff2131d6010807757e1b/2cf63/16.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 105.45454545454544%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAACXBIWXMAAAsSAAALEgHS3X78AAABiElEQVQ4y5WUa0+DMBSG9/9/jokfph9MFhNdtikm07CRzd0Hg0GhBXoFD7ALRMTxpiFA+/Rcek47aVVSCKWkkjJJkvQ/dcofhMqd7a1NZ2MdSczbwYYVPWnL7uvnw9DQd36aJi3gpY3Wpu2igAoZUi6VugkuIuxPZy8f2kSfrrdbFBCl2ljmQmAShlEMz5iydjFnPGNCCCnBZdUOBoBSyjjjnLeGIXDGwPdMN8HqrCQXy92+8OXZGviyFFwFkueCpaKq2kCubsM05KnI1m8jMlcT3BBeE1zkOfmjG2BfOP0mt8HjBsvQZ6rWshfJ8crtDceDr8XGjSpMksZcxVz6OPJJBC9UXIs2g62AafPjUF+NjN38gItmKgLAVPUN53Ggd/vju977/bP2tvCYkFd47+GBPrHNfeD7lJ/Ko9g+YuLgEQcRxw9h2IiYLoE6usIHhEeT6Wz+vdlbKAjLbSykwmGEMPYD4uNsBCS8ZO7cknlKk3NvptWize+mUwnW93PDOReHXNRp+f8PwWXRItjsQeIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Memento&quot;
+        title=&quot;Memento&quot;
+        src=&quot;/static/5cba6924a315ff2131d6010807757e1b/2cf63/16.png&quot;
+        srcset=&quot;/static/5cba6924a315ff2131d6010807757e1b/cf440/16.png 148w,
+/static/5cba6924a315ff2131d6010807757e1b/d2d38/16.png 295w,
+/static/5cba6924a315ff2131d6010807757e1b/2cf63/16.png 550w&quot;
+        sizes=&quot;(max-width: 550px) 100vw, 550px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;17. Observer&lt;/h2&gt;
+&lt;p&gt;The Observer is used as an event scheduler that gets triggered whenever an event (e.g., click) occurs. The EditorObserver in collaboration with EditorSubject and EditorLogic implement the Observer pattern.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ceef3f7012a8a69ab84dd00a43d8ce8c/f1147/17.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 79.2332268370607%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAAsSAAALEgHS3X78AAABSklEQVQoz5WRbWvCMBSF/f//ZB/3zQ+bA0EELeLL3BRxm31TWtvY1CRNb25crOjUTrGHEsKhz73hnNruTEqp03lLqDUcf6g9AuviJFyNnKTZmzQ6o/Z44cTiMbigCZMTN7RXsbemPtkGCX8Q3tM+SV8ta+W6QnDjiUxW2LymrD+bO67/bbv+KiBJWqsamHmFUngIojKMCgHgn7SNWwzeC25IZlKdV2UAQuJ1FAVBQClF/Jt9XxebsRCAkjIv91y+X8Aa8cjn1TabkVwiz5XIkUmQSh/qBdQJB8pkUnwsU1qXYMBd94s8NwdP9Va9Mx27Cep9JRuuWu9ew/p8601euh+DRSShVJXZMPgJhzNnPPemTmiHKRR9xlS0raHtLgllXJonZFleqgpRTx3PWy6jeMOF2DJuHOPLHIwVmT7IJt2yk38d2H2ZIK+cX8z9pyMPIFi0AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Observer&quot;
+        title=&quot;Observer&quot;
+        src=&quot;/static/ceef3f7012a8a69ab84dd00a43d8ce8c/b9e4f/17.png&quot;
+        srcset=&quot;/static/ceef3f7012a8a69ab84dd00a43d8ce8c/cf440/17.png 148w,
+/static/ceef3f7012a8a69ab84dd00a43d8ce8c/d2d38/17.png 295w,
+/static/ceef3f7012a8a69ab84dd00a43d8ce8c/b9e4f/17.png 590w,
+/static/ceef3f7012a8a69ab84dd00a43d8ce8c/f1147/17.png 626w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;18. State&lt;/h2&gt;
+&lt;p&gt;This pattern helps The FontSize and FontFace classes and the FontListener interface implement the State pattern.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d5b2edcc5710f3e01673bee8768a083b/30398/18.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67.46835443037973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABvUlEQVQoz3VSiXLTMBD1//8UDAzTAWJSkrZ24xDHiY/E9SVZ92VWzpCSUtaasZ5Wb7Vvd4Npmtz0X+PardP6+9P+6dBcrwkhKKXGmCCt6XJTwOqJAAdiepXWy81xW/YAmdSLdfTwGJ2aAaCx7rlEi/jwq/IwwFR0iLQDEVIDltp0mAFEhAEkQt39XGVpikcKL1vnBsLhPiLcuSnwabu/E3fzib0Arc3pVDdtRyj/V1SgtFZKiT8Gez0b/NVsxnjIKG3bDjY3ZGutg8+CHKuUxAhhPHLGgTKzlJQSgkIkcJk35MkrmUYmEQUxIxoJY4xLzZXrMKFCDcOQ5wWTBu4QoY29JSOuv0aHb+vtMilq5LWdsVzuzmGcpTWBgkhjo3wIowzaNgpz7a4nEy6f91mRlxhDdX1ix5dusXpId2nbY4BU6h/xJtkk1flFaXvz8lxev0A+ZWwcCWG8R9hvCIP2GGsxpQihsqwIoW/Jr41yjnMGFX49sfY6hFA+xt4jX/wDN1/W+49hnLfEw57GuypJKzb6Whwb8iGM7x73TJl3yDCe93Eab7PLtBbn4dN98jmMht7HOtZoBcEaLGflvwHla+oOiiKxQAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;State&quot;
+        title=&quot;State&quot;
+        src=&quot;/static/d5b2edcc5710f3e01673bee8768a083b/b9e4f/18.png&quot;
+        srcset=&quot;/static/d5b2edcc5710f3e01673bee8768a083b/cf440/18.png 148w,
+/static/d5b2edcc5710f3e01673bee8768a083b/d2d38/18.png 295w,
+/static/d5b2edcc5710f3e01673bee8768a083b/b9e4f/18.png 590w,
+/static/d5b2edcc5710f3e01673bee8768a083b/30398/18.png 790w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Final Thoughts&lt;/h3&gt;
+&lt;p&gt;Design patterns are used in any major framework. Without concise and reusable structure, projects cannot be scaled. Design patterns cannot be invented and forced. We, the developers, have to learn them and apply them, whenever suitable. Lexi offers a &lt;em&gt;robust&lt;/em&gt; example of how the design patterns can be used to build a modern application.
+It is my hope that I explained the complex concepts of the design patterns in a clear way.&lt;/p&gt;
+&lt;h2&gt;The complete UML Diagram&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3ac33f742ff6b355ad7ceceddff549b2/67eb0/uml_all.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 93.00528670191134%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAACXBIWXMAAAsSAAALEgHS3X78AAAB5klEQVQ4y41UCXKjMBDk/x/Mbmo3jmNwMEbovg+2JeIcXruSKUoWmuk5uoW79WKlrdL4RZiZKePC++E962pEKSGmLS7ncng9S+3WH1gFOx+HaUEK7GNMD78ehRA/AgOTUooxlJI36/uBVzA8OcZorc0pwXkDjOgUUwjBh6CNVca0QVbKtTQOXus80jgftta+gLXzVJqFyUWo3eF4OlOcplz+7A/INZzm537U1u+HE+i4BqPnXAraa0UcWsBpSHleqMG793DV0bCu5TMesG4iDGy9qdVcXJm/L4Nxvn+dsCdMLFxDvIlQKhSX+jgtQtvDMHYxJczzuRkMqZRCTcql9UHWfcCjlLa1l6A0MgchZPc/h5fb4n4/vdiWd+sI+5jytc4fsBaU2w+Vave8y02hjWfCpLH+Lnh9u2QVgHEo4zlldCi13XJfqfUB9jGNhOdLhLIeJGED/R6f9jEXCpZCIlzfAKecjXOlyha2ysbWgoxxxhi8UmmsYOwGGDWRG5uZK0jBUDokphw01y5C0fPC8akxqcdF3ADb9hlCB9u0AbdYvMfNjZQLUFCakDNldwnbDMWFshAMBVEN1wPF9bdsb3bGddcG0aD6NNe7hRNC+TfgTQ78n5BGgVDmOBEQQZjqxxnDvEf+A2P5WIo3lPGSAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;UML&quot;
+        title=&quot;UML&quot;
+        src=&quot;/static/3ac33f742ff6b355ad7ceceddff549b2/b9e4f/uml_all.png&quot;
+        srcset=&quot;/static/3ac33f742ff6b355ad7ceceddff549b2/cf440/uml_all.png 148w,
+/static/3ac33f742ff6b355ad7ceceddff549b2/d2d38/uml_all.png 295w,
+/static/3ac33f742ff6b355ad7ceceddff549b2/b9e4f/uml_all.png 590w,
+/static/3ac33f742ff6b355ad7ceceddff549b2/f9b6a/uml_all.png 885w,
+/static/3ac33f742ff6b355ad7ceceddff549b2/2d849/uml_all.png 1180w,
+/static/3ac33f742ff6b355ad7ceceddff549b2/67eb0/uml_all.png 2459w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Lexi can be found at &lt;a href=&quot;https://github.com/mkotsollaris/Lexi&quot;&gt;Github&lt;/a&gt;, &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.mkotsollaris.lexi&quot;&gt;Google Play&lt;/a&gt; and YouTube (&lt;a href=&quot;https://www.youtube.com/watch?v=FC_HQ-qM-mo&quot;&gt;full&lt;/a&gt; &amp;#x26; &lt;a href=&quot;https://www.youtube.com/watch?v=fplVgI2RVQg&amp;#x26;t=1s&quot;&gt;short version&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Thanks for reading! 🙏&lt;/p&gt;
+&lt;h2&gt;Acknowledgements&lt;/h2&gt;
+&lt;p&gt;I would like to sincerely thank &lt;a href=&quot;https://www.cs.unb.ca/~wdu/&quot;&gt;Dr. Weichang Du&lt;/a&gt; for helping me learn the design patterns.&lt;/p&gt;</content:encoded></item></channel></rss>
