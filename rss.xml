@@ -1,4 +1,169 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[Menelaos Kotsollaris' personal website and blog]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 17 Nov 2019 22:29:00 GMT</lastBuildDate><item><title><![CDATA[Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬ + Forks ⑂ + Community Love ❤]]></title><description><![CDATA[A few days ago I presented this topic in DevWeekATX and there were several individuals who requested me to write a blog; this is it! 🚀 Any…]]></description><link>https://menelaos.dev/devweek-atx/</link><guid isPermaLink="false">https://menelaos.dev/devweek-atx/</guid><pubDate>Mon, 11 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;A few days ago I presented this topic in &lt;a href=&quot;https://twitter.com/devweekatx&quot;&gt;DevWeekATX&lt;/a&gt; and there were several individuals who requested me to write a blog; this is it! 🚀&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[Menelaos Kotsollaris' personal website and blog]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Dec 2019 21:37:55 GMT</lastBuildDate><item><title><![CDATA[Micro Frontends for Rapid SaaS Delivery]]></title><description><![CDATA[Note: This article is still work in progress.
+My presentation on DeveloperWeek 2020 in San Francisco will be based on this article 👾. More…]]></description><link>https://menelaos.dev/devweek-sf/</link><guid isPermaLink="false">https://menelaos.dev/devweek-sf/</guid><pubDate>Sun, 29 Dec 2019 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;Note: This article is still work in progress.
+My presentation on &lt;a href=&quot;https://developerweek2020.sched.com/event/YYR5&quot;&gt;DeveloperWeek 2020 in San Francisco&lt;/a&gt; will be based on this article 👾.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;More often than not, developers distribute software meant for other developers. While there are several successful projects in the community, the majority of the solutions fail to be adopted by others. In this post, I will try to analyze what renders a successful SaaS project and what patterns need to be followed by us, the developers, to increase our likelihoods to success. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How to make developers integrations easier?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Having reached to an impressive scale as a startup, &lt;a href=&quot;https://www.trulioo.com/&quot;&gt;my company Trulioo&lt;/a&gt;, traditionally, perfected the API integration and offered a wide range of impressive features. You can think of Twilio API, but for Identify Verification purposes. Having a powerful API can definitely set you miles away from your competitors, but arguably, that alone doesn’t necessarily make developers’ lives easier, and this article I am going to explain why and showcase techniques to enhance the way you distribute software.&lt;/p&gt;
+&lt;h1&gt;Software as a Service (SaaS)&lt;/h1&gt;
+&lt;p&gt;Typically this is software by a third party which you use within your infrastructure. The most common way of SaaS is API integration, while an emerging way is by a package registry in a frontend form. &lt;a href=&quot;https://stripe.com/en-ca/connect&quot;&gt;Stripe Connect&lt;/a&gt;, &lt;a href=&quot;https://plaid.com/docs/quickstart/&quot;&gt;Plaid Link&lt;/a&gt; and so on are some of the package-registry ways of integration for frontend applications.&lt;/p&gt;
+&lt;p&gt;When deciding which way is more suitable for your software, answering the following question will help you guide through:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Is my integration meant for User Interfaces, or is it meant for backend systems?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For instance, Stripe has a very straightforward product and customers are expected to utilize them in websites most of the time, thus having an API instead of a frontend component wouldn’t make much sense for more of the cases. Stripe has an API that supports clients who prefer to integrate with their own UI, but majority of the use-cases would be expected to use Stripe-Connect.&lt;/p&gt;
+&lt;p&gt;This is an excellent way to decide on what to implement first: is your product meant for frontends? Then start with a Stripe-like approach, else follow the Twillio API path 😃.&lt;/p&gt;
+&lt;h1&gt;Micro Frontends&lt;/h1&gt;
+&lt;p&gt;A relatively new term, &lt;a href=&quot;https://micro-frontends.org/&quot;&gt;Micro-Frontends&lt;/a&gt; is a different way of developing websites.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5eae62e331979994d0159f85c9aa6ffe/f5278/monolithic-frontends.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 69.1527143581938%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAD0UlEQVQ4yyWTe0yVdRjH3/ccDigvweEqiVwOKBzOec8NEJDD7Qi6Mi5Kxs0Loh4RK1A7FBfDGCQXgVR0xKJMi0blDalNUbDMzXLlslqr1tbUfyxtdFlbY+mnH/Dbvtvzey7f53n2PI+UnZ2N0+kkKiqK2NhYrFYrdpuNJIeD9LQ0VLOJOKG32azCZsEh9A5HEiaTGZPZLGQ7iSYr8QZ/ehsMSLPOqjCEhYURFBhItMGAyWIhUTVjFYHLjEaihE+8IFiWYMQiSC1WFVU1icQWUYSBqOhofJQFmAxaJPEISs0leHn27IeMp4soavLw5J461jXUU9LoYUerh0N99Yyf2Mvh/r0c6atj5PU9vNnvxstbIloJpynTLeJ9kBaELMJW34a5phGdnz+F1eW4D3VSfWA/pwYbuPZBE7cnmvn3Rgsz3/dw6cyrfPx+O5NnOxh/5yUUxZscNZXLfS8Q5Bs8W5SMEm3ANzJmrsL1Oyoo6zvAzs5mzvY8zy8na/njs3ruf97M9K0uvpzo5Or5dj4Za+fMcQ/6gIVEhkZSsMKJ4uM733KAVyiKRj9H6Nq2kby+bvZ0t/DV0HM8+HALW0vzSEpO4/TgLqa/HeDWVDc/Xuvl+rl96P396NwXyc1JG2vyg5C8tQtJCM8hLjQdjeSF69kt1J14jWMDLdwbqeXBhSrKilyY1RSOd22FH7rg9qDAMHeuthHkr/DRiJXpn11seuZxJC+NN3rfJYQoMYJQR05+Bo01Jby3ayXftKVypc3O2tVOMjIy2VzsYr+7gIOeSt5urWC43iVidagmhXW5egwRYigaSUO4sniu3VmUOGLoKLRS57JTnpWMp9jG2vw0MnNcNFVY6amKpssdweHaxTSULsHfVzsfFyqm7SM4ZFmmeFkFhUtL5wzVWZG8sT2elzcbWbc6hWSHE7s9i+VirVZmOnGlr6BmvQ2mtEy/KxEaIJEerKHdriUxQDM/lHBdBFmLVomWF3BqtwSjEo9OS/w55s31oSCONcawa4OZDQV2qtbYeOvFJTCh5c5JDcEBMnE6CaNuvkMpJDCERKOKMcGEXq/naKHCr68EMiOyc1ngusCUwBWBT2WYFLgk5Isyv43KBCsSdkuK2MsRKp/KRdpevYWffv+L72ZgY2UZm+L8GFiVxLVt4fx9VMfD8zKPLmh4eE7Lw3GtSKLhv3ENjMl80eE/V9VAcz38c4OLR3YjOew22roP0trVK47cRF5UGDtTbZTbVY49YeBm3WPc7Ze5Nyxzd1DL7SEt90ckvu5UqEoyIovDWBoRxminm0w1hv8BiYwpJDrqsUkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Frontend Monoliths&quot;
+        title=&quot;Frontend Monoliths&quot;
+        src=&quot;/static/5eae62e331979994d0159f85c9aa6ffe/b9e4f/monolithic-frontends.png&quot;
+        srcset=&quot;/static/5eae62e331979994d0159f85c9aa6ffe/cf440/monolithic-frontends.png 148w,
+/static/5eae62e331979994d0159f85c9aa6ffe/d2d38/monolithic-frontends.png 295w,
+/static/5eae62e331979994d0159f85c9aa6ffe/b9e4f/monolithic-frontends.png 590w,
+/static/5eae62e331979994d0159f85c9aa6ffe/f9b6a/monolithic-frontends.png 885w,
+/static/5eae62e331979994d0159f85c9aa6ffe/2d849/monolithic-frontends.png 1180w,
+/static/5eae62e331979994d0159f85c9aa6ffe/f5278/monolithic-frontends.png 1971w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;While backend systems have evolved tremendously in the last years with docker, serverless and the excellent microservices architecure, the same cannot be said for frontend applications. The frontend community has made tremendous advancements when it comes to building fantastic libraries and frameworks that makes it easier than ever to build, test and deploy new web applications. Libraries like React, Vue, Redux are just some examples of the plethora of the awesome libraries which reside in the npm-land.&lt;/p&gt;
+&lt;p&gt;That is great. But what about addressing our frontend application size? Could we take the learnings from the monolith backend applications and apply them to our contiguously growing complex frontend applications?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Micro-frontends is a microservices-like architecture that applies the concept of microservices to the browser side. Transforming to a mono-like applications from a single, single application to an application that combines multiple small front-end applications. Each frontend application can also be standalone run, independent development, standalone deployment.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;While there is a lot of depth when it comes to someone wanting to apply micro-frontend implementation, the idea is quite straightforward: Break down each page to sub-page which can be ran individually and independently from others.&lt;/p&gt;
+&lt;h1&gt;SaaS Microfrontends&lt;/h1&gt;
+&lt;p&gt;Micro-frontends have several advantages when it comes to SaaS Delivery.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/8b984/saas_challenges.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABsElEQVQoz5WSy07CUBCGT6GES1ugLbci0Jb7NRBISIiCEqMv4UZ3LICFCx/AlUvjRt/ApS+DG3yY3840QUMkkcWfOZmTfjP/fyqEEBBC9hSAqiooFouoVCqsQqGATCaDfr/P1bIsuK4Lx3HQarUwGAyQTCbhM3YSqN08o3H7xg3HLjGg1+uhVquh0Wig3W7Dtu39Dw9JIHd2B2u+4EYul2NYt9tlULlc5nMqleLtaFPq0Za6rvNQVVV/gEXP1nK1wnq9RqXsepcams3mznKpVEKn02GgoijQNI0VjUYRi8UYRjUUCvnA4XCI7dcWm88NptMpX45GI96GRDlRdgSv1+u8NeVsGAbXarXK29JABmpxDeenF5jPLhGPxxEMBvkykUiwJYLJsvzf/PwMX+YxvF5p3NANHaY3naCmafIrEvwIoITHmYWn6wLo7Dg2xuMxvy5Zn0wmbJsyIpsEj0QinCc5oIhoaDgc9oGjkzw+7h/wvliinTIgPHv0j9EH6XSaH4Xyo42pkrLZLL8uZUiR5PN5jouBciAAx7OZ0RTIknSMtcMZ7kv6Baaz9Mcg6cDwb9wTE31SYmAyAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;SaaS challenges&quot;
+        title=&quot;SaaS challenges&quot;
+        src=&quot;/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/b9e4f/saas_challenges.png&quot;
+        srcset=&quot;/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/cf440/saas_challenges.png 148w,
+/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/d2d38/saas_challenges.png 295w,
+/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/b9e4f/saas_challenges.png 590w,
+/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/f9b6a/saas_challenges.png 885w,
+/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/2d849/saas_challenges.png 1180w,
+/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/8b984/saas_challenges.png 2560w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Authentication&lt;/h2&gt;
+&lt;p&gt;While you are implementing your frontend service, you need to remember that you are implementing for the user’s browser and consequently you can’t expose sensitive information, including username, passwords, API keys nor user’s personal identity information (PII).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Storing secrets occurs on backend&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;There has to be a backend on user’s infrastructure which stores credentials and runs different tasks; potentially even serving the whole website. A client-backend-sdk can be developed in order to integrate with client’s infrastructure. There is a drawback to that which should be quite clear 🤔 —&gt; backend sdks have to be written in whichever language clients ran with. This means that we would have to implement quite a few programming languages when client base grows.&lt;/p&gt;
+&lt;p&gt;A good starting point is to pickup the language that is most likely to be picked up by your early adopter; or even your existing customers. Having EmbedID as an example, every of the following components has the following meaning in this microftontends architecture:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Trulioo/trulioo-embedid-client&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;trulioo-embedid-client&lt;/code&gt;&lt;/a&gt;: script to be included by the client. Required code snippet should look like something between these lines:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;div&amp;gt;EmbedID&amp;lt;/div&amp;gt;
+&amp;lt;div id=&amp;quot;trulioo-embedid&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;https://cdn.jsdelivr.net/gh/trulioo/trulioo-embedid-client@master/v1/main.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script&amp;gt;
+const publicKey = &amp;#39;PUBLIC_KEY_HERE&amp;#39;;
+const accessTokenURL = &amp;#39;ACCESS_TOKEN_ENDPOINT_URL&amp;#39;;
+new TruliooClient(publicKey, accessTokenURL);
+&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Trulioo/trulioo-embedid-node&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;trulioo-embedid-node&lt;/code&gt;&lt;/a&gt;: backend sdk to generate JWT that are consumed from the client.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;require(&amp;#39;trulioo-embedid-node&amp;#39;)(app);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;embedid-backend&lt;/code&gt;: REST API backend system to be producing and validating tokens as well as serving application by user configuration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example, &lt;code class=&quot;language-text&quot;&gt;trulioo-embedid-node&lt;/code&gt; is an express middleware which streamlines access generation token which is used for authentication purposes via &lt;code class=&quot;language-text&quot;&gt;trulioo-embedid-client&lt;/code&gt; (I am explaining what this part does here). The purpose of &lt;code class=&quot;language-text&quot;&gt;trulioo-embedid-node&lt;/code&gt; is the following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;abstract the need to authenticate users by simplifying access token consumption&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;There are several ways to authenticate an user. The most commonly used ones are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;username, password (basic authentication)&lt;/li&gt;
+&lt;li&gt;API_KEY&lt;/li&gt;
+&lt;li&gt;Auth2 (utilizing a different vendor’s credentials to sign on behalf of them)&lt;/li&gt;
+&lt;li&gt;JWT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Since the client needs to know whether the request is properly authenticated, we could use a JWT approach where a token is generated and used for authentication purposes. To enhance the security, we could also expire the token after it is used for a single verification, transitioning the token to “One Time Access Token”. The whole workflow can be summarized through this diagram:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4b306d2e5babeef9bd4b42df0f421ad1/8b984/embedid-architecture.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACfUlEQVQoz0WS3Y7bVBSF7diOf44d/ySxHcdOOk6cpGQyBUqZoS0wqEVTphUaRKEFqagIKZfcIJ4BeleQkJDgEXiT0ldAXHHbi7YSvai+HjszzcXS+dnnrL3X2lvxfZ/xeIRl2bRVBSEcbOFi2U6D45u3uP3lXfbefpf58k0uf3hEt5+hKAq60UbVdBxDbc4NgiCgqqbkeUEeRxwc7FOWE3RNax48/vsR//z7Hx988hVf3P+BP/56xLXjO/S7IfPZjGo2xzM17l8puHe5QFFVlY7nNZ/zJGL/4D2q+UJWbNE2TX55+JDffv+T1aVDdveP8KvPsMIJrdamolqN7xgsUkGVuCi6ruN5bhNMfMHFCysmOztkaSKRMsqHpHGfLEkQtrWVdgrX9QhtY3unSWlnhL3I5p23KmbTIcvFiGmZMi66rJalJHWb+PVrV7lxdMjH198nDEyKRDBKHVqa9FE9JXTdDaFutZjMpix3d5lIXwfDjGKcU05LhCs4v7viydPnvASe/f+CME758ZsT1ndvbCusJZ8Rtgzpo5Q4l0bPqplERT/K0FpmE/eChM/XD/j6+1+5vf5Z3hncWa85+e4eykggFsmmKUKIjcGuSV4MZdcrOUpjsizn4kc98kmdUKVR4/ewRNCQmbJxThDhxCHppyt6x0uUMAzZ29sjiRM6octOucPyjSUL2Wnfi/j2J8HVkw6G2iEIfIbZgLjfI01imTAj6fVxRHsrudPpMBgM6HbrzAZldY5pVXJ+OSfqRUSxR3EuI077DIsMt7NRo7ROIRthurq0q1XLrWPbEdDbGpbbpu3omJLcrveWlCbnrD7XCeu1bWvNmzMYtvaa4xW/5ie4cfMtvAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;EmbedID Architecture&quot;
+        title=&quot;EmbedID Architecture&quot;
+        src=&quot;/static/4b306d2e5babeef9bd4b42df0f421ad1/b9e4f/embedid-architecture.png&quot;
+        srcset=&quot;/static/4b306d2e5babeef9bd4b42df0f421ad1/cf440/embedid-architecture.png 148w,
+/static/4b306d2e5babeef9bd4b42df0f421ad1/d2d38/embedid-architecture.png 295w,
+/static/4b306d2e5babeef9bd4b42df0f421ad1/b9e4f/embedid-architecture.png 590w,
+/static/4b306d2e5babeef9bd4b42df0f421ad1/f9b6a/embedid-architecture.png 885w,
+/static/4b306d2e5babeef9bd4b42df0f421ad1/2d849/embedid-architecture.png 1180w,
+/static/4b306d2e5babeef9bd4b42df0f421ad1/8b984/embedid-architecture.png 2560w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Distribution&lt;/h2&gt;
+&lt;h3&gt;jsDelivr&lt;/h3&gt;
+&lt;p&gt;We have developed our services, great! Time to publish them. For the client, we need to host it in a CDN as clients are distributed around the world and we would want to minimize the time required to retrieve the required HTML/JS. JSDelivr offers a very handy and out of the box way of CDN-izing github packages. This is the URL, based on your github package:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;https://cdn.jsdelivr.net/gh/${USERNAME}/${REPO_NAME}@${BRANCH}${FILENAME}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For instance, if I wanted to retrieve &lt;code class=&quot;language-text&quot;&gt;src/index.js&lt;/code&gt; file, from &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; branch of &lt;code class=&quot;language-text&quot;&gt;trulioo-embedid-client&lt;/code&gt;, I would have to request for the following file:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;https://cdn.jsdelivr.net/gh/trulioo/trulioo-embedid-client@master/src/index.js&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;npm&lt;/h3&gt;
+&lt;p&gt;For products meant to be consumed not directly from the browser, package registries like npm are a great choice, because of the ease of use and simplicity to integrate with javascript libraries. Publishing npm libraries is also easy and fun(!) &lt;a href=&quot;https://menelaos.dev/devweek-atx/&quot;&gt;to automate&lt;/a&gt;; see &lt;a href=&quot;https://www.npmjs.com/package/trulioo-embedid-node&quot;&gt;trulioo-embedid-node&lt;/a&gt; live in npm, following fully automated semver for package versioning.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬ + Forks ⑂ + Community Love ❤]]></title><description><![CDATA[A few days ago I presented this topic in DevWeekATX and there were several individuals who requested me to write a blog; this is it! 🚀 Any…]]></description><link>https://menelaos.dev/devweek-atx/</link><guid isPermaLink="false">https://menelaos.dev/devweek-atx/</guid><pubDate>Mon, 11 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;A few days ago I presented this topic in &lt;a href=&quot;https://twitter.com/devweekatx&quot;&gt;DevWeekATX&lt;/a&gt; and there were several individuals who requested me to write a blog; this is it! 🚀&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Any application that can be written in JavaScript, will eventually be written in JavaScript.
 Jeff Atwood&lt;/p&gt;
