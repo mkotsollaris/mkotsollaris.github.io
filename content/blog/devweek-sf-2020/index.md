@@ -1,8 +1,8 @@
 ---
 slug: 'micro-frontends-for-rapid-saas-delivery'
-title: Micro Frontends for Rapid SaaS Delivery
+title: Micro Frontends for Rapid SaaS Delivery 👾
 date: "2019-12-29"
-description: Utilizing Microfrontends for SaaS Delivery
+description: Utilizing Microfrontends for SaaS Delivery - Examples and real life implementations
 author: 'Menelaos Kotsollaris'
 categories:
   - 'SaaS'
@@ -99,7 +99,7 @@ Since the client needs to know whether the request is properly authenticated, we
 
 ## Distribution
 
-### jsDelivr
+### [jsDelivr](https://www.jsdelivr.com/)
 
 We have developed our services, great! Time to publish them. For the client, we need to host it in a CDN as clients are distributed around the world and we would want to minimize the time required to retrieve the required HTML/JS. JSDelivr offers a very handy and out of the box way of CDN-izing github packages. This is the URL, based on your github package:
 
@@ -109,6 +109,15 @@ For instance, if I wanted to retrieve `src/index.js` file, from `master` branch 
 
 `https://cdn.jsdelivr.net/gh/trulioo/trulioo-embedid-client@master/src/index.js`
 
-### npm
+### [npm](https://www.npmjs.com/)
 
 For products meant to be consumed not directly from the browser, package registries like npm are a great choice, because of the ease of use and simplicity to integrate with javascript libraries. Publishing npm libraries is also easy and fun(!) [to automate](https://menelaos.dev/devweek-atx/); see [trulioo-embedid-node](https://www.npmjs.com/package/trulioo-embedid-node) live in npm, following fully automated semver for package versioning.
+
+## Summary
+
+We were able to build a full SaaS frontend tool where we applied microfrontends and microservices approach. While this is an early stage of the development and active customers are just starting to grow, it will be interesting to see how the application will behave as the project grows. Here is a summary of the repos mentioned here:
+
+- EmbedID Portal: [https://gateway-admin.trulioo.com/](https://gateway-admin.trulioo.com/) (grab your API key!)
+- trulioo-embedid-client: [github](https://github.com/Trulioo/trulioo-embedid-client) and [CDN](https://cdn.jsdelivr.net/gh/trulioo/trulioo-embedid-client@master/)
+- trulioo-embedid-node: [github](https://github.com/Trulioo/trulioo-embedid-node) and [npm](https://www.npmjs.com/package/trulioo-embedid-node)
+- trulioo-embedid: [github](https://github.com/trulioo/trulioo-react) and [npm](https://www.npmjs.com/package/trulioo-react)
