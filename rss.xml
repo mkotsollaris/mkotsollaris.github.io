@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[Menelaos Kotsollaris' personal website and blog]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Dec 2019 21:36:18 GMT</lastBuildDate><item><title><![CDATA[Micro Frontends for Rapid SaaS Delivery 👾]]></title><description><![CDATA[Note: This article is still work in progress.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[Menelaos Kotsollaris' personal website and blog]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Dec 2019 23:54:52 GMT</lastBuildDate><item><title><![CDATA[Micro Frontends for Rapid SaaS Delivery 👾]]></title><description><![CDATA[Note: This article is still work in progress.
 My presentation on DeveloperWeek 2020 in San Francisco will be based on this article 👾. More…]]></description><link>https://menelaos.dev/devweek-sf-2020/</link><guid isPermaLink="false">https://menelaos.dev/devweek-sf-2020/</guid><pubDate>Sun, 29 Dec 2019 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Note: This article is still work in progress.
 My presentation on &lt;a href=&quot;https://developerweek2020.sched.com/event/YYR5&quot;&gt;DeveloperWeek 2020 in San Francisco&lt;/a&gt; will be based on this article 👾.&lt;/p&gt;
@@ -18,7 +18,37 @@ My presentation on &lt;a href=&quot;https://developerweek2020.sched.com/event/YY
 &lt;p&gt;This is an excellent way to decide on what to implement first: is your product meant for frontends? Then start with a Stripe-like approach, else follow the Twillio API path 😃.&lt;/p&gt;
 &lt;h1&gt;Micro Frontends&lt;/h1&gt;
 &lt;p&gt;A relatively new term, &lt;a href=&quot;https://micro-frontends.org/&quot;&gt;Micro-Frontends&lt;/a&gt; is a different way of developing websites.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./monolithic-frontends.png&quot; alt=&quot;Frontend Monoliths&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5eae62e331979994d0159f85c9aa6ffe/f5278/monolithic-frontends.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 69.1527143581938%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAD0UlEQVQ4yyWTe0yVdRjH3/ccDigvweEqiVwOKBzOec8NEJDD7Qi6Mi5Kxs0Loh4RK1A7FBfDGCQXgVR0xKJMi0blDalNUbDMzXLlslqr1tbUfyxtdFlbY+mnH/Dbvtvzey7f53n2PI+UnZ2N0+kkKiqK2NhYrFYrdpuNJIeD9LQ0VLOJOKG32azCZsEh9A5HEiaTGZPZLGQ7iSYr8QZ/ehsMSLPOqjCEhYURFBhItMGAyWIhUTVjFYHLjEaihE+8IFiWYMQiSC1WFVU1icQWUYSBqOhofJQFmAxaJPEISs0leHn27IeMp4soavLw5J461jXUU9LoYUerh0N99Yyf2Mvh/r0c6atj5PU9vNnvxstbIloJpynTLeJ9kBaELMJW34a5phGdnz+F1eW4D3VSfWA/pwYbuPZBE7cnmvn3Rgsz3/dw6cyrfPx+O5NnOxh/5yUUxZscNZXLfS8Q5Bs8W5SMEm3ANzJmrsL1Oyoo6zvAzs5mzvY8zy8na/njs3ruf97M9K0uvpzo5Or5dj4Za+fMcQ/6gIVEhkZSsMKJ4uM733KAVyiKRj9H6Nq2kby+bvZ0t/DV0HM8+HALW0vzSEpO4/TgLqa/HeDWVDc/Xuvl+rl96P396NwXyc1JG2vyg5C8tQtJCM8hLjQdjeSF69kt1J14jWMDLdwbqeXBhSrKilyY1RSOd22FH7rg9qDAMHeuthHkr/DRiJXpn11seuZxJC+NN3rfJYQoMYJQR05+Bo01Jby3ayXftKVypc3O2tVOMjIy2VzsYr+7gIOeSt5urWC43iVidagmhXW5egwRYigaSUO4sniu3VmUOGLoKLRS57JTnpWMp9jG2vw0MnNcNFVY6amKpssdweHaxTSULsHfVzsfFyqm7SM4ZFmmeFkFhUtL5wzVWZG8sT2elzcbWbc6hWSHE7s9i+VirVZmOnGlr6BmvQ2mtEy/KxEaIJEerKHdriUxQDM/lHBdBFmLVomWF3BqtwSjEo9OS/w55s31oSCONcawa4OZDQV2qtbYeOvFJTCh5c5JDcEBMnE6CaNuvkMpJDCERKOKMcGEXq/naKHCr68EMiOyc1ngusCUwBWBT2WYFLgk5Isyv43KBCsSdkuK2MsRKp/KRdpevYWffv+L72ZgY2UZm+L8GFiVxLVt4fx9VMfD8zKPLmh4eE7Lw3GtSKLhv3ENjMl80eE/V9VAcz38c4OLR3YjOew22roP0trVK47cRF5UGDtTbZTbVY49YeBm3WPc7Ze5Nyxzd1DL7SEt90ckvu5UqEoyIovDWBoRxminm0w1hv8BiYwpJDrqsUkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;monolithic-frontends.png&quot;
+        title=&quot;monolithic-frontends.png&quot;
+        src=&quot;/static/5eae62e331979994d0159f85c9aa6ffe/b9e4f/monolithic-frontends.png&quot;
+        srcset=&quot;/static/5eae62e331979994d0159f85c9aa6ffe/cf440/monolithic-frontends.png 148w,
+/static/5eae62e331979994d0159f85c9aa6ffe/d2d38/monolithic-frontends.png 295w,
+/static/5eae62e331979994d0159f85c9aa6ffe/b9e4f/monolithic-frontends.png 590w,
+/static/5eae62e331979994d0159f85c9aa6ffe/f9b6a/monolithic-frontends.png 885w,
+/static/5eae62e331979994d0159f85c9aa6ffe/2d849/monolithic-frontends.png 1180w,
+/static/5eae62e331979994d0159f85c9aa6ffe/f5278/monolithic-frontends.png 1971w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;While backend systems have evolved tremendously in the last years with docker, serverless and the excellent microservices architecure, the same cannot be said for frontend applications. The frontend community has made tremendous advancements when it comes to building fantastic libraries and frameworks that makes it easier than ever to build, test and deploy new web applications. Libraries like React, Vue, Redux are just some examples of the plethora of the awesome libraries which reside in the npm-land.&lt;/p&gt;
 &lt;p&gt;That is great. But what about addressing our frontend application size? Could we take the learnings from the monolith backend applications and apply them to our contiguously growing complex frontend applications?&lt;/p&gt;
 &lt;blockquote&gt;
@@ -141,7 +171,39 @@ new TruliooClient(publicKey, accessTokenURL);
 &lt;li&gt;trulioo-embedid-client: &lt;a href=&quot;https://github.com/Trulioo/trulioo-embedid-client&quot;&gt;github&lt;/a&gt; and &lt;a href=&quot;https://cdn.jsdelivr.net/gh/trulioo/trulioo-embedid-client@master/&quot;&gt;CDN&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;trulioo-embedid-node: &lt;a href=&quot;https://github.com/Trulioo/trulioo-embedid-node&quot;&gt;github&lt;/a&gt; and &lt;a href=&quot;https://www.npmjs.com/package/trulioo-embedid-node&quot;&gt;npm&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;trulioo-embedid: &lt;a href=&quot;https://github.com/trulioo/trulioo-react&quot;&gt;github&lt;/a&gt; and &lt;a href=&quot;https://www.npmjs.com/package/trulioo-react&quot;&gt;npm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬ + Forks ⑂ + Community Love ❤]]></title><description><![CDATA[A few days ago I presented this topic in DevWeekATX and there were several individuals who requested me to write a blog; this is it! 🚀 Any…]]></description><link>https://menelaos.dev/devweek-atx/</link><guid isPermaLink="false">https://menelaos.dev/devweek-atx/</guid><pubDate>Mon, 11 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;A few days ago I presented this topic in &lt;a href=&quot;https://twitter.com/devweekatx&quot;&gt;DevWeekATX&lt;/a&gt; and there were several individuals who requested me to write a blog; this is it! 🚀&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c85dcdb17389004e566df5426acfb09f/8b984/embedid-microftontend-stack.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAClElEQVQoz4WS3UtTYRyAt53NzZ2zs+nm3IfHo07HdpxubjOX8yu3ZpbmF5RihqUXKiJEFNFVdJmZKX0QXSjdBn5cdCEU1H8gdB901V2X3T69ORIioouHF37vj4ffl6mpKcLZXBcP762yvLRIMBRG13VSqRTJZJLmSIRAOIyhurhhxFnpzFKMRvEHg4R/kenDyGaxWkyYTAKtvoH2aIBr4/2Ml/JIkoQsy4SFRBFvrd+Py+fjbk+eHy+e8/3pJtuTk4T1BhrqNRLj87xcnCPhdpSFEVGByWxj+voCripfOShQFIV4PE6FzUZjc4Qa2U4y5CPhValTHad5DsnEcExDq1bLsURPidjqazK3dzBuvWFw/g6dqTaWlld4srHBUKlEIBRCUmQcqhOHYkf1yFSrMlardCo+JTk4RveDfUrrR/Q+es/A4n1SsRZmZmbZ3NoinU6jiZk6PR58oYCQ+/BXK9R4XXjdMnablQohtljMZaGRzhEanEcrLtBwYQ2bN4rktNKaTlHK5UjEDaJGKy6xFK9H4JKpkh2olaJSpwOnvQJZIEmWsrAtleHy9CJtHX2MlW6Sy4xiGmgUpfvZPpPh1dUrJKItSB4vqrcaRVWxORUxW6sQWXE5Kk7Ett/tG61pGqMXCenddKVGadG7qComCXUbPLs0xO7MFM2iZas7QE1znGBC/AnCTS3U1+uE/T5q3QoeubIs7YidZ21ih0JsiaMpF4+Hdb5++cbn42Pe7u3x4eMn2sU92t01VAU1FJ8fp6jSIs7LLNnEhVj+XEp79Byz/Ztk9TnWB7ws53UO3h2xv7/H7u4uhweHJwf+1zb/RSaTpTdfoq+vQF7QIygWixQKBUZGRpicmEDT6k6SzWbzf4U/AQifSdtmvN52AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Embedid Microftontend Stack&quot;
+        title=&quot;Embedid Microftontend Stack&quot;
+        src=&quot;/static/c85dcdb17389004e566df5426acfb09f/b9e4f/embedid-microftontend-stack.png&quot;
+        srcset=&quot;/static/c85dcdb17389004e566df5426acfb09f/cf440/embedid-microftontend-stack.png 148w,
+/static/c85dcdb17389004e566df5426acfb09f/d2d38/embedid-microftontend-stack.png 295w,
+/static/c85dcdb17389004e566df5426acfb09f/b9e4f/embedid-microftontend-stack.png 590w,
+/static/c85dcdb17389004e566df5426acfb09f/f9b6a/embedid-microftontend-stack.png 885w,
+/static/c85dcdb17389004e566df5426acfb09f/2d849/embedid-microftontend-stack.png 1180w,
+/static/c85dcdb17389004e566df5426acfb09f/8b984/embedid-microftontend-stack.png 2560w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Try it on your own and give me a shout! 🔊&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Develop Libraries with Javascript and Github Actions 🎬 That Get Downloads ⏬ + Forks ⑂ + Community Love ❤]]></title><description><![CDATA[A few days ago I presented this topic in DevWeekATX and there were several individuals who requested me to write a blog; this is it! 🚀 Any…]]></description><link>https://menelaos.dev/devweek-atx/</link><guid isPermaLink="false">https://menelaos.dev/devweek-atx/</guid><pubDate>Mon, 11 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;A few days ago I presented this topic in &lt;a href=&quot;https://twitter.com/devweekatx&quot;&gt;DevWeekATX&lt;/a&gt; and there were several individuals who requested me to write a blog; this is it! 🚀&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Any application that can be written in JavaScript, will eventually be written in JavaScript.
 Jeff Atwood&lt;/p&gt;
