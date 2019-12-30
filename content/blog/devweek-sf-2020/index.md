@@ -40,7 +40,7 @@ This is an excellent way to decide on what to implement first: is your product m
 
 A relatively new term, [Micro-Frontends](https://micro-frontends.org/) is a different way of developing websites.
 
-![Frontend Monoliths](./monolithic-frontends.png)
+![monolithic-frontends.png](./monolithic-frontends.png)
 
 While backend systems have evolved tremendously in the last years with docker, serverless and the excellent microservices architecure, the same cannot be said for frontend applications. The frontend community has made tremendous advancements when it comes to building fantastic libraries and frameworks that makes it easier than ever to build, test and deploy new web applications. Libraries like React, Vue, Redux are just some examples of the plethora of the awesome libraries which reside in the npm-land.
 
@@ -71,9 +71,9 @@ A good starting point is to pickup the language that is most likely to be picked
 <div id="trulioo-embedid"></div>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/trulioo/trulioo-embedid-client@master/v1/main.js"></script>
 <script>
-const publicKey = 'PUBLIC_KEY_HERE';
-const accessTokenURL = 'ACCESS_TOKEN_ENDPOINT_URL';
-new TruliooClient(publicKey, accessTokenURL);
+  const publicKey = 'PUBLIC_KEY_HERE';
+  const accessTokenURL = 'ACCESS_TOKEN_ENDPOINT_URL';
+  new TruliooClient(publicKey, accessTokenURL);
 </script>
 ```
 - [`trulioo-embedid-node`](https://github.com/Trulioo/trulioo-embedid-node): backend sdk to generate JWT that are consumed from the client.
@@ -121,3 +121,7 @@ We were able to build a full SaaS frontend tool where we applied microfrontends 
 - trulioo-embedid-client: [github](https://github.com/Trulioo/trulioo-embedid-client) and [CDN](https://cdn.jsdelivr.net/gh/trulioo/trulioo-embedid-client@master/)
 - trulioo-embedid-node: [github](https://github.com/Trulioo/trulioo-embedid-node) and [npm](https://www.npmjs.com/package/trulioo-embedid-node)
 - trulioo-embedid: [github](https://github.com/trulioo/trulioo-react) and [npm](https://www.npmjs.com/package/trulioo-react)
+
+![Embedid Microftontend Stack](./embedid-microftontend-stack.png)
+
+Try it on your own and give me a shout! 🔊
