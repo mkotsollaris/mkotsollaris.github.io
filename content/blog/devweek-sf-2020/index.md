@@ -15,7 +15,6 @@ banner: './uml_all.png'
 bannerCredit:
   'Photo by Menelaos Kotsollaris'
 ---
-> Note: This article is still work in progress.
 > My presentation on [DeveloperWeek 2020 in San Francisco](https://developerweek2020.sched.com/event/YYR5) will be based on this article 👾.
 
 More often than not, developers distribute software meant for other developers. While there are several successful projects in the community, the majority of the solutions fail to be adopted by others. In this post, I will try to analyze what renders a successful SaaS project and what patterns need to be followed by us, the developers, to increase our likelihoods to success. 
