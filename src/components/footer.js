@@ -50,7 +50,7 @@ const Footer = (maxWidth) => (
         `}
       >
         <div>
-          © 2020 - All rights reserved.
+          © 2021 - All rights reserved.
         </div>
       </div>
     </Container>
