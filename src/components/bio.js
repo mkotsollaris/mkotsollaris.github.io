@@ -149,7 +149,7 @@ const Bio = () => {
       />
       <p>
         👋 Welcome to my website! I am <strong>{author}</strong> and I am the founder of <a href="https://facet.run">Facet</a>.
-        Let's connect!
+        Thanks for stopping by!
         <div style={{marginTop: ".5rem"}}>
         <a href="https://github.com/mkotsollaris">
             <FaGithub size={28} style={{ marginRight: ".5rem" }} />
