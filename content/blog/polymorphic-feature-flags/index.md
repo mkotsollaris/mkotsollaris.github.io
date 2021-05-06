@@ -17,7 +17,7 @@ banner: './CI_flags.jpeg'
 bannerCredit:
   'Photo by Menelaos Kotsollaris'
 ---
-While working at a previous project, we were aiming to continuously ship in production, while following a trunk-based methodology. <a href='https://martinfowler.com/articles/feature-toggles.html' target='blank'>Feature flags</a> are great in offerring such capabilities. We would use Optimizely to wrap-around our features and then we would ship to production, allowing our project managers to toggle features. The code would be looking something along these lines:
+While working at a previous project, we were aiming to continuously ship in production, while following a <a href="https://trunkbaseddevelopment.com/">trunk-based methodology</a>. <a href='https://martinfowler.com/articles/feature-toggles.html' target='blank'>Feature flags</a> are great in offerring such capabilities. We would use Optimizely to wrap-around our features and then we would ship to production, allowing our project managers to toggle features. The code would be looking something along these lines:
 
 ```
 if(FEATURE.enabled) {
