@@ -5,8 +5,9 @@ date: "2021-05-05"
 description: Abstractions to maintaining feature flags without obscuring codebases
 author: 'Menelaos Kotsollaris'
 categories:
-  - 'SaaS'
   - 'feature flags'
+  - 'polymorphism'
+  - 'design patterns'
 keywords:
   - 'javascript'
   - 'SaaS'
