@@ -31,7 +31,7 @@ The team loved it, and hence we continued adding as many feature flags as possib
 
 ## The problem
 
-As more features got shipped to production, we suddenly had **a lot** of code that needs to be maintained in this branched codebase. One way to improve code maintainability would be to remove non-used feature flags, but that requires further maintainance and discipline from the team. So the question arises as to whether there is a better technique methodology that would solve this problem.
+As more features got shipped to production, we suddenly had **a lot** of code that needs to be maintained in this branched codebase. One way to improve code maintainability would be to remove non-used feature flags, but that requires further maintainance and discipline from the team. So the question arises as to whether there is a better technique methodology to recycling feature flags.
 
 ## Enter polymorphic feature flags
 
@@ -50,14 +50,15 @@ with polymorphism:
 
 ```
 # polymorphic pattern
-AbsractFeature(FeatureA);
-AbsractFeature(DefaultFeature);
 
-AbsractFeature(f) {
+function AbsractFeature(f) {
     return (enabled) => {
         f(enabled); 
     };
 }
+
+AbsractFeature(FeatureA);
+AbsractFeature(DefaultFeature);
 
 FeatureA = enabled => { if(enabled) console.log('Feature A Implementation!')}
 DefaultFeature = enabled => { if(enabled) console.log('Default Implementation!')}
