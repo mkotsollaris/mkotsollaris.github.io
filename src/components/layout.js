@@ -74,8 +74,7 @@ export const globalStyles = css`
   }
   code {
     padding: 2px 4px;
-    background: #f4f3fa;
-    color: ${theme.colors.body_color};
+    color: rgb(214, 222, 235);
     border-radius: 3px;
   }
   a {

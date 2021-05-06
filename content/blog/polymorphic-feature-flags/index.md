@@ -34,10 +34,10 @@ As more features got shipped to production, we suddenly had **a lot** of code th
 
 ## Enter polymorphic feature flags
 
-Polymorphism is a pattern, such as which we avoid conditional code by creating abstractions (aka **writting to interface**) rather that writting to implementation. Here's an example of the usecase:
+We could utilize [Polymorphism](https://stackify.com/oop-concept-polymorphism/) to avoid conditional code by creating abstractions ([aka **programming to interface**](https://stackoverflow.com/questions/2697783/what-does-program-to-interfaces-not-implementations-mean)) rather that writting to implementation. Here's an example of how that might look like:
 
 ```
-// traditional feature flag
+# traditional feature flag
 if(FEATURE.enabled) {
     return FeatureA()
 } else {
@@ -50,12 +50,17 @@ with polymorphism:
 ```
 # polymorphic pattern
 AbsractFeature(FeatureA);
-AbsractFeature(Default);
+AbsractFeature(DefaultFeature);
 
-AbsractFeature = f => f(enabled)
 
-FeatureA = enabled => { if(enabled) return FeatureAImpl}
-Default = enabled => { if(enabled) return DefaultImpl}
+AbsractFeature(f) {
+    return (enabled) => {
+        f(enabled);
+    };
+}
+
+FeatureA = enabled => { if(enabled) console.log('Feature A Implementation!')}
+DefaultFeature = enabled => { if(enabled) console.log('Default Implementation!')}
 
 ```
 
@@ -69,9 +74,9 @@ The code is transformed to a more declarative version, but why is that better th
 2. Traceability: features can be easily traced throughout the code with no spaghetti-like statements
 3. Removal: At some point, feature flags will need to be removed from the codebase. The polymorphic pattern makes it extremelly easy to remove unused features.
 
-## What about not using any line of code?
+## What about not using any line of code? Is it possible?
 
-At Facet, we developed a [facet-java-agent](https://github.com/facet-tech/agent-java) which does exactly that: every method and endpoint of your system contains a flag which allows toggling. What we noticed is that while developers enjoy the flexibility of the tool and the ease of maintainance, they still prefer in-code declaration. In my experience demoing and talking to people, this is what people say:
+At Facet, we developed a [facet-java-agent](https://github.com/facet-tech/agent-java) which does exactly that: every *method and endpoint* of your system contains a flag which allows toggling. What we noticed is that while developers enjoy the flexibility of the tool and the ease of maintainance, they still prefer in-code declaration. In my experience demoing and talking to people, this is what people say:
 
 > Since I am already developing a feature, adding a declaration to it is not hard and makes sense.
 
