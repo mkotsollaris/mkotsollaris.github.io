@@ -6,7 +6,7 @@
 }</code></pre></div>
 <p>The team loved it, and hence we continued adding as many feature flags as possible, to help our project managers ship more features on-demand. However, not everything was perfect 👇.</p>
 <h2>The problem</h2>
-<p>As more features got shipped to production, we suddenly had <strong>a lot</strong> of code that needs to be maintained in this branched codebase. One way to improve code maintainability would be to remove non-used feature flags, but that requires further maintainance and discipline from the team. So the question arises as to whether there is a better technique methodology that would solve this problem.</p>
+<p>As more features got shipped to production, we suddenly had <strong>a lot</strong> of code that needs to be maintained in this branched codebase. One way to improve code maintainability would be to remove non-used feature flags, but that requires further maintainance and discipline from the team. So the question arises as to whether there is a better technique methodology to recycling feature flags.</p>
 <h2>Enter polymorphic feature flags</h2>
 <p>We could utilize <a href='https://stackify.com/oop-concept-polymorphism/' target='blank'>Polymorphism</a> to avoid conditional code by creating abstractions (<a href='https://stackoverflow.com/questions/2697783/what-does-program-to-interfaces-not-implementations-mean' target='blank'>aka <strong>programming to interface</strong></a>) rather that writting to implementation. Here’s an example of how that might look like:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"># traditional feature flag
@@ -17,14 +17,15 @@ if(FEATURE.enabled) {
 }</code></pre></div>
 <p>with polymorphism:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"># polymorphic pattern
-AbsractFeature(FeatureA);
-AbsractFeature(DefaultFeature);
 
-AbsractFeature(f) {
+function AbsractFeature(f) {
     return (enabled) =&gt; {
         f(enabled); 
     };
 }
+
+AbsractFeature(FeatureA);
+AbsractFeature(DefaultFeature);
 
 FeatureA = enabled =&gt; { if(enabled) console.log(&#39;Feature A Implementation!&#39;)}
 DefaultFeature = enabled =&gt; { if(enabled) console.log(&#39;Default Implementation!&#39;)}</code></pre></div>
