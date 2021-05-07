@@ -27,7 +27,7 @@ if(FEATURE.enabled) {
 }
 ```
 
-The team loved it, and hence we continued adding as many feature flags as possible, to help our project managers ship more features on-demand. However, not everything was perfect 👇.
+The team loved it, and hence we continued adding as many feature flags as possible, to help our project managers ship more features on-demand. However, not everything was perfect 👇
 
 ## The problem
 
@@ -74,20 +74,20 @@ The code is transformed to a more declarative version, but why is that better th
 
 1. Extensibility: Easily add a new feature without adding an `if-else` statement
 2. Traceability: features can be easily traced throughout the code with no spaghetti-like statements
-3. Ease of removal: At some point, feature flags will need to be removed from the codebase. The polymorphic pattern makes it extremelly easy to remove unused features
+3. Ease of removal: At some point, feature flags will need to be removed from the codebase. The polymorphic pattern makes it **extremelly easy** to remove unused features
 
-Overall this adopting polymorphism will help with code readability. It's much easier to trace a program which uses polymorphism rather than tracking complex `if-else` statements on runtime.
+Overall this adopting polymorphism will help with code readability. It's much easier to trace a program which uses polymorphism rather than tracking complex `if-else` statements at runtime.
 
 ## What about not using any line of code? Is it possible?
 
 
-At Facet, we developed a <a href='https://github.com/facet-tech/agent-java' target='blank'>facet-java-agent</a> which does exactly that: every *method and endpoint* of your system contains a flag which allows toggling. 
+At Facet, we developed a <a href='https://github.com/facet-tech/agent-java' target='blank'>facet-java-agent</a> which does exactly that: every *method and endpoint* of your system contains (*by default*) a flag which allows toggling. 
 
-What we noticed is that while developers enjoy the flexibility of the tool and the ease of maintainance, they still prefer in-code declaration. In my experience demoing and talking to people, this is what people say:
+What we noticed is that while developers enjoy the flexibility of the tool and the ease of maintainance, they still prefer in-code declaration. In my experience demoing and talking to people, this is what the majority says:
 
 > "Since I am already developing a feature, adding a declaration to it is not hard and makes sense to my software lifecycle."
 
-The majority of the developers prefer *reliability* and *declarability* over "framework no-code-magic".
+The majority of the developers prefer *reliability* and *declarability* over "framework no-code-magic". That means that while creating such an abstraction is possible, in-code declaration is still preferred over the counterpart.
 
 ## Summary
 
