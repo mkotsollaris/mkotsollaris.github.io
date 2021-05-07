@@ -17,7 +17,7 @@ banner: './CI_flags.jpeg'
 bannerCredit:
   'Photo by Menelaos Kotsollaris'
 ---
-While working at a previous project, we were aiming to continuously ship in production, while following a <a href="https://trunkbaseddevelopment.com/">trunk-based methodology</a>. <a href='https://martinfowler.com/articles/feature-toggles.html' target='blank'>Feature flags</a> are great in offerring such capabilities. We would use Optimizely to wrap-around our features and then we would ship to production, allowing our project managers to toggle features. The code would be looking something along these lines:
+While working at a previous project, we were aiming to continuously shipping to production, while following a <a href="https://trunkbaseddevelopment.com/">trunk-based methodology</a>. <a href='https://martinfowler.com/articles/feature-toggles.html' target='blank'>Feature flags</a> are great in offerring such capabilities. We would use <a href="https://www.optimizely.com/" target="_blank">Optimizely</a> to wrap-around our features and then we would ship to production, allowing our project managers to toggle features. The code would be looking something along these lines:
 
 ```
 if(FEATURE.enabled) {
@@ -31,11 +31,13 @@ The team loved it, and hence we continued adding as many feature flags as possib
 
 ## The problem
 
-As more features got shipped to production, we suddenly had **a lot** of code that needs to be maintained in this branched codebase. One way to improve code maintainability would be to remove non-used feature flags, but that requires further maintainance and discipline from the team. So the question arises as to whether there is a better technique methodology to recycling feature flags.
+As more features got shipped to production, we suddenly had **a lot** of code that needed to be maintained in this branched codebase. One way to improve code maintainability would be to remove non-used feature flags, but that would require further maintainance and discipline from the team. So the question arose as to whether there is a better methodology to recycling feature flags and managing our features.
 
 ## Enter polymorphic feature flags
 
-We could utilize <a href='https://stackify.com/oop-concept-polymorphism/' target='blank'>Polymorphism</a> to avoid conditional code by creating abstractions (<a href='https://stackoverflow.com/questions/2697783/what-does-program-to-interfaces-not-implementations-mean' target='blank'>aka **programming to interface**</a>) rather that writting to implementation. Here's an example of how that might look like:
+We could utilize <a href='https://stackify.com/oop-concept-polymorphism/' target='blank'>Polymorphism</a> to avoid conditional code by creating abstractions (<a href='https://stackoverflow.com/questions/2697783/what-does-program-to-interfaces-not-implementations-mean' target='blank'>aka **programming to interface**</a>) rather that writting to implementation. Here's an example of how that might look like.
+
+traditional approach (*coding to implementation*):
 
 ```
 # traditional feature flag
@@ -46,7 +48,7 @@ if(FEATURE.enabled) {
 }
 ```
 
-with polymorphism:
+with polymorphism (*coding to interface*):
 
 ```
 # polymorphic pattern
@@ -72,16 +74,20 @@ The code is transformed to a more declarative version, but why is that better th
 
 1. Extensibility: Easily add a new feature without adding an `if-else` statement
 2. Traceability: features can be easily traced throughout the code with no spaghetti-like statements
-3. Removal: At some point, feature flags will need to be removed from the codebase. The polymorphic pattern makes it extremelly easy to remove unused features.
+3. Ease of removal: At some point, feature flags will need to be removed from the codebase. The polymorphic pattern makes it extremelly easy to remove unused features
+
+Overall this adopting polymorphism will help with code readability. It's much easier to trace a program which uses polymorphism rather than tracking complex `if-else` statements on runtime.
 
 ## What about not using any line of code? Is it possible?
 
 
-At Facet, we developed a <a href='https://github.com/facet-tech/agent-java' target='blank'>facet-java-agent</a> which does exactly that: every *method and endpoint* of your system contains a flag which allows toggling. What we noticed is that while developers enjoy the flexibility of the tool and the ease of maintainance, they still prefer in-code declaration. In my experience demoing and talking to people, this is what people say:
+At Facet, we developed a <a href='https://github.com/facet-tech/agent-java' target='blank'>facet-java-agent</a> which does exactly that: every *method and endpoint* of your system contains a flag which allows toggling. 
 
-> Since I am already developing a feature, adding a declaration to it is not hard and makes sense.
+What we noticed is that while developers enjoy the flexibility of the tool and the ease of maintainance, they still prefer in-code declaration. In my experience demoing and talking to people, this is what people say:
 
-The majority of the developers prefer *reliability* and *declarability* over "framework-magic".
+> "Since I am already developing a feature, adding a declaration to it is not hard and makes sense to my software lifecycle."
+
+The majority of the developers prefer *reliability* and *declarability* over "framework no-code-magic".
 
 ## Summary
 
