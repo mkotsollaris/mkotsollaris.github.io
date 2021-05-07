@@ -72,10 +72,15 @@ export const globalStyles = css`
       cursor: auto;
     }
   }
-  code {
+  .code {
     padding: 2px 4px;
-    color: rgb(214, 222, 235);
+    background: rgb(244, 243, 250); 
+    color: rgb(34, 36, 38); 
     border-radius: 3px;
+  }
+  .gatsby-highlight code {
+    color: rgb(214, 222, 235);
+    background-color: rgb(1, 22, 39);
   }
   a {
     color: #000000;
