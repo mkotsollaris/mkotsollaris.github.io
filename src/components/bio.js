@@ -148,7 +148,7 @@ const Bio = () => {
         }}
       />
       <p>
-        👋 Welcome to my website! I am <strong>{author}</strong> and I am the founder of <a href="https://facet.run">Facet</a>.
+        👋 Welcome to my website! I am <strong>{author}</strong> and I am a Staff Software Engineer at <a href="https://realtor.com/">Realtor.com</a>.
         Thanks for visiting!
         <div style={{marginTop: ".5rem"}}>
         <a href="https://github.com/mkotsollaris">
