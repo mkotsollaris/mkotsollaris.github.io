@@ -20,7 +20,7 @@ It's been almost six months since I joined Realtor.com, and the journey has been
 
 ## Introduction to Core Web Vitals
 
-Core web vitals are a set of performance indicators that are used to measure the performance of a web page. Google and other search engines use these to determine the quality of a web page. As of now, we have 3 core web vitals:
+Core web vitals are a set of performance indicators that are used to measure the performance of a web page. Google and other search engines use these to determine the quality of a web page and apply their search rankings. As of now, we have 3 core web vitals:
 
 - **Largest Contentful Paint (LCP)**
 
@@ -34,7 +34,7 @@ Core web vitals are a set of performance indicators that are used to measure the
 
 > This CWV measures the amount of pixels that are shifted from their original position.
 
-While there are many other web vitals, the Google Engine weights these core web vitals in a bigger magnitude than the others. As such, I decided to create a collection of strategies for optimizing these core web vitals.
+While there are many other web vitals, the Google Engine weights these core web vitals in a bigger magnitude than the others. As such, I decided to create a collection of strategies for optimizing the core web vitals.
 
 ## Largest Contentful Paint (LCP)
 
@@ -44,11 +44,9 @@ The most important factor which affects LCP is the rendering strategy by the web
 
 ![LCP - SSG vs SSR vs CSR](vercel_SSG_SSR_CSR.png)
 
-Noticeably enough, SSG is the most performant strategy when considering LCP. When a page is statically exported, All it takes for a page to be rendered is requesting the page from the server, which normally would take under `100 milliseconds`.
+Noticeably enough, SSG is the most performant strategy when considering LCP. When a page is statically exported, all it takes for a page to be rendered is requesting the page from the server, which normally would take under `100 milliseconds`.
 
 In comparison, SSR and CSR (worst performing LCP strategy) have a much large difference in performance. These approaches require the server to render the page on the server and the client to run further computations that would further delay the page rendering. I would always recommend that whenever SSG is an option, to always try and use it.
-
-There are other concepts, like TTFB (time-to-first-byte), but I will address those in a follow-up post.
 
 ## First Input Delay (FID)
 
@@ -74,7 +72,13 @@ The DOM API has a lot of methods that can be used to manipulate the DOM. These m
   > When user scrolls the page, we want the navigation bacome sticky at the top of the page, and add a small shadow to the navigation bar
 This can be achieved by both IntersactionObserver and scrollEvent. However, IntersectionObserver is more performant, as it runs on the background thread, resulting to much fewer method triggers as opposed to scrollEvent.
 
-Here's a live example of how to use [IntersectionObserver to create a sticky navigation bar](https://codepen.io/hey-nick/pen/mLpmMV)
+Here's a live example of how to use IntersectionObserver to create a sticky navigation bar:
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Intersection observer  &amp; position: sticky" src="https://codepen.io/hey-nick/embed/mLpmMV?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/hey-nick/pen/mLpmMV">
+  Intersection observer  &amp; position: sticky</a> by Nick McMillan (<a href="https://codepen.io/hey-nick">@hey-nick</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 The Intersection Observer is just one of the lifecycle events that can be used to hook into DOM events. The other many other lifecycle events that can be used, such as the [MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver), the [PerformanceObserver](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver), and so on. I highly suggest any JavaScript engineer to do a deep dive into the DOM API and learn about all the lifecycle events that can be used!
 
@@ -120,7 +124,7 @@ In the example above, the initial viewport is `330 pixels` but the second frame 
 
 - distance fraction: measures the distance that unstable elements have moved, relative to the viewport.
 
-Since 530 (total viewport) - 330 (initial viewport) = 200, the distance fraction is 200 divided by the total viewport (530) = 0.37.
+Since `530 px (total viewport) - 330 (initial viewport) = 200`, the distance fraction is `200` divided by the total viewport `(530)` = `0.37`.
 
 From the following computations, we compute CLS
 
