@@ -1,3 +1,3 @@
 ## [menelaos.dev](https://menelaos.dev/)
 
-My personal website!
+Welcome to my personal website!

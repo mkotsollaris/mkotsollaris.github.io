@@ -50,7 +50,7 @@ const Footer = (maxWidth) => (
         `}
       >
         <div>
-          © 2021 - All rights reserved.
+          © 2022 menelaos.dev - All rights reserved.
         </div>
       </div>
     </Container>
