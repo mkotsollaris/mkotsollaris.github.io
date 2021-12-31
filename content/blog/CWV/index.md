@@ -1,6 +1,6 @@
 ---
 slug: 'core-web-vitals'
-title: Optimization Strategies for Core Web Vitals (CWV)
+title: Performant Optimization Strategies for Core Web Vitals (CWV)
 date: "2022-01-01"
 description: Strategies for optimizing Core Web Vitals and creating crawler-friendly web pages.
 author: 'Menelaos Kotsollaris'
@@ -16,7 +16,7 @@ bannerCredit:
   'Photo by Menelaos Kotsollaris'
 ---
 
-It's been almost six months since I joined Realtor.com, and the journey has been fascinating. Being in such a consumer-focused, everything revolves around performance, optimization, and SEO. I thought of putting together a collection of strategies for optimizing Core Web Vitals (CWV) and creating crawler-friendly web pages.
+It's been almost six months since I joined Realtor.com, and the journey has been fascinating. Being in such a consumer-focused company, everything revolves around performance, optimization, and SEO. I thought of putting together a collection of strategies for optimizing Core Web Vitals (CWV) and creating crawler-friendly web pages.
 
 ## Introduction to Core Web Vitals
 
@@ -56,11 +56,15 @@ First Input Delay is trying to measure the time it takes for the user to type in
 
 > The more JavaScript you are running, the higher the chance of bad score for FID.
 
-The above statement might quite sound outragous at first. After all, frontend engineering is all about JavaScript. The above statement suggests that we reduce the amount of JavaScript on the main thread 🤯. Here is how we can achieve that:
+The above statement might quite sound outragous at first. After all, frontend engineering is all about JavaScript. The above statement suggests that we reduce the amount of JavaScript on the main thread 🤯. There are mainly 3 ways of improving FID: 
+
+> 1. Replacing JavaScript with CSS
+> 2. Using (the correct) DOM API lifecycle methods
+> 3. Running JavaScript on a background thread
 
 ### Replacing JavaScript with CSS
  
-CSS is a truly amazing language! Diving deep into CSS, we can almost re-write a whole lot JavaScript code just with CSS. The power of CSS is that it's by default optimized for the browser. This means that the browser will execute the code in the most efficient way possible. While CSS is considered (by many) quite of a more '*boring*' language that developers use at the end of their tasks, it's truly sophisticated in its nature and quite underated for its capacities. CSS for JS is an excellent course that has a lot of great content and examples, in case you want to drill into CSS!
+CSS is a truly amazing language! Diving deep into CSS, we can almost re-write a whole lot JavaScript code just with CSS. The power of CSS is that it's by default optimized for the browser. This means that the browser will execute the code in the most efficient way possible. While CSS is considered (by many) quite of a more *boring* language that developers use at the end of their tasks, it's truly sophisticated in its nature and quite underated for its capacities. [CSS for JS](https://css-for-js.dev/) is an excellent course that has a lot of great content and examples, in case you want to drill into CSS!
 
 ### Using (the correct) DOM API lifecycle methods
 
@@ -68,7 +72,7 @@ The DOM API has a lot of methods that can be used to manipulate the DOM. These m
 
 - Rather than using scrollEvent (which triggers every single time the page is scrolled), we can use the the [IntersectionObserver API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API). This API is a great way to detect when the user is scrolling the page. An example use-case would be the following:
   > When user scrolls the page, we want the navigation bacome sticky at the top of the page, and add a small shadow to the navigation bar
-This can be achieved by both IntersactionObserver and scrollEvent. However, IntersectionObserver is more performant, resulting to much fewer method triggers as opposed to scrollEvent.
+This can be achieved by both IntersactionObserver and scrollEvent. However, IntersectionObserver is more performant, as it runs on the background thread, resulting to much fewer method triggers as opposed to scrollEvent.
 
 Here's a live example of how to use [IntersectionObserver to create a sticky navigation bar](https://codepen.io/hey-nick/pen/mLpmMV)
 
@@ -76,7 +80,29 @@ The Intersection Observer is just one of the lifecycle events that can be used t
 
 ### Running JavaScript on a background thread
 
+<!-- ![Impact Fraction]()
+![Alt](/path/to/img.jpg “image title”)
+[hello!](~./images/adam-solomon-hello.jpg~ "adam solomon's hello”) -->
 
+<figure>
+  <img
+  src="./my-precious-thread.gif"
+  alt="precious Main Thread">
+  <figcaption>My precious Main Thread!</figcaption>
+</figure>
+
+Our thread is precious! After all, we have just one thread per browser tab, and if we don't use it correctly, it will lead to a devastating user-experience. We need to make sure that we utilize our thread as little as possible and only when we need it. I generally like the main thread to be occupied with render-critical tasks, and the background thread to be occupied with non-render-critical tasks.
+
+Examples of render-critical tasks:
+- Rendering the page
+- Binding data to the DOM
+- Executing a callback function used for user interaction
+
+Examples on non-render critical tasks:
+- Fetching data from the server
+- Deferring non-critical CSS
+
+Fortunately, there are a lot of ways to do this. One of the most common ways is to use [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers). A Web Worker is a JavaScript thread that runs in the background. It's a great way to run a task that doesn't need to be rendered on the main thread. By deferring the execution on the background thread, we can avoid overloading the main thread.
 
 ## Commutative Layout Shift (CLS)
 
@@ -88,7 +114,7 @@ Commutative Layout Shift is a CWV that measures the number of pixels that are sh
 
 ![Impact Fraction](CLS_impact_fraction.png)
 
-In the example above, the initial viewport is `330 pixels` but the secondary frame is `530 pixels` after the first frame transition. The impact fraction is `0.6`. Note that the unit of measurement is a ratio pixels.
+In the example above, the initial viewport is `330 pixels` but the second frame is `530 pixels` after the first frame transition. The impact fraction is `0.6`. Note that the unit of measurement is a ratio of pixels.
 
 ![Distance Fraction](CLS_distance_fraction.png)
 
@@ -113,6 +139,6 @@ A tool along these lines might have the potential to help us with re-assuring th
 
 ## Conclusion
 
-This post iterated among the 3 Core Web Vitals and created a collection of strategies for optimizing them. I hope that this post can help you in your journey to optimizing your web page. 
+This post iterated among the 3 Core Web Vitals (LCP, FID and CLS) and created a collection of strategies for optimizing them. I hope that this post can help you in your journey to optimizing your web page. 
 
-If performance and JavaScript optimization sounds fun to you, my team in [realtor.com](https://www.realtor.com/) is always looking for new ways to optimize our web pages! Let's get in touch!
+If performance and JavaScript optimization sounds fun to you, my team in [Realtor.com](https://www.realtor.com/) is always looking for new ways to optimize our user experience, and we have a bunch of exciting projects! Let's get in touch!
