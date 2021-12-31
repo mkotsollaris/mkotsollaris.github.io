@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[Menelaos Kotsollaris' personal website and blog]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 31 Dec 2021 05:47:27 GMT</lastBuildDate><item><title><![CDATA[Performant Optimization Strategies for Core Web Vitals (CWV)]]></title><description><![CDATA[It’s been almost six months since I joined Realtor.com, and the journey has been fascinating. Being in such a consumer-focused company…]]></description><link>https://menelaos.dev/CWV/</link><guid isPermaLink="false">https://menelaos.dev/CWV/</guid><pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s been almost six months since I joined Realtor.com, and the journey has been fascinating. Being in such a consumer-focused company, everything revolves around performance, optimization, and SEO. I thought of putting together a collection of strategies for optimizing Core Web Vitals (CWV) and creating crawler-friendly web pages.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[Menelaos Kotsollaris' personal website and blog]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 31 Dec 2021 19:53:36 GMT</lastBuildDate><item><title><![CDATA[Performant Optimization Strategies for Core Web Vitals (CWV)]]></title><description><![CDATA[It’s been almost six months since I joined Realtor.com, and the journey has been fascinating. Being in such a consumer-focused company…]]></description><link>https://menelaos.dev/CWV/</link><guid isPermaLink="false">https://menelaos.dev/CWV/</guid><pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s been almost six months since I joined Realtor.com, and the journey has been fascinating. Being in such a consumer-focused company, everything revolves around performance, optimization, and SEO. I thought of putting together a collection of strategies for optimizing Core Web Vitals (CWV) and creating crawler-friendly web pages.&lt;/p&gt;
 &lt;h2&gt;Introduction to Core Web Vitals&lt;/h2&gt;
-&lt;p&gt;Core web vitals are a set of performance indicators that are used to measure the performance of a web page. Google and other search engines use these to determine the quality of a web page. As of now, we have 3 core web vitals:&lt;/p&gt;
+&lt;p&gt;Core web vitals are a set of performance indicators that are used to measure the performance of a web page. Google and other search engines use these to determine the quality of a web page and apply their search rankings. As of now, we have 3 core web vitals:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Largest Contentful Paint (LCP)&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -19,7 +19,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;This CWV measures the amount of pixels that are shifted from their original position.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;While there are many other web vitals, the Google Engine weights these core web vitals in a bigger magnitude than the others. As such, I decided to create a collection of strategies for optimizing these core web vitals.&lt;/p&gt;
+&lt;p&gt;While there are many other web vitals, the Google Engine weights these core web vitals in a bigger magnitude than the others. As such, I decided to create a collection of strategies for optimizing the core web vitals.&lt;/p&gt;
 &lt;h2&gt;Largest Contentful Paint (LCP)&lt;/h2&gt;
 &lt;p&gt;Largest Contentful Paint is trying to measure the time it takes to render the first chunk of content on the page. This is done by measuring the time it takes to render the first chunk of content on the page. &lt;/p&gt;
 &lt;p&gt;The most important factor which affects LCP is the rendering strategy by the webserver. Whether the server is rendered on the server (SSR), whether the page is statically exported (SSG) or the client renders it (CSR), the LCP will be different for each of these strategies. Have a look at the following image presented by Kara Erickson in &lt;a href=&quot;https://www.youtube.com/watch?v=Nl4OwNhh2QI&amp;#x26;t=760s&quot;&gt;Vercel Conf 2021&lt;/a&gt;:&lt;/p&gt;
@@ -27,14 +27,7 @@
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d8c9448b8b2382a996739e1d967e2844/1165a/vercel_SSG_SSR_CSR.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
+      &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 85.52971576227391%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACmUlEQVQ4y4VTaW/aQBD1///af1ClIpcaqkKl5kA10MQmiWibABGBBMJtDCa218fa8Dq7xBRydaXHemdn3s7MGxTQ4jxGb+QgiubiCHPqIY6X34vF4l0kPslSxM/MDtDu2XA9DoeF6A5dhPTI/9Y66QahyziMiQfT8omQg3kR5vOl43w+l4jjWCKKIrmvZ7eRoe/7GBkGut0uBv0emGtjOpmg3+9jOp1C3HueB8bYBqrVKizLelmy67qYEIHtOGjdFGA8aHBdhsFgIAmfl5QszrnM9NUePtVG4FgQXuvVW3170cPEwB0bnLKVTk+XMfUxUZ7THs9fKr86i6hForITwnu04Y2G/zDoY9wZwnL4apRsN3yb8AmScGQy+MzHIgwQkwAxCbEIPDiPDH2DSSIxBS6L3m3HqmTr0aUZDKisCKEANTyihk9nDmXG4PkcYRiS4p7chRidTge2bUuSnuGhO2LkH0ARChvGSKomxsMXoAxdUr3RaKJe0dC+vYBFitdqNdTrdUk0Ho+lTczo7KELh8ZOaKAEQSBfFYTPEQYhbPMOM6NG51D6JZC9n83kLHKPIRDZE5dimqacQ7GvY0Kv929vYY4nsGxXns01P5GhiJOxCciutFotNJv3KP++QfPuHt3OA64qdZT/1FG/ukKTymzQv6JRqeC+2USr3YaIeQtKtVpB4fQSxz9K0M/L0EtlnKjnODw5w6Wm45eu4SKfR7mYx0/1FBrdi5hKZYnr6+sNKKWSjuNcAd++qzg8ziNfOJUoFM+g6foSJfFYCSrZ1cIZdLKpqopisSi/NU1bQclkMtjd3cX2dgqpVAoHB5+xv7+HnZ0dpNNpZLNZCJ9MJouvX/aw/fEDspk0trY+kd8+crkcjo6OVvgLnyn976nybTIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -52,11 +45,9 @@
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
       /&gt;
-  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Noticeably enough, SSG is the most performant strategy when considering LCP. When a page is statically exported, All it takes for a page to be rendered is requesting the page from the server, which normally would take under &lt;code class=&quot;language-text&quot;&gt;100 milliseconds&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Noticeably enough, SSG is the most performant strategy when considering LCP. When a page is statically exported, all it takes for a page to be rendered is requesting the page from the server, which normally would take under &lt;code class=&quot;language-text&quot;&gt;100 milliseconds&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;In comparison, SSR and CSR (worst performing LCP strategy) have a much large difference in performance. These approaches require the server to render the page on the server and the client to run further computations that would further delay the page rendering. I would always recommend that whenever SSG is an option, to always try and use it.&lt;/p&gt;
-&lt;p&gt;There are other concepts, like TTFB (time-to-first-byte), but I will address those in a follow-up post.&lt;/p&gt;
 &lt;h2&gt;First Input Delay (FID)&lt;/h2&gt;
 &lt;p&gt;First Input Delay is trying to measure the time it takes for the user to type in the first character of the page. A noticeable FID issue occurs when a user is trying to interact with an element of the web page (button, input, etc.) but the page is unresponsive. This is due to the main thread being occupied by other JavaScript tasks.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -83,7 +74,12 @@ This can be achieved by both IntersactionObserver and scrollEvent. However, Inte
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Here’s a live example of how to use &lt;a href=&quot;https://codepen.io/hey-nick/pen/mLpmMV&quot;&gt;IntersectionObserver to create a sticky navigation bar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here’s a live example of how to use IntersectionObserver to create a sticky navigation bar:&lt;/p&gt;
+&lt;iframe height=&quot;300&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Intersection observer  &amp;amp; position: sticky&quot; src=&quot;https://codepen.io/hey-nick/embed/mLpmMV?default-tab=html%2Cresult&quot; frameborder=&quot;no&quot; loading=&quot;lazy&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/hey-nick/pen/mLpmMV&quot;&gt;
+  Intersection observer  &amp;amp; position: sticky&lt;/a&gt; by Nick McMillan (&lt;a href=&quot;https://codepen.io/hey-nick&quot;&gt;@hey-nick&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
 &lt;p&gt;The Intersection Observer is just one of the lifecycle events that can be used to hook into DOM events. The other many other lifecycle events that can be used, such as the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver&quot;&gt;MutationObserver&lt;/a&gt;, the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver&quot;&gt;PerformanceObserver&lt;/a&gt;, and so on. I highly suggest any JavaScript engineer to do a deep dive into the DOM API and learn about all the lifecycle events that can be used!&lt;/p&gt;
 &lt;h3&gt;Running JavaScript on a background thread&lt;/h3&gt;
 &lt;!-- ![Impact Fraction]()
@@ -118,14 +114,7 @@ This can be achieved by both IntersactionObserver and scrollEvent. However, Inte
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/502d182b4d9059c60e87a04649fbb3b3/44231/CLS_impact_fraction.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
+      &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 46%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABpklEQVQoz3VRuW7CQBDlB0OTHpr8BBQ08BlUiYREhRQRcQlkYsUgAnbAILCxuIogbhTu82VnuFKEkWaPt7Nv5s3YcDa/3w+73Q6Hw8F7NBplPPDyjEf7A56cTt5fQyHGx+Mx+3Q6xWw2w2q1Ytw2n8/5kkwmEYvFEIlEkEqloOs6B5TVAsaDAebi089kAl1VYRgmstksNE1jVwXW7XZPhIvFggkpIJPJXL1WrXJAo1bj9/3hAByPqIlEvX6fK9vtdthsNliv19jv9ydCWgiQZRmSJHF1iqKgUqlwgCoSSckU3tMyysUStFwOw+EI/9lRJGRCqoDK7nQ6aLVaaLfbLKUkqskrGUEo4UNWoH7mURAJLv26S0iyLcu6PtAH0zSx3W4FoYJ4JC4qT0MraKgUv7AROPWenAZC+3K5vEmmi2EYnIGM+mPV63wu5vMw9TLadQvfzSaqpRLHD0QfB2JYvV4PfXEejUY3QspCcskuzSXZZE1BctZzGlKjwcO4K/lSVSAQgMvlgs/ng9vtRiKRYDwYDDLu9Xrh8XgQDr8xfhBTp79/newXNuuJQmRpyqoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -143,21 +132,13 @@ This can be achieved by both IntersactionObserver and scrollEvent. However, Inte
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
       /&gt;
-  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;In the example above, the initial viewport is &lt;code class=&quot;language-text&quot;&gt;330 pixels&lt;/code&gt; but the second frame is &lt;code class=&quot;language-text&quot;&gt;530 pixels&lt;/code&gt; after the first frame transition. The impact fraction is &lt;code class=&quot;language-text&quot;&gt;0.6&lt;/code&gt;. Note that the unit of measurement is a ratio of pixels.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/30c634ecf6871e16f8a7e5d9b727624d/3e10c/CLS_distance_fraction.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
+      &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 52.91375291375291%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABpUlEQVQoz51Rf3OaQBTk+3+fNESIJALXSP8RBI0BPFB+WIfqoC0qApu7S5wx7XTayc68ee/u3u3bvZOKKMUqSLD7sUaZZyhXK2wiiiQIwFFVFcqyRFEU2G632Gw2Ivb7vQh+djwecYF0OgFFXgPlDmg6sdmcz6CTiah934dhGDBNE5ZlQdd1EEIwGo1g2zYcx8F8PkeapmKA9JPxrKJfQEjRbneC5HyoEM+eRZ3nOSilWK/XyLIMcRwjSRKcmJK2bXFmw+u6xuFwQNM0kL6nNSK/eiNqO3CNJ2aTTqfo3m3wxstFTsLJeM2t8vU1JGtogZgET+QJxCBwxx6oH8BnVi5kE2Z/sVgIywF7W56XyyVc1xU2ObquEyGpvXv0VQ3KnQr55g5qrw93ZCP0PKGQN/0L1z2SqRPwIMZXkYfDb4gCrtB+s/w++frS9fr3LHFl2v0Dbr/IeHwYQFX60LVHvIydPwj/Fh8Ie7KC2xsZCssyy/rARPg8Q+B8JPxfSD32hkIVs6uwWtMGSNgHzD5LGLIPoN4Uoe0wVWOEYxfZywzxxPsU4SvIcTo62UrFlgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -175,12 +156,11 @@ This can be achieved by both IntersactionObserver and scrollEvent. However, Inte
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
       /&gt;
-  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;distance fraction: measures the distance that unstable elements have moved, relative to the viewport.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Since 530 (total viewport) - 330 (initial viewport) = 200, the distance fraction is 200 divided by the total viewport (530) = 0.37.&lt;/p&gt;
+&lt;p&gt;Since &lt;code class=&quot;language-text&quot;&gt;530 px (total viewport) - 330 (initial viewport) = 200&lt;/code&gt;, the distance fraction is &lt;code class=&quot;language-text&quot;&gt;200&lt;/code&gt; divided by the total viewport &lt;code class=&quot;language-text&quot;&gt;(530)&lt;/code&gt; = &lt;code class=&quot;language-text&quot;&gt;0.37&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;From the following computations, we compute CLS&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;CLS = IF * DF = 0.37 * 0.6 = 0.22&lt;/strong&gt;&lt;/p&gt;
