@@ -18,7 +18,7 @@ bannerCredit:
 
 It's been almost six months since I joined Realtor.com, and the journey has been fascinating. Being in such a consumer-focused, everything revolves around performance, optimization, and SEO. I thought of putting together a collection of strategies for optimizing Core Web Vitals (CWV) and creating crawler-friendly web pages.
 
-## Introduction to Core Web Vitals (CWV)
+## Introduction to Core Web Vitals
 
 Core web vitals are a set of performance indicators that are used to measure the performance of a web page. Google and other search engines use these to determine the quality of a web page. As of now, we have 3 core web vitals:
 
@@ -40,7 +40,7 @@ While there are many other web vitals, the Google Engine weights these core web 
 
 Largest Contentful Paint is trying to measure the time it takes to render the first chunk of content on the page. This is done by measuring the time it takes to render the first chunk of content on the page. 
 
-The most important factor which effects LCP is the rendering strategy by the web server. Whether the server is rendered on the server (SSR), whether the page is statically exported (SSG) or the client renders it (CSR), the LCP will be different for each of these strategies. Have a look at the following image presented by Kara Erickson in [Vercel Conf 2021](https://www.youtube.com/watch?v=Nl4OwNhh2QI&t=760s):
+The most important factor which affects LCP is the rendering strategy by the webserver. Whether the server is rendered on the server (SSR), whether the page is statically exported (SSG) or the client renders it (CSR), the LCP will be different for each of these strategies. Have a look at the following image presented by Kara Erickson in [Vercel Conf 2021](https://www.youtube.com/watch?v=Nl4OwNhh2QI&t=760s):
 
 ![LCP - SSG vs SSR vs CSR](vercel_SSG_SSR_CSR.png)
 
@@ -52,11 +52,37 @@ There are other concepts, like TTFB (time-to-first-byte), but I will address tho
 
 ## First Input Delay (FID)
 
+First Input Delay is trying to measure the time it takes for the user to type in the first character of the page. A noticeable FID issue occurs when a user is trying to interact with an element of the web page (button, input, etc.) but the page is unresponsive. This is due to the main thread being occupied by other JavaScript tasks.
+
+> The more JavaScript you are running, the higher the chance of bad score for FID.
+
+The above statement might quite sound outragous at first. After all, frontend engineering is all about JavaScript. The above statement suggests that we reduce the amount of JavaScript on the main thread 🤯. Here is how we can achieve that:
+
+### Replacing JavaScript with CSS
+ 
+CSS is a truly amazing language! Diving deep into CSS, we can almost re-write a whole lot JavaScript code just with CSS. The power of CSS is that it's by default optimized for the browser. This means that the browser will execute the code in the most efficient way possible. While CSS is considered (by many) quite of a more '*boring*' language that developers use at the end of their tasks, it's truly sophisticated in its nature and quite underated for its capacities. CSS for JS is an excellent course that has a lot of great content and examples, in case you want to drill into CSS!
+
+### Using (the correct) DOM API lifecycle methods
+
+The DOM API has a lot of methods that can be used to manipulate the DOM. These methods are called lifecycle methods. These methods are called when the DOM is being manipulated. For example, when a new element is being added to the DOM, the `onMount` method is called. We could use such methods that hook into DOM lifecycle events:
+
+- Rather than using scrollEvent (which triggers every single time the page is scrolled), we can use the the [IntersectionObserver API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API). This API is a great way to detect when the user is scrolling the page. An example use-case would be the following:
+  > When user scrolls the page, we want the navigation bacome sticky at the top of the page, and add a small shadow to the navigation bar
+This can be achieved by both IntersactionObserver and scrollEvent. However, IntersectionObserver is more performant, resulting to much fewer method triggers as opposed to scrollEvent.
+
+Here's a live example of how to use [IntersectionObserver to create a sticky navigation bar](https://codepen.io/hey-nick/pen/mLpmMV)
+
+The Intersection Observer is just one of the lifecycle events that can be used to hook into DOM events. The other many other lifecycle events that can be used, such as the [MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver), the [PerformanceObserver](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver), and so on. I highly suggest any JavaScript engineer to do a deep dive into the DOM API and learn about all the lifecycle events that can be used!
+
+### Running JavaScript on a background thread
+
+
+
 ## Commutative Layout Shift (CLS)
 
 Commutative Layout Shift is a CWV that measures the number of pixels that are shifted from their original position. CLS is derived from the following formula:
 
-  >  CLS = (Number of Pixels Shifted) / (Total Number of Pixels)
+  >  **CLS = (Number of Pixels Shifted) / (Total Number of Pixels)**
 
 - impact fraction: measures how unstable elements impact the viewport area between two frames. We can have a look at the following example:
 
@@ -72,7 +98,7 @@ Since 530 (total viewport) - 330 (initial viewport) = 200, the distance fraction
 
 From the following computations, we compute CLS
 
-  > CLS = IF * DF = 0.37 * 0.6 = 0.22
+  > **CLS = IF * DF = 0.37 * 0.6 = 0.22**
 
 Note that you don't have to run these computations yourself. Chrome already computes these by default; you can open the chrome web vitals panel by going in chrome dev-tools and hitting `cmd + shift + P`. A challenge that I am actively investigating is how to compute CLS in a headless pattern, through unit tests. In a realistic scenario, we want to make sure that we don't ship pages that have CLS issues. While there are tools (Sentry, NewRelic, etc.) that report CLS on the page, it's not always easy to find the culprit. That's because CLS occurs on page/component transitions.
 
@@ -89,4 +115,4 @@ A tool along these lines might have the potential to help us with re-assuring th
 
 This post iterated among the 3 Core Web Vitals and created a collection of strategies for optimizing them. I hope that this post can help you in your journey to optimizing your web page. 
 
-If performance and JavaScript optimization sounds fun to you, my team in realtor.com is always looking for new ways to optimize our web pages! Let's get in touch!
+If performance and JavaScript optimization sounds fun to you, my team in [realtor.com](https://www.realtor.com/) is always looking for new ways to optimize our web pages! Let's get in touch!
