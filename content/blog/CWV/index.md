@@ -8,6 +8,8 @@ categories:
   - 'core web vitails'
   - 'performance'
   - 'crawlers'
+  - 'web performance'
+  - 'WASM'
   - 'SEO'
 keywords:
   - 'javascript'
@@ -15,6 +17,8 @@ banner: './CI_flags.jpeg'
 bannerCredit:
   'Photo by Menelaos Kotsollaris'
 ---
+
+![Web Vitals](WebDev_Vitals_Graphic.png)
 
 It's been almost six months since I joined Realtor.com, and the journey has been fascinating. Being in such a consumer-focused company, everything revolves around performance, optimization, and SEO. I thought of putting together a collection of strategies for optimizing Core Web Vitals (CWV) and creating crawler-friendly web pages.
 
@@ -108,6 +112,23 @@ Examples on non-render critical tasks:
 
 Fortunately, there are a lot of ways to do this. One of the most common ways is to use [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers). A Web Worker is a JavaScript thread that runs in the background. It's a great way to run a task that doesn't need to be rendered on the main thread. By deferring the execution on the background thread, we can avoid overloading the main thread.
 
+### Running performant JavaScript
+
+Another form of releifing the main thread would be to running **optimal code**. You might wonder, what does that even mean? Is it something else, other than efficient algorithms, that we can do to increase our performance? Well, it's not always just about algorithms. It's about optimizing the JavaScript code, and that can be very well achieved from Web Assembly (WASM).
+
+WASM is a portable, high-performance, and low-overhead language that can be used to run JavaScript code. It's a great way to run performant JavaScript code. For instance, take the following code:
+
+```
+function sum(a: number, b: number): number {
+  return a + b;
+}
+```
+
+Written in TypeScript, we run the code directly into the browser, by first compiling into JavaScript, and on the other version, using WASM to transpile into the binary code. Note that this can be easily achieved with [AssemblyScript](https://www.assemblyscript.org/), which is a bundler around TypeScript and WASM. A special shoutout to AssemblyScript, as it's a great way to compile TypeScript code into JavaScript code. This means that we don't need to utlize a different language (say Rust or C++) to compile our code into binary code, which is very handy for not switching between languages.
+
+The outcome is staggering! The binary code is smaller, and the performance is almost **200 times (!) faster** than the original JavaScript code. While you might not always observe this improvement, it's expected that WASM will always be faster than JavaScript. One drawback of WASM as of yet, is that it's not applicable for DOM operations. For example, we can't use WASM to manipulate the DOM. While the team is still working on adding DOM support, WASM is excellent for utility functions that are used widely in our applications. One realistic usecase is parsing data/strings/urls etc. in our applications, or concatenating strings, and so on. 
+
+Using WASM is a great way to reduce main thread usage, even if we are executing code in the main thread, due to how fast WASM code executes on the browser.
 ## Commutative Layout Shift (CLS)
 
 Commutative Layout Shift is a CWV that measures the number of pixels that are shifted from their original position. CLS is derived from the following formula:
@@ -139,10 +160,12 @@ One idea I am actively testing is utilizing the [PerformanceObserver](https://we
 2. render the component and keep updating it with random props (chaos monkey)
 3. Notice whether CLS > 0
 ```
-A tool along these lines might have the potential to help us with re-assuring that we ship components without any CLS issues. This sounds like a reasonable way to test CLS, and I post an update once I have a proof of concept!
+A tool along these lines might have the potential to help us with re-assuring that we ship components without any CLS issues. This sounds like a reasonable way to test CLS, and I will be posting an update once I have a proof of concept!
 
 ## Conclusion
 
-This post iterated among the 3 Core Web Vitals (LCP, FID and CLS) and created a collection of strategies for optimizing them. I hope that this post can help you in your journey to optimizing your web page. 
+This post iterated among the 3 Core Web Vitals (LCP, FID and CLS) and created a collection of strategies for optimizing them. I hope it can help you in your journey to optimizing your web page. 
 
-If performance and JavaScript optimization sounds fun to you, my team in [Realtor.com](https://www.realtor.com/) is always looking for new ways to optimize our user experience, and we have a bunch of exciting projects! Let's get in touch!
+If performance and JavaScript optimization sounds fun to you, my team in [Realtor.com](https://www.realtor.com/) is always looking for new ways to optimize our user experience. From JS/TS, to Rust and AssemblyScript. 
+
+Let's get in touch!
