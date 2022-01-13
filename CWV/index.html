@@ -35,7 +35,7 @@
 <p>This is the time it takes for the user to type in the first character of the page.</p>
 </blockquote>
 <ul>
-<li><strong>Commutative Layout Shift (CLS)</strong></li>
+<li><strong>Cumulative Layout Shift (CLS)</strong></li>
 </ul>
 <blockquote>
 <p>This CWV measures the amount of pixels that are shifted from their original position.</p>
@@ -132,8 +132,8 @@ This can be achieved by both IntersactionObserver and scrollEvent. However, Inte
 <p>Written in TypeScript, we run the code directly into the browser, by first compiling into JavaScript, and on the other version, using WASM to transpile into the binary code. Note that this can be easily achieved with <a href="https://www.assemblyscript.org/">AssemblyScript</a>, which is a bundler around TypeScript and WASM. A special shoutout to AssemblyScript, as it’s a great way to compile TypeScript code into JavaScript code. This means that we don’t need to utlize a different language (say Rust or C++) to compile our code into binary code, which is very handy for not switching between languages.</p>
 <p>The outcome is staggering! The binary code is smaller, and the performance is almost <strong>200 times (!) faster</strong> than the original JavaScript code. While you might not always observe this improvement, it’s expected that WASM will always be faster than JavaScript. One drawback of WASM as of yet, is that it’s not applicable for DOM operations. For example, we can’t use WASM to manipulate the DOM. While the team is still working on adding DOM support, WASM is excellent for utility functions that are used widely in our applications. One realistic usecase is parsing data/strings/urls etc. in our applications, or concatenating strings, and so on. </p>
 <p>Using WASM is a great way to reduce main thread usage, even if we are executing code in the main thread, due to how fast WASM code executes on the browser.</p>
-<h2>Commutative Layout Shift (CLS)</h2>
-<p>Commutative Layout Shift is a CWV that measures the number of pixels that are shifted from their original position. CLS is derived from the following formula:</p>
+<h2>Cumulative Layout Shift (CLS)</h2>
+<p>Cumulative Layout Shift is a CWV that measures the number of pixels that are shifted from their original position. CLS is derived from the following formula:</p>
 <blockquote>
 <p> <strong>CLS = (Number of Pixels Shifted) / (Total Number of Pixels)</strong></p>
 </blockquote>
