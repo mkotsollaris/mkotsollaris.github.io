@@ -34,7 +34,7 @@ Core web vitals are a set of performance indicators that are used to measure the
 
 > This is the time it takes for the user to type in the first character of the page.
 
-- **Commutative Layout Shift (CLS)**
+- **Cumulative Layout Shift (CLS)**
 
 > This CWV measures the amount of pixels that are shifted from their original position.
 
@@ -129,9 +129,9 @@ Written in TypeScript, we run the code directly into the browser, by first compi
 The outcome is staggering! The binary code is smaller, and the performance is almost **200 times (!) faster** than the original JavaScript code. While you might not always observe this improvement, it's expected that WASM will always be faster than JavaScript. One drawback of WASM as of yet, is that it's not applicable for DOM operations. For example, we can't use WASM to manipulate the DOM. While the team is still working on adding DOM support, WASM is excellent for utility functions that are used widely in our applications. One realistic usecase is parsing data/strings/urls etc. in our applications, or concatenating strings, and so on. 
 
 Using WASM is a great way to reduce main thread usage, even if we are executing code in the main thread, due to how fast WASM code executes on the browser.
-## Commutative Layout Shift (CLS)
+## Cumulative Layout Shift (CLS)
 
-Commutative Layout Shift is a CWV that measures the number of pixels that are shifted from their original position. CLS is derived from the following formula:
+Cumulative Layout Shift is a CWV that measures the number of pixels that are shifted from their original position. CLS is derived from the following formula:
 
   >  **CLS = (Number of Pixels Shifted) / (Total Number of Pixels)**
 
