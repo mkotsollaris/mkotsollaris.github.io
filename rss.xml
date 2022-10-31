@@ -1,21 +1,205 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[Menelaos Kotsollaris' personal website and blog]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 13 Jan 2022 23:50:01 GMT</lastBuildDate><item><title><![CDATA[Performant Optimization Strategies for Core Web Vitals (CWV)]]></title><description><![CDATA[It’s been almost six months since I joined Realtor.com, and the journey has been fascinating. Being in such a consumer-focused company…]]></description><link>https://menelaos.dev/CWV/</link><guid isPermaLink="false">https://menelaos.dev/CWV/</guid><pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[Menelaos Kotsollaris' personal website and blog]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 31 Oct 2022 16:42:31 GMT</lastBuildDate><item><title><![CDATA[Documentation - "Software Engineering at Google" Chapter Review ]]></title><description><![CDATA[I just finished reading “Software Engineering at Google”, and I say I am very impressed by all the annotated material and recommendations of…]]></description><link>https://menelaos.dev/documentation-google-swe-book/</link><guid isPermaLink="false">https://menelaos.dev/documentation-google-swe-book/</guid><pubDate>Sat, 05 Nov 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7364e5ad9852705e98bcaf876534f16f/e5166/software-engineering-at-google-lessons-learned-from-programming-over-time.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB69JpbizMw2B//8QAGxABAQACAwEAAAAAAAAAAAAAAQAREgIDEyH/2gAIAQEAAQUC3bchzeZPVxgwT9i//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGxAAAQQDAAAAAAAAAAAAAAAAAAEQETEgITL/2gAIAQEABj8C5bRRRCYf/8QAIBABAAIBAgcAAAAAAAAAAAAAAQARIRAxQVFhcbHB0f/aAAgBAQABPyEsa8vkOJjuQDasiy+0pnVzhFsGhyFxLVvP/9oADAMBAAIAAwAAABBoCAD/xAAYEQACAwAAAAAAAAAAAAAAAAAAIQEQEf/aAAgBAwEBPxBayb//xAAVEQEBAAAAAAAAAAAAAAAAAAAgIf/aAAgBAgEBPxCj/8QAHhABAQABAwUAAAAAAAAAAAAAAREAITFREEFhcdH/2gAIAQEAAT8QFqbYzJoU3uoA8VydmxTK4C9xfcOYkBotOF94PE2C3pOt4aZCLZzM/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Software Engineering at Google&quot;
+        title=&quot;Software Engineering at Google&quot;
+        src=&quot;/static/7364e5ad9852705e98bcaf876534f16f/1c72d/software-engineering-at-google-lessons-learned-from-programming-over-time.jpg&quot;
+        srcset=&quot;/static/7364e5ad9852705e98bcaf876534f16f/a80bd/software-engineering-at-google-lessons-learned-from-programming-over-time.jpg 148w,
+/static/7364e5ad9852705e98bcaf876534f16f/1c91a/software-engineering-at-google-lessons-learned-from-programming-over-time.jpg 295w,
+/static/7364e5ad9852705e98bcaf876534f16f/1c72d/software-engineering-at-google-lessons-learned-from-programming-over-time.jpg 590w,
+/static/7364e5ad9852705e98bcaf876534f16f/a8a14/software-engineering-at-google-lessons-learned-from-programming-over-time.jpg 885w,
+/static/7364e5ad9852705e98bcaf876534f16f/fbd2c/software-engineering-at-google-lessons-learned-from-programming-over-time.jpg 1180w,
+/static/7364e5ad9852705e98bcaf876534f16f/e5166/software-engineering-at-google-lessons-learned-from-programming-over-time.jpg 1200w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I just finished reading &lt;a href=&quot;https://www.goodreads.com/book/show/48816586-software-engineering-at-google&quot;&gt;“Software Engineering at Google”&lt;/a&gt;, and I say I am very impressed by all the annotated material and recommendations of the book, I highly suggest to any software-enthusiast to pick up that book which is a true master-piece to our industry. I wanted to create summaries of the chapters I found to be very interesting, and so this chapter is one of the chapter-summary-series that I have prepared, which focuses on &lt;strong&gt;Documentation&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;What is Documentation?&lt;/h2&gt;
+&lt;p&gt;Every supplemental text that an engineer needs to write to do their job, is defined as “Documentation”. This entails not only standalone documents, but code comments as well. One interesting fact is that most of Google Documentation is in the form of code-comments, rather than standalone docs.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6c314d8811a2f06b57b8b48748432ba4/cf4cc/stripe_documentation.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.16216216216216%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAACDElEQVQoz0WSCXOiQBCF+St7ZT0Q5IpE12S3av901P0zJhUVELmRQ992DwyZqmcPUPP5ut8oeXlFWdeo2xYt6XKJEMcx1QuqqgIvfs/r9XWDkWZBt11MNQNT3ehqL1U3oQRhiAsBqqZBw8CIYFGEKO5qSOCT5wngZruDSgcdd4nZ3CKZfe32Kv2B4p9DHD0fSZahIajn+6QAx5M36ONwFN+2u3/49jAWh+eWA920hXivGRZG0xmUM7tJUly5bQEMBmiSpkjTDBG5lg6nmonFck2QRdemZopWWexUeT8ccKa5tfc7brebcMIzu9OzXHLPwIexCtNZwFosYNg2DMfp3TqYzHQoEbmIyQWHwsCKnHJt+5B4X9M7Xtzy1x8j0d7LeoX1bwK7Jj0bGKt613JMs+OkORTphH+rIqFRJHg7hdgfffreDkDDNvFr5WL98ojVH4va1cj5FD8nKpSQZpgVuQDeGEiS4KIsKWEffhB8tkyH5ja3KFPu0pVXRwnTHHv/gigrhnlJYEbu9+8feDuccGPgZisOcSgm3cXJbD4EIqWkeYEwTpCRGwmTwLJuEeYV0rLqZ7jrr41OQViwHFfMk1uVEjM88RWhOjhkWJ6ioFEkxRXZ9TOUL99HeFyZeP7r4mm9JMdzAeJARChecAZLhjKordBQupx607SDQxGKY8B9tuA8GTAsBjKsg/4HxR+8XRxcf3EAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Documentation Example&quot;
+        title=&quot;A documentation example from Stripe&quot;
+        src=&quot;/static/6c314d8811a2f06b57b8b48748432ba4/fcda8/stripe_documentation.png&quot;
+        srcset=&quot;/static/6c314d8811a2f06b57b8b48748432ba4/12f09/stripe_documentation.png 148w,
+/static/6c314d8811a2f06b57b8b48748432ba4/e4a3f/stripe_documentation.png 295w,
+/static/6c314d8811a2f06b57b8b48748432ba4/fcda8/stripe_documentation.png 590w,
+/static/6c314d8811a2f06b57b8b48748432ba4/efc66/stripe_documentation.png 885w,
+/static/6c314d8811a2f06b57b8b48748432ba4/cf4cc/stripe_documentation.png 1079w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Why is Documentation needed?&lt;/h2&gt;
+&lt;p&gt;Quality documentation has tremendous benefits for an entgineering organization. Code and APIs become more comprehensible, reducing mistakes. Manual processes are easier to follow when the steps are clearly outlined. Onboarding new members to a team or code base takes much less effort if the process is documented. Unlike testing, documentation requires more effort upfront and doesn’t provide clear benefits to an author until later. But like investements in testing, the investmeent made in documentation will pay for itself over time. You might write a document only once, but it will be read hundreds, perhaps thousands of time afterwards; its initial cost is amortized across all the future readers. Not only does documentation scale over time., but it is critical for the rest of the organization to scale as well. It helps answer the following questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Why were these design decisions made?&lt;/li&gt;
+&lt;li&gt;Why did we implement this code in this manner?&lt;/li&gt;
+&lt;li&gt;Why did I implement this code in this manner, if you’re looking at your own code two years later?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Given all these benefits, one might wonder why, in most of the cases, documentation is considered “poor” by engineers?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Engineers often view writing as a separate skill than that of programming.&lt;/li&gt;
+&lt;li&gt;Some engineers don’t feel like they are capable writers.&lt;/li&gt;
+&lt;li&gt;Writing documentation is often more difficult because of limited tools support or integration into developer workflow.&lt;/li&gt;
+&lt;li&gt;Documentation is viewed as an extra burden - something else to maintain - rather than something that will make maintainance of the existing code easier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In most of the cases however, engineers are perfectly capable of writing rich documentation. Documentation provides several benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It helps formulate an API.&lt;/li&gt;
+&lt;li&gt;It provides a road map for maintenance and a historical record.&lt;/li&gt;
+&lt;li&gt;It makes your code look more professional and drive traffic. Developers will naturally assume that a well-documrented API is a better-designed API. Whether a product has good documentation is usually a pretty good indicator of how well a product will be maintained.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Documentation is like Code&lt;/h2&gt;
+&lt;p&gt;Documentation is often so tightly coupled to code that it should, as much as possible, be treated as coded. That is, your documentation should:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Have internal policies or rules to be followed&lt;/li&gt;
+&lt;li&gt;Be placed under source control&lt;/li&gt;
+&lt;li&gt;Have clear ownership responsible for maintaining the docs&lt;/li&gt;
+&lt;li&gt;Undergo reviews for changes (and change with the code it documents)&lt;/li&gt;
+&lt;li&gt;Have issues tracked, as bugs are tracked in code&lt;/li&gt;
+&lt;li&gt;Be periodically evaluated (tested, in some respect)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;If possible, be measured for aspects such as accuracy, freshness, etc.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;code class=&quot;language-text&quot;&gt;stale-md&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;The authors describe that while Google has internally developed tools to “test” documentation freshness and accuracy, public tools have still not caught up in that domain. As such, I developed &lt;a href=&quot;https://github.com/mkotsollaris/stale-md&quot;&gt;stale-md&lt;/a&gt;, a CircleCI orb that &lt;code class=&quot;language-text&quot;&gt;greps&lt;/code&gt; your markdown files and alerts whenever a certain markdown file has not been modified under a certain time. The &lt;code class=&quot;language-text&quot;&gt;default&lt;/code&gt; time range is 90 days, although you can easily modify according to your project to increase/decrease the range. Here’s an example integration of &lt;code class=&quot;language-text&quot;&gt;stale-md&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;version: &lt;span class=&quot;token number&quot;&gt;2.1&lt;/span&gt;
+
+orbs:
+  stale-md: mkotsollaris/stale-md@0.0.3
+  orb-tools: circleci/orb-tools@11.1
+
+jobs:
+  scan:
+    docker:
+      - image: cimg/base:current
+    steps:
+      - checkout
+      - stale-md/scan
+
+workflows:
+  main:
+    jobs:
+      - scan&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;While this is the first version of the project, I want to expand into a deeper code analysis and start analyzing code comments freshness. One of the most common issues I’ve indentified over my past experiences is that often times engineers update code but don’t update code-comments in their commits. &lt;code class=&quot;language-text&quot;&gt;stale-md&lt;/code&gt; can help identify such cases in the future, so these comments don’t end up being redudant post-commit.&lt;/p&gt;
+&lt;h2&gt;Audience&lt;/h2&gt;
+&lt;p&gt;One of the most important mistakes that engineers make when writing documentation is to write only for themselves. It’s natural to do so, and writing for yourself is not without value: after all, you might need to look at this code in a few years and try to figure out what you onmce meat. But if you write only for yourself, you are going to make certain assumptions, and given that your document might be read by a very wide audience (all of engineering, external developers), even a few lost reads is a large cost. As an organization grows, mistakes in documentation become more prominent, and your assumptions often do not apply.&lt;/p&gt;
+&lt;p&gt;Here are some types of audience criteria:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Experience level (expert programmers, or junior engineers who might not even be familiar with the language)&lt;/li&gt;
+&lt;li&gt;Domain knowledge (team members, or other engineers in your organization who are familiar only with API endpoints, or contracts)&lt;/li&gt;
+&lt;li&gt;Purpose (end users who might need your API to do a specific task and need to find that information quickly, or software gurus who are responsible for the guts of a particularly hairy implementation that you hope no one needs to maintain).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Writing such documents is a balancing act and there’s no silver bullet, but one thing that Google identified is that &lt;strong&gt;short documents&lt;/strong&gt; tend to be far more readable that longer ones. Writig a short document often requires you to write a longer one (getting all information down) and then doing an edit pass, removing duplicate information where you can. As &lt;a href=&quot;https://en.wikipedia.org/wiki/Blaise_Pascal&quot;&gt;Blaise Pascal&lt;/a&gt; once said:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“If I had more time, I would have written you a shorter letter.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;By keeping documents short and clear, you will ensure that it will satisfy both an expert and a novice.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Documentation Types&lt;/h2&gt;
+&lt;p&gt;There are several main types of documents that software engineers often need to write - Reference documentation, including code comments:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Design documents&lt;/li&gt;
+&lt;li&gt;Tutorials&lt;/li&gt;
+&lt;li&gt;Conceptual documentation&lt;/li&gt;
+&lt;li&gt;Landing pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Google suggests to keep documents to a singular purpose, and if adding something to that page doesn’t make sense, you probably want to find, or even create, another document for that purpose. This is in the spirit of keeping documents as short as possible.&lt;/p&gt;
+&lt;h2&gt;Reference Documentation&lt;/h2&gt;
+&lt;p&gt;Reference documentation is the most common type that engineers need to write. They often need to write some form of reference documents every day. The definition of reference documentation is anything that documents the usage of code within the codebase. Code comments are the most common form of reference documentation that engineers must maintain.&lt;/p&gt;
+&lt;p&gt;Most reference documentation, even when provided as separate documentation from the code, is generated from comments within the codebase itself. This is how Google achieves reference documentation in its libraries:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a C++ API deserves to have its refenrece documentation live within the header file.&lt;/li&gt;
+&lt;li&gt;Other reference documentation is embedded directly in the Java/Python/Go source code as well&lt;/li&gt;
+&lt;li&gt;Because Google’s Code Search browser (a tool that Google uses to search through its Codebase, something similar to &lt;a href=&quot;https://about.sourcegraph.com/&quot;&gt;SourceGraph&lt;/a&gt;) parses documentation, users can use such information to understand the full context of their searches during code search.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;“Good” code comments&lt;/h2&gt;
+&lt;p&gt;We all know that code comments are essential to a well-documented API. But what’s precisely a good comment? Pragmatically. there are two major audiences for reference documentation: seekers and stumblers. Seekers know what they want, stumblers don’t. The key win for seekers is a consistenlty commented codebase so that they can quickly scan an API and find what they are looking from. The key win for stumblers is clearly identifying the purpose of an API, often at the top of a file header. Here’s the following breakdown by comment-type:&lt;/p&gt;
+&lt;h3&gt;File Comments&lt;/h3&gt;
+&lt;p&gt;Something quite surprising to me is that almost all code files at Google must contain a file comment. This is particoularly surprising as it contrasts the “Clean Code” &lt;a href=&quot;https://softwareengineering.stackexchange.com/q/285787/200660&quot;&gt;minimalist approach&lt;/a&gt;, which is something along the lines of “write comments only if you absolutely need to”. That being said, in the C++ world where there are header files, I can see this being easier to implement, as the sole purpose of &lt;a href=&quot;https://www.learncpp.com/cpp-tutorial/header-files/&quot;&gt;header files&lt;/a&gt; is to help compilers and engineers document implementation files. Hence, in C++ ecosystem, you can take a much more heavier documentation-approach than other ecosystems (for instance the JavaScript ecosystem).&lt;/p&gt;
+&lt;p&gt;Generally, a file comment should begin with an outline of what’s contained in the code that’s being read. It should identify the code’s main use cases and intended audience. &lt;strong&gt;Any API that cannot be succinctly described in the first paragraph or two is usually a sign of an API that is not well thought out&lt;/strong&gt;. It’s suggested that the API needs to be broken down into seperate components if that’s the case.&lt;/p&gt;
+&lt;p&gt;It’s important to realize that in this example, Documentation can act as your north star of your architecture, as it might help you identify flaws during development.&lt;/p&gt;
+&lt;h3&gt;Class/Object/Types Comments&lt;/h3&gt;
+&lt;p&gt;Class comments are important for defining the API “objects” in a codebase. ALl public classes must contain a class comment describing the construct, important methods of the class, and generally, the purpose of their existence.&lt;/p&gt;
+&lt;h2&gt;Function Comments&lt;/h2&gt;
+&lt;p&gt;Function comments should generally begin with a comment of the following form:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;// StrCat&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+//
+// Merges the given strings or numbers, using no delimiter&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;,
+// returning the merged result as a string.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Note that string a function comment with a declarative verb introduces consistency across a file. A seeker can quickly scan an API and read just the verb to get an idea of whether the function is appropriate: “Merges, Deletes, Creates” and so on.&lt;/p&gt;
+&lt;h2&gt;Documentation Reviews&lt;/h2&gt;
+&lt;p&gt;All code needs to be reviewed, and as such, documentation needs review (athough this is less universally accepted). If you want to “test” whether your documentation works, you should generally have someone else review it.&lt;/p&gt;
+&lt;p&gt;A technical document benefits from three different types of reviews, each emphaaizing different aspects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A technical review, for accuracy. This review is usually done by a subject matter expert, often another member of your team. Often , this is part of a code review itself&lt;/li&gt;
+&lt;li&gt;An audience review, for clarity. This is usually someone unfamiliar with the domain. This might be someone new to your team or a customer of your API.&lt;/li&gt;
+&lt;li&gt;A writing review, for consistency. This is often a technical writer or volunteer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Any document tends to benefit from the afoormentioned reviews, even if some of those reviews are ad hoc. That said, even getting one reviewer to review your text is preferrable to having no one review it.&lt;/p&gt;
+&lt;h2&gt;Deprecating Documents&lt;/h2&gt;
+&lt;p&gt;Just like old code can cause problems, so can old documents. Over time, documents become stale, obsolete, or often abandoned.  Google examines freshness through their internal tool baked into their CI, something similar to &lt;a href=&quot;https://github.com/mkotsollaris/stale-md&quot;&gt;stale-md&lt;/a&gt; I mentioned earlier. Owners should strive to keep documentation as fresh as possible and up to date. That’s who the rest of the team(s) can benefit by having reliable docs throughout their codebases.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;It’s fascinating to realize all the possible different types of documentation. to change the quality of engineering documentation, engineers need to acvcept that they are both the problem and the solution. Rather than throw up their hands at the state of documentation, they need to realize that producing quality documentation is part of their job and saves them time and efforts in the long run. Here are a couple of TL;DRs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Documentation is hugely important over time and scale&lt;/li&gt;
+&lt;li&gt;Documentation changes should leverage the existing developer workflow&lt;/li&gt;
+&lt;li&gt;Keep documents focused &lt;strong&gt;on one purpose&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Write for your audience, not for yourself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Afterword&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/48816586-software-engineering-at-google&quot;&gt;“Software Engineering at Google”&lt;/a&gt; has been, by far, one of my recent favourite reads. In this article I tried to summarize as many of the crucial points, but of course, I highly advice that software enthusiasts should read this book, as it brings many exciting concepts and patterns surrounding software engineering. This is one of the chapters that intrigued my interest, and I will be writting on other exciting topics, including CI/CD, Depreciation, Dependency Management and more!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Performant Optimization Strategies for Core Web Vitals (CWV)]]></title><description><![CDATA[It’s been almost six months since I joined Realtor.com, and the journey has been fascinating. Being in such a consumer-focused company…]]></description><link>https://menelaos.dev/CWV/</link><guid isPermaLink="false">https://menelaos.dev/CWV/</guid><pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAAChUlEQVQ4y41SS28SURS+FJOujP4Bq2FhXJi4cdUfoNG4atKlCxNXLiQ28R8Y18ZUoymgqdYSaKFYWpRieUiFlkIDOAOlDo/ODI8OI1BaLHSY49xLodKksSc5OY/5zne+czMInWKPdW8RAJB8nore9kfDt3COe+Pj4+hMZrFY0LbYIXF986tx/L7ku8ZVYiD+qUDAFbyKe8FgUN0lNxgM/yd++gz66koiaitynPXfXlf98PAwiWNjY0ij0fQTmc1mNO/uAGdmQzcd/sSoP5a44wtFRnw/AiM/KfouRVGjisIbGFOtVNTQls7hOWyrgUA/ocfjIVGKINWyO7VBbTchWypDRcQuwm9hB1rNJtA0vXzyqq8223Gh1WpRMplEynZS33/wZLBaLW8oZwG/d4hN3mkcynklx72yILgxLhqL3aPi8ecWo/Eirt0uV4ew1WqRmKBoVXfJ3m59VVSGdTmQjDzIL9Igf+JAqiq9vVoVKxwU2G0eL9ig6Yd4JknT6p7KcDhMyKanps5nM1ltsZQvYHB+X2ovFSU5JEpy7UAiCgVBICfn0syjHZ6fXfL5hnAdCq13BLkUqQqOFDyfn8BDFF1os2wByqUClDgWxGIBciwn13brkMmkvSffMMlyveuQ1+tFi0eE7syac7V9AFYvQIbhmyyb3V+PpxubW9lGjMnVsywPaeaX9ejXGcC+FomQ2VQqdbxhbStOmnMrjutMsbi4yRRevnn1WjOhN1z6bH5/2WT8MDQ/PTlk/Dh5RWd4dwFjTSYTstvtPQ6dTtcvm6ozKnRGWwkET/+o1+sR0yiRPLgZVuH3xKcs2r8MzFpmVFarVWWz2XrucDgI1ul0ooWFhT6uv7xFsdlQGscUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAADBElEQVQ4y42TS0wTURSGT6cJKyQhmhiJCy0LdMHGuGCnCxITF4aHiWzULTsSEjfsa4wbDLIhUqWGWMVUTGjLoy1Q6Yt3aAcLraUtM51n35QKHdvjnRIwxJh4kj8zOfefL/ee+w/APwoP43CsVDWinAHrUqRp1r7QJMhZOCpXNWVFgf+q4eFhQMSanC4Htbm4Bi7L/NU1xidFhJjom3I3RRe3weVyUZIkQTabhYGBgX8D29vbQZZF4DkWxicmYGlhAcwfPl7KRze5lCQkTV+sFxe/LYHBMAo0TUMoFKp919vbC/39/aDT6c4DOzo6QJYEAmRgetra6PN6dLN2+2Wbw3t3Zs5xR333eDy6qSlLw87ODgQCASoWi2kHBwfBaDSCxWI5D3Q6nYBVMj8EsNhCNsc6XwrEWZljGY5lWfJgZJZNHgWDQZM6FpPZDGGGhZaGeuh/+gRGRkZOQH19fWCz2YAYobX1BjzsflDHcXzw+OgIc8USHv8sYfGwhAdEZdJLJjm3CrS7XNfn/cv3VMb95mug1+tPgG63G4aGhmBubu7khon5sHiwzJcRjQwq7gxW3jNY+ZRERe0V8zknsVFiIhEsxfZwg6Z76EgEQjStrQH8fj+8HB6E5rabNZhvbf22LMuRchUxkMeKcR/xK4+4d4i/FGLIZDILqo9PxN8UeY7zbmy0be6GYWtri6oBJycnVRBVM+1zzwrpFMZjiYrAi+WMLCppkVNyKUlJS8JxWpYxHo87T+P1+NXrCxFRghyiRo3R2ZHVxe9EK0zQ5+QS+NmOBCqQeSVwnY5h+EcCA9F9jCYYjO1Fl06B3foXEOYFDQFCPp//E+hFeZtyCH4wb8x0bZHUrgQLPrfL07OystxJRtK9urraRdRJ9MjvX76lBnt3d1djtVo1Klit0dHRE6DBYIAW0pzGLIwnZ4F/N9aI4fo6MSlDLp8FMjMoFApnYhjm7I8yk+j8VSaTCZ6TxT0ii+Cldt6OQclzBQQupSVAbTqd1pLj1ESAWpJJ6hRIdniO9RumjkSUZKy5BQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Web Vitals&quot;
         title=&quot;Web Vitals&quot;
-        src=&quot;/static/fc0c2c6e1f381f5db6f47a51ee6beecb/b9e4f/WebDev_Vitals_Graphic.png&quot;
-        srcset=&quot;/static/fc0c2c6e1f381f5db6f47a51ee6beecb/cf440/WebDev_Vitals_Graphic.png 148w,
-/static/fc0c2c6e1f381f5db6f47a51ee6beecb/d2d38/WebDev_Vitals_Graphic.png 295w,
-/static/fc0c2c6e1f381f5db6f47a51ee6beecb/b9e4f/WebDev_Vitals_Graphic.png 590w,
-/static/fc0c2c6e1f381f5db6f47a51ee6beecb/04a72/WebDev_Vitals_Graphic.png 840w&quot;
+        src=&quot;/static/fc0c2c6e1f381f5db6f47a51ee6beecb/fcda8/WebDev_Vitals_Graphic.png&quot;
+        srcset=&quot;/static/fc0c2c6e1f381f5db6f47a51ee6beecb/12f09/WebDev_Vitals_Graphic.png 148w,
+/static/fc0c2c6e1f381f5db6f47a51ee6beecb/e4a3f/WebDev_Vitals_Graphic.png 295w,
+/static/fc0c2c6e1f381f5db6f47a51ee6beecb/fcda8/WebDev_Vitals_Graphic.png 590w,
+/static/fc0c2c6e1f381f5db6f47a51ee6beecb/1e088/WebDev_Vitals_Graphic.png 840w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -46,24 +230,25 @@
 &lt;p&gt;The most important factor which affects LCP is the rendering strategy by the webserver. Whether the server is rendered on the server (SSR), whether the page is statically exported (SSG) or the client renders it (CSR), the LCP will be different for each of these strategies. Have a look at the following image presented by Kara Erickson in &lt;a href=&quot;https://www.youtube.com/watch?v=Nl4OwNhh2QI&amp;#x26;t=760s&quot;&gt;Vercel Conf 2021&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 85.52971576227391%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACmUlEQVQ4y4VTaW/aQBD1///af1ClIpcaqkKl5kA10MQmiWibABGBBMJtDCa218fa8Dq7xBRydaXHemdn3s7MGxTQ4jxGb+QgiubiCHPqIY6X34vF4l0kPslSxM/MDtDu2XA9DoeF6A5dhPTI/9Y66QahyziMiQfT8omQg3kR5vOl43w+l4jjWCKKIrmvZ7eRoe/7GBkGut0uBv0emGtjOpmg3+9jOp1C3HueB8bYBqrVKizLelmy67qYEIHtOGjdFGA8aHBdhsFgIAmfl5QszrnM9NUePtVG4FgQXuvVW3170cPEwB0bnLKVTk+XMfUxUZ7THs9fKr86i6hForITwnu04Y2G/zDoY9wZwnL4apRsN3yb8AmScGQy+MzHIgwQkwAxCbEIPDiPDH2DSSIxBS6L3m3HqmTr0aUZDKisCKEANTyihk9nDmXG4PkcYRiS4p7chRidTge2bUuSnuGhO2LkH0ARChvGSKomxsMXoAxdUr3RaKJe0dC+vYBFitdqNdTrdUk0Ho+lTczo7KELh8ZOaKAEQSBfFYTPEQYhbPMOM6NG51D6JZC9n83kLHKPIRDZE5dimqacQ7GvY0Kv929vYY4nsGxXns01P5GhiJOxCciutFotNJv3KP++QfPuHt3OA64qdZT/1FG/ukKTymzQv6JRqeC+2USr3YaIeQtKtVpB4fQSxz9K0M/L0EtlnKjnODw5w6Wm45eu4SKfR7mYx0/1FBrdi5hKZYnr6+sNKKWSjuNcAd++qzg8ziNfOJUoFM+g6foSJfFYCSrZ1cIZdLKpqopisSi/NU1bQclkMtjd3cX2dgqpVAoHB5+xv7+HnZ0dpNNpZLNZCJ9MJouvX/aw/fEDspk0trY+kd8+crkcjo6OVvgLnyn976nybTIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 85.8108108108108%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACmklEQVQ4y41TaW/aQBD1/1f/Qz9A03xomkiQSiVUJRCuNAklmCqQAglOMHhtY3wf4NfZ5VCiHOpKj93ZnXnM8SyBVhAmeJw6WK1SbkIz/N05TdN3sfXZLon/mFaA8cSG40aw7BAPUxdJssL/rKdkO0JOxEwfhhXCCxL4lPFq47hcLgWSJBGI43i3v5qh67pQVRWKMsajMoLrmNC0GdkKdF1HGIYIggC+7+/AY7rdLmzbfknoeS4WiwU8chz3yzAnLQoKBNk24K1S3+yhuKQykPK+pe/06fkwXu3h9iKyF4iplLXT+jFOloT1cKKYerlavZj8U1K+iwz5MAJrAX82hadOCCr8RwWz8RSWs27+TPfgePG7hLuSZ8xDHMai7DSOCBSYxNTDAKq2JmJmgDBavdkOvokMuSTMuQ3XCxBFEQVFJPRQnDV9TkQODSykaQdwHBue5wnJDAYDsh1BNp44eFAd0nMIiTEGwzCEtrhEwg0Zdx4Mh+jJFSiDS5imiV6vJ4i4bObzOSzLEnH2WBGtSkgp0pbgVZD+HPMOtjEUWW3BY3h5/E84aUREwSYZkaGuMxKzRmDgNj8z0uFD74Zsg4Zmg1EV/I0xbefDtcrBmL55Y5BGoxF6/b+4uPqDIZV4f3+HVvsGl79v0Lu+xm1XRv+6jX67jcHtLYbkP9qA+4+e2BySLHdQqvxC8WcT9eYVao1LOp/j5EcNV80mWo0GLioVtGpnKJeqaJy36LOTxacnyzI6nc4zSA0KOCme4tv3Egq0VypVQg1n1Rrq9Far18XOUSpXcUqo012xWES5XAaP5/YW0uHhIfb3PyObzSCbyeDg4Av29vbwKZul8wGO83nkcjlCHkdf6f7jB+RzR8hksuCxnLhQKOzwDwZx/B0EoT5dAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;LCP - SSG vs SSR vs CSR&quot;
         title=&quot;LCP - SSG vs SSR vs CSR&quot;
-        src=&quot;/static/d8c9448b8b2382a996739e1d967e2844/b9e4f/vercel_SSG_SSR_CSR.png&quot;
-        srcset=&quot;/static/d8c9448b8b2382a996739e1d967e2844/cf440/vercel_SSG_SSR_CSR.png 148w,
-/static/d8c9448b8b2382a996739e1d967e2844/d2d38/vercel_SSG_SSR_CSR.png 295w,
-/static/d8c9448b8b2382a996739e1d967e2844/b9e4f/vercel_SSG_SSR_CSR.png 590w,
-/static/d8c9448b8b2382a996739e1d967e2844/f9b6a/vercel_SSG_SSR_CSR.png 885w,
-/static/d8c9448b8b2382a996739e1d967e2844/2d849/vercel_SSG_SSR_CSR.png 1180w,
-/static/d8c9448b8b2382a996739e1d967e2844/1165a/vercel_SSG_SSR_CSR.png 1548w&quot;
+        src=&quot;/static/d8c9448b8b2382a996739e1d967e2844/fcda8/vercel_SSG_SSR_CSR.png&quot;
+        srcset=&quot;/static/d8c9448b8b2382a996739e1d967e2844/12f09/vercel_SSG_SSR_CSR.png 148w,
+/static/d8c9448b8b2382a996739e1d967e2844/e4a3f/vercel_SSG_SSR_CSR.png 295w,
+/static/d8c9448b8b2382a996739e1d967e2844/fcda8/vercel_SSG_SSR_CSR.png 590w,
+/static/d8c9448b8b2382a996739e1d967e2844/efc66/vercel_SSG_SSR_CSR.png 885w,
+/static/d8c9448b8b2382a996739e1d967e2844/c83ae/vercel_SSG_SSR_CSR.png 1180w,
+/static/d8c9448b8b2382a996739e1d967e2844/2215f/vercel_SSG_SSR_CSR.png 1548w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -142,48 +327,50 @@ This can be achieved by both IntersactionObserver and scrollEvent. However, Inte
 &lt;/ul&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 46%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABpklEQVQoz3VRuW7CQBDlB0OTHpr8BBQ08BlUiYREhRQRcQlkYsUgAnbAILCxuIogbhTu82VnuFKEkWaPt7Nv5s3YcDa/3w+73Q6Hw8F7NBplPPDyjEf7A56cTt5fQyHGx+Mx+3Q6xWw2w2q1Ytw2n8/5kkwmEYvFEIlEkEqloOs6B5TVAsaDAebi089kAl1VYRgmstksNE1jVwXW7XZPhIvFggkpIJPJXL1WrXJAo1bj9/3hAByPqIlEvX6fK9vtdthsNliv19jv9ydCWgiQZRmSJHF1iqKgUqlwgCoSSckU3tMyysUStFwOw+EI/9lRJGRCqoDK7nQ6aLVaaLfbLKUkqskrGUEo4UNWoH7mURAJLv26S0iyLcu6PtAH0zSx3W4FoYJ4JC4qT0MraKgUv7AROPWenAZC+3K5vEmmi2EYnIGM+mPV63wu5vMw9TLadQvfzSaqpRLHD0QfB2JYvV4PfXEejUY3QspCcskuzSXZZE1BctZzGlKjwcO4K/lSVSAQgMvlgs/ng9vtRiKRYDwYDDLu9Xrh8XgQDr8xfhBTp79/newXNuuJQmRpyqoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 45.94594594594595%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABk0lEQVQoz3VSW2vCUAz2h/oiqzp87V72d3zxQRQEd5GxdU7mBdd6qRZbQR+kgq5eV9F6+3aSzSJjBtKcpMmXLzkngF9JJBIIBoOIxWJsk8kkx+8yGVyHQri9kRGTrpCIx+Ftt7BtG4PBgO1oNMJ8Puf8wGw2w2azQalUQrlcRqFQgKZpMNptTuhbJnA8nvqi1+nAMAxUq1W0RU6r1UKz2cRwOPwB9DwPW9HxBHbSRqPBCV1RbAsmzmSCr+UShohPxJlI/CcB+uz3exSLReTzeSiKgkql4gPqgu3TQw4vzwpqHxo08Y/YUA3JUbA/VwYkhrquc2fS8XjMY9DoBPAqwIrvZahVFaqYZH2Bnc+QxrYsyw/udjvf11UVuftHvCpvqKs1GPU6XNcF7X46ncJxHCZBvs+QAE3T9AHX67UPaIrF270+ZqMxlp8O++5qxftcLBZ8u6RL4fuAtGACpM70BM4bkKUGxIbE6nbZvzjy4XDgQyqVQjgchizLiEQiSKfTHM9ms5AkiePRaJTfKwnV/b0Q0m8gvImx633lhAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Impact Fraction&quot;
         title=&quot;Impact Fraction&quot;
-        src=&quot;/static/502d182b4d9059c60e87a04649fbb3b3/b9e4f/CLS_impact_fraction.png&quot;
-        srcset=&quot;/static/502d182b4d9059c60e87a04649fbb3b3/cf440/CLS_impact_fraction.png 148w,
-/static/502d182b4d9059c60e87a04649fbb3b3/d2d38/CLS_impact_fraction.png 295w,
-/static/502d182b4d9059c60e87a04649fbb3b3/b9e4f/CLS_impact_fraction.png 590w,
-/static/502d182b4d9059c60e87a04649fbb3b3/f9b6a/CLS_impact_fraction.png 885w,
-/static/502d182b4d9059c60e87a04649fbb3b3/2d849/CLS_impact_fraction.png 1180w,
-/static/502d182b4d9059c60e87a04649fbb3b3/44231/CLS_impact_fraction.png 2100w&quot;
+        src=&quot;/static/502d182b4d9059c60e87a04649fbb3b3/fcda8/CLS_impact_fraction.png&quot;
+        srcset=&quot;/static/502d182b4d9059c60e87a04649fbb3b3/12f09/CLS_impact_fraction.png 148w,
+/static/502d182b4d9059c60e87a04649fbb3b3/e4a3f/CLS_impact_fraction.png 295w,
+/static/502d182b4d9059c60e87a04649fbb3b3/fcda8/CLS_impact_fraction.png 590w,
+/static/502d182b4d9059c60e87a04649fbb3b3/efc66/CLS_impact_fraction.png 885w,
+/static/502d182b4d9059c60e87a04649fbb3b3/c83ae/CLS_impact_fraction.png 1180w,
+/static/502d182b4d9059c60e87a04649fbb3b3/8079d/CLS_impact_fraction.png 2100w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;In the example above, the initial viewport is &lt;code class=&quot;language-text&quot;&gt;330 pixels&lt;/code&gt; but the second frame is &lt;code class=&quot;language-text&quot;&gt;530 pixels&lt;/code&gt; after the first frame transition. The impact fraction is &lt;code class=&quot;language-text&quot;&gt;0.6&lt;/code&gt;. Note that the unit of measurement is a ratio of pixels.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 52.91375291375291%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABpUlEQVQoz51Rf3OaQBTk+3+fNESIJALXSP8RBI0BPFB+WIfqoC0qApu7S5wx7XTayc68ee/u3u3bvZOKKMUqSLD7sUaZZyhXK2wiiiQIwFFVFcqyRFEU2G632Gw2Ivb7vQh+djwecYF0OgFFXgPlDmg6sdmcz6CTiah934dhGDBNE5ZlQdd1EEIwGo1g2zYcx8F8PkeapmKA9JPxrKJfQEjRbneC5HyoEM+eRZ3nOSilWK/XyLIMcRwjSRKcmJK2bXFmw+u6xuFwQNM0kL6nNSK/eiNqO3CNJ2aTTqfo3m3wxstFTsLJeM2t8vU1JGtogZgET+QJxCBwxx6oH8BnVi5kE2Z/sVgIywF7W56XyyVc1xU2ObquEyGpvXv0VQ3KnQr55g5qrw93ZCP0PKGQN/0L1z2SqRPwIMZXkYfDb4gCrtB+s/w++frS9fr3LHFl2v0Dbr/IeHwYQFX60LVHvIydPwj/Fh8Ie7KC2xsZCssyy/rARPg8Q+B8JPxfSD32hkIVs6uwWtMGSNgHzD5LGLIPoN4Uoe0wVWOEYxfZywzxxPsU4SvIcTo62UrFlgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 52.70270270270271%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABp0lEQVQoz5WSC3OaUBCF+f//p42JUKJWFKcZEQlDQASkip2kYnzgA+R076oZMpNM25057MJdPs5ervQSxkjcGK/Pc7xOp1jOZkjDALHrQsR+t8N6vcZiscByuUSapqzNZsMSa/v9HteQ8hx4TuhCCyhKflieTgjsR67DMES73YamadB1nWshwzBYpmnC931MycxqtYKUbUokYQaMAhQvKUOKwwGR40Dg5/M5PM9DkiSI4xhBEPBHsixDTm6OxyMO1L/dbrmWfv/K4Tu7M+hsEDk1BLaNgpyy47JEURQsXieQqAXgdOl5G/nhxwM6Wge9ro4uZWv4iGg8hkvjnAgkYDbBoyhCr9djt2L0yWQCy7J4X68fFZKU+jcI1W9l3HypcTb7BkbD4dnhpbH6UvW+mtmh9r2DdkvDNXc7OkJ/jCejzw6roGp8BiWHClTlHrWvt2ioTSiyipbagPMB8DO9A8p3ynnUWh01yo37Jjz6w2IPiw9G+ltIcl3FHUFbTQ2y2E9y+5OOhzMw3jn8Z+CoP4Bv2RgZA7gDE55hYuZ6CIcmLofmv4B/AJcgOfSqTZaYAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Distance Fraction&quot;
         title=&quot;Distance Fraction&quot;
-        src=&quot;/static/30c634ecf6871e16f8a7e5d9b727624d/b9e4f/CLS_distance_fraction.png&quot;
-        srcset=&quot;/static/30c634ecf6871e16f8a7e5d9b727624d/cf440/CLS_distance_fraction.png 148w,
-/static/30c634ecf6871e16f8a7e5d9b727624d/d2d38/CLS_distance_fraction.png 295w,
-/static/30c634ecf6871e16f8a7e5d9b727624d/b9e4f/CLS_distance_fraction.png 590w,
-/static/30c634ecf6871e16f8a7e5d9b727624d/f9b6a/CLS_distance_fraction.png 885w,
-/static/30c634ecf6871e16f8a7e5d9b727624d/2d849/CLS_distance_fraction.png 1180w,
-/static/30c634ecf6871e16f8a7e5d9b727624d/3e10c/CLS_distance_fraction.png 1716w&quot;
+        src=&quot;/static/30c634ecf6871e16f8a7e5d9b727624d/fcda8/CLS_distance_fraction.png&quot;
+        srcset=&quot;/static/30c634ecf6871e16f8a7e5d9b727624d/12f09/CLS_distance_fraction.png 148w,
+/static/30c634ecf6871e16f8a7e5d9b727624d/e4a3f/CLS_distance_fraction.png 295w,
+/static/30c634ecf6871e16f8a7e5d9b727624d/fcda8/CLS_distance_fraction.png 590w,
+/static/30c634ecf6871e16f8a7e5d9b727624d/efc66/CLS_distance_fraction.png 885w,
+/static/30c634ecf6871e16f8a7e5d9b727624d/c83ae/CLS_distance_fraction.png 1180w,
+/static/30c634ecf6871e16f8a7e5d9b727624d/adef7/CLS_distance_fraction.png 1716w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -199,16 +386,16 @@ This can be achieved by both IntersactionObserver and scrollEvent. However, Inte
 &lt;p&gt;One idea I am actively testing is utilizing the &lt;a href=&quot;https://web.dev/cls/#measure-cls-in-javascript&quot;&gt;PerformanceObserver&lt;/a&gt; in combination with a &lt;a href=&quot;https://netflix.github.io/chaosmonkey/&quot;&gt;chaos-monkey&lt;/a&gt;/&lt;a href=&quot;https://github.com/marak/Faker.js/&quot;&gt;faker&lt;/a&gt; tool to measure CLS in randomly generated scenarios. This would work like the following:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1. Performance Observer is Active
 2. render the component and keep updating it with random props (chaos monkey)
-3. Notice whether CLS &amp;gt; 0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+3. Notice whether CLS &gt; 0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;A tool along these lines might have the potential to help us with re-assuring that we ship components without any CLS issues. This sounds like a reasonable way to test CLS, and I will be posting an update once I have a proof of concept!&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;This post iterated among the 3 Core Web Vitals (LCP, FID and CLS) and created a collection of strategies for optimizing them. I hope it can help you in your journey to optimizing your web page. &lt;/p&gt;
 &lt;p&gt;If performance and JavaScript optimization sounds fun to you, my team in &lt;a href=&quot;https://www.realtor.com/&quot;&gt;Realtor.com&lt;/a&gt; is always looking for new ways to optimize our user experience. From JS/TS, to Rust and AssemblyScript. &lt;/p&gt;
 &lt;p&gt;Let’s get in touch!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Polymorphic feature flags - A pattern for technical debt avoidance]]></title><description><![CDATA[While working at a previous project, we were aiming to continuously shipping to production, while following a trunk-based methodology…]]></description><link>https://menelaos.dev/polymorphic-feature-flags/</link><guid isPermaLink="false">https://menelaos.dev/polymorphic-feature-flags/</guid><pubDate>Wed, 05 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;While working at a previous project, we were aiming to continuously shipping to production, while following a &lt;a href=&quot;https://trunkbaseddevelopment.com/&quot;&gt;trunk-based methodology&lt;/a&gt;. &lt;a href=&apos;https://martinfowler.com/articles/feature-toggles.html&apos; target=&apos;blank&apos;&gt;Feature flags&lt;/a&gt; are great in offerring such capabilities. We would use &lt;a href=&quot;https://www.optimizely.com/&quot; target=&quot;_blank&quot;&gt;Optimizely&lt;/a&gt; to wrap-around our features and then we would ship to production, allowing our project managers to toggle features. The code would be looking something along these lines:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;if(FEATURE.enabled) {
-    return &amp;lt;FeatureA/&amp;gt;
+    return &amp;lt;FeatureA/&gt;
 } else {
-    return &amp;lt;DefaultFeature/&amp;gt;
+    return &amp;lt;DefaultFeature/&gt;
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The team loved it, and hence we continued adding as many feature flags as possible, to help our project managers ship more features on-demand. However, not everything was perfect 👇&lt;/p&gt;
 &lt;h2&gt;The problem&lt;/h2&gt;
@@ -226,7 +413,7 @@ if(FEATURE.enabled) {
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# polymorphic pattern
 
 function AbsractFeature(f) {
-    return (enabled) =&amp;gt; {
+    return (enabled) =&gt; {
         f(enabled); 
     };
 }
@@ -234,8 +421,8 @@ function AbsractFeature(f) {
 AbsractFeature(FeatureA);
 AbsractFeature(DefaultFeature);
 
-FeatureA = enabled =&amp;gt; { if(enabled) console.log(&amp;#39;Feature A Implementation!&amp;#39;)}
-DefaultFeature = enabled =&amp;gt; { if(enabled) console.log(&amp;#39;Default Implementation!&amp;#39;)}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+FeatureA = enabled =&gt; { if(enabled) console.log(&apos;Feature A Implementation!&apos;)}
+DefaultFeature = enabled =&gt; { if(enabled) console.log(&apos;Default Implementation!&apos;)}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Utilizing the &lt;a href=&quot;https://en.wikipedia.org/wiki/Higher-order_function&quot; target=&apos;_blank&apos;&gt;higher-order-function&lt;/a&gt; methodology, we are able to transform the code in a more declarative pattern.&lt;/p&gt;
 &lt;h2&gt;So what?&lt;/h2&gt;
 &lt;p&gt;The code is transformed to a more declarative version, but why is that better than before? Here’s a couple of reasons why this polymorphic style is great:&lt;/p&gt;
@@ -274,31 +461,32 @@ DefaultFeature = enabled =&amp;gt; { if(enabled) console.log(&amp;#39;Default Im
 &lt;p&gt;A relatively new term, &lt;a href=&quot;https://micro-frontends.org/&quot;&gt;Micro-Frontends&lt;/a&gt; is a different way of developing websites.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5eae62e331979994d0159f85c9aa6ffe/f5278/monolithic-frontends.png&quot;
+    href=&quot;/static/5eae62e331979994d0159f85c9aa6ffe/2ac44/monolithic-frontends.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 69.1527143581938%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAD0UlEQVQ4yyWTe0yVdRjH3/ccDigvweEqiVwOKBzOec8NEJDD7Qi6Mi5Kxs0Loh4RK1A7FBfDGCQXgVR0xKJMi0blDalNUbDMzXLlslqr1tbUfyxtdFlbY+mnH/Dbvtvzey7f53n2PI+UnZ2N0+kkKiqK2NhYrFYrdpuNJIeD9LQ0VLOJOKG32azCZsEh9A5HEiaTGZPZLGQ7iSYr8QZ/ehsMSLPOqjCEhYURFBhItMGAyWIhUTVjFYHLjEaihE+8IFiWYMQiSC1WFVU1icQWUYSBqOhofJQFmAxaJPEISs0leHn27IeMp4soavLw5J461jXUU9LoYUerh0N99Yyf2Mvh/r0c6atj5PU9vNnvxstbIloJpynTLeJ9kBaELMJW34a5phGdnz+F1eW4D3VSfWA/pwYbuPZBE7cnmvn3Rgsz3/dw6cyrfPx+O5NnOxh/5yUUxZscNZXLfS8Q5Bs8W5SMEm3ANzJmrsL1Oyoo6zvAzs5mzvY8zy8na/njs3ruf97M9K0uvpzo5Or5dj4Za+fMcQ/6gIVEhkZSsMKJ4uM733KAVyiKRj9H6Nq2kby+bvZ0t/DV0HM8+HALW0vzSEpO4/TgLqa/HeDWVDc/Xuvl+rl96P396NwXyc1JG2vyg5C8tQtJCM8hLjQdjeSF69kt1J14jWMDLdwbqeXBhSrKilyY1RSOd22FH7rg9qDAMHeuthHkr/DRiJXpn11seuZxJC+NN3rfJYQoMYJQR05+Bo01Jby3ayXftKVypc3O2tVOMjIy2VzsYr+7gIOeSt5urWC43iVidagmhXW5egwRYigaSUO4sniu3VmUOGLoKLRS57JTnpWMp9jG2vw0MnNcNFVY6amKpssdweHaxTSULsHfVzsfFyqm7SM4ZFmmeFkFhUtL5wzVWZG8sT2elzcbWbc6hWSHE7s9i+VirVZmOnGlr6BmvQ2mtEy/KxEaIJEerKHdriUxQDM/lHBdBFmLVomWF3BqtwSjEo9OS/w55s31oSCONcawa4OZDQV2qtbYeOvFJTCh5c5JDcEBMnE6CaNuvkMpJDCERKOKMcGEXq/naKHCr68EMiOyc1ngusCUwBWBT2WYFLgk5Isyv43KBCsSdkuK2MsRKp/KRdpevYWffv+L72ZgY2UZm+L8GFiVxLVt4fx9VMfD8zKPLmh4eE7Lw3GtSKLhv3ENjMl80eE/V9VAcz38c4OLR3YjOew22roP0trVK47cRF5UGDtTbZTbVY49YeBm3WPc7Ze5Nyxzd1DL7SEt90ckvu5UqEoyIovDWBoRxminm0w1hv8BiYwpJDrqsUkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 68.91891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAADy0lEQVQ4yyWTD0zUZRjHf3/uDvHuEFD0HIdyeHD/uEMEPUQP5Y5ATG1WdNnA/At5KohZSqiZdyACUUJzCQZtldNRpghoxZJlay1Xzmy55Wou53Jt6VrNdJmf3vv5bs/e933e9/t9vs/zvK/k9/uZnZ/PNIsFm82G0+nE7XaTm5tLvvDbZ83ClpmJ2xX3u/D5fNp5jsOB3Z6N15tLujWLAk8y0QYbUvxCgQBapk7FIkjt2dkayOv1Ulg4V9tnCdIcl5tshyDMy9OCeTwe7Y7b5WKmLQtTih6/R48kBskFAcwOX3zDgvCTlNdHKNtUS/nmOiobtlC9YwttLXUMdEeI7t/EgehG3nkzQmvTMxrGnZLFWl9YW0vmGULurg4cq+tJMJoIb6tl3Rtt1B7cx8nenXz+4R6unWvmn4t7+PtKB+c+amV0MMaF4TaOH2nQSJ5b/BijLQ3o5YlIit5AsicPY6YdvapQvX0jVe0xth1oYqRjCzdPRLj3zYvc+/5V7lxu56uRFs6f2s/4UIyBQxF0qoxzhpvlxSWosuFRymY1Fb1kQFEkkWIdpe1tNLc3cbl3M9ffq2F1VRmhxQG+OLGD3747xKWxNn76spMzA9uYmGjg9ddmMvyBizk+E9IEnRn39BAzUvJRdXqWNm1l87td9Pa8wp3BCDfO1LAkVCIaUMioCMDPnTy4fgRu9HPx1E6STAaujPv565dSloYmIxlUI2lmO2mmLHS6BCqfqqB5a5iPt1dwrb2Ys/vmUhFcyMIFC3khXE5nYxV90Q0Md62lr2ERiQaFspIUnl06hYzpCUiqrJI6YYpWXFlYtd9ObJmXxmAeG0P57K3y8niwiEWlpexd5SFWnUl0rZXYmpmsr7RqNYxjn06TSFGluMIEws51FKcHtYNI0E738y7qBVEo4CfPF2DOnABFRSUsC85nifDtWe+ECwo/dCtCocSiaQrR2TqsRkGuSCo5SW5C6SswiGjju2V4X+beoMqvxydy+qCFvZtyWLViNsuDhawMFnD0pQw4r3CpR8Ggl5lnknCIhmrvMCUplemWdNKnWplkTOBkjZk/2008HJQESNjXwsYk/htTuPupjvtnVfgk7pO52iejkyXmFRRxrK+H+T4HUvOul7l86zYX/7gruhSgwTuZo5U+fmxM5X6/wsOzQvE5BU4rj+bzMg+GxDws89luo6Zq6K1W+PcSA7vXIJWXhejq7ael+zDZ4s8+YU9nw9w8NhTmcmxlBlebErl1WOZ3QX7zbR03+1VuH5f4NppE2JetEQYLXIz01ON3WvkfO4ooBYn1kOUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;monolithic-frontends.png&quot;
         title=&quot;monolithic-frontends.png&quot;
-        src=&quot;/static/5eae62e331979994d0159f85c9aa6ffe/b9e4f/monolithic-frontends.png&quot;
-        srcset=&quot;/static/5eae62e331979994d0159f85c9aa6ffe/cf440/monolithic-frontends.png 148w,
-/static/5eae62e331979994d0159f85c9aa6ffe/d2d38/monolithic-frontends.png 295w,
-/static/5eae62e331979994d0159f85c9aa6ffe/b9e4f/monolithic-frontends.png 590w,
-/static/5eae62e331979994d0159f85c9aa6ffe/f9b6a/monolithic-frontends.png 885w,
-/static/5eae62e331979994d0159f85c9aa6ffe/2d849/monolithic-frontends.png 1180w,
-/static/5eae62e331979994d0159f85c9aa6ffe/f5278/monolithic-frontends.png 1971w&quot;
+        src=&quot;/static/5eae62e331979994d0159f85c9aa6ffe/fcda8/monolithic-frontends.png&quot;
+        srcset=&quot;/static/5eae62e331979994d0159f85c9aa6ffe/12f09/monolithic-frontends.png 148w,
+/static/5eae62e331979994d0159f85c9aa6ffe/e4a3f/monolithic-frontends.png 295w,
+/static/5eae62e331979994d0159f85c9aa6ffe/fcda8/monolithic-frontends.png 590w,
+/static/5eae62e331979994d0159f85c9aa6ffe/efc66/monolithic-frontends.png 885w,
+/static/5eae62e331979994d0159f85c9aa6ffe/c83ae/monolithic-frontends.png 1180w,
+/static/5eae62e331979994d0159f85c9aa6ffe/2ac44/monolithic-frontends.png 1971w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -313,31 +501,32 @@ DefaultFeature = enabled =&amp;gt; { if(enabled) console.log(&amp;#39;Default Im
 &lt;p&gt;Micro-frontends have several advantages when it comes to SaaS Delivery.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/8b984/saas_challenges.png&quot;
+    href=&quot;/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/c2d13/saas_challenges.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABsElEQVQoz5WSy07CUBCGT6GES1ugLbci0Jb7NRBISIiCEqMv4UZ3LICFCx/AlUvjRt/ApS+DG3yY3840QUMkkcWfOZmTfjP/fyqEEBBC9hSAqiooFouoVCqsQqGATCaDfr/P1bIsuK4Lx3HQarUwGAyQTCbhM3YSqN08o3H7xg3HLjGg1+uhVquh0Wig3W7Dtu39Dw9JIHd2B2u+4EYul2NYt9tlULlc5nMqleLtaFPq0Za6rvNQVVV/gEXP1nK1wnq9RqXsepcams3mznKpVEKn02GgoijQNI0VjUYRi8UYRjUUCvnA4XCI7dcWm88NptMpX45GI96GRDlRdgSv1+u8NeVsGAbXarXK29JABmpxDeenF5jPLhGPxxEMBvkykUiwJYLJsvzf/PwMX+YxvF5p3NANHaY3naCmafIrEvwIoITHmYWn6wLo7Dg2xuMxvy5Zn0wmbJsyIpsEj0QinCc5oIhoaDgc9oGjkzw+7h/wvliinTIgPHv0j9EH6XSaH4Xyo42pkrLZLL8uZUiR5PN5jouBciAAx7OZ0RTIknSMtcMZ7kv6Baaz9Mcg6cDwb9wTE31SYmAyAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABwElEQVQoz61SzWriUBiNisaMYhLERKNRTKImxt807pRKqbhoobSLrkt/oKX0Z9EXmOU8wOxmUfpEpTAMDH2X03yfpJZCoYUuvpx7T+4993znXkEQBMSlaSW4rod+v8/VbrdhmiZmsxmj67oYj8cYjUaYTqdYLBYwDANvNQT66FtXqCzvmKhUypFQB61Wi0Xq9Tocx4n4yvuNH5UA6+An7MNfTJhmLXIRsAty2el0GGu1GouXSiVGmiuKgmaziXw+vxZU5QLmy11s7+yjqCqQZZlbo3YbjQa7HAwGzOdyOUiSxONCoQBRFBnT6fRacGMjxPP/f/j79IjN+Zw3DIdDdkHleR6q1So7oRh832deVVU+0LZt/qdp2kqwXC7j5Pwapxe3MKoGstksL6LMSIhajlsiJ1SJRALJZJIxk8kglUrx+DXDS1/EzVBiQsyKLEpOCWkD1ScvZCX4e6ngz16RCcexEQQBtxaGISaTCXq93uqwKLPYIc3pIHIaIwv6uoaHs3PcHx3DUmRkImckSMHThXS7Xc5O13WOwrIsfnvE03OiPClDunEWLP6QsB8G2O56UCMHRCYjB3FOX2h13fJ31gsr6RWz8hVssgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;SaaS challenges&quot;
         title=&quot;SaaS challenges&quot;
-        src=&quot;/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/b9e4f/saas_challenges.png&quot;
-        srcset=&quot;/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/cf440/saas_challenges.png 148w,
-/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/d2d38/saas_challenges.png 295w,
-/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/b9e4f/saas_challenges.png 590w,
-/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/f9b6a/saas_challenges.png 885w,
-/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/2d849/saas_challenges.png 1180w,
-/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/8b984/saas_challenges.png 2560w&quot;
+        src=&quot;/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/fcda8/saas_challenges.png&quot;
+        srcset=&quot;/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/12f09/saas_challenges.png 148w,
+/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/e4a3f/saas_challenges.png 295w,
+/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/fcda8/saas_challenges.png 590w,
+/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/efc66/saas_challenges.png 885w,
+/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/c83ae/saas_challenges.png 1180w,
+/static/7e3dcb4d0ffa4ec5c066098b3a2ea6cc/c2d13/saas_challenges.png 2560w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -352,18 +541,18 @@ DefaultFeature = enabled =&amp;gt; { if(enabled) console.log(&amp;#39;Default Im
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/Trulioo/trulioo-embedid-client&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;trulioo-embedid-client&lt;/code&gt;&lt;/a&gt;: script to be included by the client. Required code snippet should look like something between these lines:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;div&amp;gt;EmbedID&amp;lt;/div&amp;gt;
-&amp;lt;div id=&amp;quot;trulioo-embedid&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;https://cdn.jsdelivr.net/gh/trulioo/trulioo-embedid-client@master/v1/main.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-&amp;lt;script&amp;gt;
-const publicKey = &amp;#39;PUBLIC_KEY_HERE&amp;#39;;
-const accessTokenURL = &amp;#39;ACCESS_TOKEN_ENDPOINT_URL&amp;#39;;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;div&gt;EmbedID&amp;lt;/div&gt;
+&amp;lt;div id=&quot;trulioo-embedid&quot;&gt;&amp;lt;/div&gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.jsdelivr.net/gh/trulioo/trulioo-embedid-client@master/v1/main.js&quot;&gt;&amp;lt;/script&gt;
+&amp;lt;script&gt;
+const publicKey = &apos;PUBLIC_KEY_HERE&apos;;
+const accessTokenURL = &apos;ACCESS_TOKEN_ENDPOINT_URL&apos;;
 new TruliooClient(publicKey, accessTokenURL);
-&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&amp;lt;/script&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/Trulioo/trulioo-embedid-node&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;trulioo-embedid-node&lt;/code&gt;&lt;/a&gt;: backend sdk to generate JWT that are consumed from the client.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;require(&amp;#39;trulioo-embedid-node&amp;#39;)(app);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;require(&apos;trulioo-embedid-node&apos;)(app);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;embedid-backend&lt;/code&gt;: REST API backend system to be producing and validating tokens as well as serving application by user configuration.&lt;/li&gt;
 &lt;/ul&gt;
@@ -381,31 +570,32 @@ new TruliooClient(publicKey, accessTokenURL);
 &lt;p&gt;Since the client needs to know whether the request is properly authenticated, we could use a JWT approach where a token is generated and used for authentication purposes. To enhance the security, we could also expire the token after it is used for a single verification, transitioning the token to “One Time Access Token”. The whole workflow can be summarized through this diagram:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4b306d2e5babeef9bd4b42df0f421ad1/8b984/embedid-architecture.png&quot;
+    href=&quot;/static/4b306d2e5babeef9bd4b42df0f421ad1/c2d13/embedid-architecture.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACfUlEQVQoz0WS3Y7bVBSF7diOf44d/ySxHcdOOk6cpGQyBUqZoS0wqEVTphUaRKEFqagIKZfcIJ4BeleQkJDgEXiT0ldAXHHbi7YSvai+HjszzcXS+dnnrL3X2lvxfZ/xeIRl2bRVBSEcbOFi2U6D45u3uP3lXfbefpf58k0uf3hEt5+hKAq60UbVdBxDbc4NgiCgqqbkeUEeRxwc7FOWE3RNax48/vsR//z7Hx988hVf3P+BP/56xLXjO/S7IfPZjGo2xzM17l8puHe5QFFVlY7nNZ/zJGL/4D2q+UJWbNE2TX55+JDffv+T1aVDdveP8KvPsMIJrdamolqN7xgsUkGVuCi6ruN5bhNMfMHFCysmOztkaSKRMsqHpHGfLEkQtrWVdgrX9QhtY3unSWlnhL3I5p23KmbTIcvFiGmZMi66rJalJHWb+PVrV7lxdMjH198nDEyKRDBKHVqa9FE9JXTdDaFutZjMpix3d5lIXwfDjGKcU05LhCs4v7viydPnvASe/f+CME758ZsT1ndvbCusJZ8Rtgzpo5Q4l0bPqplERT/K0FpmE/eChM/XD/j6+1+5vf5Z3hncWa85+e4eykggFsmmKUKIjcGuSV4MZdcrOUpjsizn4kc98kmdUKVR4/ewRNCQmbJxThDhxCHppyt6x0uUMAzZ29sjiRM6octOucPyjSUL2Wnfi/j2J8HVkw6G2iEIfIbZgLjfI01imTAj6fVxRHsrudPpMBgM6HbrzAZldY5pVXJ+OSfqRUSxR3EuI077DIsMt7NRo7ROIRthurq0q1XLrWPbEdDbGpbbpu3omJLcrveWlCbnrD7XCeu1bWvNmzMYtvaa4xW/5ie4cfMtvAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACe0lEQVQoz1WTSWsUURSFa+yqrno1dKp67q6kh3RXd7oTnIVInBBJshHECQQFdScExX+huHIp7sR9sokGN+JCEDcuFYK4EcH/8PmqEhJdXKru5d37zj3nPMW2bUqlEoqqYakKtlXAcQWuEAjhMRymTKaLzHW6RHGFYKaGblooinIQjqke5uVymclkQrudEPsOk4UxtXodVd078G57m89fvnJh/SbX727wZusTl9auUgp9BoMB3V4fYWmcTyNWBpEEpqoEQYBZsOg0q6ycPcd4MsVxHCzLYmtzk533HziyvMqpizdIzz8mTo7KTXSy7cLSDEHRZH2xwuq0imIYBp7n5WgyhEsS7Wwyl1+SxcJ4QSIZ0mrPyuZYnjP/X9cRhMXCYU3XdTlQ5Ektcjl9LCXtt5iO5lgYJHTascybNCqCwNVoVkPajYhWPcrzKLAoBwamoe7RlA0UYm9gwdGZH/VIx0O68x0qtZi6pCEdD/BDwXw65PvuN37/+cWPn7vMVCvcWVvm2uWTeb+aIfx3Zb2gkiQJo9E4JzyLVmMWpyjQNVUO7/L05VtevP7I81c7mJbHxpNH3Ht4P+83PBtF0zSKxWJeMG2dRqtBv9+n0+nkyie9GL9U3OdIw/TasjGRaoZ5LUw6xMMuzdsnqN06juK6bj4gDELCyJd+m5UIR/R6PWmNmAfPfM5c8dEVgR8I5pImzXqZRq0st2lTjWIJyDgUJY5jad4BjUYTyzXoD3qMximLS1Opaon+kuRuUiOKMj5riExASb5u6Gi6iia/tjBR9QNzH1rAkn4KIvlCAgd/RuCVXOlPG9dz5f9ezfVtSY1Goahj7kcmprL/EP4CjKgnXgkAow4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;EmbedID Architecture&quot;
         title=&quot;EmbedID Architecture&quot;
-        src=&quot;/static/4b306d2e5babeef9bd4b42df0f421ad1/b9e4f/embedid-architecture.png&quot;
-        srcset=&quot;/static/4b306d2e5babeef9bd4b42df0f421ad1/cf440/embedid-architecture.png 148w,
-/static/4b306d2e5babeef9bd4b42df0f421ad1/d2d38/embedid-architecture.png 295w,
-/static/4b306d2e5babeef9bd4b42df0f421ad1/b9e4f/embedid-architecture.png 590w,
-/static/4b306d2e5babeef9bd4b42df0f421ad1/f9b6a/embedid-architecture.png 885w,
-/static/4b306d2e5babeef9bd4b42df0f421ad1/2d849/embedid-architecture.png 1180w,
-/static/4b306d2e5babeef9bd4b42df0f421ad1/8b984/embedid-architecture.png 2560w&quot;
+        src=&quot;/static/4b306d2e5babeef9bd4b42df0f421ad1/fcda8/embedid-architecture.png&quot;
+        srcset=&quot;/static/4b306d2e5babeef9bd4b42df0f421ad1/12f09/embedid-architecture.png 148w,
+/static/4b306d2e5babeef9bd4b42df0f421ad1/e4a3f/embedid-architecture.png 295w,
+/static/4b306d2e5babeef9bd4b42df0f421ad1/fcda8/embedid-architecture.png 590w,
+/static/4b306d2e5babeef9bd4b42df0f421ad1/efc66/embedid-architecture.png 885w,
+/static/4b306d2e5babeef9bd4b42df0f421ad1/c83ae/embedid-architecture.png 1180w,
+/static/4b306d2e5babeef9bd4b42df0f421ad1/c2d13/embedid-architecture.png 2560w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -428,31 +618,32 @@ new TruliooClient(publicKey, accessTokenURL);
 &lt;/ul&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/c85dcdb17389004e566df5426acfb09f/8b984/embedid-microftontend-stack.png&quot;
+    href=&quot;/static/c85dcdb17389004e566df5426acfb09f/c2d13/embedid-microftontend-stack.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAClElEQVQoz4WS3UtTYRyAt53NzZ2zs+nm3IfHo07HdpxubjOX8yu3ZpbmF5RihqUXKiJEFNFVdJmZKX0QXSjdBn5cdCEU1H8gdB901V2X3T69ORIioouHF37vj4ffl6mpKcLZXBcP762yvLRIMBRG13VSqRTJZJLmSIRAOIyhurhhxFnpzFKMRvEHg4R/kenDyGaxWkyYTAKtvoH2aIBr4/2Ml/JIkoQsy4SFRBFvrd+Py+fjbk+eHy+e8/3pJtuTk4T1BhrqNRLj87xcnCPhdpSFEVGByWxj+voCripfOShQFIV4PE6FzUZjc4Qa2U4y5CPhValTHad5DsnEcExDq1bLsURPidjqazK3dzBuvWFw/g6dqTaWlld4srHBUKlEIBRCUmQcqhOHYkf1yFSrMlardCo+JTk4RveDfUrrR/Q+es/A4n1SsRZmZmbZ3NoinU6jiZk6PR58oYCQ+/BXK9R4XXjdMnablQohtljMZaGRzhEanEcrLtBwYQ2bN4rktNKaTlHK5UjEDaJGKy6xFK9H4JKpkh2olaJSpwOnvQJZIEmWsrAtleHy9CJtHX2MlW6Sy4xiGmgUpfvZPpPh1dUrJKItSB4vqrcaRVWxORUxW6sQWXE5Kk7Ett/tG61pGqMXCenddKVGadG7qComCXUbPLs0xO7MFM2iZas7QE1znGBC/AnCTS3U1+uE/T5q3QoeubIs7YidZ21ih0JsiaMpF4+Hdb5++cbn42Pe7u3x4eMn2sU92t01VAU1FJ8fp6jSIs7LLNnEhVj+XEp79Byz/Ztk9TnWB7ws53UO3h2xv7/H7u4uhweHJwf+1zb/RSaTpTdfoq+vQF7QIygWixQKBUZGRpicmEDT6k6SzWbzf4U/AQifSdtmvN52AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACoUlEQVQoz4WSy08TaxiHp9MpLWV6ndp2hM4MRXqhAwVKBZXLCIq6IAItoMR6OxxNNLpEohvFxETjJeo5nNWJu3N05y3GRDdG/wA1MXHnX+De3eNnWxfqwsWT78v3fu8vv/cibenqIt9jc271LIuLFeLxJJZlkclkyOfzpNNpUoaBKkn0hYLszmboF3FD0CnoLpbI9trIbhlJ/JEMK40zYnNiaRcnjiygBkNEImFs28YQQkYqhapprI2P8+XuHT7fuM5flQqpzjRpyyRTOclabRmz1d0QtEyjfjm8vIjW5mk8NlFVFcXtpkM4KUSDHB0epNZvU9bjSHLD0SYtyurEAIVEpJHXs3Wc9uoFhk7fprN2hZwzx+Z4jAMHl1lfX6dcHhIlm8hqG562FhSfTDDsRwv6cTdFf6A4NcfY5afsufacsasvqK7dYtf4do4d/4O/NzaYmpwkuVnHK9xGEhqxRJhwqJWwEFVbvciyC1kIub4LFoYnMKrnydQukzl+E09HP4oIbB8dZWF+vt7H7p4CoUiE+CYNPRZFjwSIhwMkBEG/j2CrD4/S7GFv3yDOviW6c8NMjsxTzDtIO7rw9OqsiuldqlYpiMkqgQCBsIrf58XlVuqOFJdEixDyehRkl6vpsG+AwYkFumyHMWeFbG4aabgduS/JvZ2j/Ld/L1kxFHdYR7MyJLM96DmbdrEdVqoDIxGjQxObofobLos5h5mhiwymFrnlaJwZMXn2/CUPHtzn3382eCjOb/voiyaJWVuImp2EdB1fWwCvQGnx1p25hMN6H4vd06wu/Y+TPcWTuQBX9qb48PET79+95eGjx7x6/YZSqVRPcotSf5nqzwwUy5TtGUr9U+wYGmFbeRtzlXlmZ2epHTrEnysrmKb5e6EmXwHdB0ntoA2K8QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Embedid Microftontend Stack&quot;
         title=&quot;Embedid Microftontend Stack&quot;
-        src=&quot;/static/c85dcdb17389004e566df5426acfb09f/b9e4f/embedid-microftontend-stack.png&quot;
-        srcset=&quot;/static/c85dcdb17389004e566df5426acfb09f/cf440/embedid-microftontend-stack.png 148w,
-/static/c85dcdb17389004e566df5426acfb09f/d2d38/embedid-microftontend-stack.png 295w,
-/static/c85dcdb17389004e566df5426acfb09f/b9e4f/embedid-microftontend-stack.png 590w,
-/static/c85dcdb17389004e566df5426acfb09f/f9b6a/embedid-microftontend-stack.png 885w,
-/static/c85dcdb17389004e566df5426acfb09f/2d849/embedid-microftontend-stack.png 1180w,
-/static/c85dcdb17389004e566df5426acfb09f/8b984/embedid-microftontend-stack.png 2560w&quot;
+        src=&quot;/static/c85dcdb17389004e566df5426acfb09f/fcda8/embedid-microftontend-stack.png&quot;
+        srcset=&quot;/static/c85dcdb17389004e566df5426acfb09f/12f09/embedid-microftontend-stack.png 148w,
+/static/c85dcdb17389004e566df5426acfb09f/e4a3f/embedid-microftontend-stack.png 295w,
+/static/c85dcdb17389004e566df5426acfb09f/fcda8/embedid-microftontend-stack.png 590w,
+/static/c85dcdb17389004e566df5426acfb09f/efc66/embedid-microftontend-stack.png 885w,
+/static/c85dcdb17389004e566df5426acfb09f/c83ae/embedid-microftontend-stack.png 1180w,
+/static/c85dcdb17389004e566df5426acfb09f/c2d13/embedid-microftontend-stack.png 2560w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -473,31 +664,32 @@ Jeff Atwood&lt;/p&gt;
 &lt;h4&gt;Semantic Versioning&lt;/h4&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/665313b51693b7e88401f369aff29aba/94448/semver.png&quot;
+    href=&quot;/static/665313b51693b7e88401f369aff29aba/098d4/semver.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 62.55835667600373%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAADD0lEQVQ4y22TXUxTdxjGG7PEe7eLJXq1ZRWpfNbSc9rT09MWrI4tY5ipIxpj5sUSjYBfYU7FzHlhNIoDUpQWaOWjuIjGmWlMpluMQREYG8OPCLWIRmIb0cjVbn6+bYFA4sWT9/0/5/k///8553lNrpYn6K1xNKmOUKZPcbN8qirBhevZqr6HN82a+cJxyqJP58zc8/gtF5/jaYvP8bO1vHtigVnGMBRDaR6jvGucX3oTOIJj6KExVOGc0hstMdqHXvHdpQlWnRlNcy55rgsf7E/ibYuhpblY2tjk6XyJW1D6a5La29P4uhK42l+y7dobSqIJ1p5P0Pnwf1m/JqXd+vsUXtFoovm5dxp/dwJDeE/HpBjKDVfs6eSzyjaydp1jhcBcFWZ59Tlyd4ex7OkgvyaKfX8X5uoIK/d2UlgjfVVENBHyf+jGsreLLOlzfuyRV5Yb+nw+tm6uoPyrL/EZOqX+Ery6xoZv1pGTvZyPP1rCuq/LMDQVTbWj2m2sLy9j08b1LP5gEZpDwW84sdjd2BqGMeWqBg7vGqyuYoqM1RRoXnLsOlrx51hWOfhw2adkW1XsHj/mPBsWq0KRuwRF1kuWfsIycw55NhWzVooSuI+p8NQg9rp76PUDaPX9eBsHMQS5J/pwNvyNP/gfesOgYABX4xBW0aun+3EIPE3DGIF/ZP8ARfX/Zv6yo/Up319NcrT3LT/dfsvxvmlqbk7hCk/wRfQ5+28kOXbnDccFFT0v0IWvvp6g9tZrDvw1xb4/kmy/lhA+EzmTJn/G23wfT2CI4sAgpc1DrA49QJsJ+caeSb6NjrH5wgRrO55JbGKSzXE8Z0ZwB4bxtIxSHBmXGGXya3LLibYTvWRXtpC14yxZO0PkHfoNvU1ODI6Sf/QG5spWVh66gtr0IBNg2VN45DqWXWGczY/R5k+Kaybh6ukBlJN3KDr2J9rZRxlDCXDBwUsU1l7GevgKSl1/2iyldzaNoJy6K7rxdFwyEzMzeml3+Qap27rDC8fJaJ8UvEgjZTY353KgO/Js3izH08bvAC9RmM6QFKXCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 62.83783783783784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC/ElEQVQ4y22TyU9TURTG+wewkcSYaFy4UBFB6ABt32tfKW0BBxTcGKKJw1oNMcaBAKI4AqLGOEIpUHACRFQWxinIIBJ2KlHDUBQEwWoQTdz9vO82BRYubu693/edc0/uOZ/BWTOCFgih74p/hIX36G6rHsGx4B7l/qc3RC9ptSE23fo8R7qiuNjzmsdIr5vHo5psodfjoslkQqd/GKV6iPXBEJd7p0WCYXTMXjWEWh1Z1f1h9rePY7kxKLVaTYS/1vedTY0hedZj9MQGd+Mk7ltT+O5MUdrzm6y706jBSXa2/2TjvSl0vn7gLwdfzuAQ+K72H3iF1lY3ycmeWXJapnE2fJM6p15hYtFDVh28S/yRZpIKWog71MSaIy0YC5pIKmzFeOwhWmkbCUdbSCxoxVbSxprDTawWutTjj1lX+EDGJhY9QvMPYVC9G9iRt42cnFw0TSMrMxPN6SQndysms5nY2EVkb8nF4XCgKAopqVY2Z2ezY/t2YmJiMAtNhjedBLMdU0UvhiTVQ7o3A7vLg5rmwaa5SU5VcPsyMVkVYpcsJdFokVxCsoW1SUZ5TvNlsXjpcpatWIk5xUqcxYGlsg+Dsfw1xjMdWMs7SRVLqehCrewh4VQHKeXdeK70YzvfjU3gdoEby3ownevEfPYV6sU+lAtvMJ/rktVpAdEUpXaM3e1hTvf+5oRoSlnfH4o7Z3A3fGX97QkOPQ9z5vUvyt/MsvvRFI66cfY9CVPS9UvqDr/4Qf7TMO7guOiyaIo+sF7/RzKq3pFV9ZYtNW/ZWPtpbgzy7k+wsznEntYvbL4zJsfGVz+Kz/8BT9V7PIFBMoOjYpQiQ25w1X3BerGf+PwAcXtvErffL7p5f84RJvElqw80srboMfbrHyJDLWLMZztkjHJtAEdgdN4p8lA7iv1SP9aKblJOP0O9+k5gEdcYix6QLEbIVNwmeU0k03H1+oD48y5ZmXSJLGCB9fQEerWRgPkXXQ0TpInlCn6V/JyXRRGu+rF5f0vrjfAPt++YnIXjh5cAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;semver&quot;
         title=&quot;semver&quot;
-        src=&quot;/static/665313b51693b7e88401f369aff29aba/b9e4f/semver.png&quot;
-        srcset=&quot;/static/665313b51693b7e88401f369aff29aba/cf440/semver.png 148w,
-/static/665313b51693b7e88401f369aff29aba/d2d38/semver.png 295w,
-/static/665313b51693b7e88401f369aff29aba/b9e4f/semver.png 590w,
-/static/665313b51693b7e88401f369aff29aba/f9b6a/semver.png 885w,
-/static/665313b51693b7e88401f369aff29aba/2d849/semver.png 1180w,
-/static/665313b51693b7e88401f369aff29aba/94448/semver.png 2142w&quot;
+        src=&quot;/static/665313b51693b7e88401f369aff29aba/fcda8/semver.png&quot;
+        srcset=&quot;/static/665313b51693b7e88401f369aff29aba/12f09/semver.png 148w,
+/static/665313b51693b7e88401f369aff29aba/e4a3f/semver.png 295w,
+/static/665313b51693b7e88401f369aff29aba/fcda8/semver.png 590w,
+/static/665313b51693b7e88401f369aff29aba/efc66/semver.png 885w,
+/static/665313b51693b7e88401f369aff29aba/c83ae/semver.png 1180w,
+/static/665313b51693b7e88401f369aff29aba/098d4/semver.png 2142w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -511,21 +703,22 @@ Jeff Atwood&lt;/p&gt;
 &lt;h4&gt;Calendar Versioning&lt;/h4&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 449px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 449px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 150.33407572383072%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAACXBIWXMAAFxGAABcRgEUlENBAAAFuUlEQVRIx4VWWUyUVxS+qGnaPvSx7Uvf+tKXvjXxpY+mb62pTdvExpSgDYRQBRRll1UGUJF9dYFhdQBZh21AtlEQZHNYBsSFfRtWRWHg6/+dyUx8aNOTTO7/3//e757zfeecOwqa2Ww2dHV1ob6+HiZTK9rau1BZ04QiQyPKKuoRHBKK6upqNDU1ybemljY0t5jQ0GBEY2MjampqMDY2Riiozc1NBAcHY3R0FMsrK5iyjsJQkIq0kB9hTPwe1TkXkHRDh7U1G6anp3E3Mx7NdaXo6zVjcXkd29s7ePXqFcrLyx2Aa2truHjxIpx2xfsXDEUobGQooFDBlqYwdUOhX/cpUjy/QPXf2ly6QuUFhWshf2F9bUX21dXV4eDgwAEYcOmSTE6MW9AT/yVQqoFVHMOB/ghQfBQo0d7LFOz3tLFIezdo85UKd/9UMJTqZW95ucHh4dzcHPx8L8hL3q1QWKIV0jw+QuMVNxzqNYBiJeNevpsGdgT2AoXVLIXNPIWoX49i2DIhe8mjAD5//lwL2R9W6wQ6u7qR5/0Zct0VBmIUVrKPwpLghq08N/F68JpCR7gb+q8dgylQ4ZbXV5hdsAGHdtTW1joA5+fnERQUhI0NG2ybuwjz/R2FQd+gOvhz4WtMp7CUqlDm+zFyPD8R7mr9FRL/cIO5oxkzs3NYXFgQtd+/fw+1vb2NwMBATE1N4dmzEVgnpzG7tIXSCiOSdMEI9f4BPqe+xqmff0JsZBA8fzuO4999C6OxAfOLy1hZWcb+/r6kHEdFN2NjY7Gzs4N/s6raJsTGJyE/Px/GhkbEJSZr9ExheHgY0xpdh4eHAkSV7Xa7AzAsLAyPHz8WL5eWlvD27Vu8e/dOABPiddAX3NMSvgVZWVkwm7tk3m7fdx1KIKPRKHsEMCAgAE+fPnVVS0dHB3p6elBUVITTp08L4a2trcjOzkZaWhoGBwcxPj4Oi8XiAiWHGxsbDsCQkBDMzMzIBy588+aNhHLnzh08ePBAK7EGjasVdHZ2IiEhAUNDQy4whkvjgRRYAMPDw2URS4jcMGza1taW/DjP7zR+29vbk/r/0B4+fIjZ2VkHYGJiomuD88T/M0bw8uVLjIyMgP2AHi4uLjoAyV1ubi66u7tRUVGB27dvo7CwEGVlZUhPT5c58hcTEyP0+Pj4wN/fH+7u7jhz5gx8fX0REREhhwhgS0sLvLy8oNPpkJGRIWqSP27y9PSEh4cHTp48iRMnTshzZWWlCMV2ZjKZJGWYequrqw5ATiYnJ2NiYgLNzc3yzsWXtKZx9uxZqSR6WFpaCr1eL0pTnMzMTFy/fh0pKSm4evUqXr9+7QAkFwzj/v37AhwdHS2hklsC0GPmKlOKobW1tSEpKUlSpaCgAAta6ZEu9ksBZPmdO3dOhGGCE5RGHkk0lX3y5Ikr35yqsgAYLrPAYDDIfhfg5cuXZSFPM5vN8lxSUiL5RnFSU1MlD+khq4JRkHOO5J3CPXr0yAG4u7sronCSIFSN4d+8eVPItlqtspEHkTuWKCuJnjFt6NDk5KTWXJ45AFmD3t7eUhHMdlaHk1tupPX19cEpoDMzBgYGpDzpBCMgqHIWN1sYrwNmO284zvX29spiJi1VJF+squLiYvGcIOxCFIn1L4C8WGjnz5+XBVSSIVMQJntUVJTUOXki6SSfCczn9fV1qX2OpIPrXIAUhSfQ2tvbZWRevXjxQhoDE5lcE5ibKQi9Zw7ymc5QdeWsXZLd398vp/DZmdiRkZFyAZESVghVZqlWVVUJvywE5irDZnopckULDQ1FXFycnMiLn174+flJXn547xKARjA6Q2XZ7RkV1XelDcuJecYFFIFeURSK9OE1SS/ZL1khbMosx5ycHDnIdQXwJP57YPkxHIbp9JbCMHxyRC9Z0xwJzJGesik4TVExZ8elgvSKQrCBMmH5Y5NlFOx7vCr/qz/y9w8w+INf6SwB6wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 150%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAACXBIWXMAAFxGAABcRgEUlENBAAAFsElEQVRIx41WSVBUVxT9jqmsUuU6WSRbF1llkVWq3CQbFtFkZ0mVMchQFlLMHaQlWN2M2gwBGgsKAW0I3cxg04AiFCKjyNDNDBIgTDYKaSaBk3duV6OLLHKrHr///+/d4dxz7keDsrdv3+L58+dwNDXhaVubWh2orG2CpdKBR+VV0Ol+g9Vagfr6ejS3PkVDox12ux3Njia0tLSgsbERMzMzdAVtfX0d8fHxcLmcWFxawuT4KMpLcpGj/wkNd79HVUEcMjJM8GzvqUOzKCnIQltLIwZfvsTyqhtutxtjY2OoqqryOlxcXERUVJTcHKgVG+yHod81rGdrQKmGlQwNzvQz6E4+h/SAz1EXqp6pd49unIEpSYfdHQ+Ojo4kS3G4pLKKiY6WmzHnELqM5wCrclZ5GoelJ4GyU2qp+z817Baq6yN1bzshe3Iva6ivq5azlZU2r8Pp6WlERUbIjTklFBNGDX/8chbt8erwQ7UsGo5UpvvFyonlpAqiwZ2vYbNAg/7nTzE58xeODg/Q0NDgdeh0OhERESH4tDjseBByBnn+GgYNqjTzKbjSTmCrUDkrV89UsM6EE+g1nEZrjAZT0FdYdXuwv7f7wSG7c+vWLWx7/sHy+iZ0QT+gLPZL2OM+Q1O4hslUhWeuBlv4JygKPouaMA3N0RrSL59EV0cLFhaW8LeCrUkx5ODgANra2hpiY2MxOzuLkeEhuManMLewjqJSK1ITbkAf+B1CL36BS5d+hFEfhl8vfo1vvzmvKGbH8soaeH5nZ0eawuZo+/v7uHPnDt6/f4//snJbPRKNd/HgQTHqG+wwpJgw6hzDq1evMD01JXt8DqVk/omLi5MNc3Nz2NhwY29vT6XvDZCcZECZ5aEQ2GzOw0B/rzz/OIHd3V08fvxYnonD8PBwDA0NySEqoE2ppa+vD6Wlpbhy5YpE57ucnBwUFBRgdHRUyOxyubz8VdjxnMfj8ZZMDKkYGjdtb29Llrm5uYpflRL9zZs3cDgcSE1NxeDgIMiOjzNtbm4WPCVDnU6H8fFxkJMjIyNYXV2VTRsbG3j37t3xcxqVxRJ9CfiMFaysrHgdsikTExPyghn/X1tYWMDk5KRU1NraKkHEIW+IV39/P+rq6uS31WoVwd+/f19IW1RUhPT0dCQkJODmzZuIVnL19/eXxfvk5OQPXeaBwMBAGI1GZGdnC/hmsxlhYWEICgrCtWvX4OfnhwsXLshvm82G6upqwZbY1dTUICkpCZubm16HzIoNINDE4smTJ3JlZDpg0xjAYrGgpKRE9mZkZEj2JpMJWVlZuH37NpaXl70O2VkeZoncyGjMNC0tDcXFxfKbpXLA6vV6CcYSWVlhYSE4sZgEMRWHBPPq1asYHh6WzZmZmYIHN5MuJDzxpZFvtGfPngllyFF2t6KiQphy7DAmJkY2vn79GgMDA17ZlZdjSsmrrKxMnHd1dQkjGJSZskm8snTuYVBxSK5dv35dJgYx4jgj8CyLZTNzHmxvbxeHDMIM5+fnRVHUMvE/zpDdCQgIECWQxFQHjZt8pVIdNGLlUwblR4qx42wMA4hDEpMlUwEsmZnSXrx4IZQgTw0GgwRkpsSLXWW3WS61zwA8q3GG0YKDg+UlOx0aGioUIR8TExMla3af5fH54eEhent7pTJKkgl1dHR4acOXNJKYEWiMSKMjapeiZyM4MPLz8wUGUstHs3v37km2lK3mmxYsiXomDtxAp/y8sjHElJDwytnJbMiAnp4e1NbWClcZkN9ojbOMFhkZKR0lFXiIXQwJCZHSCAtJzeDEisb/NGgv1QefmdHhcVO2trakS9zkG7RsTHd3t5RL8414lkkHpBcVRkzJUQYifMddpvRYIp3wK5iSkiI65ZThZsqPKsnLyxPJkcgst7OzU5rhs+Muc0AwGtXAGcchS0x8i1VQhgzua+THRj9c/wLIt4LA54UPfgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;caltree&quot;
         title=&quot;caltree&quot;
-        src=&quot;/static/1b9e0cf13b6ee6ebace732a310f83c54/a5369/caltree_med.png&quot;
-        srcset=&quot;/static/1b9e0cf13b6ee6ebace732a310f83c54/cf440/caltree_med.png 148w,
-/static/1b9e0cf13b6ee6ebace732a310f83c54/d2d38/caltree_med.png 295w,
-/static/1b9e0cf13b6ee6ebace732a310f83c54/a5369/caltree_med.png 449w&quot;
+        src=&quot;/static/1b9e0cf13b6ee6ebace732a310f83c54/053a9/caltree_med.png&quot;
+        srcset=&quot;/static/1b9e0cf13b6ee6ebace732a310f83c54/12f09/caltree_med.png 148w,
+/static/1b9e0cf13b6ee6ebace732a310f83c54/e4a3f/caltree_med.png 295w,
+/static/1b9e0cf13b6ee6ebace732a310f83c54/053a9/caltree_med.png 449w&quot;
         sizes=&quot;(max-width: 449px) 100vw, 449px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;
@@ -546,31 +739,32 @@ Very straightforward way of &lt;a href=&quot;https://calver.org/&quot;&gt;doing 
 &lt;p&gt;This how the architectural flow looks from EmbedID, end to end:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5ce1bf5a63b14750e19fd635a6a1993c/8e724/architecture.png&quot;
+    href=&quot;/static/5ce1bf5a63b14750e19fd635a6a1993c/d9ed5/architecture.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC3klEQVQ4y4WTy09TURDGb1+3D/qkD5He23tLSx+WUhEtgvKqRCQqoRI1KgrqAqMmRjEhVgPqjo0rXevOjRHBjSbqwn8BE5fu3Oj/8POcA+pOF5M5Z+6c734z842WyWTYZWZIG2nk2c7ayluW9cey2SzpdBpN0/5vkViCE3PzHDxUJxqN0dbWRjKZJBQKiXuUSCSCrusUCgX1rVKpKKtWq8oXi0VqtZp6owCPTozw+PYlHraW6BFJMliv1xkfH6fRaCh2MmbbNl6vV/2gPRYjkUgoi8fjJASYz+fbBkwGNeZmJ5k4WMEhAw4HHo9HmUxwuVzK5/N5IuKx5nTiEY+dIi5z5E9cIqZLr3I9UabnFonZPWiewJ9e9PX1sbCwoMqU96xg2F8uYQh2vbkcMcFUlmkYBoadpadSwh/wo/U/eEW99ZKRtQ/Y0zdZvHqZ/v0HuN9q8ezpU5ozMzRnZ7k2f4mtpTt8W13h671lzg4NYee6sLtL9C+ucn5sELckM/Bok8baO0affMaeuUWtUqA9HmPy+AlWVldV00vlPUyMDPOwMcbjY5OsDA5QSqXwBgK4fX6G9vby7OQwu0OCoa9wiNTANLmpReLFQdHHIOGwQUMATR4extyRi2ma+PSdlgTCuF06ftHDoNetzOnVRf9VuzTCoTDzN5bprgxyurnE1JErrNWqvLl4jlxwG6Q7nyPV2UViV6c4m0TCITUUOV19Z4A7ptEW6qC7PEuqYx9Tx+YYGz7F3cYozy+eIR38PRSLRMrEyJXIV8vk8jYd7WEB6MfrceN2Ov4CJgK93LvwkubIMhubb3m9vs77j5/4/uMnxXJ5G1Do0SsEHrW7SJV62Z3pwjRMTMvGMC2igrECdHlEf+IDXJ9+QXOsJQA3WV9/w+bGBl+2tpR8ZKLciojYHN0fFLpzKT1qwjtcolyn+2/JcgOsjEUybpHutCgLrck1k3HJSu6yPMv9/i3yf9kvuQh6zadYIkgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 62.83783783783784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC6UlEQVQ4y4VTS08TURSettP3m7ZT+5qZPij0QYs8NS2lFCtBDOUVIxAqC9FoTESNgAQSFEyIC1eYuDYxxoWCJS6IO3+AW4OJazf6Gz7PvTXgShc3J3Pume9+3/nOEWRZhj8cQTAcRCQSgaqqPCqKAnbHTjQaRSgUgiAI/z8OVwtG5xZwbqAfbpcbVqsVPp8PdrsdLpeLH6PRiGQyCZvNhlQqhUwmg2w2i3Q6zfO5XA6SJDUBK+Uitu8vYmv9ATrPdvFkT08PhoaGUKlUEI/HeY4xNplMcDmd8Hg8/FEG4vV6KfphsZibgF6bgPmpKkaKeeg4bQ0MBgNnxQpEUeSRAbsJSNBoINKdVqeDnu5YrVargZ6ijnL0vwXj80vwRjMQRNNJL5iser3OW8C+ZeprN0kMEMMsA6fIWIbDYYRlBR2Z9mZt16O36Ft/g4HdT1AnlnF9sU6Se7G2uooXe3uYnp7GeK2GG9fq+HJvGd83N/B1bRVzhQIUAlYTrehc2sRspQgDI9O/dYDhZ0coP/+M6MxDdOXT8EleVEdH8Xj7CW98mthWy4PYuTCM3ctjeDpQQC4QgIkYGcwW9OXzeFkbhOwkhuZUCdL5ScQu3YI3UyJ5ZlhtAQySeyPFAS6VSWZjYzE25QtmO3RaA8yiHlaDCJtRhGgy8v4KrMBmsaJ+ewVtuQKmancxNnITOx1ZNOpzaHPYm6bEYvCHYvBIQbQmInBSXq/Xc+eZMX/NogCLTUIyMwUp0I2L1VmUSzNYLhXxauEK5D+AqiLD55cRirUjkW1HLBHFmRYHAZphILd1Ws0poNuYwsrV15goruDd+33sHxzg49ERfvz8hQ4aWg5I22KicXEqKqRUDgEljghtWIS+I+Sy2+FoAmpFAUFXN+5MvMJkaQMfGg00Goc4pPjt+Bh9vb28kJnjdrvJBOqfToRGSzNHUUt91Oj0p5LZ7irsVa+KUFCl+Uvz9WL7m0gk+G43a5STIf/X+Q3ZcHs1XwHwMQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;architecture&quot;
         title=&quot;architecture&quot;
-        src=&quot;/static/5ce1bf5a63b14750e19fd635a6a1993c/b9e4f/architecture.png&quot;
-        srcset=&quot;/static/5ce1bf5a63b14750e19fd635a6a1993c/cf440/architecture.png 148w,
-/static/5ce1bf5a63b14750e19fd635a6a1993c/d2d38/architecture.png 295w,
-/static/5ce1bf5a63b14750e19fd635a6a1993c/b9e4f/architecture.png 590w,
-/static/5ce1bf5a63b14750e19fd635a6a1993c/f9b6a/architecture.png 885w,
-/static/5ce1bf5a63b14750e19fd635a6a1993c/2d849/architecture.png 1180w,
-/static/5ce1bf5a63b14750e19fd635a6a1993c/8e724/architecture.png 2880w&quot;
+        src=&quot;/static/5ce1bf5a63b14750e19fd635a6a1993c/fcda8/architecture.png&quot;
+        srcset=&quot;/static/5ce1bf5a63b14750e19fd635a6a1993c/12f09/architecture.png 148w,
+/static/5ce1bf5a63b14750e19fd635a6a1993c/e4a3f/architecture.png 295w,
+/static/5ce1bf5a63b14750e19fd635a6a1993c/fcda8/architecture.png 590w,
+/static/5ce1bf5a63b14750e19fd635a6a1993c/efc66/architecture.png 885w,
+/static/5ce1bf5a63b14750e19fd635a6a1993c/c83ae/architecture.png 1180w,
+/static/5ce1bf5a63b14750e19fd635a6a1993c/d9ed5/architecture.png 2880w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -580,31 +774,32 @@ Very straightforward way of &lt;a href=&quot;https://calver.org/&quot;&gt;doing 
 &lt;h2&gt;Github Actions&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/376a3ae5e4eb70100f908b21af8edd12/8e724/github_actions.png&quot;
+    href=&quot;/static/376a3ae5e4eb70100f908b21af8edd12/d9ed5/github_actions.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA1ElEQVQ4y62TOw6DMBBE/SFSiigmxOb/U5pINLkGtByHE9BwAO5AyRG410REIkKJBMSkmGblfR7PegkhBEuilIIxhrVzMy3DfgAtAyeY7/soimIfcA5r2xZN06Cqqq2uv4tTZnmeo+s6ZFmGYRi2ZvnhbuaCc466rtH3PcqyfF9GdYcyaQRrZWhwhsfNgbxaiOIYaZLAdV2YpokgCBCGIS6WxD2UCOR5HXgwOFJXQAjxah7leR6UUrBtG1EUQdkOYkfAPB31n7zrH9INTbuH8pdN0dUT34gaMe75QZUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 62.83783783783784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAzUlEQVQ4y63TPQ6CMBgG4LaYEBf+tIUU2kTT1UOQcAuuws7IxjmYOALXelUiDhoEisO79Guf9OsPIYRgKYwxrJn3ynyRUroF+g1OGOccRVFsweeLT6xtWzRNg6qq7MHpzPI8R9d1MMZgGAa4rrsdpB9wXdfo+x5lWb7HqG3LU1bu7Bt0GMXtInCOQmSZgtYacRzD8zxIKZGmEmF0gpEnZNxfBg8Ow1UGCHwfSqkHmo2QEGKM1goiTqCTAJF3tG951zukKxbtvpS//BTb3AFi6BoSS3jKXwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;architecture&quot;
         title=&quot;architecture&quot;
-        src=&quot;/static/376a3ae5e4eb70100f908b21af8edd12/b9e4f/github_actions.png&quot;
-        srcset=&quot;/static/376a3ae5e4eb70100f908b21af8edd12/cf440/github_actions.png 148w,
-/static/376a3ae5e4eb70100f908b21af8edd12/d2d38/github_actions.png 295w,
-/static/376a3ae5e4eb70100f908b21af8edd12/b9e4f/github_actions.png 590w,
-/static/376a3ae5e4eb70100f908b21af8edd12/f9b6a/github_actions.png 885w,
-/static/376a3ae5e4eb70100f908b21af8edd12/2d849/github_actions.png 1180w,
-/static/376a3ae5e4eb70100f908b21af8edd12/8e724/github_actions.png 2880w&quot;
+        src=&quot;/static/376a3ae5e4eb70100f908b21af8edd12/fcda8/github_actions.png&quot;
+        srcset=&quot;/static/376a3ae5e4eb70100f908b21af8edd12/12f09/github_actions.png 148w,
+/static/376a3ae5e4eb70100f908b21af8edd12/e4a3f/github_actions.png 295w,
+/static/376a3ae5e4eb70100f908b21af8edd12/fcda8/github_actions.png 590w,
+/static/376a3ae5e4eb70100f908b21af8edd12/efc66/github_actions.png 885w,
+/static/376a3ae5e4eb70100f908b21af8edd12/c83ae/github_actions.png 1180w,
+/static/376a3ae5e4eb70100f908b21af8edd12/d9ed5/github_actions.png 2880w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -682,11 +877,11 @@ jobs:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
-          node-version: &amp;quot;12.x&amp;quot;
-          registry-url: &amp;quot;https://registry.npmjs.org&amp;quot;
+          node-version: &quot;12.x&quot;
+          registry-url: &quot;https://registry.npmjs.org&quot;
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - run: npm config set &amp;#39;//registry.npmjs.org/:_authToken&amp;#39; &amp;quot;${{ secrets.NPM_TOKEN }}&amp;quot;
+      - run: npm config set &apos;//registry.npmjs.org/:_authToken&apos; &quot;${{ secrets.NPM_TOKEN }}&quot;
       - run: npm whoami
       - run: npm ci
       - run: npm run test -- --coverage src/tests/snapshot src/tests/unit
@@ -696,9 +891,9 @@ Note: Don’t forget to generate a token from NPM and store it in your secrets i
 &lt;h2&gt;Things I learned the hard way 😢&lt;/h2&gt;
 &lt;p&gt;Here’s a list of a couple of gotchas that I learned the hard way and I think they could help you in your JavaScript journey; have a look at the following npm commands that could sit in your &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt;:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;transpile&amp;quot;: &amp;quot;babel src -d ./dist --ignore **/tests/&amp;quot;&lt;/code&gt;: Whenever you are creating JavaScript SDKs, you are responsible for delivering executable JavaScript in a cross-browser minimized format to the client. It is highly unlikely that your clients don’t need your tests or other files into their &lt;code class=&quot;language-text&quot;&gt;node_modules&lt;/code&gt;. If they need to execute your tests, they would most likely &lt;code class=&quot;language-text&quot;&gt;git clone&lt;/code&gt; your project and run the tests, thus make sure that your tests are not included in the deliverable javascript.&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;preversion&amp;quot;: &amp;quot;npm test&lt;/code&gt;: This phenomenal npm command runs right before &lt;code class=&quot;language-text&quot;&gt;npm publish&lt;/code&gt; (which is automatically triggered through semantic-release). If the tests fail, then the process will exit without executing &lt;code class=&quot;language-text&quot;&gt;npm publish&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;”files&amp;quot;: [”dist”]&lt;/code&gt;:  If there is one command that &lt;strong&gt;you should know, &lt;code class=&quot;language-text&quot;&gt;files&lt;/code&gt; should be it&lt;/strong&gt;. &lt;code class=&quot;language-text&quot;&gt;files&lt;/code&gt; whitelists the folders/files that will be delivered to your end-users. npm has a blacklisting capability through &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt; but I advice against. Why? &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt; needs to be continuously updated as the project grows, so whichever files you are adding, you will have to be constantly updating your &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt;. There’s also another gotcha. &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt; will ignore your &lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt;, which means that &lt;em&gt;unless&lt;/em&gt; you declare the files in &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt;, files will be committed in &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt;. So can you imagine what happens when you have declared your &lt;code class=&quot;language-text&quot;&gt;.env&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt; but not in &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt; 🙀? Exactly… you just leaked your &lt;code class=&quot;language-text&quot;&gt;.env&lt;/code&gt; files which contains all your credentials to npm. Whitelisting is much easier than blacklisting, and I would highly suggest you take that approach early on on your project.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&quot;transpile&quot;: &quot;babel src -d ./dist --ignore **/tests/&quot;&lt;/code&gt;: Whenever you are creating JavaScript SDKs, you are responsible for delivering executable JavaScript in a cross-browser minimized format to the client. It is highly unlikely that your clients don’t need your tests or other files into their &lt;code class=&quot;language-text&quot;&gt;node_modules&lt;/code&gt;. If they need to execute your tests, they would most likely &lt;code class=&quot;language-text&quot;&gt;git clone&lt;/code&gt; your project and run the tests, thus make sure that your tests are not included in the deliverable javascript.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&quot;preversion&quot;: &quot;npm test&lt;/code&gt;: This phenomenal npm command runs right before &lt;code class=&quot;language-text&quot;&gt;npm publish&lt;/code&gt; (which is automatically triggered through semantic-release). If the tests fail, then the process will exit without executing &lt;code class=&quot;language-text&quot;&gt;npm publish&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;”files&quot;: [”dist”]&lt;/code&gt;:  If there is one command that &lt;strong&gt;you should know, &lt;code class=&quot;language-text&quot;&gt;files&lt;/code&gt; should be it&lt;/strong&gt;. &lt;code class=&quot;language-text&quot;&gt;files&lt;/code&gt; whitelists the folders/files that will be delivered to your end-users. npm has a blacklisting capability through &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt; but I advice against. Why? &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt; needs to be continuously updated as the project grows, so whichever files you are adding, you will have to be constantly updating your &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt;. There’s also another gotcha. &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt; will ignore your &lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt;, which means that &lt;em&gt;unless&lt;/em&gt; you declare the files in &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt;, files will be committed in &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt;. So can you imagine what happens when you have declared your &lt;code class=&quot;language-text&quot;&gt;.env&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt; but not in &lt;code class=&quot;language-text&quot;&gt;.npmignore&lt;/code&gt; 🙀? Exactly… you just leaked your &lt;code class=&quot;language-text&quot;&gt;.env&lt;/code&gt; files which contains all your credentials to npm. Whitelisting is much easier than blacklisting, and I would highly suggest you take that approach early on on your project.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
 &lt;ol&gt;
@@ -753,31 +948,32 @@ Structural Patterns: Concerned with how classes are related to each other (objec
 &lt;p&gt;Simply making the constructor private and defining a private static object of the same class would be the tasks for someone to follow in order to implement the Singleton pattern.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e9104c5858e055fa36d00063e8de7e9c/69e43/2.png&quot;
+    href=&quot;/static/e9104c5858e055fa36d00063e8de7e9c/faa22/2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 29.754804506295564%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAAsSAAALEgHS3X78AAABBElEQVQY02WQW0+EMBSE+f//yEcTl/USDbtAEOReLuVaKLSlQIs1+rDqJPNwvmRyJqMdSlIqH7/1fUsphZS35FbayETaUQ80lp9lPaPrrujEtle/0s3wdA1O1/BsxboVB3Dc5QExTyACDe5nrgU5Ol+CRzPwCxS3bCCrCuOZ2xfXcT9g3Q+YdANGmEx0wWx/ePPu7p91w0uaSXNAbr/baRSNCK2c8+3rczeSF8NK4zhNAYT1MI6ULeu299PyZFqu45QFJIxrRgQs1w39IApjunD2U5u7CQAgq+p2pkxxQpeJsF3ImS2zqqAoX7W8RVGWF2VVVo1qyNftz2xCyF0IFZP/FvsEqWxQ6gryeXMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 29.72972972972973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA/UlEQVQY03WQQW6DMBBFuf+RuqrUNm3JogmIUBMggONCwOAabIwNhho2WVT5mtXMPD3pW4vJPC8PMm95dLV+hc4qFmS3U4xyKuWozbZmygb5zo1fnejNvezMeCnEbJqXnA7ZjSDMWjFa3yl+P4Sf3iXKaVIJPowr3DD34PtBVGJCKMOkrSnjQtadet77Ty/7Dzf+Ib3lxAkAJ5gkrKVKSrWZUUm+jh7MMgivZYkpbcUgx0kXTWc7xwCAsqyEVJYdxCA8R+fwCpFQo3lZzR0HSbqSuGH90AtpvFwMhm+56HhPOz6o0UqKKr0ihIrCGLpebfC9sGXRep60NvO/uT+2KVDxV4ZCRAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;FileUtilities, CustomCharacterFlyweightFactory and EditTextStatus follow the singleton pattern&quot;
         title=&quot;FileUtilities, CustomCharacterFlyweightFactory and EditTextStatus follow the singleton pattern&quot;
-        src=&quot;/static/e9104c5858e055fa36d00063e8de7e9c/b9e4f/2.png&quot;
-        srcset=&quot;/static/e9104c5858e055fa36d00063e8de7e9c/cf440/2.png 148w,
-/static/e9104c5858e055fa36d00063e8de7e9c/d2d38/2.png 295w,
-/static/e9104c5858e055fa36d00063e8de7e9c/b9e4f/2.png 590w,
-/static/e9104c5858e055fa36d00063e8de7e9c/f9b6a/2.png 885w,
-/static/e9104c5858e055fa36d00063e8de7e9c/2d849/2.png 1180w,
-/static/e9104c5858e055fa36d00063e8de7e9c/69e43/2.png 1509w&quot;
+        src=&quot;/static/e9104c5858e055fa36d00063e8de7e9c/fcda8/2.png&quot;
+        srcset=&quot;/static/e9104c5858e055fa36d00063e8de7e9c/12f09/2.png 148w,
+/static/e9104c5858e055fa36d00063e8de7e9c/e4a3f/2.png 295w,
+/static/e9104c5858e055fa36d00063e8de7e9c/fcda8/2.png 590w,
+/static/e9104c5858e055fa36d00063e8de7e9c/efc66/2.png 885w,
+/static/e9104c5858e055fa36d00063e8de7e9c/c83ae/2.png 1180w,
+/static/e9104c5858e055fa36d00063e8de7e9c/faa22/2.png 1509w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -787,15 +983,15 @@ Structural Patterns: Concerned with how classes are related to each other (objec
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;class CompositeBuilder
 {
     //stores the composites (RowComposites and CustomCharacters)
-    private Stack&amp;lt;RowComposite&amp;gt; compositeRowStack = new Stack&amp;lt;&amp;gt;();
+    private Stack&amp;lt;RowComposite&gt; compositeRowStack = new Stack&amp;lt;&gt;();
 
     CompositeBuilder()
     {
-        compositeRowStack = new Stack&amp;lt;&amp;gt;();
+        compositeRowStack = new Stack&amp;lt;&gt;();
     }
 
     /**
-     * Adds the new character to the RowComposite. If the RowComposite does not exist, then it&amp;#39;s
+     * Adds the new character to the RowComposite. If the RowComposite does not exist, then it&apos;s
      * created. In case of the same charPosition, the value replaces the old one.
      *
      * @param customCharacter the CustomCharacter
@@ -814,7 +1010,7 @@ Structural Patterns: Concerned with how classes are related to each other (objec
         {
             buildRowComposite(0);
         }
-        if(customCharacter.getChar() == &amp;#39;\n&amp;#39;)
+        if(customCharacter.getChar() == &apos;\n&apos;)
         {
             buildRowComposite(rowNumber);
         }
@@ -852,30 +1048,31 @@ Structural Patterns: Concerned with how classes are related to each other (objec
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6c4933c3550b3d558ead11163432c3ac/a3616/3.png&quot;
+    href=&quot;/static/6c4933c3550b3d558ead11163432c3ac/58bb7/3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 86.49746192893402%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsSAAALEgHS3X78AAABzUlEQVQ4y4WT23abMBBF+f/f6Se0D23ahMSpUQKYq20wd2EkdCUdoyxC2lV7HrRA0h5pzhlZcd48ot3T1kW7+NQSpfXbrdAadin4sHZZ4freIU2LPMe4V3q6CY9MlHV3HqjlHnLHfSXDIDhnXCh17WSTOCrOdyh+SWsryAs32JVFKaWEY+V1eLrgYXZyg6DFZ8s/nLYIvSCUZRmQ1+ElBaWjEPICPyPkeV4cJ3Tk65rZOGKMKaX/wowxuKkFRdKRSaVgJJSqVQDM59DqUwgB+vALDJng3xRjxiXAEAhxkeJjHpQRUurZUQPLNWa+mkH8RPuv9863RzepyLI+abVstvKOb4Psd5jhURrSrJVN/+OX/bR5LuuGS20sVNNbVvfHChtprAcvgd4qWtJTsfYjb/CdbUdhUFUln68Ok5iK70608Q+EybnDjlmSJlVVMcbXcNZi23GSKKrrGlDTtoSJ1zCEzWqpWX6WxMCnGt/bG9+H5HnXD8sGkOqjZjAJdP9LZwih9EBHQsBBBv0wP4ZpHFlRwCPICSHvJ9/sJzNCSLBX8Gm28ALD0jT9F1vfCPQ+Vr0X7Y9lZ2atL3bxEOHF3itBuHL2nZM2TtqaJ/AHpjLYyguDByAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 86.48648648648648%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB0klEQVQ4y42SiW6jMBCG/f6vtSut2u3maJsDEsJVQgLBmMP4pjtADqpKSX8Jycj+5vhnUJiQydJ9mq7mtr/PG63N5yNprZVSxhi0OyS2sw2DIN5HpCiNaR/CQFJKpVLIjo5LyyqLogExrs3jzGFGn1fBKjihbXy0nC0hBHJq06q7ZbdtV5cdHZYbJ8UlcuJkbVsb207TBEj1g565lDkhjDFkfcSz9/f1auX7PhdyDEsp67rmQnznhRBgG6Kc50VBG1aUVVU3SumLDJgAxjSM6a8CwziH9BIN1g/NtK1pL+obvJ5vP/AYsAHpYGPO8Fgl04vgNFl7L0s3ws3NM2Ouj1FO1S5Kd9GJCj22NMmr30+zP38nbhhXTA0jhBtSNUXNBhzNd4e3beAnBaFyDB9x8TKd+e4ux7gzoodLrp/XH1M7olx18MINXM/Ncc64GMMxKSaLReh5WZZ1Jg5ww+eWHcdHmEoHw0shpRDy2sk5c0b+zV4dx4njQ1VTc7mFMLeeISgM7bthDRfHNMM4L2uYFje9T7DPOMNpeoIN6WDTz+fuSpru6yUYg9lzzmDUHXx/k8cVwSkvaXRIwPBz2b8svN7Xnz8QFebNx9PN/tVLle6C/gfdR9h/842ThQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Builder&quot;
         title=&quot;Builder&quot;
-        src=&quot;/static/6c4933c3550b3d558ead11163432c3ac/b9e4f/3.png&quot;
-        srcset=&quot;/static/6c4933c3550b3d558ead11163432c3ac/cf440/3.png 148w,
-/static/6c4933c3550b3d558ead11163432c3ac/d2d38/3.png 295w,
-/static/6c4933c3550b3d558ead11163432c3ac/b9e4f/3.png 590w,
-/static/6c4933c3550b3d558ead11163432c3ac/f9b6a/3.png 885w,
-/static/6c4933c3550b3d558ead11163432c3ac/a3616/3.png 985w&quot;
+        src=&quot;/static/6c4933c3550b3d558ead11163432c3ac/fcda8/3.png&quot;
+        srcset=&quot;/static/6c4933c3550b3d558ead11163432c3ac/12f09/3.png 148w,
+/static/6c4933c3550b3d558ead11163432c3ac/e4a3f/3.png 295w,
+/static/6c4933c3550b3d558ead11163432c3ac/fcda8/3.png 590w,
+/static/6c4933c3550b3d558ead11163432c3ac/efc66/3.png 885w,
+/static/6c4933c3550b3d558ead11163432c3ac/58bb7/3.png 985w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -950,14 +1147,14 @@ class RowComposite extends Composite
     RowComposite cloneMe()
     {
 
-        ArrayList&amp;lt;FontFace.FontFaceType&amp;gt; fontFaceListCopy = new ArrayList&amp;lt;&amp;gt;();
-        ArrayList&amp;lt;FontSize.FontSizeType&amp;gt; fontSizeListCopy = new ArrayList&amp;lt;&amp;gt;();
+        ArrayList&amp;lt;FontFace.FontFaceType&gt; fontFaceListCopy = new ArrayList&amp;lt;&gt;();
+        ArrayList&amp;lt;FontSize.FontSizeType&gt; fontSizeListCopy = new ArrayList&amp;lt;&gt;();
         for(int i = 0; i &amp;lt; fontFaceList.size(); i++)
         {
             fontFaceListCopy.add(fontFaceList.get(i));
             fontSizeListCopy.add(fontSizeList.get(i));
         }
-        ArrayList&amp;lt;Component&amp;gt; childrenArrayListCopied = new ArrayList&amp;lt;&amp;gt;();
+        ArrayList&amp;lt;Component&gt; childrenArrayListCopied = new ArrayList&amp;lt;&gt;();
         for(int i = 0; i &amp;lt; childrenArrayList.size(); i++)
         {
             childrenArrayListCopied.add(i, childrenArrayList.get(i));
@@ -970,31 +1167,32 @@ class RowComposite extends Composite
 &lt;p&gt;The composite pattern allows the implementation of logical-tree hierarchies. In this case, each row has a set of CustomCharacters, as it can be seen below:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/da1ca01eab0bc6688d62d97bd793d88d/42085/7.png&quot;
+    href=&quot;/static/da1ca01eab0bc6688d62d97bd793d88d/fb1ef/7.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 44.012772751463544%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABh0lEQVQozz1Qa3ObMBDk//+kTj8k02nTcRs/4jTENsaCDoiHAQkJJHQSymGn3Tk9dm7vtLqgI9k1SlXVeO/d7AEsxuwXzJ8UFipl+utt/bh6/fass2IRuzl4etruNodyGyKlTG2jfHPK+DBhumBqF+XbKOsU+I7t94fd+UxoBTm13sdFH7RRDLSAqkb1OEEvNZPKAGa9moBLxeU4zX7u2NvqOTm+9xm1fzP0IgYd4HE3+Q/zf3xav1/AikvKo7O8JE7KuzQA56xzuIN1cIPW0z2MMUinyWBoY9ytYNC6KMtxVEuxE8IKAZyDkA6HgMtafE2rsWmubdsao601FiatFGfMaO3AoGopPm2Ou5/7cHOg69BbC87HlL2TIkzKQQOab8f5TLszZXzQzbUumI4Ldil4O0LwEl3SuuZuFmmGxVyb9ZGEUZJWDAeG7feEvoQnktXYC+mfBGlEsqoROjh++Zo+PObff4jVb3/7PO/7QQj88HzzFmc5IaQsKxwCji7OKSFJUVZiUB9K3vuUBhnIlAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 43.91891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsTAAALEwEAmpwYAAABg0lEQVQoz1VR127jMBDU/3/UJQ9JACc2EsFFllUsW71RlRQptlvaCA43WD5smS1Da87rIc6XstVKaa2VNNC/kFJJIU2C89p2D6+f+5fN6F1NpdLWx/vP9865bY96IQOVh2tp+2nZE0gPhJ+iyvbSfFg0pd7e3bre+Z7hewpdU7RYpeOyNGdppoWgXKKRoBFjugKZrqKbjDszDmR/Z/sXpy9KFsWw4USYBSsp/T/UPzy9Z3COYnQ6j17A2/ZZaAkpuQATQsITnAu2rsxg5dyE15WDQVA8ulDOq6YZp8mQFaWKEIGxJFiCOA+JYA5fWYdaAKXEiAYdGJ3GkS5EcgaDDDm2veP26OxOyfYkZgyhHGE/qdxbCfeb26hKWhxmqMMMNXXV4RSRa9H1RFh7x/OLsqHrkFdynEEoO0gObuQnzUCMbEGBvp3Au+XdzMANi+7nHF6irB4W6/Ln9f72nm4+h82XnGb4YtT3Q98vCwUVoDquay8I8iyf8QLuvaqDMMyybJzJX6Ky+6buQ31MAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Composite&quot;
         title=&quot;Composite&quot;
-        src=&quot;/static/da1ca01eab0bc6688d62d97bd793d88d/b9e4f/7.png&quot;
-        srcset=&quot;/static/da1ca01eab0bc6688d62d97bd793d88d/cf440/7.png 148w,
-/static/da1ca01eab0bc6688d62d97bd793d88d/d2d38/7.png 295w,
-/static/da1ca01eab0bc6688d62d97bd793d88d/b9e4f/7.png 590w,
-/static/da1ca01eab0bc6688d62d97bd793d88d/f9b6a/7.png 885w,
-/static/da1ca01eab0bc6688d62d97bd793d88d/2d849/7.png 1180w,
-/static/da1ca01eab0bc6688d62d97bd793d88d/42085/7.png 1879w&quot;
+        src=&quot;/static/da1ca01eab0bc6688d62d97bd793d88d/fcda8/7.png&quot;
+        srcset=&quot;/static/da1ca01eab0bc6688d62d97bd793d88d/12f09/7.png 148w,
+/static/da1ca01eab0bc6688d62d97bd793d88d/e4a3f/7.png 295w,
+/static/da1ca01eab0bc6688d62d97bd793d88d/fcda8/7.png 590w,
+/static/da1ca01eab0bc6688d62d97bd793d88d/efc66/7.png 885w,
+/static/da1ca01eab0bc6688d62d97bd793d88d/c83ae/7.png 1180w,
+/static/da1ca01eab0bc6688d62d97bd793d88d/fb1ef/7.png 1879w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -1003,31 +1201,32 @@ class RowComposite extends Composite
 &lt;p&gt;This pattern allows decoration of the objects’ properties. For instance, creating an activity with and without a border.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/b43cade9ba297118122da9f3b81f6239/e1419/8.png&quot;
+    href=&quot;/static/b43cade9ba297118122da9f3b81f6239/c56af/8.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 89.19577579203899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAAsSAAALEgHS3X78AAAByElEQVQ4y2NwDV0TkLDJOWypd/Q6O//Vlt4rAhM3JORuy63a4xa+2iFwtVfMSseQpW5ha41dl5h7LPWNWRObvSWzbKdzyEoG+6B1Fr4rNe2X6zgu07Bf7hK2wj92aXLhVreI1bpOi1wjt7lHbzPz2WTht8nUZ7N33OaE/E05NYcCU7Zb+K5hmDRjy8r1ZxatPL5k1YnFK4Ho+KKVx4DsZWtOzZy/d+mak/uPPty+7/aO/Xd37L+zY98dIHsniA3iMty7d/v//////v37jwQg3Ldv39y7e+Pvn+/fv3388f0TBP388RnOZrh+/QZQ3e/ff/78+QtHQC5Q8NWr19euX//0+dObt2/fvnuHiRhu3bqF2+a3169f//Lly7t3795jA6OaR4jma9euAdX9+vXrNyoACr58+fLKlSsfPnx4DQNv3ryBk0DAcP/+fVw2Ay18/PgxkPHz509g6oUYCmRAbAIyGGJjY/Pz84uKinJycgoLC4GMrKys0tJSIDs1NbW8oLizrrm3ub21ur6zHsRoqaqb0NbV1dDSWlPPIAsG+vr60tLSmmAgLi5uaGiopqYGFIHIArlSUlKqqqp6enoSEhImJiZANlAEAD+1afZtP+KiAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 89.1891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB5UlEQVQ4y2PwiNoQmLTFJXylb9xG+8B1ziFrw9M3Z5TuyqrY4xq2xjl0nVfMKufQla5h60w8ltsHrgxKXJ9StAOInIJXMbhFrLUJWGngutzIbZm+y3Lf2OUB8UszyrY5h64w9VgSkLzLP2mXfeg2p/Bt9qHbI7K2pxZvLWs5Gpy63SV8I8PKtQcOHLmxa9/l3QeuANHOvZeBaMeey/sOXV+9/siOPRfOXX528uzDU+cenTz36PiZh8dPPzx+5tHJs49PnXvM8PTJ4//////79+8/EoBwX7x4/ujhnT+/v3/7+vH7t08Q9OM7CEHYDPfu3Qeq+/37z58/f+EIyAUKPn367OatWx8/fXrz9u3bd+8wEcPDhw9x2fz8+fPbt29//vz53bt377GBUc0jRPP9+6AU9hcMgHr+wgA4hT29cfPGh48f3wDBWxACpjQ4CUQMQBW4bH4FBC9fARl/gKn13/9/f0FmAxl/f/8BsoEMBi8vr/Dw8NjY2ODg4JiYmKioqKCgoISEhMjISD8/v9S4hKKMnMqCktyU9NKc/PK8QiCjtri8KDMnLy2TQV9f39DQ0N7eXldX18bGxtLSUkdHx9nZ2dTUVE9PT1dPT9/AACirpa1tbmFhbW0NZDi7uBgZG+vo6gIA2cFvZMxC6GIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Decorator&quot;
         title=&quot;Decorator&quot;
-        src=&quot;/static/b43cade9ba297118122da9f3b81f6239/b9e4f/8.png&quot;
-        srcset=&quot;/static/b43cade9ba297118122da9f3b81f6239/cf440/8.png 148w,
-/static/b43cade9ba297118122da9f3b81f6239/d2d38/8.png 295w,
-/static/b43cade9ba297118122da9f3b81f6239/b9e4f/8.png 590w,
-/static/b43cade9ba297118122da9f3b81f6239/f9b6a/8.png 885w,
-/static/b43cade9ba297118122da9f3b81f6239/2d849/8.png 1180w,
-/static/b43cade9ba297118122da9f3b81f6239/e1419/8.png 1231w&quot;
+        src=&quot;/static/b43cade9ba297118122da9f3b81f6239/fcda8/8.png&quot;
+        srcset=&quot;/static/b43cade9ba297118122da9f3b81f6239/12f09/8.png 148w,
+/static/b43cade9ba297118122da9f3b81f6239/e4a3f/8.png 295w,
+/static/b43cade9ba297118122da9f3b81f6239/fcda8/8.png 590w,
+/static/b43cade9ba297118122da9f3b81f6239/efc66/8.png 885w,
+/static/b43cade9ba297118122da9f3b81f6239/c83ae/8.png 1180w,
+/static/b43cade9ba297118122da9f3b81f6239/c56af/8.png 1231w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -1041,31 +1240,32 @@ class RowComposite extends Composite
 &lt;p&gt;The CustomCharacter object gets instantiated using the Flyweight pattern. The CustomCharacter intrinsic state (char) is stored in the CustomCharacter and the existrinstic state (FontFace and Fontsize) is stored on the RowComposite. The FlyweightFactory contains the pool of the available characters that the user can insert.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ba31e67baa522418749a3a3bb0c2e488/e9603/9.png&quot;
+    href=&quot;/static/ba31e67baa522418749a3a3bb0c2e488/58354/9.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 55.44412607449857%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABLklEQVQoz3VRi26FIAz1//9wmpgYp6AIeLcpCAV3gMUYs1sb6Ou02FOdWWKWy4CEEBnjI+MhZ3LyKdVlee/X9YtCSC3O0x5umoUnH+IJ3XYzCxFytsz4Axtj5mkahqFpmnmeOefbtqFOKUVEpdo5B7eAgSzxBHbWLAKfkkorpfkkvred0sB4f+3dKV0q3JF8eWrRXJfDFCmknz/fSOVewi6fZH7goNRTgMJIsNwCJ73BV05ryxmZPQ9PczylFs5DI84yHIu8GLltO3WmfxuXeZQXfP3Rk6qX1qvW2DBsrbEzKZYFy5NS4cb+xCIXKXEhdxyHtRYEgdoEZoy1bQuGYIOqcRxBW13XXdchCBdBloN8mgDe9x2TQF4Ci2P92Pojpp2HrBRDU9d93z8YesgvwqKBjphNNQMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 55.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABM0lEQVQoz21RDY+DIAz1///BJbfzltvmB6AE9YZAS12BZbcYm2paymtfedWWjYj44yASsXMYIwmp2Euai3ur3lHwfhw1Yiyp877vBQAwiv1hbdf1Mcb/YQVsrW2a5nq9ns9fXdfe77dlWbg8TdP7NgJwWjD8R8QXGII3xmgzm/lvmpdRm8fqIDL/14TPacVK04owEPgtc6O0c65RWh4xezxat+wcjHLqBnZJ3JAAY4DIAMD0chipdDkGw2S8lNG5zGwrAMC3p0bM93B+tWVZdqefK/Dzp/RIrfRgWqlBqnmeOVZKSSlZJMlnUvVCNA1rJDhou46rzrl1XVkgVjGBO9nXvz+M4XgYByHS1dPpdLlchoFbSK01//mY0xBCwb/AQ5i+bRsIM+HEDonqum7bdqfQzp6+UYGhLR676gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Decorator&quot;
         title=&quot;Decorator&quot;
-        src=&quot;/static/ba31e67baa522418749a3a3bb0c2e488/b9e4f/9.png&quot;
-        srcset=&quot;/static/ba31e67baa522418749a3a3bb0c2e488/cf440/9.png 148w,
-/static/ba31e67baa522418749a3a3bb0c2e488/d2d38/9.png 295w,
-/static/ba31e67baa522418749a3a3bb0c2e488/b9e4f/9.png 590w,
-/static/ba31e67baa522418749a3a3bb0c2e488/f9b6a/9.png 885w,
-/static/ba31e67baa522418749a3a3bb0c2e488/2d849/9.png 1180w,
-/static/ba31e67baa522418749a3a3bb0c2e488/e9603/9.png 1396w&quot;
+        src=&quot;/static/ba31e67baa522418749a3a3bb0c2e488/fcda8/9.png&quot;
+        srcset=&quot;/static/ba31e67baa522418749a3a3bb0c2e488/12f09/9.png 148w,
+/static/ba31e67baa522418749a3a3bb0c2e488/e4a3f/9.png 295w,
+/static/ba31e67baa522418749a3a3bb0c2e488/fcda8/9.png 590w,
+/static/ba31e67baa522418749a3a3bb0c2e488/efc66/9.png 885w,
+/static/ba31e67baa522418749a3a3bb0c2e488/c83ae/9.png 1180w,
+/static/ba31e67baa522418749a3a3bb0c2e488/58354/9.png 1396w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -1074,28 +1274,29 @@ class RowComposite extends Composite
 &lt;p&gt;The CommandAdapter class implements the GOFList interface and it composes the Java ArrayList class.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 530px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 530px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3ba09a459d552f76c53bb7ba546f2eb4/3e6fd/10.png&quot;
+    href=&quot;/static/3ba09a459d552f76c53bb7ba546f2eb4/b6a9b/10.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 128.67924528301887%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAIAAAA44esqAAAACXBIWXMAAAsSAAALEgHS3X78AAACYklEQVQ4y5VUi26bMBTl/39omrRq07T1saRNU5ZAEiCQhlcznsHvR2ZwmrCObu0Rsizs43vvucc2Dh2kbMe8YVM3Gc/dBzeChB/+B6NPDgs0dp4e3GQW5DWk7f+3kdttbpzdmNO16xZlRdibI2sATJ7yIi+qrKjoe8kKtAOjVOfyDrIUglCKMSaEvJuswBjTwd9Epj2omJQQPSfPk7YKxobJ8hmaoPZxzrX+GlqIwUTOab9Wp1BCvLJk9KodPl7JhxA8ZTFAxkzu8jKv9oSJv/mvnWtoby5i8NXcXNy51rY4rXF5WMXN3WJ7OV3emM5kFQEi+p419JGmH5r2YhtGdYNOMRiXi7BcPGbLbWZvdvPgVw3J6SKcyU6Y2I4XbLZ1A8+e6VqAEFJda31DCOdi+FYpVVWfXgij5orTlsD5v9SWUgyaQfdpmNwZiKZp4vuBs3L8tQ8h6kfGSKkgtXlOOEfGCAMA1CKEUC300x70VkeWR7Lg7W1Qgyr75Q1lDEHUNI2yfd9z+jyDcBlk0PJjO0hmXlQh9qdaGIKmqsoGgLZ+fhi5uw/fJl+m6wpzo8Z8ZEWff/xU3495EBfHgpmQiIoaIMwFfzYGZmLsZpemd22HBaDGHrGrien7a9dbl2WFlD+7pJ5qer1IL0bWp5F176VH5Zm8dbyiKFS/1SNnNIh9n9mus/Q8ryyKltwppF7PON+n+T7J6iTfa9kU+WIytS0LE9qS1aar+9latWizbQAE+EjWvdUQgp8ij5fearVM011LplyEj3EURukuy1XamAw+GrpfiPCPt5OH+WzpbQAivwH+duesz83uoQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 128.3783783783784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAIAAAA44esqAAAACXBIWXMAAAsTAAALEwEAmpwYAAACUUlEQVQ4y5VUa3OiMBTl//+jne6uXzrtrlrrglqr8jKIPFSQR0hCEnsFZWir43oGw5jck3tzzwnKoYUwIRNzrb6bCyfk4nATSv2S1bgI8u7c689WqrUtGG/mb5HlMWxku69jDdnLNMvL/0ittP/sktwNwiDcbaO9EPI+MoBRVuNwONxHFkIQSgmB4X7yMTO7J3PZQsOklLbnOeeXyaICdLvmwFiHijNgCeZvlH2tVOBfW7pNxrgoCJEVLpO5kPskhTbLS+rCsa9mZlxqKO0MjV+vuhWkleGOa7SU83WiLla90WLwZk3RphTfyBA50NFUN5EbJDltyDnhYHLN9FXDG85d1Qxqw38te7iwJu8zy3YyTJo1zgUuSA4/QgtC4c2FuHyrQE14xOdDQ6trnS5KrbTjhPh6k2r9r5JrR/meZ9tLXTcQchgrP7mdkLrh/IxGM6VSEuM8h6Asy6HItp5t8eUZTRVHMngafC2OW4rv9wS2g46VvGzvciKTUroRttdbc72xvR1pSQk1FwXex9Fmu8lyDDMZFX3d7/TGA92nXCphyp409PCs/vyrPY/tTXq6A1weSiHx+UrUyWLMHyf+7/70abLClCtBjHv/RkuETMtOM4zBVlWcE5E/U7fzMu0MZnM3rrdIMBsaVg6tKQUrgbzHj6pmLOaGru/juDiTdylxwsQJ4qUf+busJsc5+9HtOrbFuIDuK16UdbUxQkvHdY82Iqw5cPUdOGnUZO6+zSDTdheDn5QMU1O3EVp54SaKE3Ll63Uup3h4GUxnM2PpQtkfQNXoDepgyIcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Adapter&quot;
         title=&quot;Adapter&quot;
-        src=&quot;/static/3ba09a459d552f76c53bb7ba546f2eb4/3e6fd/10.png&quot;
-        srcset=&quot;/static/3ba09a459d552f76c53bb7ba546f2eb4/cf440/10.png 148w,
-/static/3ba09a459d552f76c53bb7ba546f2eb4/d2d38/10.png 295w,
-/static/3ba09a459d552f76c53bb7ba546f2eb4/3e6fd/10.png 530w&quot;
+        src=&quot;/static/3ba09a459d552f76c53bb7ba546f2eb4/b6a9b/10.png&quot;
+        srcset=&quot;/static/3ba09a459d552f76c53bb7ba546f2eb4/12f09/10.png 148w,
+/static/3ba09a459d552f76c53bb7ba546f2eb4/e4a3f/10.png 295w,
+/static/3ba09a459d552f76c53bb7ba546f2eb4/b6a9b/10.png 530w&quot;
         sizes=&quot;(max-width: 530px) 100vw, 530px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -1104,28 +1305,29 @@ class RowComposite extends Composite
 &lt;p&gt;Very straightforward and useful pattern. Simply encapsulate the behavior and have a service work as a gateway between the client and the system.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 520px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 520px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/1b13a61d01c3567380ebc01133c20011/249e6/11.png&quot;
+    href=&quot;/static/1b13a61d01c3567380ebc01133c20011/69902/11.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 126.53846153846153%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAIAAAC+dZmEAAAACXBIWXMAAAsSAAALEgHS3X78AAACPklEQVQ4y42Ta5OaMBSG+f9/p186/dJpuzu7nW5bhVEgCUhUvCNqICQQQg8ijvX+TmAYTp5zS45RVZXWVczVRlTjFQtXO1ij5XYNf3hR3ZUBj9KVSeMPFL6Y3ucffz59/fnSJd5K+Iu0BMd3YV1W1ZiMpkM6GtEoipQqQGATeVGWD+AKYOJQ27T8gO5Y0hQCEJdPwKAOoQ7C48lclVVRalhK61Q8B7852Hbt6WSaS1mWpVJKl2X2TGSw/+0gy+wg17X7fYSx47gYoXjD9KNu1w21TTwO6Gw2C0GTyW7HoGdcyMfdBnv3o9/rdG3bQQiWGwyCIs9loZ5Ku4cCgpyBP/A9j2Cc7HsunqzZ/G33rZ5LfOL543C2ZZylHN4P064lhWQJYwkoFUJkIktS+JCqFbSgeZ/K0K3yvZq/spaA1SjLMs65vJCRt5L7vTWvCvCRXwhcwBXQJzKyVo1v2AQ7rlYIrrX+z2Scempy1jeaBCWfmYzjFxjqW3lBJlINY4lnyZtF3i1sepMgEkzUY2eo9iQb+BRrDFteOOHGHUf9YI7DiC4SGmWbVNYwy/L78IbLb90u9QnBhNJAZBxKg1GvYRidI3zWqgOcylfL9gmaTKfz+Xy5XMSbrcjrMIY4gc8iV4e05bttb+P1sRlwXofI/DZ8TPvLrw+M3HUcNw1XqjzAcCdupd1Gzl/Nvu9hmHDfH9SnvZ+ZK0d1rWbx3bQoHfoDOgqnMDCMZ1zkD+CjC5amy1UkZM7rqwixZTOq/wDriKlYWY5ZRQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 126.35135135135134%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAIAAAC+dZmEAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQElEQVQ4y42UW5OaMBTH+f7fpi996ky3s33odnS9yyVIArKxoqAihIQE6AFXR10V/xMccvnlXDhHrWokVJmX1S7JWK64LOOUC1UJWVQPpcGjynLk73s4/D12v7++f/v591ffNoPMDpKyLFtguN91qIuJQ4hPF+tos40TVVQpz4uiBS4BJiZxDMP13Djew+rBIM9lK1zB/tDyxmMdzymHmJuRqyLJ2i3X+oNm1gwFweo8yGctd/rmsPduGSZCiBCCbBs7DkRetmW7tqWPZh7GlFLPdT3PC6MojuOE8YfJPiZs1Jma44ltzzB2MMb+x4dSSkDcz7g9Nok5nSALIcsyDD1ch7DMn4QH3ak+niAHInU8n6aMi1zuU16UT2Q7Wm+XwSpYhat1tIuTfZJu433KsuKhPmH4QlJKBUNJVai8kcxz0YhzzhjLj9OTNNkoF/UGyzL4hUNciKwRPxNMIYsXlrOj4O4DCas3I4QzxWUCNXUUbBy8uAcXSl01mXaxDRd/SS+XxSqRiy038IdJqLvcwBT6rYZPZwG7snnY2jJpLNIhCd+mXsf0B05gLpIoETWccHmCwfmv3sZMvOkG9efzuQ+dA86pouSipjR2Bt+0vEn5S29k6VC8dQ0tKI2iDRRfDUPf3YMP2jHRMdEmWp8yDS8HSsvEXbePMYsf3a5LMMv4NdxqOc7y18HEMnQbIQgbCgE+yKfbVVu2Nwl/6Q+hyaFfCfGg4DMu4b/xGr6Zbah1ug7pv+Vut4dmARiGbE7+B9GqqZVZ3dfAAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Facade&quot;
         title=&quot;Facade&quot;
-        src=&quot;/static/1b13a61d01c3567380ebc01133c20011/249e6/11.png&quot;
-        srcset=&quot;/static/1b13a61d01c3567380ebc01133c20011/cf440/11.png 148w,
-/static/1b13a61d01c3567380ebc01133c20011/d2d38/11.png 295w,
-/static/1b13a61d01c3567380ebc01133c20011/249e6/11.png 520w&quot;
+        src=&quot;/static/1b13a61d01c3567380ebc01133c20011/69902/11.png&quot;
+        srcset=&quot;/static/1b13a61d01c3567380ebc01133c20011/12f09/11.png 148w,
+/static/1b13a61d01c3567380ebc01133c20011/e4a3f/11.png 295w,
+/static/1b13a61d01c3567380ebc01133c20011/69902/11.png 520w&quot;
         sizes=&quot;(max-width: 520px) 100vw, 520px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -1134,27 +1336,28 @@ class RowComposite extends Composite
 &lt;p&gt;The ColumnCOWProxy implements the Copy-on-write proxy for the Column class. Whenever a client changes the number of column, then a new Column object is created and returned, while the original object remains the same.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 184px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 184px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/96e34a6fbb5cd707e25b26ba3a788d4c/d213f/12.png&quot;
+    href=&quot;/static/96e34a6fbb5cd707e25b26ba3a788d4c/5a64f/12.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 214.1304347826087%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAArCAIAAAD3xz8iAAAACXBIWXMAAAsSAAALEgHS3X78AAADJUlEQVRIx+2W+2/TOhTH99/zwxXi/nQRCAmYmJAADUZ5jdHBWvZsQ5eq6VrSx9Ikbt4vJ3ESxw5uy2i328GAH66uxFcnzvFJPzrHju10pbgoWhRk2l5mc62wCxPqozxAOUxIjGlCi7QoUlowJ86L7MxnLXsaJDmldA57MT48DWt952Nbe33QKe1wT983Xu23nu98Wt+u33/2brVUebnbLFX5Sks5lmGUZLMKJ7ATZe/a1sah9OSj+GCzfvPhi+t3n99+Wr71aGv15e6N1dLt9Q+rpepfdx6vveX2+16E0glMp7AfY0GBp1bc06ORi1VIAKSKR2SfyC4GsFD8XPZzxSeSkwojN17MHKW5EaQexGleQJQ5fuRHKQuGCQ5RFkTpxEkwRBhhMnaiCC3A7FZtKtc3Xp+Iwtabt8d8u9NucVyD42qiOLAdO57+mpDJPNkBOgdjWnRG7lq1OlQHigLGQLNshtiGYYRhGASQTKd3NskOPA/ntNiqDa6tP+Pb3IfK3tH+wWG9znP1nZ1Kv9eTZDViiuMwipMEAdMLF+EU5+LIrJ4IXVkBpj/SbFlz+rJ+qprMGSqGBKxFwzifv+eLS2xaHoonKr6rlTOgIJTMMEoIxhghtBSm9F/wOeWZ7TpsJaArZl5S9iWZ/8B/4N+Fi/+ybJzh+BdhQqZ7+WdgViydtdMdO+OLCx8berUx+55rGtq37g9OEtFI+lbK2s446upxS3KaQ2voYBZkNrDTjo7cMF08TL7C7EiuSQGvhns9t8yrb+rDu49f/X1v4+bak2v/rG23FEFPDgaeYsElMOvvfnYOBn6172829bJgVU70LR6Um2q5CXZ7Xk0Kt9vWyAgWBzIfs2THR4IMxEG32xU/CzwviF3hU4PvdEWutndUbyhA88JkSWYWGLjZcbUBNrdV22efjREwDduRgS4Bg3VVzdTd0PLj5WMejl3ThZoXGU5gOJCZZgWGC5npDrQ8OAT22PKXl215ITDcsTkxzfJkzZLHJnPOghMnQkmx8Ndi5bJ3mOOJrr7C5mLdLMuSNL0Q//EKm4mlTafwT+7n/znM5uz78BfRvLIxmKwWagAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 214.18918918918922%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAArCAIAAAD3xz8iAAAACXBIWXMAAAsTAAALEwEAmpwYAAADK0lEQVRIx+2W62/bNhDA889vn7Z9GIoNG7oXmgA1Cjhp92gDNK7jpE5kx47txEn8bG1ZlihTpEiRelAPjk7S2UncLRuwDQV6OBEnCj8deTzdaU2ukOyOyiVjIWvqCkQKqLCpmLEYh6mXSqY0kTTOUJApg0SSJpJnEocZZCLLlmDbEwdDqnXhzvEoX6g92tz+YbOQe1HaeFZ89KzwxcPHXz/+Nfd876etnZ3jN60Ji0S8gC0SbZ/aW9ooXx48KZ78+LT47WZpY1tb/0178ur44dO9XKGRe3n0VW47/7qjDbCIl2DExAgGkEUWjVAgXSGJkDiQOJJOkLmRhDxVBg4lZEnfJJFIFjCL0tHMGwPOw9iw4RQ4M0wdwmxEEOGI+l4QszBWo4qO4bBwadlZKuVzbfD5L5vt88ZuoXjR6XfP241m66RZH411jJ0rV9lloCDxl2EpUtkY2HmtYoHJWDcMfWLDGYbQMk3OGPW86wO8DPJtOIrT/G77061cvXm0u69VtcrhUa1WrZb2y71+f/BWd12KXYpcSog3Mp0be1Zv0gG+mOgT5c/1LURtxMamM50RE5IJcCYAXaluOeYMZ+8Oek2+RzjnURjKP5W1q80sVMokjoMgZNxX4+2nmcyym/DtzI4jl1LF3svz+5YdfoQ/wv8KfJm+/4fnLEnCMOK+/0/gNE2jSHDu/1fLXvrc5wGzZ3O5Kpp3y8ANOE6yU8Pv2uHp1G/pXnNMKp1ppQtaOmm8ReeW37OjE4NjFv1RRhewSNKDIWkarNSBL+r6z1rvm/Wtz77Lf/n9xicP1vc64MQMyn0MMF8BR0lW7qGqzg7HvHhmv+6hyhCXu8588o2rDVB1SEoXM3slrO770C8fnpmNZvus3WnXjyq1i9Pa4YHWaja1/VeVan0KbOoLudSmr+EkSXsw7JYbpnYMvNCauQAzh3LLoUoBopDwqTPvWys8q4ANDWhhOkGeAZBhYwM4qsQrY6psG6la3x0D1f1WwEoICyD2kOupzoipD6CruqQy5o3yWlkcJ/dKkjgWSZLcP0kWMo+/SlEh7s7fy7Mi43e/D387tz9c+C+j/Ts27bJTTqmLMwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Proxy&quot;
         title=&quot;Proxy&quot;
-        src=&quot;/static/96e34a6fbb5cd707e25b26ba3a788d4c/d213f/12.png&quot;
-        srcset=&quot;/static/96e34a6fbb5cd707e25b26ba3a788d4c/cf440/12.png 148w,
-/static/96e34a6fbb5cd707e25b26ba3a788d4c/d213f/12.png 184w&quot;
+        src=&quot;/static/96e34a6fbb5cd707e25b26ba3a788d4c/5a64f/12.png&quot;
+        srcset=&quot;/static/96e34a6fbb5cd707e25b26ba3a788d4c/12f09/12.png 148w,
+/static/96e34a6fbb5cd707e25b26ba3a788d4c/5a64f/12.png 184w&quot;
         sizes=&quot;(max-width: 184px) 100vw, 184px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -1163,28 +1366,29 @@ class RowComposite extends Composite
 &lt;p&gt;Super useful pattern, as it is implemented in all the common data structures used (e.g., java.util.List); the iterators allows traversing a logical hierarchy of a class. The CharacterIterator implements the Iterator pattern and iterates through the leafs (CustomCharacters) of the composite pattern.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 508px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 508px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/f27a7bc43c2d7ece9589ea4cfb269471/6b519/13.png&quot;
+    href=&quot;/static/f27a7bc43c2d7ece9589ea4cfb269471/2fd48/13.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 112.5984251968504%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAAsSAAALEgHS3X78AAACq0lEQVQ4y42UC2+bMBCA+f+/ZlKrTXuoj7XS2iVtKEkTEhLCy0DC24BtDCa7QB+Z1q45WSfr7j7fcfYh7f6RttMZrY2IrQMy1v3b8fJONZSVa8UMFq2aPlJ6Dw7yar6hU7e4mTpXD8trRf850lS/AEtWVn3YW3BHh5jeaWvf37j+JogSQveAaHeMN7Sq38/c0Zu0PFMePBfp+spY65ZlJUnS1CANOwa+GE885CDXjeM4iuMgCDHGFa8Z/xgm52PF89y8KA69dSOOyUwux+Ot77/AfS+OgrcZ+T6SHduyHQTVCiF6+1FwgOm5MrZty7RswzRsx+acP8EffrMbF58Hv03TWGhLwzSDMGSMNU1DWUUY/w+815gwzUGW7dnIR94mSnEYp93KWMX7HH/B9YEIsX+DTbOvEAqGUPhs2EBy8PJOpMNqq6oCn3iW7oh9n2ADLtAMknL+grzCAo48cLwpENLX8gSzumW8JVyUrI7SHDTlAoxV076e2+7ASKoGlyzOim4vGrGTpj6RUXn2YH66GJ5eyydX8o/hXEF07hfPvYPxbH6t4m+DOXhPrkan16PLCYoKLqnr7WyynCxNdWmpuu1sk5TwpKxDzKBHfWbStNOZtdJNebrQTBSkOcxcQStpqFn3s0fTMMM4JoSWMHsVhzpJte9WD1OxmykaMk0Yz20QBWEEXlpx6WZhyEs12Gwdx4ZlQoSLSFnSQ5i3X++VtbnGWQ4JoP+8EZRx6W7lyAvVc/00y4qyyPM8yzA8JsJeYXhRl4+qvl4hhDKM920XLdyadKtZo8UsjqL+VbwI5a8wYeLLUJ6oU38TFiWBlWRFQZg0WBiD6QQhL0mzNMsznKcZTnEO7vap2XC9bYxzYMquKSVhRUnhlyLBrYMdGBg02MC7B911rd59JH8A+mUkVqY4AvgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 112.83783783783782%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACpklEQVQ4y5WUC2+bMBDH+f7fZdpL6iZtUtql2/pKU5UkJdCQ8H6EGAzGxjbQHaFNU2lZu5NjovP9znf2H5SHA7YuhJlURkhGmn06np9NFte6u0J8lTAhmz5GOQQHGTdiducXl5p7cWefzyyY72M6DwrGJQS0f4XbFvwPToJHuhEHYRAEyQZxLvpVLmoYB3fu4UWEhlM18DzTNJfLpWXbKUJSCi4kl6/BZoROp5PQ88IoxhhnGCOUlpRW/A3wMkph5zgMGWP7q28q24zSn9NJEkUlZfv+t8KDmxvPsW3HxXle1/V/wKs4G6q3nuPAUcGBeZ4HfAfLWrzas+6vv40urZU11w3btjcoZYwLIUkJD3kY3s4ZoXYYeX4UxgkMnJNNitMsR1kuZdcC2AtYQOYna5ouoi9VbBUCHggAzy7mGW6ahnPePlmztb4FAGAJoquqm3fIHrxN+fAPg0Kgorp+hkveFFWTlXyDaZjgtGC4FOBhotn1L+o2pzIlVZwW4SbLCMdU1k2rqH55tcq/Xujvvp9/+jH+cDwajBdjl5ox6crZ0lHOT2bR0e/J++PRx5Prz8PxqRaRSipTzZ3PjNnCWti+6YSooFS0kDgjVVfodmdc1frEtGxHnemWF2UFhergxpTh9F7VNWtlb9K0IGVeEFZVUBKtRNs+whmr1esZ6ATubL1BcOe0kpWQyvEE0PswDF3XdRzbsix4gSlllMsdjAr+ZXTtunaa4bKk4KlEDQev/NLM6UIPgpAQAkgJRgho6MXOpRioqm0tfcjLOhi+RBCjDFT9zjSyNH2KfBQZ29t5g9nR5dXcMOI16ltLUM4qrpxpi9u55vshyjDqBZhi+J/lZJerbpoS9CEk/IDpB0ioE0meF/DSgmKhH/hWwQwyrffEcMj+ADEUI/0c8hpVAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Iterator&quot;
         title=&quot;Iterator&quot;
-        src=&quot;/static/f27a7bc43c2d7ece9589ea4cfb269471/6b519/13.png&quot;
-        srcset=&quot;/static/f27a7bc43c2d7ece9589ea4cfb269471/cf440/13.png 148w,
-/static/f27a7bc43c2d7ece9589ea4cfb269471/d2d38/13.png 295w,
-/static/f27a7bc43c2d7ece9589ea4cfb269471/6b519/13.png 508w&quot;
+        src=&quot;/static/f27a7bc43c2d7ece9589ea4cfb269471/2fd48/13.png&quot;
+        srcset=&quot;/static/f27a7bc43c2d7ece9589ea4cfb269471/12f09/13.png 148w,
+/static/f27a7bc43c2d7ece9589ea4cfb269471/e4a3f/13.png 295w,
+/static/f27a7bc43c2d7ece9589ea4cfb269471/2fd48/13.png 508w&quot;
         sizes=&quot;(max-width: 508px) 100vw, 508px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -1193,30 +1397,31 @@ class RowComposite extends Composite
 &lt;p&gt;The visitor’s purpose is to implement a specific functionality (e.g., compute the total sum of a tree). The Component impements the VisitorAccepter interface and the whenever a CustomCharacter is visited, then a counter is increases in the CharacterVisitor object which implements the Visitor pattern. This allows the count of the characters within the view.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3675b314fe77d2e2191c6f83e7a81b51/77df2/14.png&quot;
+    href=&quot;/static/3675b314fe77d2e2191c6f83e7a81b51/99661/14.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 45.3551912568306%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABMklEQVQoz1VRCW6DMBDM/79WqWrT0OaAcOTAUIKD8X3RNaRWMrKs9a5nPeNd+RnTNFnvi3ZMjteqo8aFjLaOCymUhpKbMb1iFcnS2E2aobomlEHiNoiPn3xfon3VdIQD3VoL90ZhesKFti9kYUySZYIxY0Ohbvv1+gu1v2Sk4XFIekeEXqfnQ9XcqApkBz0XsjbJISvLinIQ4ZQxI2VSKoid8zPZD1wcjjlCiAn5eDnIh92HG7M5G+VAYbFnZyzxf2laQeOqJdu8vvYMzoSp7+Pl1N4hVtb3hMnZXiQXzfC+qwjXgcyV/tymRXnuMIHzCXX7rMAkNEqyy9smxVQ+k0+/+NzcuTIP8i4vOKOc8/BPN4yaVmkzq2DDQDC+L3OKsl9GJbUG8bCimRgAlvE+e474A2RlCDTCNM0lAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 45.27027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsTAAALEwEAmpwYAAABQklEQVQoz1VR63qCMAz1/Z9tP5y6TREQQcUiciu90aZdWnTTfHw0aXNOTpIFAFhrnXMa7OFGN+nl3HATbvCv1KSNjyCYe7eFDYbeqKZNFJdlSRnHsGrZ5zaLchIdSTNKC2CQBdOk7kehDLyBqZQ/aTpJiaUwzM/VerWp6vtAmVB4Z5y1LVOr+BQXyDx5MFiv21eWar3dF3nBpdIAQk09pUJ4LsyYGeth3MUJIURI+agc9OMJk9YGjMXvKcc9Xp3xFDDnYSaeHjxpON3oPidVLzDumdpl5bWh8wgHJnRoz4ND8UPZrpMzV95fUC6X3/skK+rOA7IT2SXHZmDoL6Pi4ysduG/Pa0L1ziWXOrs2Ygb3TGzTVLCRcT/k/FqR6oYLQv/e9U3Ttm2HQk2wucH/VSEh9xMGHTbhngP4c3BHrz2/2i9/hwgO1OiQ7wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Visitor&quot;
         title=&quot;Visitor&quot;
-        src=&quot;/static/3675b314fe77d2e2191c6f83e7a81b51/b9e4f/14.png&quot;
-        srcset=&quot;/static/3675b314fe77d2e2191c6f83e7a81b51/cf440/14.png 148w,
-/static/3675b314fe77d2e2191c6f83e7a81b51/d2d38/14.png 295w,
-/static/3675b314fe77d2e2191c6f83e7a81b51/b9e4f/14.png 590w,
-/static/3675b314fe77d2e2191c6f83e7a81b51/f9b6a/14.png 885w,
-/static/3675b314fe77d2e2191c6f83e7a81b51/77df2/14.png 1098w&quot;
+        src=&quot;/static/3675b314fe77d2e2191c6f83e7a81b51/fcda8/14.png&quot;
+        srcset=&quot;/static/3675b314fe77d2e2191c6f83e7a81b51/12f09/14.png 148w,
+/static/3675b314fe77d2e2191c6f83e7a81b51/e4a3f/14.png 295w,
+/static/3675b314fe77d2e2191c6f83e7a81b51/fcda8/14.png 590w,
+/static/3675b314fe77d2e2191c6f83e7a81b51/efc66/14.png 885w,
+/static/3675b314fe77d2e2191c6f83e7a81b51/99661/14.png 1098w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -1225,29 +1430,30 @@ class RowComposite extends Composite
 &lt;p&gt;The command pattern translates the user’s actions into programmable actions. The InsertCharacterCommand, DeleteCharacterCommand and UpdateCharacterCommand implement the Command interface. undo/redo is supported through these commands by storing increasing/decreasing the pointer in the command stack.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/61def30b3574219eeaf927a51f912087/58aad/15.png&quot;
+    href=&quot;/static/61def30b3574219eeaf927a51f912087/898f6/15.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 88.7218045112782%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAAsSAAALEgHS3X78AAABi0lEQVQ4y5VT226rMBD0///X6cORIrVNSEPgpNAQIOYSwtW3NWexU1opUkvmaT147NlZQ0aDlkPe8LweaNUVNdN6IhVooRTjYmBMSIVML2AfFRv/6Bxi75iRnktkg7j8s3Je94F/yt6TUgKAHp3389Ozu/mXOME5pFfc1nT8Ze15QZQWdVEPZDDiKIy3m3XXtuOopVTKit/83d6PzxktyvLaTjf33Nu6SRIbX0BwN1ZpfokSmmZFQvO8vE7ScRyEQLtdP3Tom4upu555hzA8nuKU0vxClAEYaA02Am1wq+FGzsBPYEhi17jgnMtP2BPnGu5gjybzYVwIaSJdCJR8iaUU9w5/EdvOGqa2Ad19UKEmQi8VG/dp1f7duMGJcgkPiG2FkyirqmlaO6SHe8ZUMbMHezbA9IUQOC39iSV6YufJGJvHaxlYkDz5/mJmCI5/kVokxqdVtx18swqgFt2MEjcqV+4xr5ml4suwPqTP+4/wfP1FjKNZ7XzH9ZruJi7r/pRVcXbJq/bn4P4D1igdMvRBHlkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 88.51351351351352%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABiklEQVQ4y51TaW+CQBDl//+tfmiaNrVVrICKQMsNC8py7EkHVmmMiUdfIAxv582xs6v1IzDhZUPLmqCqq1qqSCGlEJIyBg8YwBw6vvEz0wktL3KjQiNMAGs68dPbcrH2DDd2ogKYjsmZFTzPLd2OFnYYIAxkmuP3T9N0/CDbJ2WjUcaBta2dufoipAMbGMjSEfYxNwxrGyZ5nKGyamBpX2BrucpRBjZjXFMV/oSpHyXgF8YpOA41C1l3pO0Irpu6aSllQOZlZW52jucHUZrkpcZHCCGGVwwt9PIIFXcyJoyOsCFSU36gJ4RwNkCFgw87/YoLqIjaFKwjFPz6uzFk/quEURjNY2LVUFGz5S6yA3TR4HXx6O4kxatuehHi8vGycdPmCGFcy3/0DBZsLKX0wZ5HwH6BEqYlz4d8Q8zHeYJsmrBibuqPZYvpbJ1AYOZC3CVWB/jsAHJ+V2bKe93NZmv/0LLxDvduWs+3/sz6DsdrKK+IW8JfdGNtuy1RYpmW2E8LPynQobme+Retgx0Km3Jg9QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Command&quot;
         title=&quot;Command&quot;
-        src=&quot;/static/61def30b3574219eeaf927a51f912087/b9e4f/15.png&quot;
-        srcset=&quot;/static/61def30b3574219eeaf927a51f912087/cf440/15.png 148w,
-/static/61def30b3574219eeaf927a51f912087/d2d38/15.png 295w,
-/static/61def30b3574219eeaf927a51f912087/b9e4f/15.png 590w,
-/static/61def30b3574219eeaf927a51f912087/58aad/15.png 798w&quot;
+        src=&quot;/static/61def30b3574219eeaf927a51f912087/fcda8/15.png&quot;
+        srcset=&quot;/static/61def30b3574219eeaf927a51f912087/12f09/15.png 148w,
+/static/61def30b3574219eeaf927a51f912087/e4a3f/15.png 295w,
+/static/61def30b3574219eeaf927a51f912087/fcda8/15.png 590w,
+/static/61def30b3574219eeaf927a51f912087/898f6/15.png 798w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -1255,28 +1461,29 @@ class RowComposite extends Composite
 &lt;p&gt;The Memento pattern simply stores the state of the object in order to allow undo/redo operations. The Memento class gets and sets the state of the Composite and thus implements the Memento pattern.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 550px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 550px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5cba6924a315ff2131d6010807757e1b/2cf63/16.png&quot;
+    href=&quot;/static/5cba6924a315ff2131d6010807757e1b/dd45a/16.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 105.45454545454544%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAACXBIWXMAAAsSAAALEgHS3X78AAABiElEQVQ4y5WUa0+DMBSG9/9/jokfph9MFhNdtikm07CRzd0Hg0GhBXoFD7ALRMTxpiFA+/Rcek47aVVSCKWkkjJJkvQ/dcofhMqd7a1NZ2MdSczbwYYVPWnL7uvnw9DQd36aJi3gpY3Wpu2igAoZUi6VugkuIuxPZy8f2kSfrrdbFBCl2ljmQmAShlEMz5iydjFnPGNCCCnBZdUOBoBSyjjjnLeGIXDGwPdMN8HqrCQXy92+8OXZGviyFFwFkueCpaKq2kCubsM05KnI1m8jMlcT3BBeE1zkOfmjG2BfOP0mt8HjBsvQZ6rWshfJ8crtDceDr8XGjSpMksZcxVz6OPJJBC9UXIs2g62AafPjUF+NjN38gItmKgLAVPUN53Ggd/vju977/bP2tvCYkFd47+GBPrHNfeD7lJ/Ko9g+YuLgEQcRxw9h2IiYLoE6usIHhEeT6Wz+vdlbKAjLbSykwmGEMPYD4uNsBCS8ZO7cknlKk3NvptWize+mUwnW93PDOReHXNRp+f8PwWXRItjsQeIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 105.40540540540542%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVQ4y5VTaW+CQBDl//+g9kv90JqYJtK0xcSLWlSE2uBy78qedoCWguLBCyF7zNv3ZnZWOzTBOVdS5p9Sh2vQ6pOA8LntjRf2xHK8aN+NbHn7wdh5fDX7o+XcjeQ18V+yOuRxiy36dJzAD8B8RjkX8jZyIfJmrZ+N99nMXK5tP4wh8Q624YyMUspAllHGuuUMyLmMCiGklN3I4LMg5+hMBgCNF7iJLGoAQkmGMQxEE5fIEF15ho0jZnnWWdvltixwKtIq3iBf6Ocyl3YyqIFnpdqLBGXAmJw60hrv6bxykU2bMsJi+OHdPek9fWpu46LV/1KVKiQMxcT1Atfzd1EaYlY9mIKcsokdwGOcO/4G4dJ8uZ9SOVyg3ov5oE/uB6P7gaFbPqG8DMjJ2zDpG4ZrrxBC0NX13DImUJyGCQ4TEqYE/l6QQMy/MqxOV/Zqvfn63kHcoZY5NCzeZ0mKoyRNMIEBTKvTtXpJ22ulFGfQrQLKqZoF10r3sF5cVXu1q+Y9uq0f6b7Q/+C11M4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Memento&quot;
         title=&quot;Memento&quot;
-        src=&quot;/static/5cba6924a315ff2131d6010807757e1b/2cf63/16.png&quot;
-        srcset=&quot;/static/5cba6924a315ff2131d6010807757e1b/cf440/16.png 148w,
-/static/5cba6924a315ff2131d6010807757e1b/d2d38/16.png 295w,
-/static/5cba6924a315ff2131d6010807757e1b/2cf63/16.png 550w&quot;
+        src=&quot;/static/5cba6924a315ff2131d6010807757e1b/dd45a/16.png&quot;
+        srcset=&quot;/static/5cba6924a315ff2131d6010807757e1b/12f09/16.png 148w,
+/static/5cba6924a315ff2131d6010807757e1b/e4a3f/16.png 295w,
+/static/5cba6924a315ff2131d6010807757e1b/dd45a/16.png 550w&quot;
         sizes=&quot;(max-width: 550px) 100vw, 550px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -1285,29 +1492,30 @@ class RowComposite extends Composite
 &lt;p&gt;The Observer is used as an event scheduler that gets triggered whenever an event (e.g., click) occurs. The EditorObserver in collaboration with EditorSubject and EditorLogic implement the Observer pattern.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ceef3f7012a8a69ab84dd00a43d8ce8c/f1147/17.png&quot;
+    href=&quot;/static/ceef3f7012a8a69ab84dd00a43d8ce8c/af590/17.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 79.2332268370607%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAAsSAAALEgHS3X78AAABSklEQVQoz5WRbWvCMBSF/f//ZB/3zQ+bA0EELeLL3BRxm31TWtvY1CRNb25crOjUTrGHEsKhz73hnNruTEqp03lLqDUcf6g9AuviJFyNnKTZmzQ6o/Z44cTiMbigCZMTN7RXsbemPtkGCX8Q3tM+SV8ta+W6QnDjiUxW2LymrD+bO67/bbv+KiBJWqsamHmFUngIojKMCgHgn7SNWwzeC25IZlKdV2UAQuJ1FAVBQClF/Jt9XxebsRCAkjIv91y+X8Aa8cjn1TabkVwiz5XIkUmQSh/qBdQJB8pkUnwsU1qXYMBd94s8NwdP9Va9Mx27Cep9JRuuWu9ew/p8601euh+DRSShVJXZMPgJhzNnPPemTmiHKRR9xlS0raHtLgllXJonZFleqgpRTx3PWy6jeMOF2DJuHOPLHIwVmT7IJt2yk38d2H2ZIK+cX8z9pyMPIFi0AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 79.05405405405406%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAAsTAAALEwEAmpwYAAABQElEQVQoz5WSXU+DMBiF+f8/xQvvjQmL0XixMLLonGxmm47BSllhjH7QD5iVGiL7MHDSNM3b98l7OMU6/pFSqtmvSZVl02B1gat6j3I5XqGB82YPJ8NZAA+iG1zTYE/nm9iP0hDlYUpQzjrCP7QXRI/uKAZACK5rrOA9YD9OJovl2g8+/U0YxQdMrb6BlbV6BNbqkepy2lJK7VDVkldUFEVrsm5FCO0QghASQvSdbjp2kHX+PULIE7i6cr4AG9P9JuvnIFwxWVKhiJCirMwYrqqMyoxwsygvW7Bxgnn15MFb27m5e753l0uIzQ3I+MP4a+BM7dG77XizbdYK7BculLsArx/+dBXO/d02webf2ETp0H0JAMwwo1xbYPL8qRiX3nq9BVG6zwhlehkYswKgBCWprueYNPXTwP6RBhq3jb4BhvWm/xn2yHcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Observer&quot;
         title=&quot;Observer&quot;
-        src=&quot;/static/ceef3f7012a8a69ab84dd00a43d8ce8c/b9e4f/17.png&quot;
-        srcset=&quot;/static/ceef3f7012a8a69ab84dd00a43d8ce8c/cf440/17.png 148w,
-/static/ceef3f7012a8a69ab84dd00a43d8ce8c/d2d38/17.png 295w,
-/static/ceef3f7012a8a69ab84dd00a43d8ce8c/b9e4f/17.png 590w,
-/static/ceef3f7012a8a69ab84dd00a43d8ce8c/f1147/17.png 626w&quot;
+        src=&quot;/static/ceef3f7012a8a69ab84dd00a43d8ce8c/fcda8/17.png&quot;
+        srcset=&quot;/static/ceef3f7012a8a69ab84dd00a43d8ce8c/12f09/17.png 148w,
+/static/ceef3f7012a8a69ab84dd00a43d8ce8c/e4a3f/17.png 295w,
+/static/ceef3f7012a8a69ab84dd00a43d8ce8c/fcda8/17.png 590w,
+/static/ceef3f7012a8a69ab84dd00a43d8ce8c/af590/17.png 626w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -1316,29 +1524,30 @@ class RowComposite extends Composite
 &lt;p&gt;This pattern helps The FontSize and FontFace classes and the FontListener interface implement the State pattern.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d5b2edcc5710f3e01673bee8768a083b/30398/18.png&quot;
+    href=&quot;/static/d5b2edcc5710f3e01673bee8768a083b/2e237/18.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 67.46835443037973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABvUlEQVQoz3VSiXLTMBD1//8UDAzTAWJSkrZ24xDHiY/E9SVZ92VWzpCSUtaasZ5Wb7Vvd4Npmtz0X+PardP6+9P+6dBcrwkhKKXGmCCt6XJTwOqJAAdiepXWy81xW/YAmdSLdfTwGJ2aAaCx7rlEi/jwq/IwwFR0iLQDEVIDltp0mAFEhAEkQt39XGVpikcKL1vnBsLhPiLcuSnwabu/E3fzib0Arc3pVDdtRyj/V1SgtFZKiT8Gez0b/NVsxnjIKG3bDjY3ZGutg8+CHKuUxAhhPHLGgTKzlJQSgkIkcJk35MkrmUYmEQUxIxoJY4xLzZXrMKFCDcOQ5wWTBu4QoY29JSOuv0aHb+vtMilq5LWdsVzuzmGcpTWBgkhjo3wIowzaNgpz7a4nEy6f91mRlxhDdX1ix5dusXpId2nbY4BU6h/xJtkk1flFaXvz8lxev0A+ZWwcCWG8R9hvCIP2GGsxpQihsqwIoW/Jr41yjnMGFX49sfY6hFA+xt4jX/wDN1/W+49hnLfEw57GuypJKzb6Whwb8iGM7x73TJl3yDCe93Eab7PLtBbn4dN98jmMht7HOtZoBcEaLGflvwHla+oOiiKxQAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 67.56756756756756%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB3UlEQVQoz31SyZKbMBDl/z8otxxySGaq4iUeO5jFGwZkQNgggVaQnAaSmbJTySupim716+U1zv2/iHA7887fvRgTAaaFYw0fYYxxlmE695O85vAmtHHj2yJI1secqw48/gnNlm/BPmqFBrNi3eqQz/24GHM5uKL5jTZcgqF7UxIGHlw1Sg/k1eH4tlnjolC6BxMy4qqFgCnesdaO7XwAGhucg/+eF9ckQbea6DHXExyttfoD+O66Dm4/ohsBTiklpZQz/kw270FKNU3DGAMxxkS/0wEgESGkqqpnMty+N11vpNaUUAhiYwVoAg7URAhVNQEPNGSfyFzb9QnPvWjhJ3HZDqposy/4Mkzc87VmulPyUottUi+C+FRyYz8yOK3Uc2/nBXuUl5QpcDVCvW481wviC54WFqLih+v7u0NZtw9kY6yQSo5iQZNSCCbVKb3kWV7gKzxBECYUZXmaohyXvTEPM78DtONtA7NOK4M7LM2aaW1KSUpqUPYfZHuPMfVOKKvZwNYdp6whrWrFxE9Luj2kl6p9IE9zgHjfNtHnl5UbFcPfyuSrm376ut4EaKjc319+nr/M3G1c2r8rq96GxzhNU9IM25JchLtoHx5RhKCyNvcQxMgyITUoBQG/AMwsIkasMoIMAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;State&quot;
         title=&quot;State&quot;
-        src=&quot;/static/d5b2edcc5710f3e01673bee8768a083b/b9e4f/18.png&quot;
-        srcset=&quot;/static/d5b2edcc5710f3e01673bee8768a083b/cf440/18.png 148w,
-/static/d5b2edcc5710f3e01673bee8768a083b/d2d38/18.png 295w,
-/static/d5b2edcc5710f3e01673bee8768a083b/b9e4f/18.png 590w,
-/static/d5b2edcc5710f3e01673bee8768a083b/30398/18.png 790w&quot;
+        src=&quot;/static/d5b2edcc5710f3e01673bee8768a083b/fcda8/18.png&quot;
+        srcset=&quot;/static/d5b2edcc5710f3e01673bee8768a083b/12f09/18.png 148w,
+/static/d5b2edcc5710f3e01673bee8768a083b/e4a3f/18.png 295w,
+/static/d5b2edcc5710f3e01673bee8768a083b/fcda8/18.png 590w,
+/static/d5b2edcc5710f3e01673bee8768a083b/2e237/18.png 790w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -1349,31 +1558,32 @@ It is my hope that I explained the complex concepts of the design patterns in a 
 &lt;h2&gt;The complete UML Diagram&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3ac33f742ff6b355ad7ceceddff549b2/67eb0/uml_all.png&quot;
+    href=&quot;/static/3ac33f742ff6b355ad7ceceddff549b2/dc6b3/uml_all.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 93.00528670191134%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAACXBIWXMAAAsSAAALEgHS3X78AAAB5klEQVQ4y41UCXKjMBDk/x/Mbmo3jmNwMEbovg+2JeIcXruSKUoWmuk5uoW79WKlrdL4RZiZKePC++E962pEKSGmLS7ncng9S+3WH1gFOx+HaUEK7GNMD78ehRA/AgOTUooxlJI36/uBVzA8OcZorc0pwXkDjOgUUwjBh6CNVca0QVbKtTQOXus80jgftta+gLXzVJqFyUWo3eF4OlOcplz+7A/INZzm537U1u+HE+i4BqPnXAraa0UcWsBpSHleqMG793DV0bCu5TMesG4iDGy9qdVcXJm/L4Nxvn+dsCdMLFxDvIlQKhSX+jgtQtvDMHYxJczzuRkMqZRCTcql9UHWfcCjlLa1l6A0MgchZPc/h5fb4n4/vdiWd+sI+5jytc4fsBaU2w+Vave8y02hjWfCpLH+Lnh9u2QVgHEo4zlldCi13XJfqfUB9jGNhOdLhLIeJGED/R6f9jEXCpZCIlzfAKecjXOlyha2ysbWgoxxxhi8UmmsYOwGGDWRG5uZK0jBUDokphw01y5C0fPC8akxqcdF3ADb9hlCB9u0AbdYvMfNjZQLUFCakDNldwnbDMWFshAMBVEN1wPF9bdsb3bGddcG0aD6NNe7hRNC+TfgTQ78n5BGgVDmOBEQQZjqxxnDvEf+A2P5WIo3lPGSAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 93.24324324324323%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB4UlEQVQ4y41U7Y6jMAzs+z/f/elJvdOWttBAQr7jJBB2IKvudo9VzyqRkzAe22N6WJ5NaC9tYKNJeVpe2QHPXEqe5rqnmM5tT+k18gOsrL8Psu61scfjb6L4X+AC2s3gLEsB7O3chBDglzKnlIiozDN+O+BpsxhjyslYVzmneebKEurGVUqoCy/sgKXxxhPjEskf/zTaepx6iqe3BvH+nm/dMCrjL92wz4zACSRzcd5ji9MQ08AFmoeccQ+bUNfW2gora3bl0LS9kPbjaLsDVdMy7ULL+KgdcmFCI8HbnVtPvVCDNEKaS9cfEB7pfU0GlXvvnQ8KTiDrHKpAL7Q26AyOXAjekzHm8G8llb8f1el8Q5sf5whRSvmu8ydsW+dNlbYfrtdrDVYfJlR+Hrsd5gqmGKXScNYkN/3KmsUPzC5EdOIBHo1TDqOy/DqeWjaEmKGo8VHZsAOGWmBDVVClMtM2GHfWO+dobZVH2hTzHjhPNWrHlXYEP6YJTsyTo3xjHKNiAwllhXK1QZ9gDEOgtErlAnjCisJsZoiUcmaDgGaoGvqN2nwHP6u1sFEjFoZEaiOwGtcN8vHl/tjt+mF0PQelcR6JtD3HnGHF9gW4qtEJg6rhoFiMJP5bUO3lzr+++Q4cVlhvR0F1VAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;UML&quot;
         title=&quot;UML&quot;
-        src=&quot;/static/3ac33f742ff6b355ad7ceceddff549b2/b9e4f/uml_all.png&quot;
-        srcset=&quot;/static/3ac33f742ff6b355ad7ceceddff549b2/cf440/uml_all.png 148w,
-/static/3ac33f742ff6b355ad7ceceddff549b2/d2d38/uml_all.png 295w,
-/static/3ac33f742ff6b355ad7ceceddff549b2/b9e4f/uml_all.png 590w,
-/static/3ac33f742ff6b355ad7ceceddff549b2/f9b6a/uml_all.png 885w,
-/static/3ac33f742ff6b355ad7ceceddff549b2/2d849/uml_all.png 1180w,
-/static/3ac33f742ff6b355ad7ceceddff549b2/67eb0/uml_all.png 2459w&quot;
+        src=&quot;/static/3ac33f742ff6b355ad7ceceddff549b2/fcda8/uml_all.png&quot;
+        srcset=&quot;/static/3ac33f742ff6b355ad7ceceddff549b2/12f09/uml_all.png 148w,
+/static/3ac33f742ff6b355ad7ceceddff549b2/e4a3f/uml_all.png 295w,
+/static/3ac33f742ff6b355ad7ceceddff549b2/fcda8/uml_all.png 590w,
+/static/3ac33f742ff6b355ad7ceceddff549b2/efc66/uml_all.png 885w,
+/static/3ac33f742ff6b355ad7ceceddff549b2/c83ae/uml_all.png 1180w,
+/static/3ac33f742ff6b355ad7ceceddff549b2/dc6b3/uml_all.png 2459w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
