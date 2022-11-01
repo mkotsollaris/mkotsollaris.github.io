@@ -8,7 +8,8 @@ categories:
   - 'documentation'
   - 'automation'
   - 'google'
-banner: './CI_flags.jpeg'
+banner: './technical-documentation-post-header1.jpeg'
+featuredImage: './technical-documentation-post-header1.jpeg'
 ---
 
 ![Software Engineering at Google](./software-engineering-at-google-lessons-learned-from-programming-over-time.jpeg)
