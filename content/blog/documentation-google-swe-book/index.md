@@ -2,7 +2,7 @@
 slug: 'documentation-google-swe'
 title: 'Documentation - "Software Engineering at Google" Chapter Review '
 date: "2022-11-05"
-description: Strategies for optimizing Core Web Vitals and creating crawler-friendly web pages.
+description: How to write clean documentation
 author: 'Menelaos Kotsollaris'
 categories:
   - 'documentation'
@@ -84,7 +84,7 @@ While this is the first version of the project, I want to expand into a deeper c
 
 ## Audience
 
-One of the most important mistakes that engineers make when writing documentation is to write only for themselves. It's natural to do so, and writing for yourself is not without value: after all, you might need to look at this code in a few years and try to figure out what you onmce meat. But if you write only for yourself, you are going to make certain assumptions, and given that your document might be read by a very wide audience (all of engineering, external developers), even a few lost reads is a large cost. As an organization grows, mistakes in documentation become more prominent, and your assumptions often do not apply.
+One of the most important mistakes that engineers make when writing documentation is to write only for themselves. It's natural to do so, and writing for yourself is not without value: after all, you might need to look at this code in a few years and try to figure out what you once meant. But if you write only for yourself, you are going to make certain assumptions, and given that your document might be read by a very wide audience (all of engineering, external developers), even a few lost reads is a large cost. As an organization grows, mistakes in documentation become more prominent, and your assumptions often do not apply.
 
 Here are some types of audience criteria:
 
