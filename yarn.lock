@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 5
+  version: 6
   cacheKey: 8
 
 "@ampproject/remapping@npm:^2.1.0":
@@ -1458,6 +1458,17 @@ __metadata:
     "@babel/helper-validator-identifier": ^7.19.1
     to-fast-properties: ^2.0.0
   checksum: 8729b1114c707a03625cd79e3ae3a28d69b36ddcf804cb0a4599af226e5e9fad71665bdc0e56c43527ecfcabc545d9c797231f5ce718ae1ab52d31a57b6c2024
+  languageName: node
+  linkType: hard
+
+"@babel/types@npm:^7.15.4":
+  version: 7.20.5
+  resolution: "@babel/types@npm:7.20.5"
+  dependencies:
+    "@babel/helper-string-parser": ^7.19.4
+    "@babel/helper-validator-identifier": ^7.19.1
+    to-fast-properties: ^2.0.0
+  checksum: 773f0a1ad9f6ca5c5beaf751d1d8d81b9130de87689d1321fc911d73c3b1167326d66f0ae086a27fb5bfc8b4ee3ffebf1339be50d3b4d8015719692468c31f2d
   languageName: node
   linkType: hard
 
@@ -3381,7 +3392,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.0.0":
+"acorn@npm:^8.0.0, acorn@npm:^8.5.0":
   version: 8.8.1
   resolution: "acorn@npm:8.8.1"
   bin:
@@ -6418,9 +6429,9 @@ __metadata:
   linkType: hard
 
 "decode-uri-component@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "decode-uri-component@npm:0.2.0"
-  checksum: f3749344ab9305ffcfe4bfe300e2dbb61fc6359e2b736812100a3b1b6db0a5668cba31a05e4b45d4d63dbf1a18dfa354cd3ca5bb3ededddabb8cd293f4404f94
+  version: 0.2.2
+  resolution: "decode-uri-component@npm:0.2.2"
+  checksum: 95476a7d28f267292ce745eac3524a9079058bbb35767b76e3ee87d42e34cd0275d2eb19d9d08c3e167f97556e8a2872747f5e65cbebcac8b0c98d83e285f139
   languageName: node
   linkType: hard
 
@@ -8202,6 +8213,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fastq@npm:^1.13.0":
+  version: 1.14.0
+  resolution: "fastq@npm:1.14.0"
+  dependencies:
+    reusify: ^1.0.4
+  checksum: da2c05ec1446ef77b8ba2b76619c90d483404f5087e71e77469fbee797280a1f4ef26a63be15b2377198bc20d09fdf25c7d6e1e492a1e568a29dfdd9bcb7538c
+  languageName: node
+  linkType: hard
+
 "faye-websocket@npm:^0.11.3, faye-websocket@npm:^0.11.4, faye-websocket@npm:~0.11.0":
   version: 0.11.4
   resolution: "faye-websocket@npm:0.11.4"
@@ -8648,7 +8668,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^10.0.0":
+"fs-extra@npm:^10.0.0, fs-extra@npm:^10.1.0":
   version: 10.1.0
   resolution: "fs-extra@npm:10.1.0"
   dependencies:
