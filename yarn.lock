@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 5
+  version: 6
   cacheKey: 8
 
 "@ampproject/remapping@npm:^2.1.0":
@@ -1458,6 +1458,17 @@ __metadata:
     "@babel/helper-validator-identifier": ^7.19.1
     to-fast-properties: ^2.0.0
   checksum: 8729b1114c707a03625cd79e3ae3a28d69b36ddcf804cb0a4599af226e5e9fad71665bdc0e56c43527ecfcabc545d9c797231f5ce718ae1ab52d31a57b6c2024
+  languageName: node
+  linkType: hard
+
+"@babel/types@npm:^7.15.4":
+  version: 7.20.7
+  resolution: "@babel/types@npm:7.20.7"
+  dependencies:
+    "@babel/helper-string-parser": ^7.19.4
+    "@babel/helper-validator-identifier": ^7.19.1
+    to-fast-properties: ^2.0.0
+  checksum: b39af241f0b72bba67fd6d0d23914f6faec8c0eba8015c181cbd5ea92e59fc91a52a1ab490d3520c7dbd19ddb9ebb76c476308f6388764f16d8201e37fae6811
   languageName: node
   linkType: hard
 
@@ -3381,7 +3392,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.0.0":
+"acorn@npm:^8.0.0, acorn@npm:^8.5.0":
   version: 8.8.1
   resolution: "acorn@npm:8.8.1"
   bin:
@@ -8202,6 +8213,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fastq@npm:^1.13.0":
+  version: 1.15.0
+  resolution: "fastq@npm:1.15.0"
+  dependencies:
+    reusify: ^1.0.4
+  checksum: 0170e6bfcd5d57a70412440b8ef600da6de3b2a6c5966aeaf0a852d542daff506a0ee92d6de7679d1de82e644bce69d7a574a6c93f0b03964b5337eed75ada1a
+  languageName: node
+  linkType: hard
+
 "faye-websocket@npm:^0.11.3, faye-websocket@npm:^0.11.4, faye-websocket@npm:~0.11.0":
   version: 0.11.4
   resolution: "faye-websocket@npm:0.11.4"
@@ -8648,7 +8668,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^10.0.0":
+"fs-extra@npm:^10.0.0, fs-extra@npm:^10.1.0":
   version: 10.1.0
   resolution: "fs-extra@npm:10.1.0"
   dependencies:
@@ -12094,13 +12114,13 @@ __metadata:
   linkType: hard
 
 "json5@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "json5@npm:1.0.1"
+  version: 1.0.2
+  resolution: "json5@npm:1.0.2"
   dependencies:
     minimist: ^1.2.0
   bin:
     json5: lib/cli.js
-  checksum: e76ea23dbb8fc1348c143da628134a98adf4c5a4e8ea2adaa74a80c455fc2cdf0e2e13e6398ef819bfe92306b610ebb2002668ed9fc1af386d593691ef346fc3
+  checksum: 866458a8c58a95a49bef3adba929c625e82532bcff1fe93f01d29cb02cac7c3fe1f4b79951b7792c2da9de0b32871a8401a6e3c5b36778ad852bf5b8a61165d7
   languageName: node
   linkType: hard
 
