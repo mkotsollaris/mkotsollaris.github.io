@@ -1,6 +1,6 @@
 ---
 slug: 'core-web-vitals'
-title:  Embrace the Power of Implicit Undefined with the Optional Typescript Operator (?)
+title:  Embrace the Power of Implicit Undefined with the Optional Typescript Operator
 date: "2023-04-22"
 description: Laveraging `eslint-plugin-no-explicit-undefined` for stronger type definitions
 author: 'Menelaos Kotsollaris'
