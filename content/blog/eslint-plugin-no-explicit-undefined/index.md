@@ -37,7 +37,7 @@ class Test { constructor(public prop?: string) {} }
 interface Example { prop?: string; }
 ```
 
-As you can see, the optional operator (?) makes the code cleaner and more expressive, giving a clear indication that a property is optional without explicitly mentioning undefined.
+As you can see, the optional operator (?) makes the code cleaner and more expressive, giving a clear indication that a property is optional without explicitly mentioning undefined. You can find [the repository on Github](https://github.com/mkotsollaris/eslint-plugin-no-explicit-undefined).
 
 ## How to get started
 
