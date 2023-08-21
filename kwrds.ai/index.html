@@ -27,17 +27,54 @@
   </a>
     </span></p>
 <h2>Motivation</h2>
-<p>As I was chatting with my great colleague, <a href="https://github.com/sundios">Konrad Butchardt</a>, about the aparent hot topics in SEO, he descibed me the plethora of OSS work that he has executed in his past work. With the advent of AI technologies and the prominence of ChatGPT, it became evident that traditional SEO methodologies were becoming less effective. Recognizing the existing gap, we embarked on the development of <a href="https://www.kwrds.ai">kwrds.ai</a>.</p>
+<p>As I was chatting with my great colleague, <a href="https://github.com/sundios">Konrad Burchardt</a>, about the aparent hot topics in SEO, he descibed me the plethora of OSS work that he has executed in his past work. With the advent of AI technologies and the prominence of ChatGPT, it became evident that traditional SEO methodologies were becoming less effective. Recognizing the existing gap, we embarked on the development of <a href="https://www.kwrds.ai">kwrds.ai</a>.</p>
 <h2>The problem</h2>
 <p>Historically, the SEO industry remained relatively stable. Tools like Semrush and keywordtool.io were standard for identifying trending keywords and formulating content strategies. They efficiently matched queries and provided results. However, AI’s capability to discern intricate patterns presents a transformative opportunity for SEO. Consider the keyword “tesla”. Traditional tools might offer <a href="https://en.wikipedia.org/wiki/Keyword_research">keyword volumes</a>, <a href="https://www.investopedia.com/terms/c/cpc.asp">cost per click (CPC)</a>, and <a href="https://en.wikipedia.org/wiki/Real_user_monitoring#:~:text=Real%20user%20monitoring%20(RUM)%20is,server%20or%20cloud%2Dbased%20application">real user monitoring (RUM) data</a>. But for SEO strategists, there’s a demand for deeper insights: seed keywords, localized queries, and more. This depth was missing in existing tools, prompting our initiative to create one.</p>
+<h2>Search 1.0 and AI-based Search 2.0</h2>
+<p>With the advent of ChatGPT, the landscape of search has undergone a significant transformation. Traditional “Search 1.0” often operated under the assumption of linear time complexity, presupposing that users knew precisely what they were searching for. In this model, a specific input would yield a predictable output closely mirroring the original query.</p>
+<p>Enter “Search 2.0” or AGI-based search. Here, user inputs are not strictly tied to outputs. Instead, additional contextual parameters come into play, allowing for more nuanced results. This approach is particularly beneficial for text-based data like keywords, where context is paramount for accurate interpretation.</p>
+<p>Kwrds.ai doesn’t aim to champion one approach over the other. Instead, our goal is to harmoniously integrate both, delivering precise data that empowers SEO managers in their content creation endeavors. Below is a high-level architecture illustrating the interplay between Search 1.0 and Search 2.0 within our platform:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/a48bfb7389e8f6936944b7c73c6905fd/1a466/kwrds_AI_architecture.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 53.37837837837838%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABdklEQVR42l1SW5LCMAzrHWheTtIXyxb4ZIYbcP8reS21YQsfHjuJLctyur7v1Tmn8Iz3szcLIdBKKRpjVO/9+y5YjDy31zXrjoDJEsUKkVxy3mKAt+LdIt5FVFJinM37HYOAvQP6iQBiQAAodWMFBid7O7JAE7BGLtgOtf4DbuPZKM4epOhUBp2HUX/mRc/TrFWsyEe+Iw/5mAQMYSlEHXL5ZOh7r8loT+Oooxn8UAfaNE68o4YGKEF0soYEsuY1V4uTxZVNO4wHwMvlos/nU5dl0cfjoev1qvf7ned1XRmvv6tGFzWXbDI5kkjGEmMjJiC0ACAKXq8X2WQsxBLhwUySbGcbn4CQwWGBQnbRbzmYoAs+mPCOQLfbjYVt68fNUhpMY0WM96+F2mbUUGTrgjG4OYhtHiO0M7TEGcwwzckK51R1MX3R5Pj1OoxFQPPDaIWSyPbIrv1DsCNDBwD/3voHIDRKPlGPZjnhqwTqdDTo9/3Jv+0PnqgbXZlz8z4AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="kwrds.architecture"
+        title="kwrds.architecture"
+        src="/static/a48bfb7389e8f6936944b7c73c6905fd/fcda8/kwrds_AI_architecture.png"
+        srcset="/static/a48bfb7389e8f6936944b7c73c6905fd/12f09/kwrds_AI_architecture.png 148w,
+/static/a48bfb7389e8f6936944b7c73c6905fd/e4a3f/kwrds_AI_architecture.png 295w,
+/static/a48bfb7389e8f6936944b7c73c6905fd/fcda8/kwrds_AI_architecture.png 590w,
+/static/a48bfb7389e8f6936944b7c73c6905fd/efc66/kwrds_AI_architecture.png 885w,
+/static/a48bfb7389e8f6936944b7c73c6905fd/c83ae/kwrds_AI_architecture.png 1180w,
+/static/a48bfb7389e8f6936944b7c73c6905fd/1a466/kwrds_AI_architecture.png 2882w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>A logical progression for our platform would be the dynamic generation of prompts based on contextual cues. For example, depending on the type of content users aim to produce, specific prompts could be crafted in real-time. This adaptability would be invaluable for users whose content strategies hinge on highly relevant SEO data.</p>
 <h2>How does it work</h2>
 <p>On the surface, our platform functions similarly to familiar tools: users input a keyword or phrase, specify parameters like region and language, and initiate a search. The results, ranked by volume, are sourced from industry leaders like Google and Microsoft. The distinction arises when users explore the AI-Research option after inputting a keyword, such as “tesla”. This feature leverages the ChatGPT Language Model, extensively trained to produce content that resonates with human readers.</p>
 <p>The efficacy of this model hinges on the quality of context provided. By integrating RUM data with advanced AI methodologies, we aim to deliver superior search results.</p>
 <p>For a practical understanding, observe the demo for the “tesla” keyword:</p>
 <p><img src="/621e684b9d3ab9c692cabcc4f351573c/kwrdsai_demo_tesla.gif" alt="kwrdsai_demo_tesla.gif"></p>
 <p>The AI Reranker refines the search process further. It reorganizes data based on relevance and correlation. While keyword volumes are considered, the context might elevate a less popular keyword. The AI Reranker also filters out any mismatched keywords, ensuring precision.</p>
-<h2>AI-based search in Multiple layers</h2>
-<p>We showcased how AI offers a dive-deep layer, but what about the initial search of generating relevant keywords? Turns out we can use AI during this step too, especially for identifying newer trends that haven’t been indexed from Google.</p>
+<h2>AI-based search in Layers</h2>
+<p>Beyond the deep insights AI offers, it also plays a pivotal role in the initial stages of keyword generation, identifying emerging trends even before they gain traction on platforms like Google.</p>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
@@ -70,7 +107,7 @@
       />
   </a>
     </span></p>
-<p>As seen from the diagram, we can get valueable results during the initial search phase, and combine them with “Search 1.0” indexed results, derrive in highly relevant results where we can still “deep dive” into. AI results can be quite different from Search 1.0 results and can usually guide through significant untapped keywords. These insights could usually go unnoticed with Search 1.0 results, and hence having this layer is significant into having high quality results.</p>
+<p>The diagram illustrates the synergy between AI-generated insights and traditional “Search 1.0” results, culminating in a comprehensive search experience.</p>
 <h2>Try it out</h2>
 <p>You can try kwrds.ai for free, give it a spin by visiting and share thoughts! The product is still under development and we are looking for important feedback as we are keep on iterating. Our goal is to create an immesive search experience that produces highly relevant search results by utilizing AI and RUM data. The product is free for the initial use, but after a while you need to pay to access AI-based features. If interested to try out, please contact me either through <a href="https://twitter.com/mkotsollaris">twitter</a> or <a href="mailto:mkotsollari@gmail.com">email</a>, and I can provide you access to our <a href="https://www.kwrds.ai/pricing">basic plan</a> with a 3-month free trial, no questions asked!</p></section><hr style="margin-bottom:1.55rem"/><footer><div style="display:flex;margin-bottom:2rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.775rem;margin-bottom:0;min-width:50px;border-radius:100%"><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABsy6GPLWGjjIFuDf/xAAbEAACAgMBAAAAAAAAAAAAAAACAwABBBITIv/aAAgBAQABBQJraUC8/ZsyBsq52RQ62FQep//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAEDAQE/ASP/xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAgEBPwFj/8QAHRAAAgICAwEAAAAAAAAAAAAAAREAAhASITFBcf/aAAgBAQAGPwLa0ANUDiq8s5VrsYIZHyPa3GP/xAAbEAACAgMBAAAAAAAAAAAAAAABESExABBBUf/aAAgBAQABPyE3q4B04gYpQZGilYWExsxjzV6XtsN5VJwdf//aAAwDAQACAAMAAAAQG8D8/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARQf/aAAgBAwEBPxAUKsX/xAAXEQADAQAAAAAAAAAAAAAAAAABEBEx/9oACAECAQE/EDBiOr//xAAfEAEAAgIBBQEAAAAAAAAAAAABESEAMRBBUWGBkcH/2gAIAQEAAT8Qm+QhsJoMQtsbEaF7k8QH2h6Un7jTDiiLKVX1xp0NwD6OMLeizB5rfH//2Q==" alt="Menelaos Kotsollaris" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:50%"/><noscript><picture><source srcset="/static/4455de82ef254fa3a226c4f77039552f/99438/profile-pic.jpg 1x,
 /static/4455de82ef254fa3a226c4f77039552f/aba1d/profile-pic.jpg 1.5x,
