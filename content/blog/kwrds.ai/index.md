@@ -9,14 +9,16 @@ keywords:
   - "chatgpt"
   - "seo"
   - "keywords"
-banner: './kwrds.ai_banner.jpeg'
+banner: './kwrds_AI_architecture.png'
 bannerCredit:
   'Photo by Menelaos Kotsollaris'
 ---
 
-![kwrds.ai_banner](./kwrds.ai_banner.jpeg)
+![kwrds.ai_banner](./kwrds_AI_architecture.png)
 
-## Motivation
+> "This article was originally posted in the [kwrds.ai Website](https://www.kwrds.ai/blog/introduction)"
+
+## Introduction
 
 As I was chatting with my great colleague, [Konrad Burchardt](https://github.com/sundios), about the aparent hot topics in SEO, he descibed me the plethora of OSS work that he has executed in his past work. With the advent of AI technologies and the prominence of ChatGPT, it became evident that traditional SEO methodologies were becoming less effective. Recognizing the existing gap, we embarked on the development of [kwrds.ai](https://www.kwrds.ai).
 
@@ -32,7 +34,7 @@ Enter "Search 2.0" or AGI-based search. Here, user inputs are not strictly tied 
 
 Kwrds.ai doesn't aim to champion one approach over the other. Instead, our goal is to harmoniously integrate both, delivering precise data that empowers SEO managers in their content creation endeavors. Below is a high-level architecture illustrating the interplay between Search 1.0 and Search 2.0 within our platform:
 
-![kwrds.architecture](./kwrds_AI_architecture.png)
+![kwrds_AI_architecture.png](./kwrds_AI_architecture.png)
 
 A logical progression for our platform would be the dynamic generation of prompts based on contextual cues. For example, depending on the type of content users aim to produce, specific prompts could be crafted in real-time. This adaptability would be invaluable for users whose content strategies hinge on highly relevant SEO data.
 
@@ -45,6 +47,8 @@ The efficacy of this model hinges on the quality of context provided. By integra
 For a practical understanding, observe the demo for the "tesla" keyword:
 
 ![kwrdsai_demo_tesla.gif](./kwrdsai_demo_tesla.gif)
+
+<CustomImage src="./kwrdsai_demo_tesla.gif" alt="kwrds.ai demo" />
 
 The AI Reranker refines the search process further. It reorganizes data based on relevance and correlation. While keyword volumes are considered, the context might elevate a less popular keyword. The AI Reranker also filters out any mismatched keywords, ensuring precision.
 
