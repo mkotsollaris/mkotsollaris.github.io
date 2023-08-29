@@ -1,32 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[Menelaos Kotsollaris' personal website and blog]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 21 Aug 2023 21:31:21 GMT</lastBuildDate><item><title><![CDATA[Introducing kwrds.ai, an AI-based search platform for SEO]]></title><description><![CDATA[Motivation As I was chatting with my great colleague, Konrad Burchardt, about the aparent hot topics in SEO, he descibed me the plethora of…]]></description><link>https://menelaos.dev/kwrds.ai/</link><guid isPermaLink="false">https://menelaos.dev/kwrds.ai/</guid><pubDate>Fri, 01 Sep 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Menelaos Kotsollaris]]></title><description><![CDATA[Menelaos Kotsollaris' personal website and blog]]></description><link>https://menelaos.dev</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 29 Aug 2023 01:19:34 GMT</lastBuildDate><item><title><![CDATA[Introducing kwrds.ai, an AI-based search platform for SEO]]></title><description><![CDATA[“This article was originally posted in the kwrds.ai Website” Introduction As I was chatting with my great colleague, Konrad Burchardt, about…]]></description><link>https://menelaos.dev/kwrds.ai/</link><guid isPermaLink="false">https://menelaos.dev/kwrds.ai/</guid><pubDate>Fri, 01 Sep 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 235px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/24aa352b73aab85aa5d4d87ce0d20e05/9fbb0/kwrds.ai_banner.jpg&quot;
+    href=&quot;/static/a48bfb7389e8f6936944b7c73c6905fd/1a466/kwrds_AI_architecture.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 91.21621621621621%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAASABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAAB7kmnOkDqDaA//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACESEQ/9oACAEBAAEFAldxIOjy7YyvCYef/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGhAAAgIDAAAAAAAAAAAAAAAAABEBIDFBUf/aAAgBAQAGPwJQZGPR2v8A/8QAHRABAAICAgMAAAAAAAAAAAAAAQAREDEhgUFRYf/aAAgBAQABPyGo72bQ34yrHmWD0cwVjoQUmANAY//aAAwDAQACAAMAAAAQLP8AAP/EABkRAAIDAQAAAAAAAAAAAAAAAAABEBExUf/aAAgBAwEBPxDtiweqP//EABgRAAMBAQAAAAAAAAAAAAAAAAABMRBx/9oACAECAQE/EODopn//xAAcEAEAAgMAAwAAAAAAAAAAAAABABEhMUEQYcH/2gAIAQEAAT8QSQWlpoItTNZ+MHRBcK1zZ6M3BustxVAENHIl4Yjaj0K8f//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 53.37837837837838%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABdklEQVR42l1SW5LCMAzrHWheTtIXyxb4ZIYbcP8reS21YQsfHjuJLctyur7v1Tmn8Iz3szcLIdBKKRpjVO/9+y5YjDy31zXrjoDJEsUKkVxy3mKAt+LdIt5FVFJinM37HYOAvQP6iQBiQAAodWMFBid7O7JAE7BGLtgOtf4DbuPZKM4epOhUBp2HUX/mRc/TrFWsyEe+Iw/5mAQMYSlEHXL5ZOh7r8loT+Oooxn8UAfaNE68o4YGKEF0soYEsuY1V4uTxZVNO4wHwMvlos/nU5dl0cfjoev1qvf7ned1XRmvv6tGFzWXbDI5kkjGEmMjJiC0ACAKXq8X2WQsxBLhwUySbGcbn4CQwWGBQnbRbzmYoAs+mPCOQLfbjYVt68fNUhpMY0WM96+F2mbUUGTrgjG4OYhtHiO0M7TEGcwwzckK51R1MX3R5Pj1OoxFQPPDaIWSyPbIrv1DsCNDBwD/3voHIDRKPlGPZjnhqwTqdDTo9/3Jv+0PnqgbXZlz8z4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;kwrds.ai_banner&quot;
         title=&quot;kwrds.ai_banner&quot;
-        src=&quot;/static/24aa352b73aab85aa5d4d87ce0d20e05/9fbb0/kwrds.ai_banner.jpg&quot;
-        srcset=&quot;/static/24aa352b73aab85aa5d4d87ce0d20e05/a80bd/kwrds.ai_banner.jpg 148w,
-/static/24aa352b73aab85aa5d4d87ce0d20e05/9fbb0/kwrds.ai_banner.jpg 235w&quot;
-        sizes=&quot;(max-width: 235px) 100vw, 235px&quot;
+        src=&quot;/static/a48bfb7389e8f6936944b7c73c6905fd/fcda8/kwrds_AI_architecture.png&quot;
+        srcset=&quot;/static/a48bfb7389e8f6936944b7c73c6905fd/12f09/kwrds_AI_architecture.png 148w,
+/static/a48bfb7389e8f6936944b7c73c6905fd/e4a3f/kwrds_AI_architecture.png 295w,
+/static/a48bfb7389e8f6936944b7c73c6905fd/fcda8/kwrds_AI_architecture.png 590w,
+/static/a48bfb7389e8f6936944b7c73c6905fd/efc66/kwrds_AI_architecture.png 885w,
+/static/a48bfb7389e8f6936944b7c73c6905fd/c83ae/kwrds_AI_architecture.png 1180w,
+/static/a48bfb7389e8f6936944b7c73c6905fd/1a466/kwrds_AI_architecture.png 2882w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Motivation&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“This article was originally posted in the &lt;a href=&quot;https://www.kwrds.ai/blog/introduction&quot;&gt;kwrds.ai Website&lt;/a&gt;”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;As I was chatting with my great colleague, &lt;a href=&quot;https://github.com/sundios&quot;&gt;Konrad Burchardt&lt;/a&gt;, about the aparent hot topics in SEO, he descibed me the plethora of OSS work that he has executed in his past work. With the advent of AI technologies and the prominence of ChatGPT, it became evident that traditional SEO methodologies were becoming less effective. Recognizing the existing gap, we embarked on the development of &lt;a href=&quot;https://www.kwrds.ai&quot;&gt;kwrds.ai&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;The problem&lt;/h2&gt;
 &lt;p&gt;Historically, the SEO industry remained relatively stable. Tools like Semrush and keywordtool.io were standard for identifying trending keywords and formulating content strategies. They efficiently matched queries and provided results. However, AI’s capability to discern intricate patterns presents a transformative opportunity for SEO. Consider the keyword “tesla”. Traditional tools might offer &lt;a href=&quot;https://en.wikipedia.org/wiki/Keyword_research&quot;&gt;keyword volumes&lt;/a&gt;, &lt;a href=&quot;https://www.investopedia.com/terms/c/cpc.asp&quot;&gt;cost per click (CPC)&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Real_user_monitoring#:~:text=Real%20user%20monitoring%20(RUM)%20is,server%20or%20cloud%2Dbased%20application&quot;&gt;real user monitoring (RUM) data&lt;/a&gt;. But for SEO strategists, there’s a demand for deeper insights: seed keywords, localized queries, and more. This depth was missing in existing tools, prompting our initiative to create one.&lt;/p&gt;
@@ -51,8 +58,8 @@
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;kwrds.architecture&quot;
-        title=&quot;kwrds.architecture&quot;
+        alt=&quot;kwrds_AI_architecture.png&quot;
+        title=&quot;kwrds_AI_architecture.png&quot;
         src=&quot;/static/a48bfb7389e8f6936944b7c73c6905fd/fcda8/kwrds_AI_architecture.png&quot;
         srcset=&quot;/static/a48bfb7389e8f6936944b7c73c6905fd/12f09/kwrds_AI_architecture.png 148w,
 /static/a48bfb7389e8f6936944b7c73c6905fd/e4a3f/kwrds_AI_architecture.png 295w,
@@ -72,6 +79,7 @@
 &lt;p&gt;The efficacy of this model hinges on the quality of context provided. By integrating RUM data with advanced AI methodologies, we aim to deliver superior search results.&lt;/p&gt;
 &lt;p&gt;For a practical understanding, observe the demo for the “tesla” keyword:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/621e684b9d3ab9c692cabcc4f351573c/kwrdsai_demo_tesla.gif&quot; alt=&quot;kwrdsai_demo_tesla.gif&quot;&gt;&lt;/p&gt;
+&lt;CustomImage src=&quot;./kwrdsai_demo_tesla.gif&quot; alt=&quot;kwrds.ai demo&quot; /&gt;
 &lt;p&gt;The AI Reranker refines the search process further. It reorganizes data based on relevance and correlation. While keyword volumes are considered, the context might elevate a less popular keyword. The AI Reranker also filters out any mismatched keywords, ensuring precision.&lt;/p&gt;
 &lt;h2&gt;AI-based search in Layers&lt;/h2&gt;
 &lt;p&gt;Beyond the deep insights AI offers, it also plays a pivotal role in the initial stages of keyword generation, identifying emerging trends even before they gain traction on platforms like Google.&lt;/p&gt;
