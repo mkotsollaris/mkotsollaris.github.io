@@ -154,9 +154,6 @@ const Bio = () => {
         <a href="https://github.com/mkotsollaris">
             <FaGithub size={28} style={{ marginRight: ".5rem" }} />
           </a>
-          <a href="https://podcasts.apple.com/ca/podcast/engineering-podcasts-with-menelaos-kotsollaris/id1465442676">
-            <FaPodcast size={28} style={{ marginRight: ".5rem" }} />
-          </a>
           <a href="https://twitter.com/mkotsollaris">
             <FaTwitter size={28} style={{ marginRight: ".1rem" }} />
           </a>
@@ -171,9 +168,6 @@ const Bio = () => {
           </a>
           <a href="https://www.linkedin.com/in/mkotsollaris/">
             <FaLinkedin size={28} style={{ marginRight: ".5rem" }} />
-          </a>
-          <a href="https://play.google.com/store/apps/developer?id=Menelaos+Kotsollaris&hl=en">
-            <FaGooglePlay size={28} style={{ marginRight: ".5rem" }} />
           </a>
           <a href="https://calendly.com/mkotsollaris/">
             <FaCalendar size={27} style={{ marginRight: ".5rem" }} />
