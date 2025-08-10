@@ -3,8 +3,9 @@
 Welcome to my personal website!
 
 
-```sh
 nvm use
+```sh
+yarn install --ignore-engines
 yarn build
 yarn deploy
 ```

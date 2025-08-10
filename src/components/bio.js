@@ -148,7 +148,7 @@ const Bio = () => {
         }}
       />
       <p>
-        👋 Welcome to my website! I am <strong>{author}</strong> and I am a Senior Staff Software Engineer at <a href="https://realtor.com/">Realtor.com</a>.
+        👋 Welcome to my website! I am <strong>{author}</strong> and I am a Software Engineer.
         Thanks for visiting!
         <div style={{marginTop: ".5rem"}}>
         <a href="https://github.com/mkotsollaris">
